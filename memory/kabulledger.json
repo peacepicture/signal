@@ -1,0 +1,254 @@
+{
+ "publication": "kabulledger",
+ "editions": [
+  {
+   "date": "2026-09-13",
+   "title": "Kabul Ledger — 13 September",
+   "lede": "Afghanistan has spent eleven months rebuilding its trade around a closed border. The goods now come in. They still cannot get out.",
+   "lead_theme": "trade-transit",
+   "sections": [],
+   "items": [
+    {
+     "slug": "trade-new-partners",
+     "theme": "trade-transit",
+     "kind": "new",
+     "headline": "Kabul counts up its new trading partners",
+     "gist": ""
+    },
+    {
+     "slug": "resource-deals",
+     "theme": "resources-energy",
+     "kind": "new",
+     "headline": "Three resource deals in three days",
+     "gist": ""
+    },
+    {
+     "slug": "un-aid-funding",
+     "theme": "aid",
+     "kind": "new",
+     "headline": "The aid budget slips another notch behind",
+     "gist": ""
+    },
+    {
+     "slug": "dab-reserves",
+     "theme": "money-banking",
+     "kind": "new",
+     "headline": "The central bank says it holds ten billion dollars",
+     "gist": ""
+    }
+   ],
+   "explainer": {
+    "area": "trade-and-resources",
+    "topic": "Why exports are harder to reroute than imports for a landlocked country"
+   },
+   "visuals": [],
+   "watch": [
+    {
+     "text": "A fertiliser deadline",
+     "due": null
+    },
+    {
+     "text": "Whether Pakistan's gate actually opens",
+     "due": null
+    },
+    {
+     "text": "The winter load, October to January",
+     "due": null
+    }
+   ],
+   "threads_open": [],
+   "threads_closed": [],
+   "url": "https://markfaizi.dev/kabulledger/2026-09-13"
+  },
+  {
+   "date": "2026-09-20",
+   "title": "Kabul Ledger — 20 September",
+   "lede": "The afghani is one of the world's strongest currencies this year. Afghans are hungrier than they were last winter.",
+   "lead_theme": "money-banking",
+   "sections": [],
+   "items": [
+    {
+     "slug": "iran-deportations",
+     "theme": "returnees-labour",
+     "kind": "new",
+     "headline": "Iran sent home 59,000 people in August alone",
+     "gist": "59,000 returned from Iran in August"
+    },
+    {
+     "slug": "pakistan-border-closure",
+     "theme": "trade-transit",
+     "kind": "new",
+     "headline": "Pakistan has stopped being a trading partner",
+     "gist": ""
+    },
+    {
+     "slug": "un-aid-funding",
+     "theme": "aid",
+     "kind": "new",
+     "headline": "The relief appeal is a quarter funded, and it is nearly October",
+     "gist": ""
+    },
+    {
+     "slug": "us-minerals-offer",
+     "theme": "resources-energy",
+     "kind": "new",
+     "headline": "Kabul offers its mines to Washington; Washington declines",
+     "gist": ""
+    }
+   ],
+   "explainer": {
+    "area": "plumbing",
+    "topic": "Why the afghani is strong while the economy is weak"
+   },
+   "visuals": [],
+   "watch": [
+    {
+     "text": "The Security Council's quarterly briefing on Afghanistan",
+     "due": null
+    },
+    {
+     "text": "Winter wheat planting, October to January",
+     "due": null
+    },
+    {
+     "text": "Whether the Pakistani border actually opens",
+     "due": null
+    }
+   ],
+   "threads_open": [],
+   "threads_closed": [],
+   "url": "https://markfaizi.dev/kabulledger/2026-09-20"
+  },
+  {
+   "date": "2026-09-27",
+   "title": "Kabul Ledger — 27 September",
+   "lede": "Afghanistan has been rerouted. The country now buys its flour, its fuel and its electricity through doors that did not matter five years ago.",
+   "lead_theme": "trade-transit",
+   "sections": [],
+   "items": [
+    {
+     "slug": "pakistan-border-closure",
+     "theme": "trade-transit",
+     "kind": "new",
+     "headline": "Pakistan promised to reopen the border. Then it shot at Spin Boldak.",
+     "gist": "Shut since Oct 2025; fire exchanged 25 Sep; FY26 transit 11,592 containers ($367m) v 102,886 in FY23"
+    },
+    {
+     "slug": "energy-imports-iran-tapi",
+     "theme": "resources-energy",
+     "kind": "new",
+     "headline": "Kabul spent the week shopping in every direction but south.",
+     "gist": "Iran offered up to 2,000 MW; TAPI Afghan section ~80% welded, gas promised 2027"
+    },
+    {
+     "slug": "taliban-budget",
+     "theme": "state-budget",
+     "kind": "new",
+     "headline": "The books balance. Nearly half of what they hold goes to men with guns.",
+     "gist": "Security 45.2% of 113.3bn afs spending; health 2.1%"
+    },
+    {
+     "slug": "un-aid-funding",
+     "theme": "aid",
+     "kind": "new",
+     "headline": "The money that used to fill the gap is two-thirds missing.",
+     "gist": "31% of $1.71bn funded mid-September"
+    }
+   ],
+   "explainer": {
+    "area": "trade-and-resources",
+    "topic": "How a sack of flour reaches Kabul: the three import corridors and what the switch north costs"
+   },
+   "visuals": [
+    "Pakistan transit containers FY23–FY26, bar chart",
+    "three import corridors, route diagram",
+    "Pakistan trade v Central Asia imports, slope chart"
+   ],
+   "watch": [
+    {
+     "text": "A wet winter forecast after four dry ones (FEWS NET, October to January)",
+     "due": null
+    },
+    {
+     "text": "Whether the southern door through Pakistan actually opens",
+     "due": null
+    },
+    {
+     "text": "TAPI pipeline's first Afghan section, due end of December",
+     "due": "2026-12-31"
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "pakistan-border-closure",
+     "question": "Does Pakistan set an actual reopening date, and do importers come back south? Mention only on a concrete development: it has been in every edition.",
+     "next_check": null
+    },
+    {
+     "slug": "un-aid-funding",
+     "question": "UN appeal funding level (31% of $1.71bn in mid-September). Check monthly, not weekly.",
+     "next_check": "2026-10-25"
+    },
+    {
+     "slug": "energy-imports-iran-tapi",
+     "question": "Does Iran's 2,000 MW offer become a contract? Is TAPI's Serhetabat–Herat section finished by end-December?",
+     "next_check": "2026-12-31"
+    },
+    {
+     "slug": "winter-harvest-weather",
+     "question": "Did the wetter October–January forecast hold, and how did winter wheat planting go?",
+     "next_check": "2026-11-15"
+    },
+    {
+     "slug": "iran-deportations",
+     "question": "Monthly returnee numbers from Iran and Pakistan (IOM, UNHCR)",
+     "next_check": "2026-10-15"
+    }
+   ],
+   "threads_closed": [],
+   "url": "https://markfaizi.dev/kabulledger/2026-09-27"
+  }
+ ],
+ "threads": [
+  {
+   "slug": "energy-imports-iran-tapi",
+   "question": "Does Iran's 2,000 MW offer become a contract? Is TAPI's Serhetabat–Herat section finished by end-December?",
+   "status": "open",
+   "opened": "2026-09-27",
+   "last_seen": "2026-09-27",
+   "next_check": "2026-12-31"
+  },
+  {
+   "slug": "iran-deportations",
+   "question": "Monthly returnee numbers from Iran and Pakistan (IOM, UNHCR)",
+   "status": "open",
+   "opened": "2026-09-27",
+   "last_seen": "2026-09-27",
+   "next_check": "2026-10-15"
+  },
+  {
+   "slug": "pakistan-border-closure",
+   "question": "Does Pakistan set an actual reopening date, and do importers come back south? Mention only on a concrete development: it has been in every edition.",
+   "status": "open",
+   "opened": "2026-09-27",
+   "last_seen": "2026-09-27",
+   "next_check": null
+  },
+  {
+   "slug": "un-aid-funding",
+   "question": "UN appeal funding level (31% of $1.71bn in mid-September). Check monthly, not weekly.",
+   "status": "open",
+   "opened": "2026-09-27",
+   "last_seen": "2026-09-27",
+   "next_check": "2026-10-25"
+  },
+  {
+   "slug": "winter-harvest-weather",
+   "question": "Did the wetter October–January forecast hold, and how did winter wheat planting go?",
+   "status": "open",
+   "opened": "2026-09-27",
+   "last_seen": "2026-09-27",
+   "next_check": "2026-11-15"
+  }
+ ]
+}

@@ -1,0 +1,915 @@
+<!doctype html><html><head>
+<!-- site-head:start · written by build.py, edits inside are overwritten -->
+<title>Kabul Ledger — 13 September</title>
+<meta name="description" content="Afghanistan has spent eleven months rebuilding its trade around a closed border. The goods now come in. They still cannot get out.">
+<link rel="canonical" href="https://markfaizi.dev/kabulledger/2026-09-13">
+<link rel="icon" href="/assets/kabulledger/icon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/kabulledger/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/kabulledger/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#EEEAE1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14120F" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Kabul Ledger · markfaizi.dev">
+<meta property="og:title" content="Kabul Ledger — 13 September">
+<meta property="og:description" content="Afghanistan has spent eleven months rebuilding its trade around a closed border. The goods now come in. They still cannot get out.">
+<meta property="og:url" content="https://markfaizi.dev/kabulledger/2026-09-13">
+<meta property="og:image" content="https://markfaizi.dev/assets/kabulledger/og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Kabul Ledger: a weekly reading of Afghanistan&#x27;s economy, at markfaizi.dev/kabulledger.">
+<meta property="og:locale" content="en_GB">
+<meta property="article:published_time" content="2026-09-13">
+<meta name="twitter:card" content="summary_large_image">
+<!-- site-head:end -->
+<meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Kabul Ledger — 13 September</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Spectral:ital,wght@0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Mono:wght@400;500;600&family=Chakra+Petch:wght@600;700&display=swap">
+
+<style>
+/* ---------------------------------------------------------------
+   TimeBurner is the masthead face. It is not served by any CDN the
+   artifact CSP admits, so it ships as a base64 @font-face when a
+   licensed copy is embedded. Uncomment and paste the payload:
+
+   @font-face {
+     font-family: "TimeBurner";
+     src: url("data:font/woff2;base64,<PAYLOAD>") format("woff2");
+     font-weight: 400 700;
+     font-display: swap;
+   }
+
+   Until then --font-display falls through to Chakra Petch, which
+   carries the same squared-off geometry.
+   --------------------------------------------------------------- */
+
+:root {
+  --font-display: "TimeBurner","Chakra Petch","Eurostile","Bahnschrift","Trebuchet MS",sans-serif;
+  --font-editorial: "Spectral",Georgia,"Times New Roman",serif;
+  --font-body: "Newsreader",Georgia,"Times New Roman",serif;
+  --font-mono: "IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+
+  --sand: #EEEAE1;
+  --ink: #16130E;
+  --ink-soft: #554C3D;
+  --ink-mute: #7A7060;
+  --lapis: #1F4E9C;
+  --ochre: #A8701E;
+  --card: #F7F4EE;
+  --rule: #CFC7B7;
+  --rule-soft: #DFD8CA;
+  --tape-bg: #E4DFD3;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --sand: #14120F;
+    --ink: #EDE8DE;
+    --ink-soft: #B5AC9C;
+    --ink-mute: #8E8577;
+    --lapis: #7EA6ED;
+    --ochre: #D6A45C;
+    --card: #211E19;
+    --rule: #3A342B;
+    --rule-soft: #2C2821;
+    --tape-bg: #1C1915;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --sand: #14120F;
+  --ink: #EDE8DE;
+  --ink-soft: #B5AC9C;
+  --ink-mute: #8E8577;
+  --lapis: #7EA6ED;
+  --ochre: #D6A45C;
+  --card: #211E19;
+  --rule: #3A342B;
+  --rule-soft: #2C2821;
+  --tape-bg: #1C1915;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--sand);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 20px;
+  line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-inline: 26px;
+  padding-block: 0 64px;
+}
+
+/* ---------- masthead ---------- */
+
+.masthead {
+  border-bottom: 2px solid var(--ink);
+  padding-block: 40px 14px;
+  margin-bottom: 0;
+}
+
+.masthead h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.6rem, 9vw, 4.4rem);
+  line-height: 0.94;
+  letter-spacing: 0.006em;
+  margin: 0;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+.masthead .rule-thin {
+  height: 1px;
+  background: var(--rule);
+  margin-block: 14px 12px;
+}
+
+.masthead-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+
+.masthead-meta .edition { color: var(--ink-soft); }
+
+/* ---------- tape ---------- */
+
+.tape {
+  background: var(--tape-bg);
+  border-bottom: 1px solid var(--rule);
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+.tape-inner {
+  display: flex;
+  gap: 0;
+  min-width: max-content;
+  padding-inline: 26px;
+}
+
+.tape-cell {
+  padding: 13px 20px 12px 0;
+  margin-right: 20px;
+  border-right: 1px solid var(--rule);
+  white-space: nowrap;
+}
+.tape-cell:last-child { border-right: 0; margin-right: 0; padding-right: 26px; }
+
+.tape-k {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-bottom: 3px;
+}
+
+.tape-v {
+  display: block;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 1.02rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+
+.tape-v .dn { color: var(--ochre); font-size: 0.82em; }
+.tape-v .up { color: var(--lapis); font-size: 0.82em; }
+
+/* ---------- lede ---------- */
+
+.lede-block { padding-block: 42px 6px; }
+
+.lede {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.42rem, 3.1vw, 2rem);
+  line-height: 1.36;
+  max-width: 21em;
+  margin: 0 0 26px;
+  color: var(--ink);
+  text-wrap: pretty;
+}
+
+.standfirst { margin: 0; }
+.standfirst p { margin: 0 0 1.05em; }
+
+/* ---------- sections ---------- */
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-block: 58px 4px;
+  padding-top: 18px;
+  border-top: 2px solid var(--ink);
+}
+
+.section-num {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--ochre);
+  line-height: 1;
+  flex: none;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 1.06rem;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.section-note {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin: 0 0 30px;
+  padding-left: 0;
+}
+
+/* ---------- story ---------- */
+
+.story { margin-bottom: 40px; }
+
+.story h3 {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1.46rem;
+  line-height: 1.24;
+  letter-spacing: -0.008em;
+  margin: 0 0 12px;
+  text-wrap: balance;
+}
+
+.story p { margin: 0 0 1.05em; }
+
+.kicker {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--lapis);
+  margin: 0 0 7px;
+  font-weight: 500;
+}
+
+.src {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  line-height: 1.55;
+  color: var(--ink-mute);
+  letter-spacing: 0.01em;
+  margin: -0.25em 0 0;
+  padding-top: 8px;
+  border-top: 1px solid var(--rule-soft);
+}
+
+.src a { color: var(--ink-mute); text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
+.src a:hover { color: var(--lapis); }
+
+/* ---------- explainer ---------- */
+
+.explainer { margin-bottom: 8px; }
+
+.explainer h3 {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: clamp(1.6rem, 4vw, 2.05rem);
+  line-height: 1.18;
+  letter-spacing: -0.012em;
+  margin: 0 0 8px;
+  text-wrap: balance;
+}
+
+.explainer-dek {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-size: 1.16rem;
+  line-height: 1.44;
+  color: var(--ink-soft);
+  margin: 0 0 28px;
+  max-width: 30em;
+}
+
+.explainer p { margin: 0 0 1.05em; }
+
+.explainer .lead-in::first-letter {
+  font-family: var(--font-editorial);
+  font-style: normal;
+  font-weight: 600;
+  float: left;
+  font-size: 3.15em;
+  line-height: 0.82;
+  padding: 0.06em 0.09em 0 0;
+  color: var(--lapis);
+}
+
+.pull {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-size: 1.3rem;
+  line-height: 1.42;
+  color: var(--ink);
+  border-left: 3px solid var(--ochre);
+  padding: 2px 0 2px 20px;
+  margin: 30px 0 30px;
+  max-width: 24em;
+}
+
+/* ---------- figures ---------- */
+
+figure {
+  margin: 34px 0;
+  padding: 0;
+}
+
+.fig-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 4px;
+}
+
+.fig-frame {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  padding: 22px 20px 18px;
+}
+
+.fig-label {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin: 0 0 14px;
+}
+
+figure svg { display: block; max-width: 100%; height: auto; color: var(--ink); }
+.fig-scroll svg { max-width: none; }
+
+/* diagram fills ride the theme tokens, not literal hexes */
+.d-lapis { fill: var(--lapis); }
+.d-ochre { fill: var(--ochre); }
+.d-ochre-line { stroke: var(--ochre); fill: none; }
+.d-ochre-box { stroke: var(--ochre); fill: var(--card); }
+.d-mask { fill: var(--card); stroke: currentColor; }
+
+figcaption {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  line-height: 1.58;
+  color: var(--ink-mute);
+  margin-top: 12px;
+  letter-spacing: 0.01em;
+}
+
+/* ---------- bar chart ---------- */
+
+.chart { display: flex; flex-direction: column; gap: 13px; margin-top: 2px; }
+
+.bar-row { display: grid; grid-template-columns: 1fr; gap: 4px; }
+
+.bar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  letter-spacing: 0.02em;
+}
+
+.bar-name { color: var(--ink); }
+.bar-sub { color: var(--ink-mute); font-size: 0.92em; }
+.bar-val { color: var(--ink); font-variant-numeric: tabular-nums; font-weight: 500; white-space: nowrap; }
+
+.bar-track { height: 15px; background: var(--rule-soft); position: relative; }
+.bar-fill { height: 100%; background: var(--lapis); border-radius: 0 3px 3px 0; }
+
+.stack {
+  display: flex;
+  height: 34px;
+  gap: 2px;
+  margin-top: 4px;
+}
+.stack span { display: block; height: 100%; }
+.stack .s1 { background: var(--lapis); }
+.stack .s2 { background: var(--ochre); }
+.stack .s3 { background: var(--rule); }
+
+.stack-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+  margin-top: 13px;
+  font-family: var(--font-mono);
+  font-size: 0.73rem;
+  letter-spacing: 0.02em;
+  color: var(--ink-soft);
+}
+.stack-key span { display: inline-flex; align-items: center; gap: 7px; }
+.stack-key i { width: 11px; height: 11px; display: inline-block; flex: none; }
+.stack-key .k1 { background: var(--lapis); }
+.stack-key .k2 { background: var(--ochre); }
+.stack-key .k3 { background: var(--rule); }
+.stack-key b { font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; }
+
+/* ---------- numbers ---------- */
+
+.numbers { display: flex; flex-direction: column; gap: 0; }
+
+.number {
+  display: grid;
+  grid-template-columns: 168px 1fr;
+  gap: 28px;
+  padding-block: 26px;
+  border-bottom: 1px solid var(--rule);
+  align-items: start;
+}
+.number:first-child { border-top: 1px solid var(--rule); }
+
+.number-fig {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.2rem, 6.5vw, 2.9rem);
+  line-height: 0.98;
+  color: var(--lapis);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+.number-unit {
+  display: block;
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: 0.68rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-top: 9px;
+  line-height: 1.45;
+}
+
+.number-body { font-size: 1.06rem; line-height: 1.6; }
+.number-body p { margin: 0 0 0.8em; }
+.number-body p:last-child { margin-bottom: 0; }
+
+/* ---------- watch ---------- */
+
+.watch { display: flex; flex-direction: column; gap: 0; }
+
+.watch-item {
+  padding-block: 24px;
+  border-bottom: 1px solid var(--rule);
+}
+.watch-item:first-child { border-top: 1px solid var(--rule); }
+
+.watch-item h4 {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  margin: 0 0 9px;
+}
+
+.watch-when {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--ochre);
+  margin: 0 0 6px;
+}
+
+.watch-item p { margin: 0; font-size: 1.06rem; line-height: 1.6; }
+
+/* ---------- colophon ---------- */
+
+.colophon {
+  margin-top: 62px;
+  padding-top: 20px;
+  border-top: 2px solid var(--ink);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  line-height: 1.72;
+  color: var(--ink-mute);
+  letter-spacing: 0.005em;
+}
+
+.colophon h5 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0 0 11px;
+}
+
+.colophon p { margin: 0 0 0.9em; max-width: 46em; }
+.colophon p:last-child { margin-bottom: 0; }
+
+/* ---------- responsive ---------- */
+
+@media (max-width: 700px) {
+  .number { grid-template-columns: 1fr; gap: 12px; }
+  .number-unit { margin-top: 6px; }
+}
+
+@media (max-width: 560px) {
+  body { font-size: 19px; line-height: 1.6; }
+  .wrap { padding-inline: 18px; }
+  .tape-inner { padding-inline: 18px; }
+
+  .tape-k { font-size: 12px; letter-spacing: 0.1em; }
+  .tape-v { font-size: 17px; }
+
+  .masthead-meta { font-size: 12px; }
+  .section-note { font-size: 12px; }
+  .kicker { font-size: 12px; }
+  .src { font-size: 12.5px; }
+  figcaption { font-size: 12.5px; }
+  .fig-label { font-size: 12px; }
+  .bar-top { font-size: 12.5px; }
+  .stack-key { font-size: 12.5px; }
+  .number-unit { font-size: 12px; }
+  .watch-when { font-size: 12px; }
+  .colophon { font-size: 13px; }
+  .colophon h5 { font-size: 13px; }
+
+  .number-body, .watch-item p { font-size: 1.03rem; }
+  .explainer .lead-in::first-letter { font-size: 2.9em; }
+  .fig-frame { padding: 18px 15px 15px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+a:focus-visible, .tape:focus-visible { outline: 2px solid var(--lapis); outline-offset: 3px; }
+</style>
+
+<header class="masthead-outer">
+  <div class="wrap">
+    <div class="masthead">
+      <h1>The Kabul Ledger</h1>
+      <div class="rule-thin"></div>
+      <div class="masthead-meta">
+        <span class="edition">No. 1 &nbsp;·&nbsp; Week ending 13 September 2026</span>
+        <span>A weekly reckoning of Afghanistan's economy</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="tape">
+  <div class="tape-inner">
+    <div class="tape-cell"><span class="tape-k">AFN / USD</span><span class="tape-v">64.25</span></div>
+    <div class="tape-cell"><span class="tape-k">Inflation</span><span class="tape-v">7.5%</span></div>
+    <div class="tape-cell"><span class="tape-k">Exports · Jul</span><span class="tape-v">$83m <span class="dn">−29% y/y</span></span></div>
+    <div class="tape-cell"><span class="tape-k">Imports · Jul</span><span class="tape-v">$1.04bn <span class="dn">−12% y/y</span></span></div>
+    <div class="tape-cell"><span class="tape-k">Customs · ytd</span><span class="tape-v"><span class="dn">−23%</span></span></div>
+    <div class="tape-cell"><span class="tape-k">Flour · Kabul 49kg</span><span class="tape-v">1,650 afs</span></div>
+    <div class="tape-cell"><span class="tape-k">Diesel · litre</span><span class="tape-v">78 afs</span></div>
+    <div class="tape-cell"><span class="tape-k">Day wage</span><span class="tape-v">309 afs</span></div>
+    <div class="tape-cell"><span class="tape-k">UN appeal funded</span><span class="tape-v">~30%</span></div>
+    <div class="tape-cell"><span class="tape-k">Returns · 2026</span><span class="tape-v">1.18m</span></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <div class="lede-block">
+    <p class="lede">Afghanistan has spent eleven months rebuilding its trade around a closed border. The goods now come in. They still cannot get out.</p>
+    <div class="standfirst">
+      <p>Pakistan shut its crossings last October and has kept them shut. Kabul answered by pushing its imports onto Iranian roads and Central Asian railways. That worked. Iran now carries 54% of everything Afghanistan buys, and Central Asia carries 42%.</p>
+      <p>Exports did not follow. They fell 29% in the year to July, and the government's customs income fell with them. Rerouting a country's trade, it turns out, is far easier in one direction than the other. This week's news — new rail tonnages, three resource deals, a central bank claiming ten billion dollars — all sits on top of that single fact.</p>
+    </div>
+  </div>
+
+  <div class="section-head">
+    <span class="section-num">I</span>
+    <h2 class="section-title">The Week</h2>
+  </div>
+  <p class="section-note">7 – 13 September 2026</p>
+
+  <article class="story">
+    <p class="kicker">Trade</p>
+    <h3>Kabul counts up its new trading partners</h3>
+    <p>Afghanistan's Ministry of Industry and Commerce published five months of trade figures for Central Asia on Thursday. The total came to $1.27 billion. Exports made up $74 million of it; imports made up $1.204 billion. That is sixteen dollars bought for every dollar sold.</p>
+    <p>The railways tell the same story from track level. Afghan lines moved 704,300 tonnes of freight in August. Hairatan, the crossing from Uzbekistan, carried 464,767 tonnes of it — very nearly two-thirds. The Khaf–Herat line from Iran carried 137,687 tonnes, Torghundi 62,015 and Aqina 39,831.</p>
+    <p>Almost all of that freight was arriving. In the same ministry return, the entire export column amounts to 3,751 tonnes of carbonated drinks.</p>
+    <p>Diplomacy is following the freight. Kazakhstan's ambassador met the governor of Herat on 10 September to discuss enlarging the Torghundi crossing. The next day, Afghanistan's chamber of commerce met Turkmenistan's ambassador in Kabul, who invited Afghan traders to an investment forum in Ashgabat next month.</p>
+    <p class="src">Sources: <a href="https://tolonews.com/business-199400">TOLOnews, 10 Sep 2026</a> · <a href="https://www.ariananews.af/afghanistan-transports-more-than-704000-tonnes-of-goods-by-rail-in-august/">Ministry of Public Works via Ariana News, 29 Aug 2026</a> · <a href="https://pajhwok.com/2026/09/10/kazakh-ambassador-herat-governor-discuss-trade-investment/">Pajhwok, 10 Sep 2026</a> · <a href="https://www.newscentralasia.net/2026/09/11/ashgabat-and-kabul-bolster-trade-ties-as-acci-chairman-and-turkmen-ambassador-meet/">News Central Asia, 11 Sep 2026</a></p>
+  </article>
+
+  <figure>
+    <div class="fig-frame">
+      <p class="fig-label">Rail freight by crossing · August 2026 · tonnes</p>
+      <div class="chart">
+        <div class="bar-row">
+          <div class="bar-top"><span class="bar-name">Hairatan <span class="bar-sub">· Uzbekistan</span></span><span class="bar-val">464,767</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-top"><span class="bar-name">Khaf–Herat <span class="bar-sub">· Iran</span></span><span class="bar-val">137,687</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:29.6%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-top"><span class="bar-name">Torghundi <span class="bar-sub">· Turkmenistan</span></span><span class="bar-val">62,015</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:13.3%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-top"><span class="bar-name">Aqina <span class="bar-sub">· Turkmenistan</span></span><span class="bar-val">39,831</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:8.6%"></div></div>
+        </div>
+      </div>
+    </div>
+    <figcaption>Every Afghan railhead points north or west. There is no rail crossing into Pakistan. Source: Ministry of Public Works, 29 Aug 2026.</figcaption>
+  </figure>
+
+  <article class="story">
+    <p class="kicker">Resources</p>
+    <h3>Three resource deals in three days</h3>
+    <p>The mines ministry had a busy week. On 7 September the Russian firm TNG took a $13.8 million package in the Amu Darya oil basin, in the northern provinces of Sar-e Pul, Jawzjan and Faryab. Most of that is an $11 million production plant, meant to handle 2,000 tonnes of oil a day within eight months.</p>
+    <p>The same day, Saudi-based Delta International Energy signed for the Kushk-Tirpul basin in the west: seven blocks, 22,000 square kilometres, a 25-year contract and a headline figure of $200 million. Zalmay Khalilzad, the American diplomat who negotiated the 2020 withdrawal agreement, attended the signing and said Afghanistan was ready for business. Two days later the ministry sold a $65.86 million talc concession in Nangarhar.</p>
+    <p>Read those numbers as promises rather than spending. Researchers at the Centre for Information Resilience have counted more than 200 mining contracts since 2021. Afghan mineral output has barely moved. A signature is cheap. A road to the deposit, a power line and a buyer are not.</p>
+    <p class="src">Sources: <a href="https://english.news.cn/20260907/86295aa0c7334afbbe1c878e5c05a6b9/c.html">Xinhua, 7 Sep 2026</a> · <a href="https://www.arabnews.com/business/afghanistan-saudi-group-sign-oil-gas-deal-for-kushk-tirpul-basin-exploration-3000931">Arab News, 7 Sep 2026</a> · <a href="https://english.news.cn/20260909/00c8d2bf7c03458588cd6965e5be9f05/c.html">Xinhua, 9 Sep 2026</a></p>
+  </article>
+
+  <article class="story">
+    <p class="kicker">Aid</p>
+    <h3>The aid budget slips another notch behind</h3>
+    <p>The United Nations asked for $1.71 billion to cover Afghanistan this year. By the end of August it had roughly $500 million, about 30% of the ask.</p>
+    <p>Jan Egeland of the Norwegian Refugee Council finished his fifth visit since 2021 on 9 September. He laid out the slide in three figures: $3.3 billion of international aid in 2022, $1 billion in 2025, half a billion so far this year. The World Food Programme now reaches two million people a month. Last winter it reached four million. Around 14 million Afghans are acutely short of food, which is one in three.</p>
+    <p>The week's contributions were Canadian: C$1.35 million, or about $957,000, announced on 10 September. Germany gave €6.8 million in August. Set against a gap of $1.2 billion, the arithmetic does not improve.</p>
+    <p class="src">Sources: <a href="https://kabulnow.com/2026/09/canada-contributes-c1-35-million-to-un-afghanistan-aid-fund-as-humanitarian-needs-rise/">OCHA via KabulNow, 10 Sep 2026</a> · <a href="https://kabulnow.com/2026/09/nrc-chief-says-afghanistans-humanitarian-crisis-is-worsening-month-by-month/">Norwegian Refugee Council, 9 Sep 2026</a> · <a href="https://news.un.org/en/story/2026/08/1168069">UN News / WFP, Aug 2026</a></p>
+  </article>
+
+  <article class="story">
+    <p class="kicker">Money</p>
+    <h3>The central bank says it holds ten billion dollars</h3>
+    <p>Da Afghanistan Bank called a press conference on 10 September. Its officials said gross foreign reserves now exceed $10 billion, that the afghani gained 0.79% against foreign currencies over the past year, and that bank lending grew 71%. They called the reserves "our national wealth and rightful asset".</p>
+    <p>Handle that figure carefully. It almost certainly includes the roughly $7 billion frozen abroad in 2021, which the bank cannot touch. Half of that sits in a Geneva trust that has since grown to $4.2 billion and has never paid out anything. The other half is in the United States, where families of 9/11 victims asked the Supreme Court on 4 September to let them seize it.</p>
+    <p>A smaller number describes the country better. The World Bank puts the total assets of Afghanistan's entire banking system at $3.5 billion, and lending to private businesses at 2.5% of GDP — among the lowest figures recorded anywhere. Traders still report that banks cannot reliably move money abroad.</p>
+    <p class="src">Sources: <a href="https://tolonews.com/business-195521">Da Afghanistan Bank via TOLOnews, 10 Sep 2026</a> · <a href="https://www.ariananews.af/afghanistans-swiss-fund-grows-to-4-2-billion-ahadi/">Ariana News, 27 Jul 2026</a> · <a href="https://thedocs.worldbank.org/en/doc/fc5f2174f83b5e1f650db6068db3347f-0310012026/original/Afghanistan-Development-Update-May-2026.pdf">World Bank, Afghanistan Development Update, May 2026</a></p>
+  </article>
+
+  <div class="section-head">
+    <span class="section-num">II</span>
+    <h2 class="section-title">How It Works</h2>
+  </div>
+  <p class="section-note">The mechanism behind this week's news</p>
+
+  <article class="explainer">
+    <h3>Why the road out is harder than the road in</h3>
+    <p class="explainer-dek">A landlocked country can reroute what it buys in a matter of months. What it sells is a different problem entirely.</p>
+
+    <p class="lead-in">Afghanistan has no coastline. Every tonne it buys or sells crosses somebody else's territory, under somebody else's rules, paying somebody else's fees. That single geographic fact governs most of what happens to the Afghan economy. When a neighbour closes a gate, Afghan trade does not stop. It goes the long way round, and somebody pays for the extra distance.</p>
+
+    <p>Since October last year that gate has been Pakistan's. Torkham, Spin Boldak and three smaller crossings closed after border fighting and never reopened. Pakistan's interior minister said in August that they would. Eleven months on, freight still is not moving through them.</p>
+
+    <p>What happened next is the part worth understanding. The reroute worked beautifully for imports and barely at all for exports.</p>
+
+    <p>Start with what comes in. Afghanistan mostly buys bulk goods: wheat flour, fuel, sugar, fertiliser, cement. Bulk is fungible. A tonne of Kazakh flour does exactly the job a tonne of Pakistani flour did, and no household in Kabul asks which railway brought it. Bulk also suits rail, which is cheap once the distance is long. So the flour changed supplier and changed track. Kazakhstan sent Afghanistan 2.4 million tonnes of grain and flour between September and July, up 57% on the year before. Iran's corridor now handles 54% of Afghan imports and Central Asia's 42%, which leaves Pakistan with a rounding error.</p>
+
+    <p>Now take what goes out. Afghan exports are the opposite of fungible. Pomegranates, grapes, melons, apricots, plus low-value minerals like talc and coal. Fresh fruit has a clock running on it from the moment it is picked, and freight is a large share of what it is finally worth. Add a week and several hundred kilometres, and the margin disappears before the fruit does.</p>
+
+    <p class="pull">A pomegranate does not care which country it is sold in. It cares a great deal how long the journey takes.</p>
+
+    <p>Worse, the buyer is in the wrong place. India still takes 34% of Afghan exports, more than any other country. The short road to India runs through Pakistan and out at Wagah. Without it, a crate of Kandahar pomegranates must either fly — which costs more than the fruit earns — or drive south-west to Iran's ports and wait for a ship to Mumbai. Neither works at the price fruit fetches.</p>
+
+    <p>So the trade rebalanced in one direction only. In July, Afghan imports were down 12% against a year earlier. Exports were down 29%.</p>
+
+    <figure>
+      <div class="fig-scroll">
+        <div class="fig-frame">
+          <p class="fig-label">The asymmetry of a reroute</p>
+          <svg viewBox="0 0 800 570" width="800" role="img" aria-label="Diagram: Afghan imports rerouted successfully through Iran, which now carries 54 percent, and Central Asia, which carries 42 percent, while Pakistan's crossings stay shut. Exports to India, 34 percent of the total, are blocked by the same closed gate and must detour by sea through Iranian ports.">
+            <defs>
+              <marker id="ah" viewBox="0 0 14 12" refX="13" refY="6" markerWidth="14" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+                <path d="M 0 0 L 14 6 L 0 12 z" class="d-ochre"></path>
+              </marker>
+            </defs>
+
+            <!-- ============ PANEL A : IMPORTS ============ -->
+            <text x="0" y="14" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600" letter-spacing="1.6" fill="currentColor">WHAT COMES IN — REROUTED</text>
+            <line x1="0" y1="26" x2="800" y2="26" stroke="currentColor" stroke-width="1" opacity="0.3"></line>
+
+            <!-- source boxes -->
+            <rect x="0" y="50" width="170" height="48" fill="none" stroke="currentColor" stroke-width="1.5"></rect>
+            <text x="13" y="71" font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="600" fill="currentColor">IRAN</text>
+            <text x="13" y="89" font-family="IBM Plex Mono, monospace" font-size="11" fill="currentColor" opacity="0.65">Bandar Abbas · Islam Qala</text>
+
+            <rect x="0" y="126" width="170" height="48" fill="none" stroke="currentColor" stroke-width="1.5"></rect>
+            <text x="13" y="147" font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="600" fill="currentColor">CENTRAL ASIA</text>
+            <text x="13" y="165" font-family="IBM Plex Mono, monospace" font-size="11" fill="currentColor" opacity="0.65">Hairatan · Torghundi · Aqina</text>
+
+            <rect x="0" y="202" width="170" height="48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4" opacity="0.5"></rect>
+            <text x="13" y="223" font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="600" fill="currentColor" opacity="0.6">PAKISTAN</text>
+            <text x="13" y="241" font-family="IBM Plex Mono, monospace" font-size="11" fill="currentColor" opacity="0.5">Torkham · Spin Boldak</text>
+
+            <!-- iran flow : width encodes share -->
+            <text x="180" y="54" font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="600" fill="currentColor">54% of imports</text>
+            <rect x="176" y="62" width="352" height="20" class="d-lapis"></rect>
+            <polygon points="528,52 558,72 528,92" class="d-lapis"></polygon>
+            <text x="180" y="105" font-family="IBM Plex Mono, monospace" font-size="11" fill="currentColor" opacity="0.68">fuel · flour · sugar — road and rail, 1,435 mm gauge</text>
+
+            <!-- central asia flow -->
+            <text x="180" y="130" font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="600" fill="currentColor">42% of imports</text>
+            <rect x="176" y="138" width="352" height="16" class="d-ochre"></rect>
+            <polygon points="528,130 558,146 528,162" class="d-ochre"></polygon>
+            <text x="180" y="177" font-family="IBM Plex Mono, monospace" font-size="11" fill="currentColor" opacity="0.68">grain · fertiliser · cement — rail, 1,520 mm gauge</text>
+
+            <!-- pakistan, shut -->
+            <text x="180" y="206" font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="600" fill="currentColor" opacity="0.6">a rounding error</text>
+            <line x1="176" y1="224" x2="548" y2="224" stroke="currentColor" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.42"></line>
+            <g opacity="0.75">
+              <line x1="352" y1="214" x2="372" y2="234" stroke="currentColor" stroke-width="2.2"></line>
+              <line x1="372" y1="214" x2="352" y2="234" stroke="currentColor" stroke-width="2.2"></line>
+            </g>
+            <text x="180" y="247" font-family="IBM Plex Mono, monospace" font-size="11" fill="currentColor" opacity="0.6">shut since 12 October 2025</text>
+
+            <!-- afghanistan -->
+            <rect x="560" y="50" width="240" height="200" fill="none" stroke="currentColor" stroke-width="2.5"></rect>
+            <text x="680" y="142" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13.5" font-weight="600" letter-spacing="1.2" fill="currentColor">AFGHANISTAN</text>
+            <text x="680" y="166" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11.5" fill="currentColor" opacity="0.68">imports −12% year on year</text>
+
+            <!-- ============ PANEL B : EXPORTS ============ -->
+            <text x="0" y="324" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600" letter-spacing="1.6" fill="currentColor">WHAT GOES OUT — STRANDED</text>
+            <line x1="0" y1="336" x2="800" y2="336" stroke="currentColor" stroke-width="1" opacity="0.3"></line>
+
+            <rect x="0" y="378" width="180" height="72" fill="none" stroke="currentColor" stroke-width="2.5"></rect>
+            <text x="90" y="410" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13.5" font-weight="600" letter-spacing="1.2" fill="currentColor">AFGHANISTAN</text>
+            <text x="90" y="432" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11.5" fill="currentColor" opacity="0.68">exports −29% y/y</text>
+
+            <!-- blocked direct road -->
+            <text x="400" y="362" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11.5" fill="currentColor" opacity="0.62">the short road: 3 days — closed</text>
+            <line x1="186" y1="414" x2="614" y2="414" stroke="currentColor" stroke-width="1.8" stroke-dasharray="7 5" opacity="0.42"></line>
+            <rect x="340" y="390" width="120" height="48" class="d-mask" stroke-width="1.5" stroke-dasharray="5 4" opacity="0.85"></rect>
+            <text x="400" y="419" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600" fill="currentColor" opacity="0.6">PAKISTAN</text>
+            <g opacity="0.8">
+              <line x1="270" y1="404" x2="290" y2="424" stroke="currentColor" stroke-width="2.2"></line>
+              <line x1="290" y1="404" x2="270" y2="424" stroke="currentColor" stroke-width="2.2"></line>
+            </g>
+
+            <!-- india -->
+            <rect x="620" y="378" width="180" height="72" fill="none" stroke="currentColor" stroke-width="1.5"></rect>
+            <text x="710" y="410" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="currentColor">INDIA</text>
+            <text x="710" y="432" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11.5" fill="currentColor" opacity="0.68">34% of Afghan exports</text>
+
+            <!-- sea detour -->
+            <path d="M 90 456 L 90 506 L 316 506" class="d-ochre-line" stroke-width="3"></path>
+            <rect x="322" y="484" width="156" height="44" class="d-ochre-box" stroke-width="1.5"></rect>
+            <text x="400" y="511" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600" class="d-ochre">IRANIAN PORTS</text>
+            <path d="M 484 506 L 710 506 L 710 462" class="d-ochre-line" stroke-width="3" marker-end="url(#ah)"></path>
+            <text x="400" y="556" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11.5" fill="currentColor" opacity="0.7">the long way round: + two weeks at sea, + freight, − margin</text>
+          </svg>
+        </div>
+      </div>
+      <figcaption>Bulk imports switched corridor without much trouble. Perishable exports could not, because their buyer sits on the far side of the closed gate. The third option, air freight, costs more than the fruit earns. Shares: World Bank, Afghanistan Economic Monitor, July 2026.</figcaption>
+    </figure>
+
+    <p>There is a second toll hidden in the new map. The railways do not fit together. Afghanistan's lines use two different track gauges — the Iranian 1,435 millimetres in the west, the Russian 1,520 millimetres in the north — and Pakistan uses a third, 1,676 millimetres. At every gauge break the cargo comes off one train and goes onto another. That means time, labour, paperwork and breakage, charged on every journey.</p>
+
+    <p>The state absorbs its own share of the loss. Customs duty is the Taliban government's steadiest income, collected in cash at the gate. Fewer gates and a collapsed export leg mean less of it. Customs receipts fell 38% in July against the same month last year, and are down 23% for the year so far. Total government revenue is up 2% in nominal terms, which against inflation of 7.5% means it has shrunk.</p>
+
+    <p>That is what a successful reroute looks like from the treasury. The shelves stay stocked, and the till is lighter.</p>
+
+    <figure>
+      <div class="fig-frame">
+        <p class="fig-label">Where Afghan imports enter · financial year 2026 to date</p>
+        <div class="stack" role="img" aria-label="Iran 54 percent, Central Asia 42 percent, all other routes including Pakistan 4 percent.">
+          <span class="s1" style="width:54%"></span>
+          <span class="s2" style="width:42%"></span>
+          <span class="s3" style="width:4%"></span>
+        </div>
+        <div class="stack-key">
+          <span><i class="k1"></i>Iran corridor <b>54%</b></span>
+          <span><i class="k2"></i>Central Asia <b>42%</b></span>
+          <span><i class="k3"></i>All other, Pakistan included <b>4%</b></span>
+        </div>
+      </div>
+      <figcaption>Two years ago most of this traffic came up from Karachi. Source: World Bank, Afghanistan Economic Monitor, July 2026.</figcaption>
+    </figure>
+  </article>
+
+  <div class="section-head">
+    <span class="section-num">III</span>
+    <h2 class="section-title">By the Numbers</h2>
+  </div>
+  <p class="section-note">What the figures actually mean</p>
+
+  <div class="numbers">
+
+    <div class="number">
+      <div>
+        <div class="number-fig">54%</div>
+        <span class="number-unit">Share of imports<br>entering via Iran</span>
+      </div>
+      <div class="number-body">
+        <p>Central Asia takes another 42%, which leaves everything else — Pakistan included — with about 4%. Two years ago the bulk of this traffic came up the road from Karachi.</p>
+        <p>The figure is compiled by the World Bank from Afghan customs data, so it counts declared trade only. A great deal of the border economy is not declared. Read it as the shape of the change rather than its exact size.</p>
+      </div>
+    </div>
+
+    <div class="number">
+      <div>
+        <div class="number-fig">1.9</div>
+        <span class="number-unit">Days of paid work<br>per week, casual labour</span>
+      </div>
+      <div class="number-body">
+        <p>A day's unskilled labour pays 309 afghanis, about $4.80. At 1.9 days a week that is roughly 2,500 afghanis a month, against a basic monthly food basket costing about 6,000.</p>
+        <p>This is the year's cruellest arithmetic. The 2026 wheat harvest was the best since the drought, yet wheat still costs 13% more than a year ago, and wages have not moved. What a day's work buys in flour has fallen 26% in twelve months. Afghan hunger this year is a wage problem, not a harvest problem.</p>
+      </div>
+    </div>
+
+    <div class="number">
+      <div>
+        <div class="number-fig">704,300</div>
+        <span class="number-unit">Tonnes moved by rail<br>in August</span>
+      </div>
+      <div class="number-body">
+        <p>Nearly two-thirds of it crossed at Hairatan, from Uzbekistan. Every Afghan railhead faces north or west; there is no rail link to Pakistan at all.</p>
+        <p>The same monthly return lists the outbound cargo: 3,751 tonnes of carbonated drinks. That is about half of one percent of what came the other way.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="section-head">
+    <span class="section-num">IV</span>
+    <h2 class="section-title">What to Watch</h2>
+  </div>
+  <p class="section-note">Three things coming, and why they matter</p>
+
+  <div class="watch">
+
+    <div class="watch-item">
+      <p class="watch-when">This week</p>
+      <h4>A fertiliser deadline nobody is talking about</h4>
+      <p>The Food and Agriculture Organization asked for $38.3 million to put certified seed and fertiliser in the hands of 600,000 farming households. It said the money had to arrive by mid-September, because winter wheat goes into the ground shortly after. Fertiliser prices jumped this year — urea is up 57% — after disruption in the Middle East. FAO's representative, Richard Trenchard, called it "not a supply crisis" but "an affordability crisis at one of the most important moments in the agricultural calendar". Seed and fertiliser together lift yields by about a third. Next year's harvest is being decided now, quietly, at a counter in a provincial market.</p>
+    </div>
+
+    <div class="watch-item">
+      <p class="watch-when">Any week now, or never</p>
+      <h4>Whether Pakistan's gate actually opens</h4>
+      <p>Islamabad said in August it would reopen five crossings after nearly 300 days. No official timetable followed, and the closure is bound up with Pakistan's demands over militants sheltering in Afghanistan. If it does open, watch two things. How quickly fruit exports recover will show whether the trade was merely paused or genuinely lost. And whether traders who spent a year building supply chains through Iran and Uzbekistan bother to switch back will show how permanent this rewiring has become.</p>
+    </div>
+
+    <div class="watch-item">
+      <p class="watch-when">October to January</p>
+      <h4>The winter load</h4>
+      <p>Kabul is rationing electricity from dawn until around noon. The state utility says it has roughly 750 megawatts to distribute against demand of 4,000. FEWS NET expects the number of Afghans needing food assistance to peak at eight to nine million in December and January, into an aid budget that is 30% funded. One piece of better news: forecasters expect El Niño to bring above-average rain and snow from October, which would give winter planting its first kind season since a four-year drought.</p>
+    </div>
+
+  </div>
+
+  <div class="colophon">
+    <h5>A note on the numbers</h5>
+    <p>Afghanistan has not held a census since 1979. Every population figure here is a projection built on older projections, and the error bars are wide enough to swallow whole provinces. Household surveys run irregularly and cover small samples. Harvest estimates lean on satellite imagery. Poverty and hunger counts are modelled, not counted.</p>
+    <p>Prices come from market surveys in a handful of cities, mostly Kabul, and do not travel well to rural districts. Trade and revenue figures originate with a government that has reasons to present them favourably, then pass through World Bank compilation, which helps but does not cure. Where sources disagreed this week we have given both. Where a figure is a claim rather than an observation — the central bank's $10 billion, for instance — we have called it a claim.</p>
+    <p>The Kabul Ledger · Edition of 13 September 2026 · Half news, half explanation, on the working of one of the least-measured economies on earth.</p>
+  </div>
+
+</main>
+
+</body></html>

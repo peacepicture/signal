@@ -29,6 +29,26 @@
       "headers": {
         "cache-control": "public, max-age=86400"
       }
+    },
+    {
+      "route": "/memory/*",
+      "statusCode": 404
+    },
+    {
+      "route": "/tools/*",
+      "statusCode": 404
+    },
+    {
+      "route": "/build.py",
+      "statusCode": 404
+    },
+    {
+      "route": "/PUBLISHING.md",
+      "statusCode": 404
+    },
+    {
+      "route": "/.gitignore",
+      "statusCode": 404
     }
   ]
 }

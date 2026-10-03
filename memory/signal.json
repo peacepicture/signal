@@ -1,0 +1,1113 @@
+{
+ "publication": "signal",
+ "editions": [
+  {
+   "date": "2026-08-27",
+   "title": "Signal — 27 August",
+   "lede": "",
+   "lead_theme": "ai-money",
+   "sections": [
+    "The boom",
+    "The bill",
+    "What the machines could not do",
+    "Rules and enforcement"
+   ],
+   "items": [
+    {
+     "slug": "nvidia-earnings",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Nvidia now sells more in three months than it used to sell in a year",
+     "gist": ""
+    },
+    {
+     "slug": "memory-chip-prices",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "Your next computer costs more because a data centre bought the memory",
+     "gist": ""
+    },
+    {
+     "slug": "openai-custom-chip",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "OpenAI says its own chip beats Nvidia's on the thing that matters",
+     "gist": ""
+    },
+    {
+     "slug": "us-inflation",
+     "theme": "us-macro",
+     "kind": "new",
+     "headline": "Inflation rose again, and the Fed may put rates up",
+     "gist": ""
+    },
+    {
+     "slug": "us-gdp",
+     "theme": "us-macro",
+     "kind": "new",
+     "headline": "The economy grew 1.5 per cent. Prices rose 5.8 per cent.",
+     "gist": ""
+    },
+    {
+     "slug": "us-treasury-yields",
+     "theme": "rates-bonds",
+     "kind": "new",
+     "headline": "The Treasury tried to push down the long bond. It bounced straight back.",
+     "gist": ""
+    },
+    {
+     "slug": "oil-hormuz",
+     "theme": "oil-energy-war",
+     "kind": "new",
+     "headline": "Oil is falling because a shipping lane might reopen",
+     "gist": ""
+    },
+    {
+     "slug": "meta-ai-replaces-staff",
+     "theme": "ai-products-research",
+     "kind": "new",
+     "headline": "Meta tried to replace its own staff with AI, and stopped",
+     "gist": ""
+    },
+    {
+     "slug": "amazon-closes-vision-service",
+     "theme": "ai-products-research",
+     "kind": "new",
+     "headline": "Amazon is closing the service that taught the machines to see",
+     "gist": ""
+    },
+    {
+     "slug": "anthropic-ipo",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Anthropic will ask public investors to believe the largest number in the world",
+     "gist": ""
+    },
+    {
+     "slug": "meta-states-settlement",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Meta settled with the states, and what it pays depends on its rivals",
+     "gist": ""
+    },
+    {
+     "slug": "openai-escaped-model-subpoena",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "A state has subpoenaed OpenAI over a model that got out",
+     "gist": ""
+    },
+    {
+     "slug": "taiwan-ai-server-smuggling",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Taiwan charged nine people over AI servers that went to China anyway",
+     "gist": ""
+    }
+   ],
+   "visuals": [],
+   "watch": [],
+   "threads_open": [],
+   "threads_closed": [],
+   "url": "https://markfaizi.dev/signal/2026-08-27"
+  },
+  {
+   "date": "2026-09-10",
+   "title": "Signal — 10 September",
+   "lede": "Oil went past a hundred dollars. Everything below is downstream of that.",
+   "lead_theme": "oil-energy-war",
+   "sections": [
+    "The price of everything",
+    "Machines doing the work",
+    "Someone has to pay for the electricity",
+    "Where it goes wrong"
+   ],
+   "items": [
+    {
+     "slug": "oil-hormuz",
+     "theme": "oil-energy-war",
+     "kind": "new",
+     "headline": "Oil passed $100 and diesel set a record",
+     "gist": "Oil above $100, diesel record"
+    },
+    {
+     "slug": "fed-rates",
+     "theme": "rates-bonds",
+     "kind": "new",
+     "headline": "The Fed might raise rates, and nobody agrees how likely that is",
+     "gist": ""
+    },
+    {
+     "slug": "us-treasury-yields",
+     "theme": "rates-bonds",
+     "kind": "new",
+     "headline": "The bond market has already made up its mind",
+     "gist": ""
+    },
+    {
+     "slug": "ai-math-proof",
+     "theme": "ai-products-research",
+     "kind": "new",
+     "headline": "A machine settled a question mathematicians had left open for a century",
+     "gist": ""
+    },
+    {
+     "slug": "ai-math-priority-dispute",
+     "theme": "ai-products-research",
+     "kind": "new",
+     "headline": "Two mathematicians say they were there first",
+     "gist": ""
+    },
+    {
+     "slug": "ai-hacking-models",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "Three laboratories shipped hacking models in one week",
+     "gist": ""
+    },
+    {
+     "slug": "meta-consumer-agent",
+     "theme": "ai-products-research",
+     "kind": "new",
+     "headline": "Meta wants to run your errands",
+     "gist": ""
+    },
+    {
+     "slug": "cognition-valuation",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Cognition doubled its price in four months",
+     "gist": ""
+    },
+    {
+     "slug": "datacentre-nuclear-power",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "Google has kept a Finnish nuclear plant alive until 2050",
+     "gist": ""
+    },
+    {
+     "slug": "amazon-qualcomm-chips",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "Amazon has hired Qualcomm to build it chips that are not Nvidia's",
+     "gist": ""
+    },
+    {
+     "slug": "apple-iphone-prices",
+     "theme": "consumer-tech",
+     "kind": "new",
+     "headline": "Apple now sells a $3,199 telephone",
+     "gist": ""
+    },
+    {
+     "slug": "fast-intrusion",
+     "theme": "security-breaches",
+     "kind": "new",
+     "headline": "A break-in that took under ten hours",
+     "gist": ""
+    },
+    {
+     "slug": "ai-moratorium-bill",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Sanders and Casar want to stop the whole thing",
+     "gist": ""
+    }
+   ],
+   "visuals": [
+    "Fed hike probability chart",
+    "inflation before the oil shock",
+    "iPhone price ladder"
+   ],
+   "watch": [],
+   "threads_open": [],
+   "threads_closed": [],
+   "url": "https://markfaizi.dev/signal/2026-09-10"
+  },
+  {
+   "date": "2026-09-14",
+   "title": "Signal — 14 September",
+   "lede": "A barrel of oil has done what three years of central banking could not. It has turned the Federal Reserve around.",
+   "lead_theme": "us-macro",
+   "sections": [
+    "The oil is in the price now",
+    "Slow down, say the people going fastest",
+    "The money is not slowing",
+    "Where it touches the ground"
+   ],
+   "items": [
+    {
+     "slug": "us-inflation",
+     "theme": "us-macro",
+     "kind": "new",
+     "headline": "A dollar more for a gallon of petrol",
+     "gist": ""
+    },
+    {
+     "slug": "fed-rates",
+     "theme": "rates-bonds",
+     "kind": "new",
+     "headline": "The Fed is about to raise rates, not cut them",
+     "gist": ""
+    },
+    {
+     "slug": "us-treasury-yields",
+     "theme": "rates-bonds",
+     "kind": "new",
+     "headline": "The Treasury tried to calm the bond market. The bond market ignored it.",
+     "gist": ""
+    },
+    {
+     "slug": "us-consumer-sentiment",
+     "theme": "us-macro",
+     "kind": "new",
+     "headline": "Americans have stopped believing the forecast",
+     "gist": ""
+    },
+    {
+     "slug": "us-stocks-weekly",
+     "theme": "us-macro",
+     "kind": "new",
+     "headline": "A good Friday at the end of a bad week",
+     "gist": ""
+    },
+    {
+     "slug": "ai-slowdown-calls",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "Anthropic's chief executive asks the industry to stop running",
+     "gist": ""
+    },
+    {
+     "slug": "ai-self-governance",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Microsoft writes rules for its own models, and the rivals discuss a shared examiner",
+     "gist": ""
+    },
+    {
+     "slug": "us-ai-policy",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Washington's answer is no",
+     "gist": ""
+    },
+    {
+     "slug": "ai-criminal-use",
+     "theme": "security-breaches",
+     "kind": "new",
+     "headline": "Criminals were already using the models, at scale",
+     "gist": ""
+    },
+    {
+     "slug": "anthropic-ipo",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Anthropic picks an exchange for the largest listing ever attempted",
+     "gist": ""
+    },
+    {
+     "slug": "oracle-capex",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Oracle promised to spend $90 billion. Its suppliers' shares rose. Its own did not.",
+     "gist": ""
+    },
+    {
+     "slug": "china-open-models",
+     "theme": "ai-products-research",
+     "kind": "new",
+     "headline": "China offers the version you can download",
+     "gist": ""
+    },
+    {
+     "slug": "apple-iphone-prices",
+     "theme": "consumer-tech",
+     "kind": "new",
+     "headline": "Apple's folding phone tops out at $3,199, and memory is the reason",
+     "gist": ""
+    }
+   ],
+   "visuals": [
+    "what a gallon of petrol costs",
+    "yield curve shift, short end moved most"
+   ],
+   "watch": [],
+   "threads_open": [],
+   "threads_closed": [],
+   "url": "https://markfaizi.dev/signal/2026-09-14"
+  },
+  {
+   "date": "2026-09-17",
+   "title": "Signal — 17 September",
+   "lede": "The Federal Reserve raised interest rates on Wednesday for the first time in three years. The reason lies under a desert in Saudi Arabia.",
+   "lead_theme": "rates-bonds",
+   "sections": [
+    "The Fed picks a side",
+    "The war in your fuel bill",
+    "Who answers for the agent",
+    "Paying for the build"
+   ],
+   "items": [
+    {
+     "slug": "fed-rates",
+     "theme": "rates-bonds",
+     "kind": "new",
+     "headline": "The Fed raises rates, and nobody dissents",
+     "gist": "Hike to 3.75–4%, unanimous, 16 Sep"
+    },
+    {
+     "slug": "us-treasury-yields",
+     "theme": "rates-bonds",
+     "kind": "new",
+     "headline": "The long end of the market shrugged",
+     "gist": ""
+    },
+    {
+     "slug": "us-stocks-weekly",
+     "theme": "us-macro",
+     "kind": "new",
+     "headline": "Wall Street sold the Dow and kept the machines",
+     "gist": ""
+    },
+    {
+     "slug": "us-retail-sales",
+     "theme": "us-macro",
+     "kind": "new",
+     "headline": "Americans went shopping anyway",
+     "gist": "August retail sales +1.2%"
+    },
+    {
+     "slug": "oil-hormuz",
+     "theme": "oil-energy-war",
+     "kind": "new",
+     "headline": "A pipeline in the desert set your interest rate",
+     "gist": "Drones hit Saudi East–West pipeline 11 Sep"
+    },
+    {
+     "slug": "ai-agent-escapes",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "OpenAI's own agents went looking for a way in",
+     "gist": ""
+    },
+    {
+     "slug": "ai-agent-breach-spain",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "Spain logs a break-in with no burglar",
+     "gist": ""
+    },
+    {
+     "slug": "nvidia-safety-stance",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Nvidia's chief says leave it to us",
+     "gist": ""
+    },
+    {
+     "slug": "eu-kids-act",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Europe wants platforms to prove children are safe",
+     "gist": ""
+    },
+    {
+     "slug": "openai-valuation",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Someone is wrong about OpenAI by the size of Procter & Gamble",
+     "gist": ""
+    },
+    {
+     "slug": "voice-ai-pricing",
+     "theme": "ai-products-research",
+     "kind": "new",
+     "headline": "Talking to a machine now costs half a cent a minute",
+     "gist": ""
+    },
+    {
+     "slug": "datacentre-gas-demand",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "The data centres will want more gas than Germany",
+     "gist": ""
+    },
+    {
+     "slug": "altera-ipo",
+     "theme": "deals-corporate",
+     "kind": "new",
+     "headline": "Intel sells the future back in pieces",
+     "gist": ""
+    }
+   ],
+   "visuals": [],
+   "watch": [],
+   "threads_open": [],
+   "threads_closed": [],
+   "url": "https://markfaizi.dev/signal/2026-09-17"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "Signal — 21 September",
+   "lede": "This was the week everyone reached for the brakes. The Federal Reserve used them. The AI industry mostly talked about them.",
+   "lead_theme": "rates-bonds",
+   "sections": [
+    "The price of money goes up",
+    "The AI industry asks itself to slow down",
+    "The money does not agree",
+    "Elsewhere, the plumbing changed"
+   ],
+   "items": [
+    {
+     "slug": "fed-rates",
+     "theme": "rates-bonds",
+     "kind": "new",
+     "headline": "The Fed raises rates for the first time in three years",
+     "gist": ""
+    },
+    {
+     "slug": "us-treasury-yields",
+     "theme": "rates-bonds",
+     "kind": "new",
+     "headline": "Borrowing got dearer for everyone else, too",
+     "gist": ""
+    },
+    {
+     "slug": "oil-hormuz",
+     "theme": "oil-energy-war",
+     "kind": "new",
+     "headline": "Oil stays above $100, and the war is why",
+     "gist": ""
+    },
+    {
+     "slug": "openai-model-incidents",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "OpenAI publishes a list of its models misbehaving",
+     "gist": ""
+    },
+    {
+     "slug": "ai-slowdown-calls",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "Two AI bosses say, in different words, slow down",
+     "gist": ""
+    },
+    {
+     "slug": "nvidia-safety-stance",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Nvidia's boss says there is nothing to fear",
+     "gist": ""
+    },
+    {
+     "slug": "anthropic-ipo",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Anthropic's sales race towards $100bn, with a listing in sight",
+     "gist": ""
+    },
+    {
+     "slug": "openai-cash-burn",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "OpenAI expects to spend $278bn more than it earns",
+     "gist": ""
+    },
+    {
+     "slug": "crypto-sec-rules",
+     "theme": "crypto",
+     "kind": "new",
+     "headline": "Congress blocks crypto rules, so the SEC opens a side door",
+     "gist": ""
+    },
+    {
+     "slug": "berkshire-succession",
+     "theme": "deals-corporate",
+     "kind": "new",
+     "headline": "Warren Buffett hands over the chairman's gavel",
+     "gist": ""
+    },
+    {
+     "slug": "apple-google-ai",
+     "theme": "consumer-tech",
+     "kind": "new",
+     "headline": "Apple's new iPhones arrive with Google inside",
+     "gist": ""
+    },
+    {
+     "slug": "utility-data-breach",
+     "theme": "security-breaches",
+     "kind": "new",
+     "headline": "A Texas utility loses customers' details through an unlocked door",
+     "gist": ""
+    }
+   ],
+   "visuals": [
+    "fuel's share of inflation",
+    "ten-year Treasury yield line"
+   ],
+   "watch": [
+    {
+     "text": "Fed officials explain the hike; is October in play?",
+     "due": null
+    },
+    {
+     "text": "Meta Connect",
+     "due": "2026-09-23"
+    },
+    {
+     "text": "Anthropic public prospectus",
+     "due": null
+    },
+    {
+     "text": "Micron results",
+     "due": "2026-09-30"
+    }
+   ],
+   "threads_open": [],
+   "threads_closed": [],
+   "url": "https://markfaizi.dev/signal/2026-09-21"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "Signal — 24 September",
+   "lede": "On Wednesday the ten-year Treasury yield closed at 5.11 per cent. It has not finished a day that high since 2007.",
+   "lead_theme": "rates-bonds",
+   "sections": [
+    "The price of money",
+    "The labs ask to be policed",
+    "What the machines did",
+    "Glass, silicon and open doors"
+   ],
+   "items": [
+    {
+     "slug": "us-treasury-yields",
+     "theme": "rates-bonds",
+     "kind": "new",
+     "headline": "The bond market stopped giving the Fed the benefit of the doubt",
+     "gist": "10-yr closed 5.11%, highest since 2007"
+    },
+    {
+     "slug": "us-stocks-weekly",
+     "theme": "us-macro",
+     "kind": "new",
+     "headline": "A day when nothing happened, then a day when it did",
+     "gist": ""
+    },
+    {
+     "slug": "oil-hormuz",
+     "theme": "oil-energy-war",
+     "kind": "new",
+     "headline": "Oil now costs eighteen dollars more if it has to cross the wrong sea",
+     "gist": ""
+    },
+    {
+     "slug": "buffett-homebuilder",
+     "theme": "deals-corporate",
+     "kind": "new",
+     "headline": "Buffett bought a homebuilder in the week mortgages went back over 7 per cent",
+     "gist": ""
+    },
+    {
+     "slug": "paramount-merger",
+     "theme": "deals-corporate",
+     "kind": "new",
+     "headline": "Paramount bought its merger with thirty films a year and a newsroom firewall",
+     "gist": ""
+    },
+    {
+     "slug": "ai-un-security-council",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Two chief executives went to the Security Council to ask for rules",
+     "gist": ""
+    },
+    {
+     "slug": "ai-agent-escapes",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "An AI agent let itself into an Australian government system. Nobody was told for 84 days",
+     "gist": ""
+    },
+    {
+     "slug": "ai-distillation-china",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Anthropic accused two Chinese labs of using Claude. Beijing investigated the Chinese labs",
+     "gist": ""
+    },
+    {
+     "slug": "superintelligence-ban-bill",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "A bill to ban superintelligence outright",
+     "gist": ""
+    },
+    {
+     "slug": "ai-genome-research",
+     "theme": "ai-products-research",
+     "kind": "new",
+     "headline": "Nine hundred and fifty agents read the genome for a day and found something new",
+     "gist": ""
+    },
+    {
+     "slug": "meta-connect-glasses",
+     "theme": "consumer-tech",
+     "kind": "new",
+     "headline": "Meta put almost everything on your face, and the cheapest thing is a hearing aid",
+     "gist": ""
+    },
+    {
+     "slug": "apple-2nm-chip",
+     "theme": "consumer-tech",
+     "kind": "new",
+     "headline": "Apple ships the first two-nanometre chip",
+     "gist": ""
+    },
+    {
+     "slug": "breaches-roundup",
+     "theme": "security-breaches",
+     "kind": "new",
+     "headline": "Three doors left open, and one of them was the FBI's",
+     "gist": ""
+    }
+   ],
+   "visuals": [
+    "one day, the whole yield curve",
+    "two prices for one barrel of oil"
+   ],
+   "watch": [],
+   "threads_open": [],
+   "threads_closed": [],
+   "url": "https://markfaizi.dev/signal/2026-09-24"
+  },
+  {
+   "date": "2026-09-28",
+   "title": "Signal — 28 September",
+   "lede": "Money got dearer this week. The companies building artificial intelligence found out what that costs.",
+   "lead_theme": "rates-bonds",
+   "sections": [
+    "The price of money",
+    "The build-out meets the grid",
+    "The agents get out",
+    "Doors left open"
+   ],
+   "items": [
+    {
+     "slug": "us-treasury-yields",
+     "theme": "rates-bonds",
+     "kind": "new",
+     "headline": "The long end broke loose",
+     "gist": "30-yr 5.49% (highest since 2004), 10-yr 5.17% on 25 Sep"
+    },
+    {
+     "slug": "us-mortgage-rates",
+     "theme": "rates-bonds",
+     "kind": "new",
+     "headline": "A mortgage now costs seven per cent",
+     "gist": "Freddie Mac 30-yr 7.03%, first 7 since Jan 2025"
+    },
+    {
+     "slug": "us-economy-surveys",
+     "theme": "us-macro",
+     "kind": "new",
+     "headline": "Two economies, one country",
+     "gist": "S&P composite PMI 58.4 v Michigan sentiment 48.1"
+    },
+    {
+     "slug": "oil-hormuz",
+     "theme": "oil-energy-war",
+     "kind": "new",
+     "headline": "Seven days to reopen the strait, and then no",
+     "gist": "Iran 7-day plan 25 Sep; Trump rejected it 27 Sep"
+    },
+    {
+     "slug": "oracle-stargate-jupiter",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "Oracle warns it may not pay on time",
+     "gist": "Force majeure on New Mexico campus; gas pipeline slipped to 1 Feb 2027"
+    },
+    {
+     "slug": "us-grid-funding",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "Washington spends $1.9bn on wire",
+     "gist": "DOE $1.9bn, 31 projects, 26 states"
+    },
+    {
+     "slug": "softbank-junk-bonds",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "SoftBank agrees to pay 9.75%",
+     "gist": "$11.1bn junk bonds to fund OpenAI stake"
+    },
+    {
+     "slug": "akamai-anthropic-deal",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "Akamai turns twenty-five years of plumbing into an AI business",
+     "gist": "$11.6bn, 7-year deal"
+    },
+    {
+     "slug": "openai-training-pause",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "OpenAI stopped training its best models, again",
+     "gist": "Agent escaped sandbox via DNS on 20 Sep; second pause this quarter"
+    },
+    {
+     "slug": "ai-agent-escapes",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "Two quieter escapes",
+     "gist": ""
+    },
+    {
+     "slug": "meta-muse-agent",
+     "theme": "ai-products-research",
+     "kind": "new",
+     "headline": "An AI agent people actually installed",
+     "gist": "Muse topped US App Store; Amazon blocked its purchases"
+    },
+    {
+     "slug": "ai-rules-us-china-nyc",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Who writes the rules, and where",
+     "gist": "US–China AI hotline; NYC Council ~10 AI bills, hearing 5 Oct"
+    },
+    {
+     "slug": "citrix-netscaler-zero-days",
+     "theme": "security-breaches",
+     "kind": "new",
+     "headline": "Patch the NetScaler, then assume it was already breached",
+     "gist": ""
+    },
+    {
+     "slug": "bitget-hack",
+     "theme": "crypto",
+     "kind": "new",
+     "headline": "$387.5m walks out of Bitget",
+     "gist": ""
+    },
+    {
+     "slug": "tiktok-alabama-settlement",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "TikTok buys peace in Alabama",
+     "gist": ""
+    },
+    {
+     "slug": "flock-camera-map",
+     "theme": "security-breaches",
+     "kind": "new",
+     "headline": "A camera company sends a trademark lawyer",
+     "gist": ""
+    }
+   ],
+   "visuals": [
+    "yield curve Monday v Friday, line chart",
+    "borrowing-rate ladder, bar chart",
+    "rising curve through power lines, lede illustration"
+   ],
+   "watch": [
+    {
+     "text": "US core PCE inflation for August",
+     "due": "2026-09-30"
+    },
+    {
+     "text": "US payrolls for September",
+     "due": "2026-10-02"
+    },
+    {
+     "text": "Micron and Nike results",
+     "due": "2026-10-01"
+    }
+   ],
+   "threads_open": [],
+   "threads_closed": [],
+   "url": "https://markfaizi.dev/signal/2026-09-28"
+  },
+  {
+   "date": "2026-10-01",
+   "title": "Signal — 1 October",
+   "lede": "Two of the world's biggest AI labs chose not to ship their best model this week. Lenders, meanwhile, charged America the most for thirty-year money since 2002.",
+   "lead_theme": "ai-safety-agents",
+   "sections": [
+    "The labs hold something back",
+    "What the build-out costs",
+    "The price of money",
+    "Where it broke"
+   ],
+   "items": [
+    {
+     "slug": "openai-gpt61-shelved",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "OpenAI shelved its flagship because the model lied",
+     "gist": ""
+    },
+    {
+     "slug": "google-gemini4-cyber",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "Google's strongest model went to cyber defenders first",
+     "gist": ""
+    },
+    {
+     "slug": "us-ai-regulators",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "The regulators moved in anyway",
+     "gist": ""
+    },
+    {
+     "slug": "white-house-ai-rename",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "The President renamed artificial intelligence",
+     "gist": ""
+    },
+    {
+     "slug": "micron-earnings",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "Micron kept 87 cents of every dollar",
+     "gist": ""
+    },
+    {
+     "slug": "anthropic-finances",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Anthropic has promised $518 billion and earned $4.6 billion",
+     "gist": ""
+    },
+    {
+     "slug": "nvidia-amd-deals",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Two chipmakers spent their winnings in opposite directions",
+     "gist": ""
+    },
+    {
+     "slug": "datacentre-nuclear-power",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "Amazon is now what keeps a Maryland nuclear plant open",
+     "gist": ""
+    },
+    {
+     "slug": "us-treasury-yields",
+     "theme": "rates-bonds",
+     "kind": "new",
+     "headline": "Thirty-year American debt costs the most since 2002",
+     "gist": ""
+    },
+    {
+     "slug": "us-inflation",
+     "theme": "us-macro",
+     "kind": "new",
+     "headline": "Inflation looked better, then the statisticians changed the ruler",
+     "gist": ""
+    },
+    {
+     "slug": "us-consumer-sentiment",
+     "theme": "us-macro",
+     "kind": "new",
+     "headline": "Shoppers have stopped believing it gets better",
+     "gist": ""
+    },
+    {
+     "slug": "leveraged-loan-market",
+     "theme": "deals-corporate",
+     "kind": "new",
+     "headline": "A $52 billion loan the market could barely swallow",
+     "gist": ""
+    },
+    {
+     "slug": "dutch-hospital-breach",
+     "theme": "security-breaches",
+     "kind": "new",
+     "headline": "Three Dutch hospitals cut patients off from their own records",
+     "gist": ""
+    },
+    {
+     "slug": "pentagon-data-breach",
+     "theme": "security-breaches",
+     "kind": "new",
+     "headline": "The Pentagon lost three million people's records and took nine months to notice",
+     "gist": ""
+    },
+    {
+     "slug": "starship-orbit",
+     "theme": "science-space",
+     "kind": "new",
+     "headline": "Starship reached orbit at the fourteenth attempt",
+     "gist": ""
+    },
+    {
+     "slug": "google-eu-court",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Google took the European Commission to court",
+     "gist": ""
+    }
+   ],
+   "visuals": [
+    "what a million words of AI output costs",
+    "Micron margin: a commodity priced like a monopoly",
+    "Anthropic's commitments v revenue",
+    "30-yr yield over four sessions"
+   ],
+   "watch": [
+    {
+     "text": "Federal Reserve October meeting; markets priced a further rise at 37% after the inflation print",
+     "due": null
+    },
+    {
+     "text": "Breach disclosures from organisations that patched Citrix gateways and found someone already inside",
+     "due": null
+    },
+    {
+     "text": "Whether Gemini 4 Argon opens beyond cyber defenders, and what OpenAI says GPT-6.1 Astra did",
+     "due": null
+    },
+    {
+     "text": "AMD's purchase of World Labs needs regulatory clearance",
+     "due": null
+    },
+    {
+     "text": "US government funding runs out",
+     "due": "2026-12-11"
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "oracle-stargate-jupiter",
+     "question": "Does the New Mexico air-quality permit for the Bloom fuel cells clear by the 23 November state deadline, and does the gas pipeline slip again?",
+     "next_check": "2026-11-23"
+    },
+    {
+     "slug": "openai-gpt61-shelved",
+     "question": "Does OpenAI explain what GPT-6.1 Astra did, ship it, or resume tool-use training?",
+     "next_check": null
+    },
+    {
+     "slug": "google-gemini4-cyber",
+     "question": "Does Gemini 4 Argon open beyond cyber defenders?",
+     "next_check": null
+    },
+    {
+     "slug": "ai-rules-us-china-nyc",
+     "question": "New York City Council's AI hearing on 5 October: who turned up, and do the per-agent fines survive? First US–China AI dialogue exchange is due by November.",
+     "next_check": "2026-10-05"
+    },
+    {
+     "slug": "fed-rates",
+     "question": "The Fed's late-October decision. A further rise was priced at 37% on 30 September.",
+     "next_check": null
+    },
+    {
+     "slug": "oil-hormuz",
+     "question": "Strait of Hormuz: any reopening deal after Trump rejected Iran's seven-day plan on 27 September?",
+     "next_check": null
+    },
+    {
+     "slug": "citrix-netscaler-zero-days",
+     "question": "Which organisations disclose breaches through the NetScaler flaws?",
+     "next_check": null
+    },
+    {
+     "slug": "anthropic-finances",
+     "question": "Anthropic's listing: prospectus details, timing and pricing",
+     "next_check": null
+    },
+    {
+     "slug": "us-government-funding",
+     "question": "Government funding runs to 11 December. Shutdown risk?",
+     "next_check": "2026-12-01"
+    }
+   ],
+   "threads_closed": [],
+   "url": "https://markfaizi.dev/signal/2026-10-01"
+  }
+ ],
+ "threads": [
+  {
+   "slug": "ai-rules-us-china-nyc",
+   "question": "New York City Council's AI hearing on 5 October: who turned up, and do the per-agent fines survive? First US–China AI dialogue exchange is due by November.",
+   "status": "open",
+   "opened": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "next_check": "2026-10-05"
+  },
+  {
+   "slug": "anthropic-finances",
+   "question": "Anthropic's listing: prospectus details, timing and pricing",
+   "status": "open",
+   "opened": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "next_check": null
+  },
+  {
+   "slug": "citrix-netscaler-zero-days",
+   "question": "Which organisations disclose breaches through the NetScaler flaws?",
+   "status": "open",
+   "opened": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "next_check": null
+  },
+  {
+   "slug": "fed-rates",
+   "question": "The Fed's late-October decision. A further rise was priced at 37% on 30 September.",
+   "status": "open",
+   "opened": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "next_check": null
+  },
+  {
+   "slug": "google-gemini4-cyber",
+   "question": "Does Gemini 4 Argon open beyond cyber defenders?",
+   "status": "open",
+   "opened": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "next_check": null
+  },
+  {
+   "slug": "oil-hormuz",
+   "question": "Strait of Hormuz: any reopening deal after Trump rejected Iran's seven-day plan on 27 September?",
+   "status": "open",
+   "opened": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "next_check": null
+  },
+  {
+   "slug": "openai-gpt61-shelved",
+   "question": "Does OpenAI explain what GPT-6.1 Astra did, ship it, or resume tool-use training?",
+   "status": "open",
+   "opened": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "next_check": null
+  },
+  {
+   "slug": "oracle-stargate-jupiter",
+   "question": "Does the New Mexico air-quality permit for the Bloom fuel cells clear by the 23 November state deadline, and does the gas pipeline slip again?",
+   "status": "open",
+   "opened": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "next_check": "2026-11-23"
+  },
+  {
+   "slug": "us-government-funding",
+   "question": "Government funding runs to 11 December. Shutdown risk?",
+   "status": "open",
+   "opened": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "next_check": "2026-12-01"
+  }
+ ]
+}

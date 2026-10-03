@@ -1,0 +1,113 @@
+{
+ "publication": "loadfactor",
+ "editions": [
+  {
+   "date": "2026-09-16",
+   "title": "Load Factor — 16 September",
+   "lede": "A tour operator sells a seat on a coach that is leaving whether or not anyone buys it. Everything else in this business follows from that one fact.",
+   "lead_theme": "risk-guarantees",
+   "sections": [],
+   "items": [
+    {
+     "slug": "ttc-guaranteed-departures",
+     "theme": "risk-guarantees",
+     "kind": "new",
+     "headline": "TTC has promised 2,000 tours will run. That promise costs money",
+     "gist": ""
+    },
+    {
+     "slug": "intrepid-results",
+     "theme": "results-ownership",
+     "kind": "new",
+     "headline": "Intrepid's biggest year, and a quiet move into owning things",
+     "gist": "Revenue +29%"
+    },
+    {
+     "slug": "atol-reform",
+     "theme": "regulation",
+     "kind": "new",
+     "headline": "Britain's biggest unfinished travel reform is still unfinished",
+     "gist": "Under way since 2021, no consultation date"
+    },
+    {
+     "slug": "abta-shoulder-season",
+     "theme": "demand-distribution",
+     "kind": "new",
+     "headline": "September is becoming the new August, and touring wins from it",
+     "gist": ""
+    }
+   ],
+   "explainer": {
+    "area": "unit-economics",
+    "topic": "What one departure earns: fixed versus variable costs and the break-even load factor"
+   },
+   "method": "companies-house",
+   "companies_house": {
+    "company": "Riviera Tours Limited",
+    "finding": "Latest published accounts run only to November 2024"
+   },
+   "visuals": [
+    "single-departure cost table with break-even at 12 of 40 seats (illustrative)"
+   ],
+   "watch": [
+    {
+     "text": "Whether rivals match TTC's guarantee (autumn)",
+     "due": null
+    },
+    {
+     "text": "Any date for the DfT and CAA ATOL reform consultation",
+     "due": null
+    },
+    {
+     "text": "UK accounts filing season (late 2026)",
+     "due": "2026-12-31"
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "ttc-guaranteed-departures",
+     "question": "Do rivals match TTC's 2,000 guaranteed departures, and what does it cost them?",
+     "next_check": null
+    },
+    {
+     "slug": "atol-reform",
+     "question": "Any consultation date from the DfT and CAA on ATOL reform?",
+     "next_check": null
+    },
+    {
+     "slug": "uk-accounts-season",
+     "question": "Which operators file new accounts in late 2026, and what do they show?",
+     "next_check": "2026-12-31"
+    }
+   ],
+   "threads_closed": [],
+   "url": "https://markfaizi.dev/loadfactor/2026-09-16"
+  }
+ ],
+ "threads": [
+  {
+   "slug": "atol-reform",
+   "question": "Any consultation date from the DfT and CAA on ATOL reform?",
+   "status": "open",
+   "opened": "2026-09-16",
+   "last_seen": "2026-09-16",
+   "next_check": null
+  },
+  {
+   "slug": "ttc-guaranteed-departures",
+   "question": "Do rivals match TTC's 2,000 guaranteed departures, and what does it cost them?",
+   "status": "open",
+   "opened": "2026-09-16",
+   "last_seen": "2026-09-16",
+   "next_check": null
+  },
+  {
+   "slug": "uk-accounts-season",
+   "question": "Which operators file new accounts in late 2026, and what do they show?",
+   "status": "open",
+   "opened": "2026-09-16",
+   "last_seen": "2026-09-16",
+   "next_check": "2026-12-31"
+  }
+ ]
+}

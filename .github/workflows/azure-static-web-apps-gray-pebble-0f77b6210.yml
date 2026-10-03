@@ -9,6 +9,11 @@ on:
     branches:
       - main
 
+# One deploy at a time, in order, so a slower older run can never overwrite a newer one.
+concurrency:
+  group: production-deploy
+  cancel-in-progress: false
+
 jobs:
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
@@ -19,6 +24,9 @@ jobs:
         with:
           submodules: true
           lfs: false
+      - name: Build derived pages
+        # front pages, archives, head tags and sitemap, from the editions on disk
+        run: python3 build.py
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1

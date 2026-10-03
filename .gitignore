@@ -1,0 +1,6 @@
+# Built by build.py. The deploy workflow runs it before uploading, so these
+# never need committing, and two publications publishing at the same moment
+# cannot collide on them.
+/*/index.html
+/*/archive.html
+/sitemap.xml
