@@ -82,24 +82,139 @@
    ],
    "threads_closed": [],
    "url": "https://markfaizi.dev/loadfactor/2026-09-16"
+  },
+  {
+   "date": "2026-10-03",
+   "title": "Load Factor — 3 October",
+   "lede": "Three British touring companies published numbers this fortnight. Each one was really a statement about a year that has not happened yet.",
+   "lead_theme": "results-ownership",
+   "sections": [],
+   "items": [
+    {
+     "slug": "saga-results",
+     "theme": "results-ownership",
+     "kind": "new",
+     "headline": "Saga publishes the number most operators keep to themselves",
+     "gist": "H1 underlying pre-tax profit £46.6m (from £23.5m), revenue +14% to £366.3m, guidance raised to £65–70m; publishes a dated booked-load table"
+    },
+    {
+     "slug": "river-cruise-low-water",
+     "theme": "supply-operations",
+     "kind": "new",
+     "headline": "The rivers ran dry in July. The bill arrives in 2027",
+     "gist": "Saga river cruises 81% booked for the year at 27 Sep v 88% a year earlier, blamed on low European river levels"
+    },
+    {
+     "slug": "leger-grj-accounts",
+     "theme": "results-ownership",
+     "kind": "new",
+     "headline": "Two sets of accounts, two different kinds of good year",
+     "gist": "Leger Shearings 2025 turnover +3.1% to £79.8m, EBITDA +21.3% to £6.1m; Great Rail Journeys accounts also filed"
+    },
+    {
+     "slug": "ttc-brand-consolidation",
+     "theme": "demand-distribution",
+     "kind": "new",
+     "headline": "Trafalgar takes three names down to one",
+     "gist": "From 1 Sep TTC retiring Insight and Costsaver into Trafalgar: 600+ itineraries in Saver, Classic and Premium tiers for 2027"
+    }
+   ],
+   "explainer": {
+    "area": "distribution-demand",
+    "topic": "The booking curve: how a departure fills month by month, and what reading it ahead of time tells an operator"
+   },
+   "method": "atol-register",
+   "companies_house": {
+    "company": "Leger Shearings Group Holdings; Great Rail Journeys Limited",
+    "finding": "Leger turnover +3.1%, EBITDA +21.3%; GRJ's holding company extended its accounting period to April 2026"
+   },
+   "visuals": [
+    "two booking curves against one reporting date, illustrative line chart",
+    "Saga's book: full year booked at 27 Sep 2026 v same point 2025"
+   ],
+   "watch": [
+    {
+     "text": "ABTA's convention in Madeira: how operators describe 2027 books, and any ATOL reform consultation date",
+     "due": "2026-10-14"
+    },
+    {
+     "text": "Great Rail Journeys' extended year end: next accounts cover eighteen months to April 2026",
+     "due": null
+    },
+    {
+     "text": "Whether AI booking agents ever get access to tour operators' inventory",
+     "due": null
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "atol-reform",
+     "question": "Any consultation date from the DfT and CAA on ATOL reform? Listen for it at ABTA's convention, 12–14 October.",
+     "next_check": "2026-10-15"
+    },
+    {
+     "slug": "grj-year-end",
+     "question": "Why did Great Rail Journeys' owner extend the year end to April 2026: refinancing, alignment or a sale?",
+     "next_check": null
+    },
+    {
+     "slug": "river-cruise-low-water",
+     "question": "Do river cruise operators reprice or reroute 2027 after the low-water summer? Watch Saga and others' booked loads.",
+     "next_check": null
+    },
+    {
+     "slug": "ttc-brand-consolidation",
+     "question": "How the Trafalgar tiers sell for 2027 departures, especially around Black Friday",
+     "next_check": "2026-12-01"
+    }
+   ],
+   "threads_closed": [
+    "ttc-guaranteed-departures"
+   ],
+   "url": "https://markfaizi.dev/loadfactor/2026-10-03"
   }
  ],
  "threads": [
   {
    "slug": "atol-reform",
-   "question": "Any consultation date from the DfT and CAA on ATOL reform?",
+   "question": "Any consultation date from the DfT and CAA on ATOL reform? Listen for it at ABTA's convention, 12–14 October.",
    "status": "open",
    "opened": "2026-09-16",
-   "last_seen": "2026-09-16",
+   "last_seen": "2026-10-03",
+   "next_check": "2026-10-15"
+  },
+  {
+   "slug": "grj-year-end",
+   "question": "Why did Great Rail Journeys' owner extend the year end to April 2026: refinancing, alignment or a sale?",
+   "status": "open",
+   "opened": "2026-10-03",
+   "last_seen": "2026-10-03",
    "next_check": null
+  },
+  {
+   "slug": "river-cruise-low-water",
+   "question": "Do river cruise operators reprice or reroute 2027 after the low-water summer? Watch Saga and others' booked loads.",
+   "status": "open",
+   "opened": "2026-10-03",
+   "last_seen": "2026-10-03",
+   "next_check": null
+  },
+  {
+   "slug": "ttc-brand-consolidation",
+   "question": "How the Trafalgar tiers sell for 2027 departures, especially around Black Friday",
+   "status": "open",
+   "opened": "2026-10-03",
+   "last_seen": "2026-10-03",
+   "next_check": "2026-12-01"
   },
   {
    "slug": "ttc-guaranteed-departures",
    "question": "Do rivals match TTC's 2,000 guaranteed departures, and what does it cost them?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-09-16",
    "last_seen": "2026-09-16",
-   "next_check": null
+   "next_check": null,
+   "closed": "2026-10-03"
   },
   {
    "slug": "uk-accounts-season",
