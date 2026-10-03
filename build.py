@@ -1,26 +1,45 @@
 #!/usr/bin/env python3
-"""Regenerate the site's navigation pages from the editions on disk.
+"""Regenerate everything on the site that is derived rather than written.
 
 Each publication lives in its own folder. An edition is a file named
-YYYY-MM-DD.html -- a byte-for-byte copy of that day's published page.
-This script does two things per folder, and nothing else:
+YYYY-MM-DD.html -- the page as it was published. For each folder this script:
 
-  1. copies the newest edition to index.html, so /signal serves the latest
-  2. regenerates archive.html, listing every edition newest first
+  1. writes a managed <head> block into every edition: title, description,
+     canonical URL, favicons and the Open Graph tags that make a link show a
+     preview card in WhatsApp, iMessage, Slack, LinkedIn and the rest
+  2. copies the newest edition to index.html, so /signal serves the latest
+  3. regenerates archive.html, listing every edition newest first
 
-It never touches the editions themselves, and never touches the root
-index.html (the CV). Running it twice produces the same result as once,
-so a publishing run can always just call it.
+It also writes the same head block into the CV (index.html) and 404.html,
+and regenerates sitemap.xml.
+
+The head block sits between <!-- site-head:start --> and <!-- site-head:end -->
+markers. Anything inside the markers is rewritten on every run; everything
+outside them is left alone. Running the script twice gives the same result as
+running it once, so a publishing run can always just call it.
 
     python3 build.py
 """
 
+import html
 import re
 import shutil
 from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+BASE = "https://markfaizi.dev"
+
+SITE = {
+    "title": "Mark Faizi · Market data analyst",
+    "description": "Market data analyst working on competitor analysis, CRM "
+                   "and automation that saves businesses time and money.",
+    "site_name": "Mark Faizi",
+    "icon": "site",
+    "theme": ("#ECEBE6", "#131210"),
+    "og_alt": "Mark Faizi, market data analyst. Competitor analysis, CRM and "
+              "automation.",
+}
 
 SECTIONS = [
     {
@@ -29,6 +48,9 @@ SECTIONS = [
         "cadence": "Mondays and Thursdays",
         "blurb": "Technology, AI and finance. What happened, and why the "
                  "numbers mean what they mean.",
+        "theme": ("#EDEAE7", "#141110"),
+        "og_alt": "Signal: technology, AI and markets. Mondays and Thursdays "
+                  "at markfaizi.dev/signal.",
     },
     {
         "slug": "kabulledger",
@@ -37,6 +59,9 @@ SECTIONS = [
         "blurb": "Afghanistan's economy for readers outside it. Half news, "
                  "half mechanism, because the news makes no sense without "
                  "the plumbing.",
+        "theme": ("#EEEAE1", "#14120F"),
+        "og_alt": "The Kabul Ledger: a weekly reading of Afghanistan's "
+                  "economy, at markfaizi.dev/kabulledger.",
     },
     {
         "slug": "loadfactor",
@@ -44,44 +69,128 @@ SECTIONS = [
         "cadence": "1st and 15th of the month",
         "blurb": "The business of escorted and guided touring -- who makes "
                  "money, how, and where the risk sits.",
+        "theme": ("#ECEDE9", "#101311"),
+        "og_alt": "Load Factor: the business of escorted touring, "
+                  "fortnightly at markfaizi.dev/loadfactor.",
     },
 ]
 
 EDITION_RE = re.compile(r"^(\d{4})-(\d{2})-(\d{2})\.html$")
 TITLE_RE = re.compile(r"<title>(.*?)</title>", re.I | re.S)
+LEDE_RE = re.compile(r'<p[^>]*class="lede"[^>]*>(.*?)</p>', re.I | re.S)
+HEAD_RE = re.compile(r"<head[^>]*>", re.I)
+BLOCK_RE = re.compile(r"\n?<!-- site-head:start.*?<!-- site-head:end -->\n?", re.S)
 
+
+# ---------------------------------------------------------------- helpers
 
 def editions(folder: Path):
     """Every edition in a folder, newest first."""
     found = []
-    for path in sorted(folder.glob("*.html")):
+    for path in folder.glob("*.html"):
         m = EDITION_RE.match(path.name)
         if m:
             found.append((date(int(m[1]), int(m[2]), int(m[3])), path))
     return sorted(found, key=lambda pair: pair[0], reverse=True)
 
 
-def title_of(path: Path, fallback: str) -> str:
-    m = TITLE_RE.search(path.read_text(encoding="utf-8", errors="replace"))
-    return " ".join(m[1].split()) if m else fallback
+def plain(fragment: str) -> str:
+    """HTML fragment -> one line of plain text."""
+    text = re.sub(r"<[^>]+>", "", fragment)
+    return " ".join(html.unescape(text).split())
+
+
+def clip(text: str, limit: int = 200) -> str:
+    if len(text) <= limit:
+        return text
+    cut = text[:limit].rsplit(" ", 1)[0].rstrip(",;:—-")
+    return cut + "…"
+
+
+def title_of(source: str, fallback: str) -> str:
+    m = TITLE_RE.search(source)
+    return plain(m[1]) if m else fallback
+
+
+def lede_of(source: str, fallback: str) -> str:
+    m = LEDE_RE.search(source)
+    return clip(plain(m[1])) if m else fallback
 
 
 def long_date(d: date) -> str:
     return d.strftime(f"%A {d.day} %B %Y")
 
 
-def esc(text: str) -> str:
-    return (text.replace("&", "&amp;").replace("<", "&lt;")
-                .replace(">", "&gt;").replace('"', "&quot;"))
+def attr(text: str) -> str:
+    return html.escape(text, quote=True)
 
+
+def head_block(*, title, description, url, icon, theme, og_type, og_alt,
+               site_name, published=None, with_title=True, noindex=False):
+    light, dark = theme
+    lines = ["<!-- site-head:start · written by build.py, edits inside are overwritten -->"]
+    if with_title:
+        lines.append(f"<title>{html.escape(title)}</title>")
+    lines += [
+        f'<meta name="description" content="{attr(description)}">',
+    ]
+    if noindex:
+        lines.append('<meta name="robots" content="noindex">')
+    if url:
+        lines.append(f'<link rel="canonical" href="{url}">')
+    lines += [
+        f'<link rel="icon" href="/assets/{icon}/icon.svg" type="image/svg+xml">',
+        f'<link rel="icon" href="/assets/{icon}/icon-32.png" sizes="32x32" type="image/png">',
+        f'<link rel="apple-touch-icon" href="/assets/{icon}/apple-touch-icon.png">',
+        '<link rel="manifest" href="/site.webmanifest">',
+        f'<meta name="theme-color" content="{light}" media="(prefers-color-scheme: light)">',
+        f'<meta name="theme-color" content="{dark}" media="(prefers-color-scheme: dark)">',
+        f'<meta property="og:type" content="{og_type}">',
+        f'<meta property="og:site_name" content="{attr(site_name)}">',
+        f'<meta property="og:title" content="{attr(title)}">',
+        f'<meta property="og:description" content="{attr(description)}">',
+    ]
+    if url:
+        lines.append(f'<meta property="og:url" content="{url}">')
+    lines += [
+        f'<meta property="og:image" content="{BASE}/assets/{icon}/og.png">',
+        '<meta property="og:image:type" content="image/png">',
+        '<meta property="og:image:width" content="1200">',
+        '<meta property="og:image:height" content="630">',
+        f'<meta property="og:image:alt" content="{attr(og_alt)}">',
+        '<meta property="og:locale" content="en_GB">',
+    ]
+    if published:
+        lines.append(f'<meta property="article:published_time" content="{published.isoformat()}">')
+    lines += [
+        '<meta name="twitter:card" content="summary_large_image">',
+        "<!-- site-head:end -->",
+    ]
+    return "\n".join(lines)
+
+
+def with_block(source: str, block: str) -> str:
+    """Return source with the managed block placed right after <head>."""
+    source = BLOCK_RE.sub("", source, count=1)
+    m = HEAD_RE.search(source)
+    if not m:
+        raise SystemExit("build.py: page has no <head> tag")
+    return source[:m.end()] + "\n" + block + "\n" + source[m.end():]
+
+
+def write_if_changed(path: Path, text: str, label: str) -> None:
+    if not path.exists() or path.read_text(encoding="utf-8") != text:
+        path.write_text(text, encoding="utf-8")
+        print(f"  {label}")
+
+
+# ---------------------------------------------------------------- archive page
 
 ARCHIVE_TEMPLATE = """<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>{name} — archive</title>
-<meta name="description" content="Every edition of {name}, newest first.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&family=Spectral:ital,wght@1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Chakra+Petch:wght@600;700&display=swap">
@@ -170,60 +279,96 @@ footer{{font-family:var(--font-mono);font-size:12.5px;letter-spacing:.05em;
 """
 
 
+# ---------------------------------------------------------------- build
+
+def build_root_pages(sitemap):
+    """The CV and the 404 page get the site-wide head block."""
+    cv = ROOT / "index.html"
+    if cv.exists():
+        block = head_block(
+            title=SITE["title"], description=SITE["description"], url=f"{BASE}/",
+            icon=SITE["icon"], theme=SITE["theme"], og_type="profile",
+            og_alt=SITE["og_alt"], site_name=SITE["site_name"])
+        write_if_changed(cv, with_block(cv.read_text(encoding="utf-8"), block), "index.html (CV) head")
+        sitemap.append((f"{BASE}/", None))
+
+    nf = ROOT / "404.html"
+    if nf.exists():
+        block = head_block(
+            title="Not found · markfaizi.dev", description=SITE["description"], url=None,
+            icon=SITE["icon"], theme=SITE["theme"], og_type="website",
+            og_alt=SITE["og_alt"], site_name=SITE["site_name"], noindex=True)
+        write_if_changed(nf, with_block(nf.read_text(encoding="utf-8"), block), "404.html head")
+
+
+def build_section(sec, sitemap):
+    folder = ROOT / sec["slug"]
+    if not folder.is_dir():
+        print(f"  skip {sec['slug']}/ (no such folder)")
+        return
+    found = editions(folder)
+    if not found:
+        print(f"  skip {sec['slug']}/ (no editions yet)")
+        return
+
+    titles = {}
+    # 1. head block in every edition
+    for d, path in found:
+        source = path.read_text(encoding="utf-8")
+        title = title_of(source, f"{sec['name']} — {d.day} {d.strftime('%B')}")
+        titles[path] = title
+        url = f"{BASE}/{sec['slug']}/{path.stem}"
+        block = head_block(
+            title=title, description=lede_of(source, sec["blurb"]), url=url,
+            icon=sec["slug"], theme=sec["theme"], og_type="article",
+            og_alt=sec["og_alt"], site_name=f"{sec['name']} · markfaizi.dev",
+            published=d)
+        write_if_changed(path, with_block(source, block), f"{sec['slug']}/{path.name} head")
+        sitemap.append((url, d))
+
+    # 2. newest edition becomes the front page (canonical stays the permalink)
+    newest_date, newest_path = found[0]
+    index = folder / "index.html"
+    if not index.exists() or index.read_bytes() != newest_path.read_bytes():
+        shutil.copyfile(newest_path, index)
+        print(f"  {sec['slug']}/index.html <- {newest_path.name}")
+
+    # 3. archive
+    rows = "\n".join(
+        f'  <li><a href="/{sec["slug"]}/{path.stem}"><span class="t">{html.escape(titles[path])}</span>'
+        f'<span class="d">{long_date(d)}</span></a></li>'
+        for d, path in found)
+    latest = (f'<a class="latest" href="/{sec["slug"]}"><span class="lk">Current edition</span>'
+              f'<span class="lt">{html.escape(titles[newest_path])}</span></a>')
+    count = f"{len(found)} edition" + ("s" if len(found) != 1 else "")
+    page = ARCHIVE_TEMPLATE.format(
+        name=html.escape(sec["name"]), blurb=html.escape(sec["blurb"]),
+        cadence=html.escape(sec["cadence"]), count=count, latest=latest, rows=rows)
+    url = f"{BASE}/{sec['slug']}/archive"
+    block = head_block(
+        title=f"{sec['name']} · Archive", description=f"Every edition of {sec['name']}. {sec['blurb']}",
+        url=url, icon=sec["slug"], theme=sec["theme"], og_type="website",
+        og_alt=sec["og_alt"], site_name=f"{sec['name']} · markfaizi.dev")
+    write_if_changed(folder / "archive.html", with_block(page, block), f"{sec['slug']}/archive.html ({count})")
+    sitemap.append((url, newest_date))
+
+
+def build_sitemap(entries):
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for url, d in entries:
+        lastmod = f"<lastmod>{d.isoformat()}</lastmod>" if d else ""
+        lines.append(f"  <url><loc>{url}</loc>{lastmod}</url>")
+    lines.append("</urlset>")
+    write_if_changed(ROOT / "sitemap.xml", "\n".join(lines) + "\n", f"sitemap.xml ({len(entries)} urls)")
+
+
 def main() -> None:
+    sitemap = []
+    build_root_pages(sitemap)
     for sec in SECTIONS:
-        folder = ROOT / sec["slug"]
-        if not folder.is_dir():
-            print(f"  skip {sec['slug']}/ (no such folder)")
-            continue
-
-        found = editions(folder)
-        if not found:
-            print(f"  skip {sec['slug']}/ (no editions yet)")
-            continue
-
-        newest_date, newest_path = found[0]
-
-        # 1. the newest edition becomes the folder's front page
-        index = folder / "index.html"
-        newest_bytes = newest_path.read_bytes()
-        if not index.exists() or index.read_bytes() != newest_bytes:
-            shutil.copyfile(newest_path, index)
-            print(f"  {sec['slug']}/index.html <- {newest_path.name}")
-
-        # 2. the archive page lists everything
-        rows = "\n".join(
-            '  <li><a href="/{slug}/{stem}"><span class="t">{title}</span>'
-            '<span class="d">{when}</span></a></li>'.format(
-                slug=sec["slug"],
-                stem=path.stem,
-                title=esc(title_of(path, sec["name"])),
-                when=long_date(d),
-            )
-            for d, path in found
-        )
-
-        latest = (
-            '<a class="latest" href="/{slug}">'
-            '<span class="lk">Current edition</span>'
-            '<span class="lt">{title}</span></a>'
-        ).format(slug=sec["slug"], title=esc(title_of(newest_path, sec["name"])))
-
-        count = f"{len(found)} edition" + ("s" if len(found) != 1 else "")
-
-        html = ARCHIVE_TEMPLATE.format(
-            name=esc(sec["name"]),
-            blurb=esc(sec["blurb"]),
-            cadence=esc(sec["cadence"]),
-            count=count,
-            latest=latest,
-            rows=rows,
-        )
-        archive = folder / "archive.html"
-        if not archive.exists() or archive.read_text(encoding="utf-8") != html:
-            archive.write_text(html, encoding="utf-8")
-            print(f"  {sec['slug']}/archive.html ({count})")
-
+        build_section(sec, sitemap)
+    build_sitemap(sitemap)
     print("build.py: done")
 
 

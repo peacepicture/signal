@@ -11,6 +11,24 @@
   },
   "mimeTypes": {
     ".html": "text/html; charset=utf-8",
-    ".json": "application/json; charset=utf-8"
-  }
+    ".json": "application/json; charset=utf-8",
+    ".webmanifest": "application/manifest+json",
+    ".ico": "image/x-icon",
+    ".xml": "application/xml; charset=utf-8",
+    ".txt": "text/plain; charset=utf-8"
+  },
+  "routes": [
+    {
+      "route": "/assets/*",
+      "headers": {
+        "cache-control": "public, max-age=86400"
+      }
+    },
+    {
+      "route": "/favicon.ico",
+      "headers": {
+        "cache-control": "public, max-age=86400"
+      }
+    }
+  ]
 }
