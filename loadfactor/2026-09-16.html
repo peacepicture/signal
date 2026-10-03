@@ -1,0 +1,583 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Load Factor — 16 September</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;1,300;1,400;1,500&family=Chakra+Petch:wght@500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+  /* Title face — TimeBurner, as in Signal and the Kabul Ledger.
+     Not on Google Fonts: paste the base64 below and it takes over every title. */
+  /*
+  @font-face{
+    font-family:"TimeBurner";
+    src:url("data:font/woff2;base64,PASTE_BASE64_HERE") format("woff2");
+    font-weight:400 700; font-display:swap;
+  }
+  */
+  :root{
+    --font-display:"TimeBurner","Chakra Petch","Eurostile","Bahnschrift","Trebuchet MS",sans-serif;
+    --font-editorial:"Spectral",Georgia,"Times New Roman",serif;
+    --font-body:"Newsreader",Georgia,"Times New Roman",serif;
+    --font-data:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  :root{
+    --ink:#131714; --ink-2:#414A43; --ink-3:#6F7A72;
+    --paper:#ECEDE9; --paper-2:#E2E4DE; --card:#F6F7F3;
+    --rule:#C6CBC3; --rule-soft:#D8DBD3;
+    --accent:#1D5A43; --accent-2:#B07A16;
+    --bar:#1D5A43; --bar-neg:#B07A16;
+    --shadow:0 1px 0 rgba(19,23,20,.04);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ink:#E7EAE5; --ink-2:#A8B0A9; --ink-3:#7C857E;
+      --paper:#101311; --paper-2:#181B18; --card:#1D211E;
+      --rule:#333A35; --rule-soft:#262B27;
+      --accent:#6FB596; --accent-2:#E0B45C;
+      --bar:#5FA98A; --bar-neg:#D6A94F;
+      --shadow:none;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ink:#E7EAE5; --ink-2:#A8B0A9; --ink-3:#7C857E;
+    --paper:#101311; --paper-2:#181B18; --card:#1D211E;
+    --rule:#333A35; --rule-soft:#262B27;
+    --accent:#6FB596; --accent-2:#E0B45C;
+    --bar:#5FA98A; --bar-neg:#D6A94F;
+    --shadow:none;
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:var(--font-body);
+    font-size:20px; line-height:1.6; font-weight:400;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px 96px}
+  a{color:inherit}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+  /* masthead */
+  .masthead{padding:44px 0 0;position:relative}
+  .masthead-art{
+    position:absolute;inset:0;overflow:hidden;pointer-events:none;
+    mask-image:linear-gradient(to bottom,#000 25%,transparent 90%);
+    -webkit-mask-image:linear-gradient(to bottom,#000 25%,transparent 90%);
+  }
+  .masthead-art svg{width:100%;height:100%;display:block;opacity:.5}
+  .masthead-inner{position:relative}
+  .eyebrow-top{
+    font-family:var(--font-data);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--ink-3);display:flex;flex-wrap:wrap;gap:14px;
+    border-bottom:1px solid var(--rule);padding-bottom:12px;
+  }
+  .eyebrow-top .sep{color:var(--accent)}
+  .wordmark{
+    font-family:var(--font-display);font-weight:700;
+    font-size:clamp(3.2rem,10vw,7.2rem);
+    line-height:.96;letter-spacing:.004em;text-transform:lowercase;
+    margin:26px 0 0;text-wrap:balance;
+  }
+  .wordmark .dot{color:var(--accent)}
+  .masthead-sub{
+    display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;
+    gap:14px;margin-top:18px;padding-bottom:14px;border-bottom:3px double var(--rule);
+  }
+  .masthead-sub .beats{font-family:var(--font-editorial);font-style:italic;font-size:1.15rem;color:var(--ink-2)}
+  .masthead-sub .issue{
+    font-family:var(--font-data);font-size:11px;letter-spacing:.16em;
+    text-transform:uppercase;color:var(--ink-3);font-variant-numeric:tabular-nums;
+  }
+
+  /* tape */
+  .tape{border-bottom:1px solid var(--rule);overflow-x:auto;scrollbar-width:thin}
+  .tape-inner{display:flex;min-width:max-content}
+  .tick{
+    padding:14px 22px 13px;border-right:1px solid var(--rule-soft);
+    font-family:var(--font-data);font-variant-numeric:tabular-nums;white-space:nowrap;
+  }
+  .tick:first-child{padding-left:0}
+  .tick:last-child{border-right:0}
+  .tick .k{display:block;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);margin-bottom:5px}
+  .tick .v{font-size:15px;font-weight:500}
+  .tick .d{font-size:12px;margin-left:8px;color:var(--ink-2)}
+  .tick .up{color:var(--accent)}
+  .tick .warn{color:var(--accent-2)}
+
+  /* lede */
+  .lede{
+    max-width:38ch;font-family:var(--font-editorial);
+    font-size:clamp(1.42rem,3.1vw,2rem);line-height:1.36;font-weight:400;
+    margin:52px 0 0;text-wrap:balance;
+  }
+  .lede em{font-style:italic;color:var(--accent)}
+  .lede-body{margin-top:22px;max-width:62ch;color:var(--ink-2);font-size:1.06rem}
+  .byline{
+    margin-top:30px;padding-top:14px;border-top:1px solid var(--rule-soft);
+    font-family:var(--font-data);font-size:11px;letter-spacing:.16em;
+    text-transform:uppercase;color:var(--ink-3);
+  }
+
+  /* sections */
+  .section{margin-top:76px}
+  .section-head{
+    display:flex;align-items:baseline;gap:18px;
+    border-bottom:1px solid var(--ink);padding-bottom:10px;margin-bottom:8px;
+  }
+  .numeral{font-family:var(--font-editorial);font-size:1.5rem;color:var(--accent);line-height:1}
+  .section-title{font-family:var(--font-data);font-size:12px;letter-spacing:.28em;text-transform:uppercase;font-weight:600}
+  .section-note{margin-left:auto;font-family:var(--font-body);font-style:italic;font-size:.95rem;color:var(--ink-3);text-align:right}
+
+  .stories{display:grid}
+  .story{
+    display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.55fr);
+    gap:8px 48px;padding:34px 0;border-bottom:1px solid var(--rule-soft);
+  }
+  .story:last-child{border-bottom:0}
+  .story-meta{display:flex;flex-direction:column;gap:12px}
+  .kicker{font-family:var(--font-data);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent)}
+  .headline{
+    font-family:var(--font-display);font-size:clamp(1.24rem,2.25vw,1.56rem);
+    line-height:1.22;font-weight:600;margin:0;text-wrap:balance;letter-spacing:.002em;
+  }
+  .story-body p{margin:0 0 16px;max-width:62ch}
+  .story-body p:last-child{margin-bottom:0}
+  .story-body strong{font-weight:500;color:var(--ink)}
+  .src{
+    display:inline-flex;flex-wrap:wrap;gap:10px;align-items:baseline;margin-top:6px;
+    font-family:var(--font-data);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  }
+  .src a{color:var(--ink-3);text-decoration:none;border-bottom:1px solid var(--rule);padding-bottom:2px}
+  .src a:hover,.src a:focus-visible{color:var(--accent);border-bottom-color:var(--accent)}
+
+  /* explainer */
+  .explainer{margin-top:8px;padding:36px 0 0}
+  .explainer h3{
+    font-family:var(--font-display);font-size:clamp(1.5rem,3vw,2rem);
+    line-height:1.18;font-weight:600;margin:0 0 8px;max-width:24ch;text-wrap:balance;
+  }
+  .explainer .standfirst{
+    font-family:var(--font-editorial);font-style:italic;font-size:1.22rem;
+    color:var(--ink-2);max-width:48ch;margin:0 0 30px;
+  }
+  .explainer-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:44px}
+  .explainer p{margin:0 0 16px;max-width:60ch}
+  .explainer p:last-child{margin-bottom:0}
+  .term{border-bottom:1px dotted var(--accent);color:var(--ink);font-weight:500}
+  .keypoint{
+    margin:26px 0;padding:20px 22px;background:var(--card);
+    border-left:3px solid var(--accent);box-shadow:var(--shadow);
+  }
+  .keypoint .kp-label{
+    font-family:var(--font-data);font-size:10px;letter-spacing:.2em;
+    text-transform:uppercase;color:var(--accent);display:block;margin-bottom:8px;
+  }
+  .keypoint p{margin:0;font-size:1.02rem}
+
+  /* cost table */
+  .costtable{width:100%;border-collapse:collapse;margin:8px 0 0;font-size:1rem}
+  .costtable th{
+    font-family:var(--font-data);font-size:10px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--ink-3);text-align:left;font-weight:600;padding:0 0 10px;border-bottom:1px solid var(--rule);
+  }
+  .costtable th.num,.costtable td.num{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--font-data);font-size:.92rem}
+  .costtable td{padding:11px 0;border-bottom:1px solid var(--rule-soft);color:var(--ink-2)}
+  .costtable tr.total td{border-bottom:0;border-top:2px solid var(--ink);color:var(--ink);font-weight:500;padding-top:13px}
+  .costtable .fixed{color:var(--accent-2)}
+
+  /* figures */
+  figure{margin:32px 0 0;padding:26px 26px 20px;background:var(--card);border:1px solid var(--rule-soft);box-shadow:var(--shadow)}
+  figure .fig-title{font-family:var(--font-display);font-size:1.14rem;font-weight:600;margin:0 0 4px;letter-spacing:.004em}
+  figure .fig-sub{font-family:var(--font-data);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);margin-bottom:20px}
+  .fig-scroll{overflow-x:auto}
+  .fig-scroll svg{display:block;width:100%;height:auto}
+  figcaption{
+    margin-top:16px;padding-top:12px;border-top:1px solid var(--rule-soft);
+    font-size:.9rem;color:var(--ink-3);font-style:italic;max-width:70ch;
+  }
+  .bar{fill:var(--bar)}
+  .bar.neg{fill:var(--bar-neg)}
+  .bar-label{fill:var(--ink-2);font-family:var(--font-data);font-size:12px}
+  .bar-value{fill:var(--ink);font-family:var(--font-data);font-size:12.5px;font-weight:600;font-variant-numeric:tabular-nums}
+  .axis-line{stroke:var(--rule);stroke-width:1}
+  .zero-line{stroke:var(--ink);stroke-width:1.5}
+  .be-line{stroke:var(--accent-2);stroke-width:1.25;stroke-dasharray:4 4}
+
+  /* numbers grid */
+  .numgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:0;margin-top:8px}
+  .numcell{padding:26px 26px 26px 0;border-right:1px solid var(--rule-soft)}
+  .numcell:last-child{border-right:0;padding-right:0}
+  .numcell .n{
+    font-family:var(--font-display);font-size:2.1rem;font-weight:700;
+    line-height:1;color:var(--accent);margin-bottom:8px;font-variant-numeric:tabular-nums;
+  }
+  .numcell .nlab{font-family:var(--font-data);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin-bottom:10px}
+  .numcell p{margin:0;font-size:1rem;color:var(--ink-2);max-width:38ch}
+
+  /* watch */
+  .watch{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:0;margin-top:8px}
+  .watch-item{padding:28px 28px 28px 0;border-right:1px solid var(--rule-soft)}
+  .watch-item:last-child{border-right:0;padding-right:0}
+  .watch-when{font-family:var(--font-data);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent-2);display:block;margin-bottom:10px}
+  .watch-what{font-family:var(--font-display);font-size:1.1rem;font-weight:600;margin:0 0 10px;line-height:1.26;letter-spacing:.004em}
+  .watch-item p{margin:0;font-size:.98rem;color:var(--ink-2);max-width:44ch}
+
+  /* colophon */
+  .colophon{margin-top:80px;padding-top:26px;border-top:3px double var(--rule);display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:34px}
+  .colophon h4{font-family:var(--font-data);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);margin:0 0 14px;font-weight:600}
+  .colophon p{margin:0 0 12px;font-size:.94rem;color:var(--ink-2);max-width:52ch}
+  .srclist{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+  .srclist a{font-family:var(--font-data);font-size:11.5px;color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--rule-soft);padding-bottom:3px;display:inline-block}
+  .srclist a:hover,.srclist a:focus-visible{color:var(--accent);border-bottom-color:var(--accent)}
+
+  @media (max-width:820px){
+    body{font-size:19px;line-height:1.62}
+    .wrap{padding:0 20px 72px}
+    .story{grid-template-columns:1fr;gap:16px;padding:30px 0}
+    .explainer-grid{grid-template-columns:1fr;gap:0}
+    .section-note{display:none}
+    .numcell{border-right:0;border-bottom:1px solid var(--rule-soft);padding:24px 0}
+    .numcell:last-child{border-bottom:0}
+    .watch-item{border-right:0;border-bottom:1px solid var(--rule-soft);padding:24px 0}
+    .watch-item:last-child{border-bottom:0}
+    .lede{max-width:none}
+  }
+  @media (max-width:560px){
+    body{font-size:19px;line-height:1.64}
+    .wrap{padding:0 18px 64px}
+    .eyebrow-top{font-size:12px;letter-spacing:.16em;gap:10px}
+    .tick{padding:14px 18px 13px}
+    .tick .k{font-size:11px}
+    .tick .v{font-size:17px}
+    .tick .d{font-size:13px}
+    .kicker{font-size:12px;letter-spacing:.16em}
+    .section-title{font-size:13px;letter-spacing:.2em}
+    .headline{font-size:1.42rem;line-height:1.24}
+    .lede{font-size:1.52rem}
+    .src{font-size:12px;gap:12px}
+    .byline,.masthead-sub .issue{font-size:12px}
+    .bar-label,.bar-value{font-size:13px}
+    figure{padding:20px 18px 16px}
+    figure .fig-sub{font-size:12px}
+    figcaption{font-size:.95rem}
+    .colophon h4{font-size:12px}
+    .colophon p{font-size:1rem}
+    .srclist a{font-size:13px}
+    .numcell .nlab,.watch-when{font-size:12px}
+    .costtable th{font-size:11px}
+    .costtable td{font-size:1rem}
+    .costtable th.num,.costtable td.num{font-size:1rem}
+    .fig-scroll svg{min-width:560px}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="masthead-art" aria-hidden="true">
+      <svg viewBox="0 0 1180 400" preserveAspectRatio="none">
+        <g fill="none" stroke="var(--rule)" stroke-width="1">
+          <path d="M0 360 C 120 358, 200 300, 300 300 S 460 352, 560 300 S 720 244, 830 288 S 1000 330, 1180 272"/>
+          <path d="M0 386 C 140 384, 230 336, 340 336 S 500 380, 610 334 S 770 286, 880 322 S 1040 356, 1180 306"/>
+        </g>
+        <g fill="none" stroke="var(--rule)" stroke-width="1" stroke-dasharray="3 7">
+          <path d="M0 330 H1180"/>
+        </g>
+        <g fill="var(--accent)" opacity=".75">
+          <circle cx="300" cy="300" r="3"/><circle cx="560" cy="300" r="3"/><circle cx="830" cy="288" r="3"/><circle cx="1180" cy="272" r="3"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="masthead-inner">
+      <div class="eyebrow-top">
+        <span>Issue 001</span><span class="sep">/</span>
+        <span>Wednesday 16 September 2026</span><span class="sep">/</span>
+        <span>Fortnight to 16 September</span><span class="sep">/</span>
+        <span>Reading time 12 min</span>
+      </div>
+
+      <h1 class="wordmark">Load Factor<span class="dot">.</span></h1>
+
+      <div class="masthead-sub">
+        <div class="beats">The business of escorted touring &mdash; UK and global</div>
+        <div class="issue">1st &amp; 15th &middot; 07:00 BST</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="tape" role="region" aria-label="Sector indicators">
+    <div class="tape-inner">
+      <div class="tick"><span class="k">Intrepid FY25 revenue</span><span class="v">$575m</span><span class="d up">+29%</span></div>
+      <div class="tick"><span class="k">TTC definite deps '26</span><span class="v">2,000+</span></div>
+      <div class="tick"><span class="k">Riviera customers/yr</span><span class="v">118,000</span></div>
+      <div class="tick"><span class="k">UK Sept holidaymakers</span><span class="v">25%</span><span class="d up">from 17%</span></div>
+      <div class="tick"><span class="k">Over-65s in Sept</span><span class="v">35%</span><span class="d up">from 22%</span></div>
+      <div class="tick"><span class="k">ATOL reform</span><span class="v warn">unresolved</span></div>
+    </div>
+  </div>
+
+  <p class="lede">A tour operator sells a seat on a coach that is leaving whether or not anyone buys it. <em>Everything else</em> in this business follows from that one fact.</p>
+
+  <div class="lede-body">
+    <p>This fortnight gave us a clean illustration. The Travel Corporation has now guaranteed that more than 2,000 of its 2026 departures will run regardless of how many people book them. That sounds like a marketing promise. It is actually a transfer of risk, worth real money, from the customer to the operator — and it tells you a great deal about who currently has the upper hand in this trade.</p>
+    <p>Elsewhere: Intrepid posts its biggest year ever, the adventure operators keep creeping up the age range towards the traditional escorted-tour customer, and a British regulatory reform that has been pending since 2021 continues, quietly, to not happen.</p>
+  </div>
+
+  <div class="byline">Compiled 16 September 2026 &middot; Sources listed with each item</div>
+
+  <!-- ============ I ============ -->
+  <section class="section">
+    <div class="section-head">
+      <span class="numeral">I</span>
+      <span class="section-title">The Fortnight</span>
+      <span class="section-note">What moved, and why it matters</span>
+    </div>
+
+    <div class="stories">
+
+      <article class="story">
+        <div class="story-meta">
+          <span class="kicker">Risk &middot; Guaranteed departures</span>
+          <h3 class="headline">TTC has promised 2,000 tours will run. That promise costs money</h3>
+        </div>
+        <div class="story-body">
+          <p>The Travel Corporation has confirmed more than <strong>2,000 definite departures</strong> for 2026 across Trafalgar, Insight Vacations, Brendan Vacations and Costsaver. A definite departure runs even if it never fills. Deputy chief executive Melissa DaSilva framed it as a service to travel agents, which it is.</p>
+          <p>It is also a bet. Traditionally, an operator publishes a departure and cancels it if too few people book, usually six to eight weeks out. That protects the operator and shifts the uncertainty onto the customer, who may have booked flights and time off. Guaranteeing the departure reverses that. The operator now eats the cost of running half-empty coaches, and in exchange gets bookings earlier from people who would otherwise have waited.</p>
+          <p>Operators do this when they are confident of demand, or when competition forces their hand. Watch which brands follow. If guaranteed departures spread across the sector, it means agents have enough leverage to demand them — and margins get thinner for everyone.</p>
+          <div class="src">
+            <a href="https://www.travelweek.ca/news/tour-operators/ttc-tour-brands-confirms-over-2000-definite-departures-for-2026/">Travelweek</a>
+            <a href="https://www.travelmarketreport.com/news/articles/ttc-tour-brands-tops-2000-confirmed-departures-for-2026">Travel Market Report</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="story">
+        <div class="story-meta">
+          <span class="kicker">Results &middot; Intrepid</span>
+          <h3 class="headline">Intrepid's biggest year, and a quiet move into owning things</h3>
+        </div>
+        <div class="story-body">
+          <p>Intrepid Travel reported revenue of <strong>$575m</strong>, up 29% year on year — the strongest year in its 37-year history, achieved against falling inbound travel to the United States and conflict in the Middle East.</p>
+          <p>The number worth noticing is not the revenue. It is that Intrepid has started buying property: a place on Tasmania's Edge of the Bay, a riad in Marrakech. Tour operators have historically owned almost nothing. They buy hotel beds and coach seats from other people, which keeps them light and lets them scale fast, but means every supplier takes a margin before they do.</p>
+          <p>Buying accommodation is the opposite trade. It locks up capital and adds fixed costs that must be paid in a bad year. Operators do it when they cannot get the beds they want at the price they want — which tells you something about how tight supply has become in the destinations that sell best.</p>
+          <div class="src">
+            <a href="https://www.travelweekly.com/Travel-News/Tour-Operators/Intrepid-Travel-reports-record-earnings-from-past-year">Travel Weekly US</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="story">
+        <div class="story-meta">
+          <span class="kicker">Regulation &middot; The one to watch</span>
+          <h3 class="headline">Britain's biggest unfinished travel reform is still unfinished</h3>
+        </div>
+        <div class="story-body">
+          <p>ATOL reform has been under way since 2021. The Civil Aviation Authority received 293 responses to its request for further information. A consultation on final proposals was promised for the end of 2023. It has not happened. The CAA now says the next consultation will be a joint one with the Department for Transport, and gives no date.</p>
+          <p>This is the least covered and most consequential item in the trade. At issue is whether UK operators may keep spending customers' deposits before those customers travel. Today, broadly, they can. Money taken in January for a September tour funds January's costs. That is the cash-flow engine of the entire British package industry, and it is why a sudden drop in bookings can kill an operator that looked solvent a month earlier.</p>
+          <p>The reform under discussion would push operators towards segregating or protecting that money. If it lands, the smallest and the most leveraged operators will feel it first, and some will not survive the transition. Five years of delay is not inaction — it is a measure of how hard the industry has pushed back.</p>
+          <div class="src">
+            <a href="https://www.caa.co.uk/atol-protection/atol-compliance/requirements-legal-obligations/atol-reform/">UK Civil Aviation Authority</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="story">
+        <div class="story-meta">
+          <span class="kicker">Demand &middot; ABTA</span>
+          <h3 class="headline">September is becoming the new August, and touring wins from it</h3>
+        </div>
+        <div class="story-body">
+          <p>ABTA's 2026 trends work finds a quarter of UK travellers now holiday in September, up from 17% in 2023. Among the over-65s the shift is sharper still: <strong>35%, up from 22%</strong>.</p>
+          <p>For a beach operator this is a mild scheduling change. For an escorted tour operator it is close to free money. Touring is a shoulder-season business by nature — nobody wants a walking tour of Andalusia in August — and the fixed cost of a departure is the same in September as in July while hotel and coach rates are lower. Every passenger who moves from peak to shoulder improves the margin on a departure that was running anyway.</p>
+          <p>The over-65 figure matters most, because that is the core escorted-touring customer and the one most able to travel midweek and off-peak.</p>
+          <div class="src">
+            <a href="https://www.traveldailynews.com/statistics-trends/abta-travel-trends-for-2026-highlight-shifting-uk-travel-behaviour/">ABTA via TravelDailyNews</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ II ============ -->
+  <section class="section">
+    <div class="section-head">
+      <span class="numeral">II</span>
+      <span class="section-title">How It Works</span>
+      <span class="section-note">The mechanism behind the fortnight</span>
+    </div>
+
+    <div class="explainer">
+      <h3>What one departure actually earns</h3>
+      <p class="standfirst">To understand why a guaranteed departure is a big decision, you need to see how the money inside a single coach tour is arranged. It is simpler than you would expect, and stranger.</p>
+
+      <div class="explainer-grid">
+        <div>
+          <p>A tour operator's costs split into two kinds, and almost everything about the business follows from the split.</p>
+
+          <p><span class="term">Fixed costs</span> are incurred the moment the departure runs, whoever is on board. The coach and its driver cost the same with four passengers or forty. So does the tour manager — the person who travels with the group for the whole trip, and who is the actual product most customers are paying for.</p>
+
+          <p><span class="term">Variable costs</span> scale with each passenger: the hotel room, the meals, the museum entrances, the airline seat. And if the booking came through a travel agent, the commission — typically around a tenth of the price — behaves as a variable cost too.</p>
+
+          <p>Here is an illustrative ten-night European coach tour on a 40-seat vehicle. The figures are plausible rather than real; the shape is what matters.</p>
+
+          <table class="costtable">
+            <thead>
+              <tr><th>Cost</th><th class="num">Amount</th><th class="num">Type</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Coach and driver, 10 days</td><td class="num">&pound;9,000</td><td class="num fixed">fixed</td></tr>
+              <tr><td>Tour manager</td><td class="num">&pound;2,500</td><td class="num fixed">fixed</td></tr>
+              <tr><td>Hotels, 10 nights</td><td class="num">&pound;650</td><td class="num">per pax</td></tr>
+              <tr><td>Flights</td><td class="num">&pound;250</td><td class="num">per pax</td></tr>
+              <tr><td>Meals included</td><td class="num">&pound;180</td><td class="num">per pax</td></tr>
+              <tr><td>Entrances and excursions</td><td class="num">&pound;120</td><td class="num">per pax</td></tr>
+              <tr><td>Agent commission at 10%</td><td class="num">&pound;240</td><td class="num">per pax</td></tr>
+              <tr class="total"><td>Sold at</td><td class="num">&pound;2,395</td><td class="num">per pax</td></tr>
+            </tbody>
+          </table>
+
+          <p>Subtract the per-passenger costs from the price and each booking contributes <strong>&pound;955</strong> towards the &pound;11,500 of fixed cost. Divide one by the other and the departure breaks even at twelve passengers out of forty.</p>
+        </div>
+
+        <div>
+          <p>Twelve of forty. That is a <span class="term">load factor</span> of 30%, and it explains almost every commercial behaviour you will see in this trade.</p>
+
+          <p>Above twelve passengers, each additional booking is worth £955 of almost pure margin, because the expensive part of the trip is already paid for. That is why operators discount hard for early bookings, why they will quietly sell the last few seats at prices the early bookers would be annoyed to learn about, and why a tour running at 35 of 40 is enormously more profitable than one running at 25 — not 40% more, but roughly double.</p>
+
+          <div class="keypoint">
+            <span class="kp-label">The core idea</span>
+            <p>An operator is not really selling holidays. It is selling the marginal seat on a cost base it has already committed to. The last ten passengers on a coach are where the profit lives.</p>
+          </div>
+
+          <p>Now return to TTC's guarantee. Promising a departure will run means promising to absorb the loss when it does not reach twelve. On a single tour that loss is small — a couple of thousand pounds. Across two thousand departures, if even a tenth underfill, it is a seven-figure commitment made a year in advance.</p>
+
+          <p>They will have judged that the earlier bookings it generates more than cover it. That judgement is only correct while demand is strong. The interesting test comes in a soft year.</p>
+
+          <p>One caution before you take the model too literally: the £955 contribution is not profit. Out of it come brochures, advertising, the cost of acquiring the customer, head office, the finance team, the reservations staff, and the bonding and licensing the next section deals with. Operators talk about contribution because it drives the daily decisions. Shareholders eventually want the other number.</p>
+        </div>
+      </div>
+
+      <figure>
+        <p class="fig-title">Margin per departure, by how full the coach is</p>
+        <p class="fig-sub">Illustrative 40-seat, 10-night European tour &middot; contribution after all per-passenger costs, before overhead</p>
+        <div class="fig-scroll">
+          <svg viewBox="0 0 720 240" role="img" aria-label="Margin per departure: a loss of £1,950 at 10 passengers, a profit of £7,600 at 20, £17,150 at 30 and £26,700 at 40. Break-even falls at 12 passengers.">
+            <line class="axis-line" x1="190" y1="14" x2="190" y2="200"/>
+
+            <g>
+              <text class="bar-label" x="178" y="40" text-anchor="end">10 pax</text>
+              <path class="bar neg" d="M190 26 h-30 a4 4 0 0 0 -4 4 v12 a4 4 0 0 0 4 4 h30 z"/>
+              <text class="bar-value" x="148" y="40" text-anchor="end">&minus;&pound;1,950</text>
+            </g>
+            <g>
+              <text class="bar-label" x="178" y="88" text-anchor="end">20 pax</text>
+              <path class="bar" d="M190 74 h130 a4 4 0 0 1 4 4 v12 a4 4 0 0 1 -4 4 h-130 z"/>
+              <text class="bar-value" x="336" y="88">&pound;7,600</text>
+            </g>
+            <g>
+              <text class="bar-label" x="178" y="136" text-anchor="end">30 pax</text>
+              <path class="bar" d="M190 122 h298 a4 4 0 0 1 4 4 v12 a4 4 0 0 1 -4 4 h-298 z"/>
+              <text class="bar-value" x="504" y="136">&pound;17,150</text>
+            </g>
+            <g>
+              <text class="bar-label" x="178" y="184" text-anchor="end">40 pax</text>
+              <path class="bar" d="M190 170 h466 a4 4 0 0 1 4 4 v12 a4 4 0 0 1 -4 4 h-466 z"/>
+              <text class="bar-value" x="672" y="184">&pound;26,700</text>
+            </g>
+
+            <line class="zero-line" x1="190" y1="14" x2="190" y2="200"/>
+            <text class="bar-label" x="190" y="220" text-anchor="middle">break even</text>
+            <text class="bar-label" x="190" y="234" text-anchor="middle" fill="var(--accent-2)">12 passengers</text>
+          </svg>
+        </div>
+        <figcaption>Illustrative figures, not any company's accounts. The point is the shape: a shallow loss below break-even, then a steep and almost linear climb, because every passenger past the twelfth costs the operator only their own hotel bed and meals.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ III ============ -->
+  <section class="section">
+    <div class="section-head">
+      <span class="numeral">III</span>
+      <span class="section-title">By the Numbers</span>
+      <span class="section-note">What the headline figures actually mean</span>
+    </div>
+
+    <div class="numgrid">
+      <div class="numcell">
+        <div class="nlab">Intrepid revenue growth</div>
+        <div class="n">+29%</div>
+        <p>Revenue, not profit — and in this trade the two can move in opposite directions. Revenue counts the full price of the holiday including the hotels and flights the operator merely passes on.</p>
+      </div>
+      <div class="numcell">
+        <div class="nlab">Break-even load factor</div>
+        <div class="n">30%</div>
+        <p>Twelve of forty seats on the illustrative tour above. Low break-even, high upside: the structural signature of a business with heavy fixed costs per departure.</p>
+      </div>
+      <div class="numcell">
+        <div class="nlab">ATOL reform, years pending</div>
+        <div class="n">5</div>
+        <p>Under way since 2021, with a promised 2023 consultation never delivered. Delay is not neutral — it lets operators keep using customer deposits as working capital.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ IV ============ -->
+  <section class="section">
+    <div class="section-head">
+      <span class="numeral">IV</span>
+      <span class="section-title">What To Watch</span>
+      <span class="section-note">Next fortnight and beyond</span>
+    </div>
+
+    <div class="watch">
+      <div class="watch-item">
+        <span class="watch-when">Autumn</span>
+        <h4 class="watch-what">Whether rivals match the guarantee</h4>
+        <p>If other brands start guaranteeing departures, it has become a cost of competing rather than a marketing choice. That is a margin story, and it will show up in next year's accounts.</p>
+      </div>
+      <div class="watch-item">
+        <span class="watch-when">Ongoing</span>
+        <h4 class="watch-what">Any date for the DfT and CAA consultation</h4>
+        <p>The single most consequential thing that could happen to UK operator cash flow. It has been promised and postponed for five years, so treat any announced date sceptically.</p>
+      </div>
+      <div class="watch-item">
+        <span class="watch-when">Late 2026</span>
+        <h4 class="watch-what">UK accounts filing season</h4>
+        <p>Riviera Tours Limited's accounts to November 2025 were due at Companies House by 31 August 2026. Filed accounts are the only unspun numbers this industry produces.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="colophon">
+    <div>
+      <h4>How to check any of this yourself</h4>
+      <p>Every UK tour operator is a registered company, and its accounts are free to read. Search the operator at Companies House, open the filing history, and download the latest accounts. Small companies file little, but you will still see turnover trends, staff numbers and whether the auditors raised anything.</p>
+      <p>Two cautions. Accounts lag reality by up to a year — Riviera's most recent published set runs only to November 2024. And the trading company is often one of several in a group, so the numbers may not be the whole business.</p>
+    </div>
+    <div>
+      <h4>About this edition</h4>
+      <p>Load Factor is written on the 1st and 15th of each month at 07:00 BST. It covers escorted and guided touring as a business: who is making money, how, and what is changing. Each edition explains one commercial mechanism rather than assuming you already know it.</p>
+      <p>Worked examples are illustrative unless a source is named. Nothing here is investment advice.</p>
+    </div>
+    <div>
+      <h4>Sources this fortnight</h4>
+      <ul class="srclist">
+        <li><a href="https://www.caa.co.uk/atol-protection/atol-compliance/requirements-legal-obligations/atol-reform/">CAA &mdash; ATOL reform status</a></li>
+        <li><a href="https://www.travelweek.ca/news/tour-operators/ttc-tour-brands-confirms-over-2000-definite-departures-for-2026/">Travelweek &mdash; TTC definite departures</a></li>
+        <li><a href="https://www.travelweekly.com/Travel-News/Tour-Operators/Intrepid-Travel-reports-record-earnings-from-past-year">Travel Weekly &mdash; Intrepid results</a></li>
+        <li><a href="https://www.traveldailynews.com/statistics-trends/abta-travel-trends-for-2026-highlight-shifting-uk-travel-behaviour/">ABTA 2026 travel trends</a></li>
+        <li><a href="https://find-and-update.company-information.service.gov.uk/company/01869298">Companies House &mdash; Riviera Tours Limited</a></li>
+        <li><a href="https://phoenix-equity.com/news/phoenix-announces-the-sale-of-riviera-travel/">Phoenix Equity Partners &mdash; Riviera sale</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</div>
+
+</body></html>
