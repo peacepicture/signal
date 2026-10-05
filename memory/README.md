@@ -20,12 +20,14 @@ and the open threads worth coming back to.
    titles, headlines and ledes that echo recent editions. Rewrite what it
    flags. A flagged headline may stay only on a labelled follow-up, and only
    in new words.
-4. **After publishing**, run `python3 tools/memory.py schema <slug>` for a
-   blank entry, fill it in for the edition you published, save it outside the
-   repo (for example `/tmp/entry.json`), then run
-   `python3 tools/memory.py add <slug> /tmp/entry.json`. It validates the
-   entry and refuses a bad one with a reason. Commit `memory/<slug>.json`
-   together with the edition.
+4. **Before publishing the artifact**, run `python3 tools/memory.py schema <slug>`
+   for a blank entry, fill it in for the edition you are about to publish,
+   save it outside the repo (for example `/tmp/entry.json`), then run
+   `python3 tools/memory.py embed <slug> /tmp/entry.json <edition.html>`. It
+   validates the entry, refuses a bad one with a reason, and writes it into
+   the page as a hidden JSON block. Publish that page. Do not commit or push:
+   scheduled runs cannot write to the repo, and the publisher records the
+   entry from the page (see PUBLISHING.md).
 
 ## The freshness rules
 

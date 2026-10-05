@@ -9,7 +9,10 @@ which headlines, section titles and charts have already been used.
     python3 tools/memory.py brief  <slug>               before research: what to avoid, what to follow up
     python3 tools/memory.py check  <slug> <edition.html> before publishing: flags anything that echoes recent editions
     python3 tools/memory.py schema <slug>               prints a blank entry to fill in
-    python3 tools/memory.py add    <slug> <entry.json>  after publishing: records the edition
+    python3 tools/memory.py embed  <slug> <entry.json> <edition.html>
+                                                        before publishing: validates the entry and
+                                                        embeds it in the page, for the publisher
+    python3 tools/memory.py add    <slug> <entry.json>  records an edition (the publisher does this)
 
 slug is one of: signal, kabulledger, loadfactor
 """
@@ -443,10 +446,41 @@ def check(slug, path):
     sys.exit(1)
 
 
+# ------------------------------------------------------------------ embed
+
+EMBED_RE = re.compile(r'\n?<script type="application/json" id="edition-memory">[\s\S]*?</script>\n?')
+
+
+def embed(slug, entry_path, page_path):
+    """Validate an entry and write it into the edition page itself.
+
+    Scheduled runs cannot push to the repo, so the memory entry travels inside
+    the published page. The publisher reads it back out with extract_entry().
+    """
+    e = json.loads(Path(entry_path).read_text(encoding="utf-8"))
+    errs = validate(slug, e)
+    if errs:
+        die("entry rejected:\n  - " + "\n  - ".join(errs))
+    e["publication"] = slug
+    blob = json.dumps(e, ensure_ascii=False).replace("</", "<\\/")
+    tag = f'<script type="application/json" id="edition-memory">{blob}</script>'
+    page = Path(page_path)
+    html_ = EMBED_RE.sub("\n", page.read_text(encoding="utf-8"))
+    i = html_.lower().rfind("</body>")
+    html_ = (html_[:i] + tag + "\n" + html_[i:]) if i >= 0 else (html_ + "\n" + tag + "\n")
+    page.write_text(html_, encoding="utf-8")
+    print(f"memory.py: embedded {slug} {e['date']} entry in {page.name} — {len(e['items'])} items")
+
+
+def extract_entry(page_text):
+    m = re.search(r'<script type="application/json" id="edition-memory">([\s\S]*?)</script>', page_text)
+    return json.loads(m[1]) if m else None
+
+
 # ------------------------------------------------------------------ cli
 
 def main(argv):
-    if len(argv) < 3 or argv[1] not in ("brief", "check", "add", "schema"):
+    if len(argv) < 3 or argv[1] not in ("brief", "check", "add", "schema", "embed"):
         print(__doc__)
         sys.exit(2)
     cmd, slug = argv[1], argv[2]
@@ -460,6 +494,10 @@ def main(argv):
         if len(argv) < 4:
             die("usage: add <slug> <entry.json>")
         add(slug, argv[3])
+    elif cmd == "embed":
+        if len(argv) < 5:
+            die("usage: embed <slug> <entry.json> <edition.html>")
+        embed(slug, argv[3], argv[4])
     elif cmd == "check":
         if len(argv) < 4:
             die("usage: check <slug> <edition.html>")
