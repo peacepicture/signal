@@ -1,0 +1,1221 @@
+<!doctype html><html><head>
+<!-- site-head:start · written by build.py, edits inside are overwritten -->
+<title>Signal — 5 October</title>
+<meta name="description" content="The machines are being bought on credit now. This was the week the lenders began setting the terms.">
+<link rel="canonical" href="https://markfaizi.dev/signal/2026-10-05">
+<link rel="icon" href="/assets/signal/icon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/signal/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/signal/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#EDEAE7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141110" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Signal · markfaizi.dev">
+<meta property="og:title" content="Signal — 5 October">
+<meta property="og:description" content="The machines are being bought on credit now. This was the week the lenders began setting the terms.">
+<meta property="og:url" content="https://markfaizi.dev/signal/2026-10-05">
+<meta property="og:image" content="https://markfaizi.dev/assets/signal/og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Signal: technology, AI and markets. Mondays and Thursdays at markfaizi.dev/signal.">
+<meta property="og:locale" content="en_GB">
+<meta property="article:published_time" content="2026-10-05">
+<meta name="twitter:card" content="summary_large_image">
+<!-- site-head:end -->
+<meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Signal — 5 October</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Bodoni+Moda:ital,opsz,wght@1,6..96,400;1,6..96,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+/* ============================================================
+   SIGNAL — house style.
+   Layout: single editorial column on warm-grey paper. Masthead
+   rule, mono figures tape, Bodoni lede, a short "since last
+   time" ledger, four numbered sections whose order carries the
+   argument, then the week ahead.
+   Charts are built in HTML and CSS rather than SVG text, so
+   every label keeps a real pixel size on a phone.
+   ============================================================ */
+
+/* TimeBurner is not on Google Fonts. It renders where the reader
+   has it installed. To embed it, drop a base64 face in here:
+
+@font-face {
+  font-family: "TimeBurner";
+  src: url("data:font/woff2;base64,PASTE_BASE64_HERE") format("woff2");
+  font-weight: 400 700;
+  font-display: swap;
+}
+*/
+
+:root {
+  /* paper & ink */
+  --paper:      #EDEAE7;
+  --paper-sunk: #E3DFDB;
+  --paper-card: #E7E3DF;
+  --ink:        #17110F;
+  --ink-soft:   #4A403B;
+  --ink-mute:   #6E625C;
+  --rule:       #C8C1BA;
+  --rule-soft:  #D8D2CC;
+
+  /* accents */
+  --accent:     #8E1F2F;
+  --accent-dim: #B4707A;
+  --second:     #1F5A5A;
+  --second-dim: #6E9897;
+
+  /* type */
+  --font-display: "TimeBurner","Chakra Petch","Eurostile","Bahnschrift","Trebuchet MS",sans-serif;
+  --font-body: "Newsreader","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --font-lede: "Bodoni Moda","Bodoni MT","Didot","Hoefler Text",Georgia,serif;
+  --font-mono: "IBM Plex Mono","SFMono-Regular",Consolas,"Liberation Mono",monospace;
+
+  --measure: 34rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper:      #141110;
+    --paper-sunk: #1C1817;
+    --paper-card: #1F1A19;
+    --ink:        #EDE7E3;
+    --ink-soft:   #C3B9B3;
+    --ink-mute:   #9B8F89;
+    --rule:       #3A3331;
+    --rule-soft:  #2A2423;
+    --accent:     #D96076;
+    --accent-dim: #8E4551;
+    --second:     #5AAFAB;
+    --second-dim: #3C6F6D;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper:      #141110;
+  --paper-sunk: #1C1817;
+  --paper-card: #1F1A19;
+  --ink:        #EDE7E3;
+  --ink-soft:   #C3B9B3;
+  --ink-mute:   #9B8F89;
+  --rule:       #3A3331;
+  --rule-soft:  #2A2423;
+  --accent:     #D96076;
+  --accent-dim: #8E4551;
+  --second:     #5AAFAB;
+  --second-dim: #3C6F6D;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 19px;
+  line-height: 1.64;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.wrap {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding-inline: 24px;
+  padding-block: 0 72px;
+}
+
+/* ---------- masthead ---------- */
+
+.masthead { padding-block: 44px 0; }
+
+.wordmark {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(3.6rem, 16vw, 7rem);
+  line-height: 0.86;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin: 0;
+  color: var(--ink);
+}
+
+.subwordmark {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin: 14px 0 0;
+}
+
+.masthead-rule {
+  border: 0;
+  border-top: 2.5px solid var(--ink);
+  margin: 18px 0 0;
+}
+.masthead-rule-thin {
+  border: 0;
+  border-top: 1px solid var(--ink);
+  margin: 3px 0 0;
+}
+
+.dateline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+  justify-content: space-between;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  padding-block: 12px 0;
+}
+.dateline strong { color: var(--ink-soft); font-weight: 500; }
+
+/* ---------- tape ---------- */
+
+.tape {
+  margin-block: 26px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper-sunk);
+}
+.tape-label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  padding: 11px 14px 0;
+  margin: 0;
+}
+.tape-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--rule-soft);
+  padding: 11px 0 0;
+}
+.tape-cell {
+  background: var(--paper-sunk);
+  padding: 11px 12px 13px;
+  min-width: 0;
+}
+.tape-k {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin: 0 0 5px;
+  text-wrap: pretty;
+}
+.tape-v {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 19px;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+.tape-n {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--second);
+  margin: 4px 0 0;
+}
+.tape-n.dn { color: var(--accent); }
+
+/* ---------- lede ---------- */
+
+.lede-block { padding-block: 44px 0; max-width: var(--measure); }
+
+.lede {
+  font-family: var(--font-lede);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.6rem, 5.2vw, 2.3rem);
+  line-height: 1.26;
+  letter-spacing: -0.005em;
+  margin: 0;
+  text-wrap: balance;
+  color: var(--ink);
+}
+
+.standfirst { margin: 26px 0 0; }
+.standfirst p { margin: 0 0 1.05em; }
+.standfirst p:last-child { margin-bottom: 0; }
+
+.byline {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin: 30px 0 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--rule);
+}
+
+/* ---------- since last time ---------- */
+
+.since {
+  margin-block: 34px 0;
+  max-width: var(--measure);
+  border-top: 2px solid var(--second);
+  background: var(--paper-card);
+  padding: 16px 18px 18px;
+}
+.since h2 {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--second);
+  margin: 0 0 12px;
+}
+.since ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+.since li {
+  padding-block: 10px;
+  border-top: 1px solid var(--rule-soft);
+  font-size: 0.945em;
+  line-height: 1.58;
+  color: var(--ink-soft);
+}
+.since li:first-child { border-top: 0; padding-top: 0; }
+.since li:last-child { padding-bottom: 0; }
+.since b { font-weight: 600; color: var(--ink); }
+
+/* ---------- editorial art ---------- */
+
+figure.art {
+  margin: 40px 0 0;
+  padding: 0;
+}
+figure.art svg { display: block; width: 100%; height: auto; max-width: 100%; }
+figcaption {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--ink-mute);
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--rule-soft);
+  max-width: var(--measure);
+}
+
+/* ---------- sections ---------- */
+
+section.beat { padding-block: 56px 0; }
+
+.beat-head {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 9px;
+  margin-bottom: 8px;
+}
+.beat-num {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  flex: none;
+}
+.beat-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.45rem, 5vw, 2.05rem);
+  line-height: 1.1;
+  letter-spacing: 0.005em;
+  margin: 0;
+  text-transform: uppercase;
+  color: var(--ink);
+  min-width: 0;
+}
+.beat-sub {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--ink-mute);
+  margin: 0 0 4px;
+  max-width: var(--measure);
+}
+
+/* ---------- items ---------- */
+
+article.item {
+  padding-block: 34px 0;
+  max-width: var(--measure);
+}
+article.item + article.item {
+  border-top: 1px solid var(--rule-soft);
+}
+
+.kicker {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: var(--second);
+  margin: 0 0 9px;
+}
+.kicker.fu { color: var(--accent); }
+
+h3.hl {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.4rem, 4.9vw, 1.9rem);
+  line-height: 1.16;
+  letter-spacing: 0.004em;
+  margin: 0 0 14px;
+  text-wrap: balance;
+  color: var(--ink);
+}
+
+article.item > p { margin: 0 0 1.05em; }
+article.item > p:last-of-type { margin-bottom: 0; }
+
+.lead-in { font-weight: 500; }
+
+/* pull quote */
+blockquote.pull {
+  margin: 26px 0;
+  padding: 0 0 0 20px;
+  border-left: 3px solid var(--accent);
+  font-family: var(--font-lede);
+  font-style: italic;
+  font-size: clamp(1.18rem, 4vw, 1.4rem);
+  line-height: 1.34;
+  color: var(--ink);
+}
+blockquote.pull cite {
+  display: block;
+  font-family: var(--font-mono);
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-top: 12px;
+}
+
+/* conflict flag */
+.flag {
+  margin: 22px 0;
+  padding: 15px 17px;
+  background: var(--paper-card);
+  border-left: 3px solid var(--second);
+}
+.flag-k {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--second);
+  margin: 0 0 7px;
+}
+.flag p { margin: 0; font-size: 0.945em; line-height: 1.58; color: var(--ink-soft); }
+
+/* ---------- charts ---------- */
+
+figure.chart {
+  margin: 30px 0;
+  padding: 20px 18px 18px;
+  background: var(--paper-sunk);
+  border-top: 2px solid var(--ink);
+}
+.chart-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 6px;
+}
+.chart-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.05rem, 3.6vw, 1.22rem);
+  line-height: 1.22;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  margin: 0 0 4px;
+  color: var(--ink);
+}
+.chart-note {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--ink-mute);
+  margin: 0 0 20px;
+}
+figure.chart figcaption {
+  border-top: 1px solid var(--rule);
+  margin-top: 16px;
+  padding-top: 9px;
+}
+
+/* --- dumbbell: first reported vs where it stands --- */
+
+.dumb { display: grid; gap: 0; }
+.dumb-row {
+  display: grid;
+  grid-template-columns: 5rem minmax(0,1fr) 7.6rem;
+  gap: 2px 14px;
+  align-items: center;
+  padding-block: 15px;
+  border-top: 1px solid var(--rule-soft);
+}
+.dumb-row:first-child { border-top: 0; }
+.dumb-k {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.dumb-track { position: relative; height: 26px; min-width: 0; }
+.dumb-zero {
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 1px;
+  background: var(--rule);
+}
+.dumb-conn {
+  position: absolute;
+  top: 50%;
+  height: 3px;
+  transform: translateY(-50%);
+  background: var(--accent-dim);
+}
+.dumb-dot {
+  position: absolute;
+  top: 50%;
+  width: 13px; height: 13px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 2px var(--paper-sunk);
+}
+.dumb-dot.was { background: var(--paper-sunk); border: 2px solid var(--ink-mute); }
+.dumb-dot.now { background: var(--accent); }
+.dumb-dot.only { background: var(--second); }
+.dumb-v {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+  text-align: right;
+  white-space: nowrap;
+}
+.dumb-v s { color: var(--ink-mute); font-weight: 400; text-decoration: line-through; }
+.dumb-v i { font-style: normal; color: var(--accent); }
+.dumb-axis {
+  position: relative;
+  height: 20px;
+  margin-top: 2px;
+  border-top: 1px solid var(--rule);
+}
+.dumb-tick {
+  position: absolute;
+  top: 4px;
+  transform: translateX(-50%);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--ink-mute);
+  font-variant-numeric: tabular-nums;
+}
+.dumb-axis-wrap {
+  display: grid;
+  grid-template-columns: 5rem minmax(0,1fr) 7.6rem;
+  gap: 0 14px;
+}
+.dumb-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-top: 14px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--ink-mute);
+}
+.dumb-key span { display: inline-flex; align-items: center; gap: 7px; }
+.sw { width: 12px; height: 12px; border-radius: 50%; flex: none; }
+.sw.was { background: var(--paper-sunk); border: 2px solid var(--ink-mute); }
+.sw.now { background: var(--accent); }
+.sw.only { background: var(--second); }
+
+/* --- single stacked bar --- */
+
+.stack { display: block; }
+.stack-bar {
+  display: flex;
+  height: 30px;
+  gap: 2px;
+  border-radius: 0 4px 4px 0;
+  overflow: hidden;
+}
+.stack-seg { min-width: 0; }
+.stack-seg.a { background: var(--accent); }
+.stack-seg.b { background: var(--second); }
+.stack-seg.c { background: var(--ink-mute); }
+.stack-key { display: grid; gap: 0; margin-top: 16px; }
+.stack-key li {
+  display: grid;
+  grid-template-columns: 14px minmax(0,1fr) auto;
+  gap: 0 11px;
+  align-items: baseline;
+  padding-block: 10px;
+  border-top: 1px solid var(--rule-soft);
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+.stack-key { list-style: none; padding: 0; }
+.stack-key .sq { width: 12px; height: 12px; transform: translateY(1px); }
+.stack-key .sq.a { background: var(--accent); }
+.stack-key .sq.b { background: var(--second); }
+.stack-key .sq.c { background: var(--ink-mute); }
+.stack-key b {
+  font-weight: 600;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.stack-total {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--ink-mute);
+  margin: 14px 0 0;
+  padding-top: 10px;
+  border-top: 1px solid var(--rule);
+}
+.stack-total strong {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 19px;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- week ahead ---------- */
+
+.ahead {
+  margin-block: 60px 0;
+  border: 2px solid var(--ink);
+  padding: 24px 20px 22px;
+  background: var(--paper-sunk);
+}
+.ahead h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.3rem, 4.6vw, 1.75rem);
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  margin: 0 0 4px;
+  color: var(--ink);
+}
+.ahead-sub {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--ink-mute);
+  margin: 0 0 20px;
+}
+.ahead ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+.ahead li {
+  display: grid;
+  grid-template-columns: 5.2rem 1fr;
+  gap: 4px 14px;
+  padding-block: 14px;
+  border-top: 1px solid var(--rule);
+  min-width: 0;
+}
+.ahead li .when {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--accent);
+  padding-top: 0.22em;
+}
+.ahead li .what { min-width: 0; font-size: 1rem; line-height: 1.58; }
+
+/* ---------- colophon ---------- */
+
+.colophon {
+  margin-block: 56px 0;
+  padding-top: 18px;
+  border-top: 2.5px solid var(--ink);
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  line-height: 1.7;
+  color: var(--ink-mute);
+  max-width: var(--measure);
+}
+.colophon p { margin: 0 0 0.75em; }
+.colophon p:last-child { margin-bottom: 0; }
+.colophon .mark {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.16em;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+}
+
+/* source line — declared late so it outranks the generic paragraph rules */
+p.src {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--ink-mute);
+  margin: 16px 0 0;
+  padding-top: 9px;
+  border-top: 1px dotted var(--rule);
+}
+p.src b {
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+p.src a, .inline-link {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-dim);
+}
+p.src a:hover, .inline-link:hover { background: var(--accent); color: var(--paper); border-color: var(--accent); }
+p.src a:focus-visible, .inline-link:focus-visible { outline: 2px solid var(--second); outline-offset: 2px; }
+
+p.kicker { margin: 0 0 9px; }
+
+/* ============================================================
+   Mobile. Readability floors: body never under 18px, no text
+   of any kind under 12px, tape figures 17px+.
+   ============================================================ */
+
+@media (max-width: 760px) and (min-width: 561px) {
+  .tape-grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
+}
+
+@media (max-width: 560px) {
+  body { font-size: 18px; line-height: 1.62; }
+  .wrap { padding-inline: 18px; }
+
+  .masthead { padding-block: 32px 0; }
+  .subwordmark { font-size: 12px; letter-spacing: 0.18em; }
+  .dateline { font-size: 12px; letter-spacing: 0.08em; }
+
+  .tape-label { font-size: 12px; }
+  .tape-grid { grid-template-columns: repeat(2, 1fr); }
+  .tape-k { font-size: 12px; white-space: normal; }
+  .tape-v { font-size: 17.5px; }
+  .tape-n { font-size: 12px; }
+
+  .lede { font-size: 1.62rem; line-height: 1.28; }
+  .byline { font-size: 12px; }
+
+  .since { padding: 14px 15px 16px; }
+  .since h2 { font-size: 12px; }
+
+  figcaption { font-size: 12px; }
+  .beat-num, .beat-sub { font-size: 12px; }
+  .kicker { font-size: 12px; letter-spacing: 0.14em; }
+  h3.hl { font-size: 1.44rem; }
+  p.src { font-size: 12px; line-height: 1.7; }
+  p.src b { font-size: 12px; }
+  .flag-k { font-size: 12px; }
+
+  .chart-eyebrow, .chart-note { font-size: 12px; }
+  figure.chart { padding: 17px 14px 15px; }
+
+  /* charts restack: label and readout share a line, track below */
+  .dumb-row {
+    grid-template-columns: 1fr auto;
+    gap: 9px 10px;
+    padding-block: 14px;
+  }
+  .dumb-k { font-size: 12px; grid-row: 1; grid-column: 1; }
+  .dumb-v { font-size: 12px; grid-row: 1; grid-column: 2; }
+  .dumb-track { grid-row: 2; grid-column: 1 / -1; height: 24px; }
+  .dumb-axis-wrap { grid-template-columns: 1fr; gap: 0; }
+  .dumb-tick { font-size: 12px; }
+  .dumb-key { font-size: 12px; gap: 7px 16px; }
+
+  .stack-key li { font-size: 12px; grid-template-columns: 13px minmax(0,1fr); }
+  .stack-key li b { grid-column: 2; }
+  .stack-total { font-size: 12px; }
+  .stack-total strong { font-size: 18px; }
+
+  .ahead { padding: 20px 16px 18px; }
+  .ahead-sub { font-size: 12px; }
+  .ahead li { grid-template-columns: 1fr; gap: 3px; }
+  .ahead li .when { font-size: 12px; padding-top: 0; }
+  .ahead li .what { font-size: 1rem; }
+
+  .colophon { font-size: 12px; }
+  blockquote.pull { font-size: 1.2rem; padding-left: 16px; }
+  blockquote.pull cite { font-size: 12px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+</style>
+
+<div class="wrap">
+
+  <!-- ============ MASTHEAD ============ -->
+  <header class="masthead">
+    <h1 class="wordmark">Signal</h1>
+    <p class="subwordmark">Technology · Artificial intelligence · Markets</p>
+    <hr class="masthead-rule">
+    <hr class="masthead-rule-thin">
+    <div class="dateline">
+      <span><strong>Monday 5 October 2026</strong></span>
+      <span>Period covered: 2–5 October</span>
+      <span>Mondays &amp; Thursdays</span>
+    </div>
+  </header>
+
+  <!-- ============ TAPE ============ -->
+  <div class="tape" role="group" aria-label="Key figures for the period">
+    <p class="tape-label">The tape</p>
+    <div class="tape-grid">
+      <div class="tape-cell">
+        <p class="tape-k">US payrolls, September</p>
+        <p class="tape-v">+29,000</p>
+        <p class="tape-n dn">Forecast was near 85,000</p>
+      </div>
+      <div class="tape-cell">
+        <p class="tape-k">Unemployment</p>
+        <p class="tape-v">4.2%</p>
+        <p class="tape-n dn">Up from 4.1%</p>
+      </div>
+      <div class="tape-cell">
+        <p class="tape-k">Nasdaq Composite</p>
+        <p class="tape-v">27,190.86</p>
+        <p class="tape-n">Record close, +0.5% week</p>
+      </div>
+      <div class="tape-cell">
+        <p class="tape-k">S&amp;P 500</p>
+        <p class="tape-v">7,722.72</p>
+        <p class="tape-n dn">−0.3% on the week</p>
+      </div>
+      <div class="tape-cell">
+        <p class="tape-k">30-year Treasury</p>
+        <p class="tape-v">5.61%</p>
+        <p class="tape-n dn">5.64% on 30 Sep, a 2002 high</p>
+      </div>
+      <div class="tape-cell">
+        <p class="tape-k">10-year Treasury</p>
+        <p class="tape-v">5.24%</p>
+        <p class="tape-n">Fed funds, effective: 3.88%</p>
+      </div>
+      <div class="tape-cell">
+        <p class="tape-k">Risky corporate debt, extra yield</p>
+        <p class="tape-v">3.24%</p>
+        <p class="tape-n dn">+0.31 pts in five sessions</p>
+      </div>
+      <div class="tape-cell">
+        <p class="tape-k">Euro-area inflation</p>
+        <p class="tape-v">3.8%</p>
+        <p class="tape-n dn">Energy prices +18.8%</p>
+      </div>
+      <div class="tape-cell">
+        <p class="tape-k">Brent crude</p>
+        <p class="tape-v">$102.25</p>
+        <p class="tape-n dn">+56.7% on the year</p>
+      </div>
+      <div class="tape-cell">
+        <p class="tape-k">US 30-year mortgage</p>
+        <p class="tape-v">7.28%</p>
+        <p class="tape-n dn">Up from 7.03% a week before</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ LEDE ============ -->
+  <div class="lede-block">
+    <p class="lede">The machines are being bought on credit now. This was the week the lenders began setting the terms.</p>
+    <div class="standfirst">
+      <p>Broadcom spent Friday assembling $60 billion of debt so that Anthropic can have chips. Amazon is in talks to sell $8 billion of chips it already owns and rent them straight back. An Australian company opens its share sale tomorrow on the strength of sheds full of Nvidia cards. None of this is money raised from shareholders. It is borrowed, and borrowed money has a price.</p>
+      <p>The price moved this week, the wrong way for the borrowers. The extra yield demanded to hold risky American company debt rose by 31 hundredths of a percentage point in five sessions. The largest new deal of the cycle — $52 billion for the Paramount–Warner merger — lost its buyers money on its first day of trading.</p>
+      <p>Then Friday morning arrived. America added 29,000 jobs in September and took back 60,000 it had claimed for July and August. Traders scrapped the Federal Reserve's October rate rise within the hour. Cheaper money is coming back, in other words, just as the people building the machines work out how much of it they need. Outside America the strain is plainer. France pays a full point more than Germany to borrow, British long bonds are at a 1998 high, and Indian shares have now fallen eight weeks running.</p>
+    </div>
+    <p class="byline">Compiled Monday 5 October 2026 · Every figure checked against a primary source</p>
+  </div>
+
+  <!-- ============ SINCE LAST TIME ============ -->
+  <aside class="since">
+    <h2>Since last time</h2>
+    <ul>
+      <li><b>Gemini 4 Argon is still shut.</b> Google's strongest model remains available only to vetted cyber defenders. The company has published no date for opening it further.</li>
+      <li><b>OpenAI has not said what GPT-6.1 Astra did.</b> Its head of safety systems, Saachi Jain, offered only that the model fell short on "staying within scope and authorization." OpenAI shipped GPT-6.1 Sol instead.</li>
+      <li><b>Nobody has owned up to a Citrix breach.</b> Mandiant counts dozens of organisations compromised through the NetScaler flaws — governments, banks, universities, telecoms firms and law firms across North America and Europe. The researcher Kevin Beaumont said he knew of more than a hundred. Not one has named itself.</li>
+      <li><b>Oracle says its New Mexico site is fine.</b> On 30 September Oracle and the campus owner said jointly that flooding damaged nothing critical and the schedule stands. The force majeure notice Oracle filed six days earlier, to delay its rent, stands too.</li>
+    </ul>
+  </aside>
+
+  <!-- ============ EDITORIAL ART ============ -->
+  <figure class="art">
+    <svg viewBox="0 0 760 250" role="img" aria-labelledby="artTitle artDesc" preserveAspectRatio="xMidYMid meet">
+      <title id="artTitle">A silicon chip whose pins run out and become a signature on a dotted line</title>
+      <desc id="artDesc">At the left, a square chip package with pins along its edges. The pins on the right-hand side extend into long horizontal leads that cross the frame, drop down, and resolve into a handwritten signature sitting on a dotted ruled line.</desc>
+
+      <!-- chip package -->
+      <g>
+        <rect x="52" y="52" width="150" height="150" fill="var(--paper-sunk)" stroke="var(--ink)" stroke-width="2.4"/>
+        <rect x="88" y="88" width="78" height="78" fill="var(--accent)"/>
+        <rect x="104" y="104" width="46" height="46" fill="var(--paper-sunk)"/>
+        <circle cx="70" cy="70" r="4" fill="var(--ink)"/>
+      </g>
+      <!-- pins: left, top, bottom -->
+      <g fill="var(--ink)">
+        <rect x="36" y="76" width="16" height="6"/><rect x="36" y="98" width="16" height="6"/>
+        <rect x="36" y="120" width="16" height="6"/><rect x="36" y="142" width="16" height="6"/>
+        <rect x="36" y="164" width="16" height="6"/>
+        <rect x="76" y="36" width="6" height="16"/><rect x="98" y="36" width="6" height="16"/>
+        <rect x="120" y="36" width="6" height="16"/><rect x="142" y="36" width="6" height="16"/>
+        <rect x="164" y="36" width="6" height="16"/>
+        <rect x="76" y="202" width="6" height="16"/><rect x="98" y="202" width="6" height="16"/>
+        <rect x="120" y="202" width="6" height="16"/><rect x="142" y="202" width="6" height="16"/>
+        <rect x="164" y="202" width="6" height="16"/>
+      </g>
+
+      <!-- right-hand pins run out as leads, then descend to the signature line -->
+      <g fill="none" stroke="var(--ink)" stroke-width="2.2" stroke-linecap="round">
+        <path d="M202 79 L300 79 L300 190"/>
+        <path d="M202 101 L336 101 L336 190"/>
+        <path d="M202 123 L372 123 L372 190"/>
+        <path d="M202 145 L408 145 L408 190"/>
+        <path d="M202 167 L444 167 L444 190"/>
+      </g>
+
+      <!-- the ruled line -->
+      <line x1="276" y1="190" x2="724" y2="190" stroke="var(--ink)" stroke-width="1.6" stroke-dasharray="7 7"/>
+
+      <!-- the signature, sitting on the line -->
+      <g fill="none" stroke="var(--accent)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M470 194 C 470 148, 486 120, 497 131 C 508 142, 493 172, 487 187 C 481 202, 493 199, 505 177"/>
+        <path d="M505 177 C 517 153, 530 155, 528 175 C 526 195, 540 193, 550 169 C 560 145, 574 150, 568 175 C 563 196, 580 194, 592 171"/>
+        <path d="M592 171 C 604 147, 622 152, 616 177 C 611 197, 632 195, 648 169 C 660 148, 679 155, 670 182 C 664 199, 686 195, 710 163"/>
+      </g>
+      <!-- underline flourish -->
+      <path d="M454 210 C 544 224, 650 219, 726 196" fill="none" stroke="var(--second)" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+    </svg>
+    <figcaption>The chip is the easy part. Broadcom is raising $60 billion of debt to buy processors for Anthropic, Amazon wants to sell its own chips and lease them back, and Firmus lists in Sydney this month on the strength of a shed full of Nvidia cards. Three weeks ago these were purchases. Now they are loans.</figcaption>
+  </figure>
+
+  <!-- ============ SECTION I ============ -->
+  <section class="beat">
+    <div class="beat-head">
+      <span class="beat-num">I</span>
+      <h2 class="beat-title">The chips arrive with a loan attached</h2>
+    </div>
+    <p class="beat-sub">Three of the world's largest technology companies went to the debt market this week. None of them went to the stock market.</p>
+
+    <article class="item">
+      <p class="kicker">Broadcom · 2 October</p>
+      <h3 class="hl">Broadcom will borrow $60 billion so Anthropic can have chips</h3>
+      <p class="lead-in">Broadcom began raising $60 billion of debt on Friday. The money buys computer chips for Anthropic.</p>
+      <p>Borrow it — not raise it from shareholders, borrow it. Banks are syndicating $42 billion of the senior portion, the slice that gets repaid first. Blackstone leads the other $18 billion, the slice that gets repaid last, and is putting up $9 billion of its own. Broadcom has separately agreed to lend Anthropic as much as $42 billion directly. If Anthropic cannot pay in cash, that loan can convert into shares in Anthropic.</p>
+      <p>Blackstone's $9 billion is not, in the main, Blackstone's own. The firm invests money gathered from pension funds, insurers and endowments. Those are the people lending Anthropic its processors, whether or not they have heard of Claude.</p>
+      <p>Anthropic has committed $125.2 billion over five years to rent Broadcom's chips. The $42 billion loan covers roughly a third of that bill. The machines start arriving in 2027.</p>
+      <p>Read the shape of it once more. The chipmaker is lending its customer the money to buy the chips, and becomes a part-owner if the customer cannot pay. Broadcom is now both Anthropic's supplier and its creditor. Anthropic is expected to be Broadcom's largest compute customer next year.</p>
+      <p class="src"><b>Sources</b> <a href="https://finance.yahoo.com/technology/ai/articles/broadcom-raises-60-billion-debt-113047288.html">Reuters via Yahoo Finance</a> · <a href="https://qz.com/broadcom-60-billion-debt-financing-anthropic-ai-chips-100226">Quartz</a> · <a href="https://www.bloomberg.com/news/articles/2026-10-02/broadcom-starts-amassing-60-billion-to-fund-chips-for-anthropic">Bloomberg</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker">Amazon · 2 October</p>
+      <h3 class="hl">Amazon wants to sell its chips and rent them back</h3>
+      <p class="lead-in">Amazon is in talks to move about $8 billion of Nvidia chips off its own books, the Financial Times reported on Friday.</p>
+      <p>The chips are already installed and running. Amazon would sell them to a company set up for the purpose, lease them back, and carry on using them exactly as before. It has discussed selling outside investors as much as a tenth of that company.</p>
+      <p>Nothing changes in the data centre. Everything changes on the balance sheet. Money Amazon spent becomes money somebody else spent, and Amazon pays rent instead. Airlines have done this with aircraft for fifty years. Retailers do it with shops. It is new for computers, because computers used to be cheap enough not to bother.</p>
+      <p>Amazon has not commented. The question worth holding on to is who owns the chips in 2031, when the models that run on them are four generations old and the rent is still due.</p>
+      <p class="src"><b>Sources</b> Financial Times, via <a href="https://ground.news/article/amazon-in-talks-to-move-8bn-of-nvidia-chips-off-balance-sheet-ft">aggregated coverage</a> · <a href="https://techstartups.com/2026/10/02/amazon-reportedly-in-talks-to-move-8-billion-of-nvidia-chips-off-its-balance-sheet/">TechStartups</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker">Australia · 6–22 October</p>
+      <h3 class="hl">Nobody can agree what Australia's biggest AI float is worth</h3>
+      <p class="lead-in">Firmus Technologies opens its share sale tomorrow and lists in Sydney on 22 October. It would be the second-largest flotation in Australian history, behind the sale of Telstra in 1997.</p>
+      <p>What the company owns is concrete enough. Seven sites, two of them already running. More than 900 megawatts of contracted computing capacity. A 360-megawatt campus on Batam, an Indonesian island a ferry ride from Singapore, built around a $30 billion Nvidia agreement signed in June and planned to hold up to 170,000 Nvidia accelerators. OpenAI signed up for two Malaysian sites last month. Nvidia and Blackstone are already shareholders, alongside Coatue, Jane Street and the Pratt family.</p>
+      <p>What it is worth is not concrete at all.</p>
+      <div class="flag">
+        <p class="flag-k">Where the reporting conflicts</p>
+        <p>Cryptopolitan puts the raise at A$7 billion and the valuation near A$50 billion. Bloomberg, citing the Australian Financial Review, reported a target of about US$30 billion, and other accounts put the raise nearer A$5.5 billion. A private round in July valued Firmus at A$15.5 billion. We cannot reconcile these, so we are printing them side by side rather than choosing.</p>
+      </div>
+      <p>One thing every version agrees on. A Blackstone-led facility is lending the company US$10 billion, and Australian fund managers have spent the fortnight asking out loud whether that debt and that valuation can both be right. Bloomberg reported on Sunday that roughly half the offer has been set aside for Nvidia and Blackstone, who already own shares.</p>
+      <p>This is the retail end of the story in Section I. A pensioner in Perth will shortly be able to buy, through an ordinary brokerage account, a stake in graphics cards that OpenAI rents.</p>
+      <p class="src"><b>Sources</b> <a href="https://www.cryptopolitan.com/firmus-plans-ipo-australia-second-largest/">Cryptopolitan</a> · <a href="https://www.bloomberg.com/news/articles/2026-10-01/firmus-eyes-30-billion-valuation-in-australian-ipo-afr-reports">Bloomberg</a> · <a href="https://startupfortune.com/firmus-kicks-off-roadshow-for-a-landmark-nvidia-backed-australian-ai-ipo/">Startup Fortune</a></p>
+    </article>
+  </section>
+
+  <!-- ============ SECTION II ============ -->
+  <section class="beat">
+    <div class="beat-head">
+      <span class="beat-num">II</span>
+      <h2 class="beat-title">Twenty-nine thousand</h2>
+    </div>
+    <p class="beat-sub">The American labour market stopped growing. The bond market only half believed it.</p>
+
+    <article class="item">
+      <p class="kicker">Labour Department · 2 October</p>
+      <h3 class="hl">America added 29,000 jobs, and lost 10,000 it thought it had</h3>
+      <p class="lead-in">The United States added 29,000 jobs in September. Forecasters had expected around three times as many.</p>
+      <p>The revisions are the real story. July was first reported as a gain of 21,000 jobs. It is now a loss of 10,000. August came down from 162,000 to 133,000. Between them, 60,000 jobs the government said existed in August do not exist today.</p>
+      <p>Unemployment rose to 4.2 per cent from 4.1. Average pay went up five cents an hour, to $37.81, which is 3.0 per cent more than a year ago. Prices are rising faster than that. So the typical American worker got a pay rise and can buy less with it than last September.</p>
+      <p>Hospitals and clinics added 17,000 jobs. Construction added 11,000, factories 9,000. Finance lost 7,000. Take out health care and the private economy barely moved at all.</p>
+
+      <figure class="chart">
+        <p class="chart-eyebrow">Chart 1</p>
+        <p class="chart-title">What the jobs numbers were, and what they are</p>
+        <p class="chart-note">Change in US non-farm payrolls, thousands. Hollow circle: as first published. Filled circle: as it stands after Friday's revisions.</p>
+        <div class="dumb">
+          <div class="dumb-row">
+            <span class="dumb-k">July</span>
+            <span class="dumb-track">
+              <span class="dumb-zero" style="left:10.53%"></span>
+              <span class="dumb-conn" style="left:5.26%;width:16.32%"></span>
+              <span class="dumb-dot was" style="left:21.58%"></span>
+              <span class="dumb-dot now" style="left:5.26%"></span>
+            </span>
+            <span class="dumb-v"><s>+21</s> <i>−10</i></span>
+          </div>
+          <div class="dumb-row">
+            <span class="dumb-k">August</span>
+            <span class="dumb-track">
+              <span class="dumb-zero" style="left:10.53%"></span>
+              <span class="dumb-conn" style="left:80.53%;width:15.26%"></span>
+              <span class="dumb-dot was" style="left:95.79%"></span>
+              <span class="dumb-dot now" style="left:80.53%"></span>
+            </span>
+            <span class="dumb-v"><s>+162</s> <i>+133</i></span>
+          </div>
+          <div class="dumb-row">
+            <span class="dumb-k">September</span>
+            <span class="dumb-track">
+              <span class="dumb-zero" style="left:10.53%"></span>
+              <span class="dumb-dot only" style="left:25.79%"></span>
+            </span>
+            <span class="dumb-v">+29</span>
+          </div>
+          <div class="dumb-axis-wrap">
+            <span></span>
+            <span class="dumb-axis">
+              <span class="dumb-tick" style="left:10.53%">0</span>
+              <span class="dumb-tick" style="left:36.84%">50</span>
+              <span class="dumb-tick" style="left:63.16%">100</span>
+              <span class="dumb-tick" style="left:89.47%">150</span>
+            </span>
+            <span></span>
+          </div>
+          <div class="dumb-key">
+            <span><i class="sw was"></i>As first published</span>
+            <span><i class="sw now"></i>After revision</span>
+            <span><i class="sw only"></i>First print, not yet revised</span>
+          </div>
+        </div>
+        <figcaption>September's +29,000 is a first estimate. On this record it will be revised, and twice in a row the revision has gone down.</figcaption>
+      </figure>
+      <p class="src"><b>Source</b> <a href="https://www.bls.gov/news.release/empsit.nr0.htm">Bureau of Labor Statistics, Employment Situation, 2 October 2026</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker fu">Follow-up · Federal Reserve</p>
+      <h3 class="hl">Two Fed deputies talked the October rise out of the market</h3>
+      <p class="lead-in">On Thursday this letter reported that traders put the odds of another Federal Reserve rate rise in October at 37 per cent. By Friday afternoon they were somewhere in the high teens.</p>
+      <p>Two things moved them. First the officials spoke. On Thursday the Fed's vice chair, Philip Jefferson, told an audience in Charlottesville that the central bank "has time to assess the economy before considering another increase." Borrowing costs had already risen across the board since September, he said: "a sign that investors are reassessing the evolving macroeconomic landscape." John Williams, who runs the New York Fed, had said something similar two days earlier. Governor Michelle Bowman saw "little urgency to move rates again."</p>
+      <p>Then Friday's jobs number arrived and settled the argument.</p>
+      <p>Recall why the Fed raised rates on 16 September, its first increase since 2023, to a range of 3.75 to 4.00 per cent. Oil was pushing prices up and the economy looked strong enough to take the medicine. Six weeks later the economy is adding 29,000 jobs a month. The committee meets again on 27 and 28 October.</p>
+      <div class="flag">
+        <p class="flag-k">Where the reporting conflicts</p>
+        <p>CME's FedWatch tool was quoted at 21.59 per cent on Friday afternoon. Yahoo Finance's market desk put it at 16 per cent, down from 64 per cent a week earlier. CNBC declined to give a number and wrote that traders now saw little chance of a rise. All three agree on the direction. None agrees on the figure, which is why this item gives a range.</p>
+      </div>
+      <p class="src"><b>Sources</b> <a href="https://finance.yahoo.com/economy/policy/article/feds-vice-chair-warns-inflation-remains-high-but-fed-needs-time-to-assess-rates-181738105.html">Jefferson's remarks, 1 October</a> · <a href="https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html">CNBC</a> · <a href="https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260916.pdf">FOMC press conference, 16 September</a> · <a href="https://markfaizi.dev/signal/2026-10-01">Signal, 1 October</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker fu">Follow-up · Credit markets</p>
+      <h3 class="hl">The $52 billion of merger bonds went on sale, and buyers lost money by Thursday lunchtime</h3>
+      <p class="lead-in">Last Thursday this letter described $52 billion of borrowing the market could barely swallow. It has now swallowed it, and been sick.</p>
+      <p>The money pays for Paramount's purchase of Warner Bros. Discovery. The bonds began trading on Thursday 1 October. By the close, the eight-year investment-grade slice had slipped to around 96 cents on the dollar, handing its buyers over $100 million of paper losses in a day. A $6 billion tranche paying 8.25 per cent, due in 2031, fell to $97.50. An unsecured bond due in 2036 dropped six points, from $85 to $79; the yield it offers rose from 9.25 to 10.4 per cent. A euro-denominated piece was pulled before it reached anyone.</p>
+      <p>Fund managers rang Bank of America and Citigroup to complain.</p>
+      <blockquote class="pull">One-day choppiness in the market.<cite>Dennis Cinelli, chief financial officer, Skydance</cite></blockquote>
+      <p>The wider signal is cleaner than any single bond price. The extra yield investors demand to hold risky American corporate debt went from 2.93 per cent above Treasuries on 25 September to 3.24 per cent on 1 October. Thirty-one hundredths of a percentage point in five sessions. That is what it looks like when the bond market is asked to fund too much at once.</p>
+      <p>And it was asked. SoftBank's record $11.1 billion of junk bonds, raised to pay for the last slice of its OpenAI stake, settled on the very same day — the seven-and-a-half-year piece at 9.75 per cent. Broadcom turned up the next morning asking for $60 billion more.</p>
+
+      <figure class="chart">
+        <p class="chart-eyebrow">Chart 2</p>
+        <p class="chart-title">What the bond market was asked to absorb in nine days</p>
+        <p class="chart-note">Debt sold, settling, or being raised between 24 September and 2 October. $ billions.</p>
+        <div class="stack">
+          <div class="stack-bar" role="img" aria-label="Broadcom 60 billion dollars, Paramount–Warner 52 billion, SoftBank 11.1 billion, of a 123.1 billion dollar total">
+            <div class="stack-seg a" style="width:48.74%"></div>
+            <div class="stack-seg b" style="width:42.24%"></div>
+            <div class="stack-seg c" style="width:9.02%"></div>
+          </div>
+          <ul class="stack-key">
+            <li><i class="sq a"></i><span>Broadcom, for Anthropic's chips — being raised from 2 October</span><b>$60.0bn</b></li>
+            <li><i class="sq b"></i><span>Paramount, for Warner Bros. Discovery — trading from 1 October</span><b>$52.0bn</b></li>
+            <li><i class="sq c"></i><span>SoftBank, for its OpenAI stake — priced 24 September, settled 1 October</span><b>$11.1bn</b></li>
+          </ul>
+          <p class="stack-total">Nine days, three borrowers &nbsp;<strong>$123.1bn</strong></p>
+        </div>
+        <figcaption>Amazon's $8 billion chip vehicle is not counted here; it is still only in talks. Two of the three deals above exist to buy artificial-intelligence hardware.</figcaption>
+      </figure>
+      <p class="src"><b>Sources</b> <a href="https://qz.com/paramount-skydance-bonds-fall-first-trading-day-100226">Quartz on the first day of trading</a> · <a href="https://fred.stlouisfed.org/series/BAMLH0A0HYM2">ICE BofA US High Yield spread, via FRED</a> · <a href="https://www.japantimes.co.jp/business/2026/09/24/companies/softbank-junk-bond-steep-price-pay/">Japan Times on SoftBank's pricing</a> · <a href="https://markfaizi.dev/signal/2026-10-01">Signal, 1 October</a></p>
+    </article>
+  </section>
+
+  <!-- ============ SECTION III ============ -->
+  <section class="beat">
+    <div class="beat-head">
+      <span class="beat-num">III</span>
+      <h2 class="beat-title">The trouble is not only American</h2>
+    </div>
+    <p class="beat-sub">Europe's problem is a French budget. The euro's problem is a pipeline. India's problem is eight weeks old.</p>
+
+    <article class="item">
+      <p class="kicker">France · 2 October</p>
+      <h3 class="hl">France now pays a full point more than Germany to borrow</h3>
+      <p class="lead-in">The gap between French and German ten-year borrowing costs went past one percentage point this week. It has not been that wide since the euro-zone debt crisis.</p>
+      <p>A budget caused it. Prime Minister Sébastien Lecornu's draft for 2027 proposes €54 billion of savings and promises to bring the deficit down to 5 per cent of national income. This year's will be around 5.4 per cent, and the national debt is close to 120 per cent of the whole economy. Investors read the plan and asked for more to lend. French two-year borrowing costs rose to 3.73 per cent while Germany's sat still at 3.05.</p>
+      <p>What that gap means in a living room: France's government pays about €10 million more a year in interest for every billion euros it borrows for a decade, compared with its neighbour, for no reason other than that lenders trust it less. That money comes out of the same budget Lecornu is trying to cut.</p>
+      <p>France is not alone. British thirty-year government debt yielded 6 per cent on Thursday, the highest since February 1998. Euro-area inflation jumped to 3.8 per cent in September from 3.2, the fastest since 2023, driven by energy prices rising 18.8 per cent in a year. Strip energy out and it is 2.3 per cent. The European Central Bank's difficulty is a pipeline, not a wage spiral — but it has to set one interest rate for both.</p>
+      <p>Christine Lagarde said in late September that "measured" increases remain appropriate. Markets now price a December rise at about 82 per cent. European bank shares had their worst week since April.</p>
+      <p class="src"><b>Sources</b> <a href="https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-02102026-ap">Eurostat flash inflation estimate, 2 October</a> · <a href="https://finance.yahoo.com/markets/currencies/articles/asian-shares-fall-wild-swings-020953867.html">Reuters on the French–German spread</a> · <a href="https://finance.yahoo.com/economy/policy/articles/uk-30-gilt-yields-rise-081624665.html">Reuters on 30-year gilts</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker">Energy · 2 October</p>
+      <h3 class="hl">Europe opened the diesel tanks</h3>
+      <p class="lead-in">European governments agreed on Friday to release 50 million barrels of diesel from emergency stockpiles over twenty days, alongside 50 million barrels of crude oil.</p>
+      <p>The proposal was French. Emmanuel Macron chaired the G7 videoconference that preceded it. It was not immediately clear that the other G7 members had signed up to France's numbers.</p>
+      <p>Note what is actually short. Not oil — diesel. The Strait of Hormuz is still closed, refineries in the Middle East are damaged, and China has suspended exports of refined petroleum products for October. Crude can be found. The fuel that moves lorries, trains, combine harvesters and container ships cannot. That is why a European agriculture minister cares more about this release than about the price of a barrel.</p>
+      <p>Prices behaved accordingly. Brent settled at $102.25, barely moved on the day. American WTI crude fell 1.9 per cent to $91.11, because the release lands squarely on the grade that American refiners buy. Brent costs 56.7 per cent more than it did a year ago.</p>
+      <blockquote class="pull">Europe has just agreed to release a massive amount of their heavily stocked Diesel Oil.<cite>President Trump, Friday</cite></blockquote>
+      <p class="src"><b>Sources</b> <a href="https://www.thedailystar.net/business/news/oil-settles-lower-after-europe-agrees-tap-diesel-reserves-4289166">Reuters</a> · <a href="https://energynow.com/2026/10/oil-ends-volatile-week-mixed-as-emergency-reserve-release-knocks-wti-lower-but-brent-holds-above-102/">EnergyNow on the week's settlements</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker">India · week to 1 October</p>
+      <h3 class="hl">Indian shares have fallen for eight weeks, which last happened in 2001</h3>
+      <p class="lead-in">The Nifty 50 closed at 22,421.95 on Thursday, down 3.1 per cent for the week. The Sensex closed at 71,909.70, down 2.69 per cent. For both, it was an eighth consecutive weekly fall.</p>
+      <p>India has not had a losing run that long since 2001. The Nifty now sits 8.7 per cent below its August high. Foreign investors have pulled a reported $27.8 billion out of Indian shares this year, a record — though that figure appears in only one report and should be read as an estimate.</p>
+      <p>The causes are all imported. Brent above $100 is a tax on a country that buys most of its oil abroad. Rising American yields pull money out of Mumbai and back into Treasuries. A weak monsoon did the rest.</p>
+      <p>Indian markets were shut on Friday, so the eight-week streak has not yet met the news that America added 29,000 jobs. On its face that number helps India: lower dollar yields make emerging-market shares worth more. Whether it lands that way is this week's question, and it is a bigger one than it looks. Rising American interest rates have been quietly taxing savers in Mumbai, Jakarta and São Paulo all year.</p>
+      <p class="src"><b>Sources</b> <a href="https://www.business-standard.com/markets/news/nifty-s-eight-week-slide-puts-2001-record-back-in-sight-as-brent-bites-126100101089_1.html">Business Standard</a> · <a href="https://www.brecorder.com/news/amp/40442172">Reuters via Business Recorder</a></p>
+    </article>
+  </section>
+
+  <!-- ============ SECTION IV ============ -->
+  <section class="beat">
+    <div class="beat-head">
+      <span class="beat-num">IV</span>
+      <h2 class="beat-title">The institutions push back</h2>
+    </div>
+    <p class="beat-sub">A city council, a medical-records company, a search engine and a physics archive all changed their rules this week because of what the models are doing.</p>
+
+    <article class="item">
+      <p class="kicker fu">Follow-up · New York</p>
+      <h3 class="hl">Four AI labs answer questions under oath in New York today</h3>
+      <p class="lead-in">At eleven this morning all 51 members of the New York City Council sit as a single committee and take evidence from the companies building frontier artificial intelligence. OpenAI, Google, Anthropic and Meta have agreed to testify under oath. Elon Musk's xAI did not answer the invitation and has been subpoenaed.</p>
+      <p>Getting them there took three weeks. Speaker Julie Menin wrote to five chief executives in mid-September, with a deadline of 25 September. Meta agreed at once. Google and Anthropic refused. Both changed their minds on Sunday 27 September — Anthropic late that night, hours before its subpoena was due to issue. None of the five chief executives is expected to appear in person.</p>
+      <p>The bills they will be asked about have teeth. The main one requires an outside validator to check an AI system for data quality, bias, privacy and security before anyone deploys it, and requires a human override: a switch a person can throw. The fine is $25,000 for each breach. Menin has been precise about what "each" means.</p>
+      <blockquote class="pull">If there's a swarm of agents, the penalty would apply per agent.<cite>Julie Menin, Speaker of the New York City Council</cite></blockquote>
+      <p>A thousand agents misbehaving is therefore a $25 million bill. Other bills in the package pay whistleblowers a share of the fines recovered, protect city employees who report AI safety problems, and let a New Yorker sue an AI company directly when a jailbroken tool causes foreseeable harm.</p>
+      <p>A city council cannot regulate a frontier laboratory. It can make one sit down and answer questions, which no American legislature had managed before. Gary Marcus, the NYU professor emeritus who is testifying, will propose something closer to a medicines regulator: outside validation before release, and legal protection for the people inside who raise the alarm.</p>
+      <p class="src"><b>Sources</b> <a href="https://fortune.com/2026/09/25/new-york-city-council-speaker-ai-regulation-bills-openai-anthropic/">Fortune</a> · <a href="https://www.cityandstateny.com/policy/2026/09/nyc-council-summons-open-ai-and-anthropic-ai-hearing/416015/">City &amp; State New York</a> · <a href="https://legistar.council.nyc.gov/Calendar.aspx">Council calendar</a> · <a href="https://garymarcus.substack.com/p/coming-soon-new-york-citys-hearing">Gary Marcus on his testimony</a> · <a href="https://markfaizi.dev/signal/2026-10-01">Signal, 1 October</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker">OpenAI · 30 September</p>
+      <h3 class="hl">OpenAI says people connected to a Chinese lab were stealing its model's reasoning</h3>
+      <p class="lead-in">OpenAI published an unusual document on 30 September. It accuses a named Chinese competitor of industrial theft.</p>
+      <p>The claim is specific. From 1 July a group of accounts worked to make OpenAI's models reveal their hidden reasoning — the working-out a model does before it answers, which OpenAI encrypts and does not show. On 24 and 25 July the effort spiked: 16,000 requests using one extraction technique, from more than 4,000 accounts. The wider network ran to more than 15,000 accounts. OpenAI says it had shut the whole thing down by 28 July.</p>
+      <p>The method was ingenious. The accounts copied encrypted reasoning out of one conversation and pasted it into another, coaxing the model into decrypting its own hidden workings.</p>
+      <p>OpenAI attributes "a core cluster of the activity to individuals associated with Moonshot AI, the developer of Kimi." Read that wording twice. Individuals associated with the company, not the company. OpenAI says it cannot attribute the rest of the network at all.</p>
+      <p>Moonshot AI has not responded publicly. Silence is not a denial, and it is not an admission either.</p>
+      <p>Why this matters beyond two companies: a hidden reasoning trace is close to the only thing a frontier lab holds that cannot be read off a published paper. This is the first time one has formally accused a named rival of trying to take it. The first session of the new United States–China dialogue on advanced AI is due before the end of November, and this will be in the room.</p>
+      <p class="src"><b>Sources</b> <a href="https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/">OpenAI's own report</a> · <a href="https://www.cnbc.com/2026/10/01/openai-chinas-moonshot-ai-kimi.html">CNBC</a> · <a href="https://qz.com/openai-moonshot-ai-model-reasoning-distillation-100126">Quartz</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker">Health records · 2 October</p>
+      <h3 class="hl">An AI model read Epic's software and found a way into patient records</h3>
+      <p class="lead-in">Epic Systems has halted most of its product development for six weeks to fix security holes. Its founder, Judy Faulkner, told customers so last week.</p>
+      <p>Epic runs MyChart, the site and app through which Americans read their test results and message their doctor. It holds more than 320 million patient records. Stirling Martin, Epic's chief security officer, said that in some hospitals' configurations an outsider could reach patient records without the software recording that anyone had been there. He said it is not yet clear whether records could also have been altered without trace.</p>
+      <p>The holes were found by Mythos, Anthropic's model built for cybersecurity work, during a deployment at Epic. No evidence has emerged that anybody exploited them.</p>
+      <p>This is the encouraging version of the story. A machine read the code, found what people had missed, and a company holding 320 million medical histories stopped everything else for six weeks to close it. The uncomfortable half is that the same capability is for sale to people who are not Epic's customers.</p>
+      <p class="src"><b>Source</b> <a href="https://techcrunch.com/2026/10/02/medical-records-giant-epic-pauses-product-development-to-fix-security-bugs-that-risk-patients-data/">TechCrunch</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker">The commons · 1–4 October</p>
+      <h3 class="hl">Google stopped taking bug reports because machines wrote too many of them</h3>
+      <p class="lead-in">Google closed part of its bug bounty on 1 October. The programme pays outsiders who find security holes in open-source software. It will not take new product submissions until the first quarter of 2027.</p>
+      <p>Google's stated reason is "a significant rise in automated submissions, the vast majority of which are not valid." In plain terms: people point AI models at open-source code, forward whatever the model claims to have found, and hope. Engineers and unpaid volunteers then have to read it all. Linux kernel maintainers describe something near 2,000 vulnerability reports per release. Intel has suspended a programme that paid up to $100,000 a flaw.</p>
+      <p>The same week, arXiv did something similar. The preprint server where physicists and computer scientists post work before review now accepts at most two submissions per author per month, and three live at a time. September 2016 brought 9,869 papers. September 2024 brought 20,569. September 2026 brought 40,363, and roughly 9,000 support tickets. arXiv's own term for part of what it is drowning in is "salami papers" — one result sliced thin enough to make several.</p>
+      <p>Now set this beside the item above. In one, a model read code and found real flaws nobody had seen. In the other, models buried the same kind of institution in flaws that were not there. The tool is identical. The difference is who is holding it, and whether anybody checks the output before sending it on.</p>
+      <p class="src"><b>Sources</b> <a href="https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/">TechCrunch</a> · <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/google-suspends-part-of-the-oss-vrp-bug-bounty-program-due-to-an-influx-of-invalid-ai-submissions-product-vulnerability-submissions-ended-october-1">Tom's Hardware</a> · <a href="https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/">arXiv's rate-limit policy</a></p>
+    </article>
+  </section>
+
+  <!-- ============ WEEK AHEAD ============ -->
+  <aside class="ahead">
+    <h2>The week ahead</h2>
+    <p class="ahead-sub">What to watch, and what would change the argument above.</p>
+    <ol>
+      <li>
+        <span class="when">Today</span>
+        <span class="what">The New York hearing at eleven in the morning. Also the ISM services survey at ten — the first reading on the largest part of the American economy since Friday's jobs number. Neither existed when this edition was compiled.</span>
+      </li>
+      <li>
+        <span class="when">Tomorrow</span>
+        <span class="what">Paramount's purchase of Warner Bros. Discovery is expected to close; the company will trade as Skydance. Firmus opens institutional bidding in Sydney, and files its prospectus on Thursday.</span>
+      </li>
+      <li>
+        <span class="when">This month</span>
+        <span class="what">Firmus lists on 22 October. The Federal Reserve meets on the 27th and 28th, with another rise now priced at well under a third. A New Mexico judge is expected to rule on Meta's penalty after a jury found more than 43 million breaches of state consumer law; the state has asked for $35 to $40 billion, which would be the largest privacy fine in American history.</span>
+      </li>
+      <li>
+        <span class="when">November</span>
+        <span class="what">OPEC+ meets on the 1st, with the Strait of Hormuz still shut. The first session of the United States–China dialogue on advanced AI is due before the month ends. Anthropic's listing is expected after the midterms.</span>
+      </li>
+      <li>
+        <span class="when">Later</span>
+        <span class="what">AMD's $8.2 billion purchase of World Labs still needs regulatory clearance. American government funding runs out on 11 December.</span>
+      </li>
+    </ol>
+  </aside>
+
+  <!-- ============ COLOPHON ============ -->
+  <footer class="colophon">
+    <p class="mark">Signal</p>
+    <p>Compiled Monday 5 October 2026, covering 2 to 5 October. Index closes are from the Associated Press wire for Friday 2 October. Treasury yields and the effective federal funds rate are from the Federal Reserve's H.15 release of 2 October, whose latest observation is 1 October; no 2 October figure existed at the time of writing, and wire snapshots for that day disagree by minutes, so none is quoted here. Payrolls are from the Bureau of Labor Statistics release of 2 October. Credit spreads are from the ICE BofA index via the St Louis Fed.</p>
+    <p>Every figure was checked against a primary source where one exists. Where two credible outlets disagree, both accounts appear above rather than one. Items that could not be stood behind were dropped.</p>
+    <p>Nothing here is investment advice.</p>
+  </footer>
+
+</div>
+
+</body></html>

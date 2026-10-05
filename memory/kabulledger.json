@@ -207,6 +207,90 @@
    ],
    "threads_closed": [],
    "url": "https://markfaizi.dev/kabulledger/2026-09-27"
+  },
+  {
+   "date": "2026-10-04",
+   "title": "Kabul Ledger — 4 October",
+   "lede": "The rain is coming back. The money to use it is not.",
+   "lead_theme": "prices-livelihoods",
+   "sections": [],
+   "items": [
+    {
+     "slug": "winter-fertiliser",
+     "theme": "prices-livelihoods",
+     "kind": "new",
+     "headline": "A wet winter arrives, and farmers cannot pay for the fertiliser",
+     "gist": "El Niño-driven wetter winter expected as planting opens in October; fertiliser is the binding cost"
+    },
+    {
+     "slug": "returnee-unemployment",
+     "theme": "returnees-labour",
+     "kind": "new",
+     "headline": "Most people sent home have not worked in a month",
+     "gist": "IOM survey of 1,547 undocumented returnees: 69% of those 14+ had not worked in the previous 30 days"
+    },
+    {
+     "slug": "import-duty-rises",
+     "theme": "state-budget",
+     "kind": "new",
+     "headline": "Kabul puts up the duty on paint, plaster and plastic shoes",
+     "gist": "28 Sep tariff committee: paint 16% to 30%, plastic footwear and plaster 50% to 80%"
+    },
+    {
+     "slug": "sme-credit-guarantee",
+     "theme": "money-banking",
+     "kind": "new",
+     "headline": "A million dollars against a banking system that barely lends",
+     "gist": "27 Sep central bank deal with Afghan Credit Guarantee Foundation: about $1m in grants to five banks and one microfinance lender"
+    }
+   ],
+   "explainer": {
+    "area": "earn-and-spend",
+    "topic": "Two days' work a week: why Afghan hunger tracks the wage, not the price of flour"
+   },
+   "visuals": [
+    "how strong this El Niño is",
+    "a month of casual labour and what it covers",
+    "days of work lost v prices"
+   ],
+   "watch": [
+    {
+     "text": "A current hunger figure: the last IPC window ended in September; FEWS NET's October outlook pending",
+     "due": null
+    },
+    {
+     "text": "Whether the fertiliser actually gets bought this planting season",
+     "due": null
+    },
+    {
+     "text": "September's returnee count",
+     "due": "2026-10-15"
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "winter-harvest-weather",
+     "question": "NOAA gives 75% odds of the strongest El Niño since 1950. Does the rain arrive, and does planting happen despite fertiliser costs?",
+     "next_check": "2026-11-15"
+    },
+    {
+     "slug": "hunger-figures",
+     "question": "When do the new IPC analysis and FEWS NET's October outlook appear, and what do they say?",
+     "next_check": "2026-10-18"
+    },
+    {
+     "slug": "iran-deportations",
+     "question": "September returnee numbers from Iran and Pakistan (IOM, UNHCR)",
+     "next_check": "2026-10-15"
+    },
+    {
+     "slug": "pakistan-border-closure",
+     "question": "Southern crossings still shut to goods; airstrikes in Kunar and Helmand on 30 Sep instead of a reopening date. Mention only on a concrete development.",
+     "next_check": null
+    }
+   ],
+   "threads_closed": [],
+   "url": "https://markfaizi.dev/kabulledger/2026-10-04"
   }
  ],
  "threads": [
@@ -219,19 +303,27 @@
    "next_check": "2026-12-31"
   },
   {
+   "slug": "hunger-figures",
+   "question": "When do the new IPC analysis and FEWS NET's October outlook appear, and what do they say?",
+   "status": "open",
+   "opened": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "next_check": "2026-10-18"
+  },
+  {
    "slug": "iran-deportations",
-   "question": "Monthly returnee numbers from Iran and Pakistan (IOM, UNHCR)",
+   "question": "September returnee numbers from Iran and Pakistan (IOM, UNHCR)",
    "status": "open",
    "opened": "2026-09-27",
-   "last_seen": "2026-09-27",
+   "last_seen": "2026-10-04",
    "next_check": "2026-10-15"
   },
   {
    "slug": "pakistan-border-closure",
-   "question": "Does Pakistan set an actual reopening date, and do importers come back south? Mention only on a concrete development: it has been in every edition.",
+   "question": "Southern crossings still shut to goods; airstrikes in Kunar and Helmand on 30 Sep instead of a reopening date. Mention only on a concrete development.",
    "status": "open",
    "opened": "2026-09-27",
-   "last_seen": "2026-09-27",
+   "last_seen": "2026-10-04",
    "next_check": null
   },
   {
@@ -244,10 +336,10 @@
   },
   {
    "slug": "winter-harvest-weather",
-   "question": "Did the wetter October–January forecast hold, and how did winter wheat planting go?",
+   "question": "NOAA gives 75% odds of the strongest El Niño since 1950. Does the rain arrive, and does planting happen despite fertiliser costs?",
    "status": "open",
    "opened": "2026-09-27",
-   "last_seen": "2026-09-27",
+   "last_seen": "2026-10-04",
    "next_check": "2026-11-15"
   }
  ]

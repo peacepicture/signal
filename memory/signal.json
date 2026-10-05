@@ -1034,16 +1034,185 @@
    ],
    "threads_closed": [],
    "url": "https://markfaizi.dev/signal/2026-10-01"
+  },
+  {
+   "date": "2026-10-05",
+   "title": "Signal — 5 October",
+   "lede": "The machines are being bought on credit now. This was the week the lenders began setting the terms.",
+   "lead_theme": "ai-money",
+   "sections": [
+    "The chips arrive with a loan attached",
+    "Twenty-nine thousand",
+    "The trouble is not only American",
+    "The institutions push back"
+   ],
+   "items": [
+    {
+     "slug": "broadcom-anthropic-financing",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Broadcom will borrow $60 billion so Anthropic can have chips",
+     "gist": "$60bn borrowing to fund chips for Anthropic, 2 Oct"
+    },
+    {
+     "slug": "amazon-chip-leaseback",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "Amazon wants to sell its chips and rent them back",
+     "gist": ""
+    },
+    {
+     "slug": "firmus-ipo",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Nobody can agree what Australia's biggest AI float is worth",
+     "gist": "Institutional bidding from 6 Oct, listing 22 Oct"
+    },
+    {
+     "slug": "us-payrolls",
+     "theme": "us-macro",
+     "kind": "new",
+     "headline": "America added 29,000 jobs, and lost 10,000 it thought it had",
+     "gist": "September payrolls +29,000; earlier months revised down"
+    },
+    {
+     "slug": "fed-rates",
+     "theme": "rates-bonds",
+     "kind": "followup",
+     "headline": "Two Fed deputies talked the October rise out of the market",
+     "gist": "FOMC 27–28 Oct; another rise priced well under a third"
+    },
+    {
+     "slug": "leveraged-loan-market",
+     "theme": "deals-corporate",
+     "kind": "followup",
+     "headline": "The $52 billion of merger bonds went on sale, and buyers lost money by Thursday lunchtime",
+     "gist": ""
+    },
+    {
+     "slug": "france-bond-spread",
+     "theme": "global-economy",
+     "kind": "new",
+     "headline": "France now pays a full point more than Germany to borrow",
+     "gist": "French 10-yr spread over Bunds reached a full percentage point"
+    },
+    {
+     "slug": "europe-diesel-reserves",
+     "theme": "oil-energy-war",
+     "kind": "new",
+     "headline": "Europe opened the diesel tanks",
+     "gist": ""
+    },
+    {
+     "slug": "india-stocks-slide",
+     "theme": "global-economy",
+     "kind": "new",
+     "headline": "Indian shares have fallen for eight weeks, which last happened in 2001",
+     "gist": ""
+    },
+    {
+     "slug": "ai-rules-us-china-nyc",
+     "theme": "ai-regulation",
+     "kind": "followup",
+     "headline": "Four AI labs answer questions under oath in New York today",
+     "gist": "NYC Council hearing 5 Oct"
+    },
+    {
+     "slug": "openai-distillation-china",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "OpenAI says people connected to a Chinese lab were stealing its model's reasoning",
+     "gist": ""
+    },
+    {
+     "slug": "epic-ai-vulnerability",
+     "theme": "security-breaches",
+     "kind": "new",
+     "headline": "An AI model read Epic's software and found a way into patient records",
+     "gist": ""
+    },
+    {
+     "slug": "google-bug-bounty-flood",
+     "theme": "security-breaches",
+     "kind": "new",
+     "headline": "Google stopped taking bug reports because machines wrote too many of them",
+     "gist": ""
+    }
+   ],
+   "visuals": [
+    "jobs numbers as first reported v as revised",
+    "bond supply the market absorbed in nine days"
+   ],
+   "watch": [
+    {
+     "text": "New York City Council AI hearing with four labs under oath",
+     "due": "2026-10-05"
+    },
+    {
+     "text": "ISM services survey",
+     "due": "2026-10-05"
+    },
+    {
+     "text": "Paramount's purchase of Warner Bros. Discovery expected to close; trades as Skydance",
+     "due": "2026-10-06"
+    },
+    {
+     "text": "Firmus lists in Sydney",
+     "due": "2026-10-22"
+    },
+    {
+     "text": "Federal Reserve meeting; another rise priced well under a third",
+     "due": "2026-10-28"
+    },
+    {
+     "text": "New Mexico judge's ruling on Meta's penalty",
+     "due": null
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "fed-rates",
+     "question": "The Fed's 27–28 October decision, after two deputies talked a rise out of the market",
+     "next_check": "2026-10-28"
+    },
+    {
+     "slug": "firmus-ipo",
+     "question": "What Firmus prices at and how it trades after listing on 22 October",
+     "next_check": "2026-10-22"
+    },
+    {
+     "slug": "ai-rules-us-china-nyc",
+     "question": "What the four labs said under oath in New York on 5 October, and whether the per-agent fines survive",
+     "next_check": "2026-10-08"
+    },
+    {
+     "slug": "google-gemini4-cyber",
+     "question": "Gemini 4 Argon still limited to cyber defenders; any date for wider release?",
+     "next_check": null
+    },
+    {
+     "slug": "openai-gpt61-shelved",
+     "question": "OpenAI shipped GPT-6.1 Sol instead; still no account of what Astra did",
+     "next_check": null
+    },
+    {
+     "slug": "citrix-netscaler-zero-days",
+     "question": "Mandiant counts dozens compromised via NetScaler; none has named itself. Who discloses first?",
+     "next_check": null
+    }
+   ],
+   "threads_closed": [],
+   "url": "https://markfaizi.dev/signal/2026-10-05"
   }
  ],
  "threads": [
   {
    "slug": "ai-rules-us-china-nyc",
-   "question": "New York City Council's AI hearing on 5 October: who turned up, and do the per-agent fines survive? First US–China AI dialogue exchange is due by November.",
+   "question": "What the four labs said under oath in New York on 5 October, and whether the per-agent fines survive",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-01",
-   "next_check": "2026-10-05"
+   "last_seen": "2026-10-05",
+   "next_check": "2026-10-08"
   },
   {
    "slug": "anthropic-finances",
@@ -1055,26 +1224,34 @@
   },
   {
    "slug": "citrix-netscaler-zero-days",
-   "question": "Which organisations disclose breaches through the NetScaler flaws?",
+   "question": "Mandiant counts dozens compromised via NetScaler; none has named itself. Who discloses first?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-05",
    "next_check": null
   },
   {
    "slug": "fed-rates",
-   "question": "The Fed's late-October decision. A further rise was priced at 37% on 30 September.",
+   "question": "The Fed's 27–28 October decision, after two deputies talked a rise out of the market",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-01",
-   "next_check": null
+   "last_seen": "2026-10-05",
+   "next_check": "2026-10-28"
+  },
+  {
+   "slug": "firmus-ipo",
+   "question": "What Firmus prices at and how it trades after listing on 22 October",
+   "status": "open",
+   "opened": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "next_check": "2026-10-22"
   },
   {
    "slug": "google-gemini4-cyber",
-   "question": "Does Gemini 4 Argon open beyond cyber defenders?",
+   "question": "Gemini 4 Argon still limited to cyber defenders; any date for wider release?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-05",
    "next_check": null
   },
   {
@@ -1087,10 +1264,10 @@
   },
   {
    "slug": "openai-gpt61-shelved",
-   "question": "Does OpenAI explain what GPT-6.1 Astra did, ship it, or resume tool-use training?",
+   "question": "OpenAI shipped GPT-6.1 Sol instead; still no account of what Astra did",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-05",
    "next_check": null
   },
   {

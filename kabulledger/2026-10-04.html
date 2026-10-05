@@ -1,0 +1,946 @@
+<!doctype html><html><head>
+<!-- site-head:start · written by build.py, edits inside are overwritten -->
+<title>Kabul Ledger — 4 October</title>
+<meta name="description" content="The rain is coming back. The money to use it is not.">
+<link rel="canonical" href="https://markfaizi.dev/kabulledger/2026-10-04">
+<link rel="icon" href="/assets/kabulledger/icon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/kabulledger/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/kabulledger/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#EEEAE1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14120F" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Kabul Ledger · markfaizi.dev">
+<meta property="og:title" content="Kabul Ledger — 4 October">
+<meta property="og:description" content="The rain is coming back. The money to use it is not.">
+<meta property="og:url" content="https://markfaizi.dev/kabulledger/2026-10-04">
+<meta property="og:image" content="https://markfaizi.dev/assets/kabulledger/og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Kabul Ledger: a weekly reading of Afghanistan&#x27;s economy, at markfaizi.dev/kabulledger.">
+<meta property="og:locale" content="en_GB">
+<meta property="article:published_time" content="2026-10-04">
+<meta name="twitter:card" content="summary_large_image">
+<!-- site-head:end -->
+<meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Kabul Ledger — 4 October</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Spectral:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+/* ── Layout: single editorial column, full-bleed rules, figures that scroll in their own frames ── */
+
+/* TimeBurner is not on a permitted font host. Drop its base64 here to use the real face.
+@font-face {
+  font-family: "TimeBurner";
+  src: url(data:font/woff2;base64,) format("woff2");
+  font-weight: 400 700;
+  font-display: swap;
+}
+*/
+
+:root {
+  --sand: #EEEAE1;
+  --ink: #16130E;
+  --lapis: #1F4E9C;
+  --ochre: #A8701E;
+  --card: #F7F4EE;
+  --rule: #CFC7B7;
+  --mute: #6B6356;
+  --mark-a: #1F4E9C;
+  --mark-b: #A8701E;
+  --grid: #DED8CB;
+
+  --font-display: "TimeBurner","Chakra Petch","Eurostile","Bahnschrift","Trebuchet MS",sans-serif;
+  --font-editorial: "Spectral",Georgia,"Times New Roman",serif;
+  --font-body: "Newsreader",Georgia,"Times New Roman",serif;
+  --font-mono: "IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --sand: #14120F;
+    --ink: #EDE8DE;
+    --lapis: #7EA6ED;
+    --ochre: #D6A45C;
+    --card: #211E19;
+    --rule: #3A342B;
+    --mute: #A09685;
+    --mark-a: #5E8FE0;
+    --mark-b: #B8832F;
+    --grid: #302B23;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --sand: #14120F;
+  --ink: #EDE8DE;
+  --lapis: #7EA6ED;
+  --ochre: #D6A45C;
+  --card: #211E19;
+  --rule: #3A342B;
+  --mute: #A09685;
+  --mark-a: #5E8FE0;
+  --mark-b: #B8832F;
+  --grid: #302B23;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--sand);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 20px;
+  line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.sheet {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding-inline: 24px;
+  padding-block: 0 72px;
+}
+
+p { margin: 0 0 1.05em; }
+p:last-child { margin-bottom: 0; }
+
+a {
+  color: var(--lapis);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--lapis) 38%, transparent);
+}
+a:hover { border-bottom-color: var(--lapis); }
+a:focus-visible {
+  outline: 2px solid var(--lapis);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ── Masthead ── */
+
+.masthead {
+  padding-block: 44px 20px;
+  border-bottom: 3px double var(--rule);
+}
+
+.masthead h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.5rem, 10.5vw, 4.65rem);
+  line-height: 0.92;
+  letter-spacing: -0.022em;
+  margin: 0;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+.masthead h1 .thin {
+  display: block;
+  font-weight: 500;
+  color: var(--mute);
+  font-size: 0.415em;
+  letter-spacing: 0.1em;
+  line-height: 1.1;
+  margin-bottom: 0.42em;
+}
+
+.dateline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  align-items: baseline;
+  margin-top: 20px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--mute);
+}
+.dateline .issue { color: var(--ochre); }
+
+/* ── Indicator tape ── */
+
+.tape {
+  margin-block: 0 36px;
+  border-bottom: 1px solid var(--rule);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tape-inner {
+  display: flex;
+  min-width: max-content;
+  gap: 0;
+}
+
+.tick {
+  flex: 0 0 auto;
+  padding: 15px 22px 16px 0;
+  margin-right: 22px;
+  border-right: 1px solid var(--rule);
+}
+.tick:last-child { border-right: 0; margin-right: 0; padding-right: 0; }
+
+.tick .k {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.655rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mute);
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+
+.tick .v {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 1.06rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.tick .d { font-size: 0.78em; }
+.tick .down { color: var(--ochre); }
+.tick .up { color: var(--lapis); }
+
+/* ── Lede ── */
+
+.lede {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.42rem, 3.1vw, 2rem);
+  line-height: 1.36;
+  max-width: 24ch;
+  margin: 0 0 22px;
+  text-wrap: balance;
+}
+
+.standfirst {
+  font-family: var(--font-editorial);
+  font-size: 1.14rem;
+  line-height: 1.58;
+  max-width: 34rem;
+}
+.standfirst p { margin-bottom: 0.8em; }
+
+.since {
+  margin-top: 30px;
+  padding: 20px 22px;
+  background: var(--card);
+  border-left: 3px solid var(--ochre);
+}
+
+.since h3 {
+  font-family: var(--font-mono);
+  font-size: 0.67rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ochre);
+  margin: 0 0 12px;
+}
+
+.since ul { margin: 0; padding-left: 1.1em; }
+.since li { font-size: 1.06rem; line-height: 1.55; margin-bottom: 9px; }
+.since li:last-child { margin-bottom: 0; }
+
+/* ── Section headers ── */
+
+.sec {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin: 58px 0 26px;
+  padding-bottom: 11px;
+  border-bottom: 2px solid var(--ink);
+}
+
+.sec .num {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-size: 2.1rem;
+  line-height: 1;
+  color: var(--ochre);
+  flex: 0 0 auto;
+}
+
+.sec h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.32rem;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1.12;
+}
+
+.sec .tag {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 0.655rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mute);
+  flex: 0 0 auto;
+  align-self: center;
+}
+
+/* ── Items ── */
+
+.item { margin-bottom: 44px; }
+.item:last-child { margin-bottom: 0; }
+
+.kicker {
+  font-family: var(--font-mono);
+  font-size: 0.655rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ochre);
+  margin-bottom: 9px;
+}
+
+.item h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.44rem, 3.6vw, 1.86rem);
+  line-height: 1.16;
+  letter-spacing: -0.012em;
+  margin: 0 0 14px;
+  text-wrap: balance;
+}
+
+.srcline {
+  font-family: var(--font-mono);
+  font-size: 0.705rem;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  color: var(--mute);
+  margin-top: 12px;
+}
+.srcline a { border-bottom-color: color-mix(in srgb, var(--lapis) 28%, transparent); }
+
+/* ── Figures ── */
+
+figure {
+  margin: 26px 0;
+  padding: 20px 20px 16px;
+  background: var(--card);
+  border: 1px solid var(--rule);
+}
+
+figure .figframe { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+figure svg { display: block; max-width: 100%; height: auto; }
+figure svg text { font-family: var(--font-mono); }
+
+.figtitle {
+  font-family: var(--font-mono);
+  font-size: 0.705rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: var(--ink);
+}
+
+figcaption {
+  font-family: var(--font-mono);
+  font-size: 0.705rem;
+  line-height: 1.62;
+  color: var(--mute);
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--rule);
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-top: 14px;
+  font-family: var(--font-mono);
+  font-size: 0.705rem;
+  letter-spacing: 0.02em;
+}
+.legend span { display: inline-flex; align-items: center; gap: 7px; }
+.legend i {
+  width: 13px; height: 13px;
+  border-radius: 2px;
+  flex: 0 0 auto;
+}
+
+/* ── Explainer ── */
+
+.explainer-intro {
+  font-family: var(--font-editorial);
+  font-size: 1.2rem;
+  line-height: 1.55;
+  margin-bottom: 26px;
+  max-width: 34rem;
+}
+
+.cols { column-count: 1; }
+
+@media (min-width: 760px) {
+  .cols { column-count: 2; column-gap: 40px; }
+  .cols p { margin-bottom: 0.95em; }
+}
+
+.pull {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-size: 1.44rem;
+  line-height: 1.34;
+  color: var(--lapis);
+  border-top: 2px solid var(--lapis);
+  border-bottom: 2px solid var(--lapis);
+  padding-block: 18px;
+  margin-block: 30px;
+  text-wrap: balance;
+  break-inside: avoid;
+}
+
+/* ── By the numbers ── */
+
+.fig-row {
+  display: grid;
+  gap: 0;
+  border-top: 1px solid var(--rule);
+}
+
+.fig-row > div {
+  padding-block: 22px;
+  border-bottom: 1px solid var(--rule);
+  display: grid;
+  gap: 4px 28px;
+  grid-template-columns: 1fr;
+  align-items: start;
+}
+
+@media (min-width: 680px) {
+  .fig-row > div { grid-template-columns: 11.5rem 1fr; }
+}
+
+.fig-row .n {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 1.62rem;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+  color: var(--lapis);
+}
+
+.fig-row .n small {
+  display: block;
+  font-size: 0.42em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mute);
+  margin-top: 7px;
+  line-height: 1.4;
+}
+
+.fig-row .t { font-size: 1.06rem; line-height: 1.56; }
+.fig-row .t p { margin-bottom: 0.55em; }
+
+/* ── Watch ── */
+
+.watch { display: grid; gap: 26px; }
+
+.watch article {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: 0 16px;
+}
+
+.watch .mk {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ochre);
+  padding-top: 0.32em;
+  font-variant-numeric: tabular-nums;
+}
+
+.watch h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.14rem;
+  letter-spacing: 0.005em;
+  margin: 0 0 7px;
+  line-height: 1.24;
+}
+
+.watch p { font-size: 1.06rem; line-height: 1.56; margin-bottom: 0; }
+
+/* ── Colophon ── */
+
+.colophon {
+  margin-top: 64px;
+  padding-top: 26px;
+  border-top: 3px double var(--rule);
+  font-family: var(--font-mono);
+  font-size: 0.73rem;
+  line-height: 1.72;
+  color: var(--mute);
+}
+
+.colophon h3 {
+  font-size: 0.67rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0 0 11px;
+}
+
+.colophon p { margin-bottom: 1.1em; max-width: 40rem; }
+.colophon .mark {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-top: 22px;
+}
+
+/* ── Mobile type floor: nothing below 12px ── */
+
+@media (max-width: 560px) {
+  body { font-size: 19px; line-height: 1.6; }
+  .sheet { padding-inline: 18px; }
+  .lede { max-width: 100%; }
+  .tick .k { font-size: 12px; }
+  .tick .v { font-size: 17px; }
+  .dateline { font-size: 12px; }
+  .kicker, .since h3, .sec .tag, .colophon h3 { font-size: 12px; }
+  .srcline, figcaption, .legend, .figtitle { font-size: 12.5px; }
+  .colophon { font-size: 13px; }
+  .fig-row .n small { font-size: 12px; }
+  .sec { gap: 12px; }
+  .sec h2 { font-size: 1.14rem; }
+  .sec .tag { display: none; }
+  figure { padding: 16px 14px 13px; }
+  .watch article { grid-template-columns: 1.6rem 1fr; gap: 0 12px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+</style>
+
+<div class="sheet">
+
+  <header class="masthead">
+    <h1><span class="thin">The</span>Kabul Ledger</h1>
+    <div class="dateline">
+      <span class="issue">Sunday 4 October 2026</span>
+      <span>Afghanistan&rsquo;s economy, weekly</span>
+      <span>Week of 27 Sep &ndash; 4 Oct</span>
+    </div>
+  </header>
+
+  <div class="tape" role="group" aria-label="Key indicators">
+    <div class="tape-inner">
+      <div class="tick"><span class="k">Afghani / USD</span><span class="v">65.13</span></div>
+      <div class="tick"><span class="k">Day&rsquo;s wage, unskilled</span><span class="v">302 <span class="d">AFN</span></span></div>
+      <div class="tick"><span class="k">Working days / week</span><span class="v">2.0</span></div>
+      <div class="tick"><span class="k">Flour per day&rsquo;s wage</span><span class="v">10.2 <span class="d">kg</span></span></div>
+      <div class="tick"><span class="k">Customs, August</span><span class="v">5.1bn <span class="d down">&minus;18% y/y</span></span></div>
+      <div class="tick"><span class="k">Ni&ntilde;o-3.4 anomaly</span><span class="v">+2.2 <span class="d">&deg;C</span></span></div>
+      <div class="tick"><span class="k">Returns, 2026 to date</span><span class="v">1.23m</span></div>
+    </div>
+  </div>
+
+  <p class="lede">The rain is coming back. The money to use it is not.</p>
+
+  <div class="standfirst">
+    <p>October is when Afghan farmers put winter wheat in the ground. That one planting is roughly two-thirds of the year&rsquo;s harvest, and this year the forecasters are unusually cheerful about it. A powerful El Ni&ntilde;o should bring the wettest season since the drought years began.</p>
+    <p>Then comes the catch. Fertiliser has gone up, and a great many farmers cannot pay for it. The men who would be hired to work those fields are finding two days of work a week. Afghanistan&rsquo;s trouble this autumn is not really the price of things. It is that hardly anyone is earning.</p>
+  </div>
+
+  <div class="since">
+    <h3>Since last time</h3>
+    <ul>
+      <li>The wet winter we flagged last Sunday has firmed up. NOAA now puts a 75% chance on the strongest El Ni&ntilde;o since at least 1950.</li>
+      <li>Pakistan&rsquo;s southern crossings are still shut to goods, almost a year on. The week brought airstrikes instead of a reopening date: the UN confirmed at least ten civilians killed in Kunar and Helmand on 30 September, most of them children.</li>
+      <li>On TAPI, Turkmenistan&rsquo;s ambassador to Pakistan said on 2 October that gas should start moving in 2027. No new figure on the Afghan section.</li>
+    </ul>
+  </div>
+
+  <!-- ══════════ SECTION I ══════════ -->
+
+  <div class="sec">
+    <span class="num">I</span>
+    <h2>The Week</h2>
+    <span class="tag">Four items</span>
+  </div>
+
+  <article class="item">
+    <div class="kicker">Harvest</div>
+    <h3>A wet winter arrives, and farmers cannot pay for the fertiliser</h3>
+    <p>Planting season opens this month. The international crop monitors published their October assessment on Thursday, and on the weather it reads almost like good news: the strengthening El Ni&ntilde;o &ldquo;is expected to bring above-average rainfall and improved water availability across the country.&rdquo;</p>
+    <p>FEWS NET, the American famine-warning service, says the same in blunter terms. It expects above-average rain countrywide from October to January, enough to allow &ldquo;above average and timely winter wheat planting following four consecutive years of drought between 2021 and 2024.&rdquo; Four dry years, then this.</p>
+    <p>The ocean is doing something unusual to make it happen. In the central Pacific, surface temperatures sat 1.8&deg;C above normal in NOAA&rsquo;s September reading and the weekly figure touched 2.2&deg;C by late September. The agency gives better than nine-in-ten odds on a very strong event and a 75% chance of the strongest since records begin in 1950. Afghanistan sits on the wet side of that pattern.</p>
+    <p>Now the catch, from the same crop report. Fighting in the Middle East has pushed fertiliser prices sharply higher, and farmers who cannot afford enough of it &ldquo;are likely to reduce application rates, cultivate smaller areas, or forego planting.&rdquo; Winter wheat alone accounts for more than two-thirds of everything Afghanistan spends on fertiliser in a year.</p>
+    <p>The agronomy here is not subtle. Good seed with enough fertiliser lifts wheat yields by about a third; good seed without it does much less. In June the UN&rsquo;s Food and Agriculture Organization asked donors for $38.3 million to put seed and fertiliser into the hands of up to 600,000 farming households before the window closed. Its man in Kabul, Richard Trenchard, drew the distinction precisely. &ldquo;This is not a supply crisis,&rdquo; he said. &ldquo;It is an affordability crisis at one of the most important moments in the agricultural calendar.&rdquo;</p>
+    <p>So the best growing weather in five years is arriving at a country that may not be able to buy its way into it. The rain is free. Nothing else is.</p>
+
+    <figure>
+      <div class="figtitle">How strong this El Ni&ntilde;o is</div>
+      <div class="figframe">
+        <svg viewBox="0 0 620 182" role="img" aria-label="A scale of Pacific sea surface temperature anomalies showing conventional El Nino strength bands from weak at plus 0.5 degrees to very strong above plus 2.0 degrees, with the late September 2026 weekly reading of plus 2.2 degrees beyond the very strong threshold and the September monthly reading at plus 1.8 degrees in the strong band.">
+          <!-- baseline track -->
+          <rect x="40" y="86" width="540" height="22" fill="none" stroke="currentColor" stroke-opacity="0.28" stroke-width="1"></rect>
+
+          <!-- bands: 0 to 0.5 neutral, 0.5-1.0 weak, 1.0-1.5 moderate, 1.5-2.0 strong, 2.0+ very strong -->
+          <!-- scale: 0.0 C at x=40, 2.5 C at x=580 -> 216 px per degree -->
+          <rect x="40" y="86" width="108" height="22" fill="currentColor" fill-opacity="0.06"></rect>
+          <rect x="149" y="86" width="107" height="22" fill="var(--mark-a)" fill-opacity="0.16"></rect>
+          <rect x="257" y="86" width="107" height="22" fill="var(--mark-a)" fill-opacity="0.31"></rect>
+          <rect x="365" y="86" width="107" height="22" fill="var(--mark-a)" fill-opacity="0.52"></rect>
+          <rect x="473" y="86" width="107" height="22" fill="var(--mark-a)" fill-opacity="0.82"></rect>
+
+          <!-- band dividers -->
+          <line x1="148" y1="86" x2="148" y2="108" stroke="var(--card)" stroke-width="2"></line>
+          <line x1="256" y1="86" x2="256" y2="108" stroke="var(--card)" stroke-width="2"></line>
+          <line x1="364" y1="86" x2="364" y2="108" stroke="var(--card)" stroke-width="2"></line>
+          <line x1="472" y1="86" x2="472" y2="108" stroke="var(--card)" stroke-width="2"></line>
+
+          <!-- band labels -->
+          <text x="94" y="126" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.62">neutral</text>
+          <text x="202" y="126" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.62">weak</text>
+          <text x="310" y="126" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.62">moderate</text>
+          <text x="418" y="126" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.62">strong</text>
+          <text x="526" y="126" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.62">very strong</text>
+
+          <!-- axis ticks -->
+          <text x="40" y="146" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.5">0.0</text>
+          <text x="148" y="146" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.5">+0.5</text>
+          <text x="256" y="146" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.5">+1.0</text>
+          <text x="364" y="146" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.5">+1.5</text>
+          <text x="472" y="146" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.5">+2.0</text>
+          <text x="580" y="146" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.5">+2.5</text>
+          <text x="310" y="166" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.5">Pacific sea surface temperature, degrees above normal (Ni&ntilde;o-3.4)</text>
+
+          <!-- September monthly reading, +1.8 -> x = 40 + 1.8*216 = 428.8 -->
+          <line x1="429" y1="62" x2="429" y2="86" stroke="currentColor" stroke-width="2"></line>
+          <circle cx="429" cy="97" r="6" fill="var(--card)" stroke="currentColor" stroke-width="2"></circle>
+          <text x="429" y="52" text-anchor="middle" font-size="11.5" font-weight="600" fill="currentColor">+1.8 &middot; September</text>
+
+          <!-- late September weekly, +2.2 -> x = 40 + 2.2*216 = 515.2 -->
+          <line x1="515" y1="20" x2="515" y2="86" stroke="var(--mark-b)" stroke-width="2"></line>
+          <circle cx="515" cy="97" r="7" fill="var(--mark-b)" stroke="var(--card)" stroke-width="2"></circle>
+          <text x="515" y="14" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--mark-b)">+2.2 &middot; late September</text>
+        </svg>
+      </div>
+      <figcaption>The strength bands are the conventional ones, defined on a three-month average. The +2.2 reading is a single week, which runs noisier than the index the bands are built on &mdash; so read it as a direction, not a verdict. Source: NOAA Climate Prediction Center, 10 and 28 September 2026.</figcaption>
+    </figure>
+
+    <p class="srcline">Sources: <a href="https://www.cropmonitor.org/crop-monitor-for-early-warning-202610">GEOGLAM Crop Monitor for Early Warning No. 120</a>, 1 October 2026 (conditions as of 28 September) &middot; <a href="https://fews.net/asia/afghanistan/food-security-outlook-update/august-2026">FEWS NET Afghanistan Food Security Outlook Update</a>, 31 August 2026 &middot; <a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml">NOAA Climate Prediction Center ENSO Diagnostic Discussion</a>, 10 September 2026 &middot; <a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf">NOAA CPC ENSO evolution update</a>, 28 September 2026 &middot; <a href="https://www.fao.org/afghanistan/news/detail/fao-seeks-time-sensitive-support-to-protect-afghanistan's-2027-wheat-harvest-ahead-of-critical-planting-window/en">FAO Afghanistan</a>, 8 June 2026.</p>
+  </article>
+
+  <article class="item">
+    <div class="kicker">Returnees</div>
+    <h3>Most people sent home have not worked in a month</h3>
+    <p>The International Organization for Migration went looking in August for what happens to Afghans after they are deported. It surveyed 1,547 people who had come back without papers between July and December last year. Of those aged 14 and over, 69% had not worked a single day in the previous thirty.</p>
+    <p>Among the minority who had found work, most of it was scraps. Seventy-one per cent were only partly employed; 27% had full work; 2% ran a business of their own. More than half of the households surveyed &mdash; 54% &mdash; could not cover basic needs from what they brought in.</p>
+    <p>The figures for the young are worse, and they split sharply by sex. Of those aged 15 to 26, 55% were in neither work nor school nor training. For young men that figure was 31%. For young women it was 79%.</p>
+    <p>Set this against the scale of the return. By 22 September, 1.23 million people had come back to Afghanistan this year, by the UN refugee agency&rsquo;s count: 705,400 from Pakistan and 522,200 from Iran. Just over half a million of them were deported rather than choosing to leave.</p>
+    <p>Half the survey had finished no schooling at all. Half had no specialised trade. They are arriving into a labour market where, as the next section explains, the people already there are getting two days of work a week. The arithmetic is not complicated and it is not kind.</p>
+    <p class="srcline">Sources: IOM Displacement Tracking Matrix returnee survey, fielded August 2026, n=1,547 &mdash; the primary report could not be reached from here and the findings are taken as reported by <a href="https://amu.tv/253341/">Amu TV</a>, 29 September 2026 &middot; <a href="https://data.unhcr.org/en/situations/afghanistan">UNHCR Afghanistan situation data portal</a>, figures as of 22 September 2026.</p>
+  </article>
+
+  <article class="item">
+    <div class="kicker">The state</div>
+    <h3>Kabul puts up the duty on paint, plaster and plastic shoes</h3>
+    <p>The finance ministry&rsquo;s tariff committee met on 28 September under the minister, Mullah Mohammad Nasir Akhund, and raised import duties on six things. Building paint goes from 16% to 30%. Plastic footwear and plaster both go from 50% to 80%. Bottles rise from 12% to 16%, nappies from 20% to 25%. Springs come down, from 8% to 3.5%.</p>
+    <p>The stated purpose is to support domestic industry and production. No date was given for when any of it starts.</p>
+    <p>Read it next to the revenue line and it looks less like industrial policy than like arithmetic. Customs duties and fees brought in 5.1 billion afghanis in August. That was 41% up on July &mdash; and 18% down on August a year earlier. Customs is the most dependable tax this government has, and it is shrinking, because the trucks are not moving. With the Pakistani crossings shut since last October, volume is gone. The rate is the only lever left to pull.</p>
+    <p>Note what is on the list. Not luxuries. Paint, plaster, bottles, nappies, cheap shoes &mdash; the things a household buys when it is fixing a room or putting something on a child&rsquo;s feet. A protective tariff is a tax, and it is paid by whoever buys the shoes.</p>
+    <p class="srcline">Sources: <a href="https://pajhwok.com/2026/09/28/mof-increases-tariffs-on-7-items/">Pajhwok Afghan News</a> and <a href="https://www.ariananews.af/afghanistan-raises-import-tariffs-on-several-goods-to-support-domestic-industry/">Ariana News</a>, both 28 September 2026 &mdash; the two accounts give different rates for leather footwear (20% to 40%, and 50% to 80%); we quote Pajhwok&rsquo;s &middot; customs and revenue figures from the <a href="https://www.worldbank.org/en/country/afghanistan/publication/afghanistan-economic-monitors">World Bank Afghanistan Economic Monitor</a>, 31 August 2026.</p>
+  </article>
+
+  <article class="item">
+    <div class="kicker">Money</div>
+    <h3>A million dollars against a banking system that barely lends</h3>
+    <p>On 27 September the central bank signed an agreement with the Afghan Credit Guarantee Foundation. The foundation will hand roughly $1 million in grants to five banks and one microfinance lender, to be put behind loans to small and medium businesses. Returnees setting up on their own get particular mention.</p>
+    <p>Three days later Da Afghanistan Bank&rsquo;s supreme council met and reported that public deposits were up and the currency had held steady against most of the region. It published no numbers to go with either claim.</p>
+    <p>Here is the number that matters. In February, credit to the private sector across the whole of Afghanistan stood at 35 billion afghanis &mdash; 2.5% of national income. The entire banking sector held $3.5 billion in assets at the end of last year, which is roughly one mid-sized regional bank. Lending is not expensive in Afghanistan. It very largely does not happen.</p>
+    <p>Against that, a million dollars is a rounding error. It is also close to all that is on offer. The afghani, for its part, finished the week at 65.13 to the dollar, about 5% stronger than a year ago and flat for three months &mdash; a currency doing nothing interesting in an economy that badly needs something to.</p>
+    <p class="srcline">Sources: <a href="https://dab.gov.af/index.php/dab-acgf-sign-mou-cooperation">Da Afghanistan Bank</a>, 27 September 2026 &middot; <a href="https://dab.gov.af/dab-holds-supreme-council-meeting-0">Da Afghanistan Bank supreme council</a>, 30 September 2026 &middot; <a href="https://dab.gov.af/exchange-rates">DAB official exchange rates</a>, 4 October 2026 &middot; credit, assets and money figures from the <a href="https://thedocs.worldbank.org/en/doc/e8eeba3d8d46fccafe273e30dff8f595-0310012026/original/Spring-ADU-May-26-2026-Final.pdf">World Bank Afghanistan Development Update</a>, May 2026.</p>
+  </article>
+
+  <!-- ══════════ SECTION II ══════════ -->
+
+  <div class="sec">
+    <span class="num">II</span>
+    <h2>How It Works</h2>
+    <span class="tag">How people earn and spend</span>
+  </div>
+
+  <p class="explainer-intro">Two days&rsquo; work a week: why Afghan hunger tracks the wage, not the price of flour.</p>
+
+  <div class="cols">
+    <p>Before dawn in Kabul, men gather at particular roundabouts with a shovel or a trowel, and wait. A pickup pulls up, someone needs four men for a day, and four men get in. The rest keep waiting. That is the labour market for several million Afghan households, and understanding it is most of understanding the Afghan economy.</p>
+
+    <p>Start with the wage. In the first week of September the World Food Programme&rsquo;s monitors put the average daily wage for unskilled labour at about 302 afghanis &mdash; call it $4.65 for a day of digging. That number is reasonably steady. It has not collapsed.</p>
+
+    <p>Now ask how often the pickup stops. FEWS NET measures this directly, and the answer is two days a week. Not two days of a five-day week with three off. Two days of work, and five days of standing at the roundabout.</p>
+
+    <p>So the household does not earn 302 afghanis a day. It earns 302 afghanis on nine or ten days a month, and nothing on the other twenty. A month&rsquo;s basic food for a family cost around 6,055 afghanis in early September. A full month of casual labour covers about half of it. The rest comes from debt, from selling something, from a relative abroad, or from eating less.</p>
+
+    <p>This is the mechanism to carry away, because it is the one that catches people out. The people who watch Afghanistan closely do not track the price of wheat, and they do not track the wage. They track the ratio of the two, and they call it the <strong>terms of trade</strong>: how many kilos of flour a single day&rsquo;s labour will buy. In early September a day&rsquo;s wage bought 10.2 kilos.</p>
+
+    <p class="pull">You can follow flour prices all year and completely miss the story. The price did not move. The work did.</p>
+
+    <p>That ratio has fallen hard. FEWS NET puts the wage-to-wheat terms of trade 26% below a year ago and 9% below the five-year average. The WFP, measuring separately, found much the same for August: down about a quarter on the year. Two methods, one answer.</p>
+
+    <p>And here is the thing: flour did not get much dearer. Wheat flour is up somewhere between 8% and 20% on the year depending on the market, and as recently as June it was still 12% <em>below</em> the five-year average. Prices are not the villain. The villain is that the number of days has gone. Available working days are 16% below last year and 11% below the five-year average.</p>
+
+    <p>Why? Two forces pressing from opposite sides. Demand for labour fell &mdash; four drought years meant less to plant and less to harvest, and a closed southern border means fewer trucks to load. Supply of labour rose, sharply, as more than a million people were pushed back across the borders from Iran and Pakistan this year alone. More men at the roundabout, fewer pickups.</p>
+
+    <p>Which is why, if you follow only one thing in Afghanistan, you should follow the wage and not the price tag. And it is why this week&rsquo;s weather forecast is a bigger story than it sounds. Rain does not simply grow wheat. Rain creates <em>days</em> &mdash; ploughing days, weeding days, harvest days &mdash; in a country whose shortage is days rather than grain. A good season puts money in the hands of people who have none, by hiring them.</p>
+
+    <p>It also explains why the fertiliser problem is not a narrow agricultural matter. A farmer who cannot afford inputs plants a smaller field. A smaller field needs fewer men. The shortfall arrives twice: once in the harvest next June, and once immediately, in the wages never paid this October.</p>
+  </div>
+
+  <figure>
+    <div class="figtitle">A month of casual labour, and what it covers</div>
+    <div class="figframe">
+      <svg viewBox="0 0 620 300" role="img" aria-label="A diagram of one month for an Afghan casual labourer: a grid of thirty days in which nine are worked at about 302 afghanis each and twenty-one are not, and a bar showing that a full month of that work covers about half of a household's basic monthly food basket of 6,055 afghanis.">
+        <defs>
+          <pattern id="hatch" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+            <line x1="0" y1="0" x2="0" y2="7" stroke="currentColor" stroke-opacity="0.22" stroke-width="2.2"></line>
+          </pattern>
+        </defs>
+
+        <text x="0" y="13" font-size="11.5" font-weight="600" fill="currentColor">ONE MONTH, THIRTY DAYS</text>
+
+        <!-- 30 day cells: 6 cols x 5 rows, 9 worked -->
+        <!-- row 1: worked on 2 -->
+        <g>
+          <rect x="0" y="26" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="52" y="26" width="46" height="34" fill="var(--mark-a)"></rect>
+          <rect x="104" y="26" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="156" y="26" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="208" y="26" width="46" height="34" fill="var(--mark-a)"></rect>
+          <rect x="260" y="26" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+        </g>
+        <!-- row 2 -->
+        <g>
+          <rect x="0" y="66" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="52" y="66" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="104" y="66" width="46" height="34" fill="var(--mark-a)"></rect>
+          <rect x="156" y="66" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="208" y="66" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="260" y="66" width="46" height="34" fill="var(--mark-a)"></rect>
+        </g>
+        <!-- row 3 -->
+        <g>
+          <rect x="0" y="106" width="46" height="34" fill="var(--mark-a)"></rect>
+          <rect x="52" y="106" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="104" y="106" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="156" y="106" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="208" y="106" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="260" y="106" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+        </g>
+        <!-- row 4 -->
+        <g>
+          <rect x="0" y="146" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="52" y="146" width="46" height="34" fill="var(--mark-a)"></rect>
+          <rect x="104" y="146" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="156" y="146" width="46" height="34" fill="var(--mark-a)"></rect>
+          <rect x="208" y="146" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="260" y="146" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+        </g>
+        <!-- row 5 -->
+        <g>
+          <rect x="0" y="186" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="52" y="186" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="104" y="186" width="46" height="34" fill="var(--mark-a)"></rect>
+          <rect x="156" y="186" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+          <rect x="208" y="186" width="46" height="34" fill="var(--mark-a)"></rect>
+          <rect x="260" y="186" width="46" height="34" fill="url(#hatch)" stroke="currentColor" stroke-opacity="0.3" stroke-width="1"></rect>
+        </g>
+
+        <text x="0" y="243" font-size="11.5" fill="var(--mark-a)" font-weight="600">9 days hired</text>
+        <text x="130" y="243" font-size="11.5" fill="currentColor" fill-opacity="0.72">21 days waiting</text>
+
+        <!-- bracket into the budget bar -->
+        <path d="M 318 123 L 338 123" stroke="currentColor" stroke-opacity="0.45" stroke-width="1.5" fill="none" marker-end="url(#ar)"></path>
+        <defs>
+          <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 0 1 L 9 5 L 0 9 z" fill="currentColor" fill-opacity="0.45"></path>
+          </marker>
+        </defs>
+        <text x="328" y="113" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.6">buys</text>
+
+        <!-- budget bar: the month's food basket -->
+        <text x="352" y="42" font-size="11.5" font-weight="600" fill="currentColor">THE MONTH&rsquo;S FOOD BASKET</text>
+        <text x="352" y="60" font-size="11.5" fill="currentColor" fill-opacity="0.62">6,055 AFN for a household</text>
+
+        <rect x="352" y="76" width="248" height="46" fill="none" stroke="currentColor" stroke-opacity="0.32" stroke-width="1"></rect>
+        <rect x="352" y="76" width="124" height="46" fill="var(--mark-a)"></rect>
+        <line x1="478" y1="76" x2="478" y2="122" stroke="var(--card)" stroke-width="2"></line>
+        <rect x="480" y="76" width="120" height="46" fill="var(--mark-b)" fill-opacity="0.34"></rect>
+
+        <text x="414" y="140" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--mark-a)">about half</text>
+        <text x="414" y="156" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.7">a month of wages</text>
+        <text x="540" y="140" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--mark-b)">the gap</text>
+        <text x="540" y="156" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.7">debt, sales, aid,</text>
+        <text x="540" y="171" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.7">or smaller meals</text>
+
+        <text x="352" y="201" font-size="11.5" fill="currentColor" fill-opacity="0.72">A day&rsquo;s wage: 302 AFN</text>
+        <text x="352" y="219" font-size="11.5" fill="currentColor" fill-opacity="0.72">It buys 10.2 kg of flour</text>
+        <text x="352" y="243" font-size="11.5" fill="var(--mark-b)" font-weight="600">A year ago, about a quarter more</text>
+      </svg>
+    </div>
+    <div class="legend">
+      <span><i style="background:var(--mark-a)"></i>Days hired, and what they cover</span>
+      <span><i style="background:var(--mark-b);opacity:0.5"></i>Covered some other way</span>
+    </div>
+    <figcaption>Two working days a week and a 6,055-afghani food basket are WFP and FEWS NET figures for August and early September 2026; the thirty-day grid is the arithmetic of two days a week, drawn out. The half-covered basket is WFP&rsquo;s own calculation for August, not ours.</figcaption>
+  </figure>
+
+  <figure>
+    <div class="figtitle">It is the days that went, not the prices</div>
+    <div class="figframe">
+      <svg viewBox="0 0 620 196" role="img" aria-label="A dot plot showing two FEWS NET measures for July 2026, each compared with a year earlier and with the five-year average. The wage-to-wheat terms of trade is 26 percent below last year and 9 percent below the five-year average. Available working days are 16 percent below last year and 11 percent below the five-year average.">
+        <!-- axis: 0% at x=560, -30% at x=180 -> 12.667 px per point -->
+        <line x1="180" y1="150" x2="560" y2="150" stroke="currentColor" stroke-opacity="0.35" stroke-width="1"></line>
+        <line x1="560" y1="40" x2="560" y2="150" stroke="currentColor" stroke-opacity="0.55" stroke-width="1.5"></line>
+
+        <text x="560" y="168" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.55">0</text>
+        <text x="433" y="168" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.55">&minus;10%</text>
+        <text x="307" y="168" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.55">&minus;20%</text>
+        <text x="180" y="168" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.55">&minus;30%</text>
+        <text x="370" y="188" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.55">Shortfall against the comparison, July 2026</text>
+
+        <!-- gridlines -->
+        <line x1="433" y1="40" x2="433" y2="150" stroke="currentColor" stroke-opacity="0.12" stroke-width="1"></line>
+        <line x1="307" y1="40" x2="307" y2="150" stroke="currentColor" stroke-opacity="0.12" stroke-width="1"></line>
+        <line x1="180" y1="40" x2="180" y2="150" stroke="currentColor" stroke-opacity="0.12" stroke-width="1"></line>
+
+        <!-- row 1: terms of trade, y=62 -->
+        <text x="0" y="58" font-size="11.5" font-weight="600" fill="currentColor">Flour per day&rsquo;s</text>
+        <text x="0" y="74" font-size="11.5" font-weight="600" fill="currentColor">labour</text>
+        <line x1="231" y1="66" x2="560" y2="66" stroke="currentColor" stroke-opacity="0.22" stroke-width="1.5"></line>
+        <!-- -9% -> x = 560 - 9*12.667 = 446 ; -26% -> 560 - 329.3 = 230.7 -->
+        <circle cx="446" cy="66" r="7" fill="var(--mark-b)" stroke="var(--card)" stroke-width="2"></circle>
+        <circle cx="231" cy="66" r="7" fill="var(--mark-a)" stroke="var(--card)" stroke-width="2"></circle>
+        <text x="213" y="70" text-anchor="end" font-size="11.5" font-weight="600" fill="var(--mark-a)">&minus;26%</text>
+
+        <!-- row 2: working days, y=118 -->
+        <text x="0" y="110" font-size="11.5" font-weight="600" fill="currentColor">Days of work</text>
+        <text x="0" y="126" font-size="11.5" font-weight="600" fill="currentColor">available</text>
+        <line x1="357" y1="118" x2="560" y2="118" stroke="currentColor" stroke-opacity="0.22" stroke-width="1.5"></line>
+        <!-- -11% -> 560 - 139.3 = 420.7 ; -16% -> 560 - 202.7 = 357.3 -->
+        <circle cx="421" cy="118" r="7" fill="var(--mark-b)" stroke="var(--card)" stroke-width="2"></circle>
+        <circle cx="357" cy="118" r="7" fill="var(--mark-a)" stroke="var(--card)" stroke-width="2"></circle>
+        <text x="339" y="122" text-anchor="end" font-size="11.5" font-weight="600" fill="var(--mark-a)">&minus;16%</text>
+
+        <!-- key -->
+        <circle cx="187" cy="26" r="6" fill="var(--mark-a)" stroke="var(--card)" stroke-width="2"></circle>
+        <text x="199" y="30" font-size="11" fill="currentColor" fill-opacity="0.78">vs a year earlier</text>
+        <circle cx="330" cy="26" r="6" fill="var(--mark-b)" stroke="var(--card)" stroke-width="2"></circle>
+        <text x="342" y="30" font-size="11" fill="currentColor" fill-opacity="0.78">vs the five-year average</text>
+      </svg>
+    </div>
+    <figcaption>Both measures are national averages for July 2026, the most recent FEWS NET published. A household feels the first line directly: it is the flour a day&rsquo;s digging brings home. Source: FEWS NET Afghanistan Food Security Outlook Update, 31 August 2026.</figcaption>
+  </figure>
+
+  <div class="standfirst" style="margin-top:28px">
+    <p>One practical consequence. When FEWS NET&rsquo;s next Afghanistan report appears, skip past the headline and find the terms-of-trade line. It will tell you more about whether people are eating than any price in the bulletin.</p>
+  </div>
+
+  <!-- ══════════ SECTION III ══════════ -->
+
+  <div class="sec">
+    <span class="num">III</span>
+    <h2>By the Numbers</h2>
+    <span class="tag">Three figures</span>
+  </div>
+
+  <div class="fig-row">
+    <div>
+      <div class="n">302<small>Afghanis &middot; a day</small></div>
+      <div class="t">
+        <p>The average daily wage for unskilled labour in the first week of September, worth about $4.65.</p>
+        <p>This is the price of a day, not a household&rsquo;s daily income. A household gets it roughly twice a week, which is the whole difficulty.</p>
+      </div>
+    </div>
+    <div>
+      <div class="n">5.1bn<small>Afghanis &middot; August customs</small></div>
+      <div class="t">
+        <p>Customs duties and fees collected in August: up 41% on July, down 18% on the same month last year.</p>
+        <p>Border taxes are the Taliban government&rsquo;s most reliable revenue. The fall is not a rate problem. It is a traffic problem &mdash; the southern crossings have been shut to goods since last October.</p>
+      </div>
+    </div>
+    <div>
+      <div class="n">4.6m<small>Tonnes &middot; cereals to import</small></div>
+      <div class="t">
+        <p>What the FAO expects Afghanistan to need to buy in from abroad over the 2026/27 marketing year &mdash; about 7% above the usual.</p>
+        <p>Even after a decent harvest the country imports a large slice of what it eats, and most of it now comes as Kazakh flour on a train. A good winter would narrow the gap. It would not close it.</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="srcline">Sources: wage &mdash; World Food Programme market monitoring, first week of September 2026, as reported by <a href="https://amu.tv/252259/">Amu TV</a> &middot; customs &mdash; <a href="https://www.worldbank.org/en/country/afghanistan/publication/afghanistan-economic-monitors">World Bank Afghanistan Economic Monitor</a>, 31 August 2026 &middot; cereal imports &mdash; <a href="https://www.fao.org/giews/countrybrief/country.jsp?code=AFG">FAO GIEWS Country Brief</a>, 15 September 2026.</p>
+
+  <!-- ══════════ SECTION IV ══════════ -->
+
+  <div class="sec">
+    <span class="num">IV</span>
+    <h2>What to Watch</h2>
+    <span class="tag">The weeks ahead</span>
+  </div>
+
+  <div class="watch">
+    <article>
+      <div class="mk">01</div>
+      <div>
+        <h3>Afghanistan has no current hunger figure</h3>
+        <p>The last full IPC analysis &mdash; the consensus exercise that puts numbers on how many people are in crisis &mdash; covered a window that ended in September. FEWS NET&rsquo;s October outlook had not appeared by the 4th. Until one of them lands, every &ldquo;13.8 million&rdquo; and &ldquo;17.4 million&rdquo; in circulation describes a period that has closed. Watch for either to publish; treat the gap itself as the story.</p>
+      </div>
+    </article>
+    <article>
+      <div class="mk">02</div>
+      <div>
+        <h3>Whether the fertiliser actually gets bought</h3>
+        <p>Planting runs through October and into November, and then the window shuts for a year. The test is FAO&rsquo;s $38.3 million request and whether anyone funds it. The signal to watch for is a reported fall in the area planted, which would mean the rain arrived and the crop did not.</p>
+      </div>
+    </article>
+    <article>
+      <div class="mk">03</div>
+      <div>
+        <h3>September&rsquo;s returnee count</h3>
+        <p>Due from UNHCR and IOM, and not out yet. August alone brought around 59,000 deportations from Iran. The figure matters because of the mechanism above: every new arrival is another person at the roundabout in a market offering two days&rsquo; work a week.</p>
+      </div>
+    </article>
+  </div>
+
+  <!-- ══════════ COLOPHON ══════════ -->
+
+  <div class="colophon">
+    <h3>On the numbers in this edition</h3>
+    <p>Afghanistan has not held a census since 1979. Almost every figure here rests on something softer than a count: household surveys of a few thousand people, price monitoring in a sample of markets, satellite imagery of rainfall and crop cover, and border tallies that record crossings rather than people. Where we write &ldquo;about&rdquo; or &ldquo;around&rdquo;, that is not hedging for its own sake &mdash; it marks an estimate standing in for a measurement.</p>
+    <p>Three specific cautions for this week. The wage, food-basket and flour-per-wage figures come from WFP monitoring that we could not reach at source and have taken as reported; FEWS NET&rsquo;s independently calculated decline agrees with it closely, which is reassurance but not confirmation. The IOM returnee survey is a sample of 1,547 people and its primary report was likewise out of reach. And the two Afghan outlets that covered the tariff decision disagree on one of the rates, which we have flagged in the item rather than smoothing over.</p>
+    <p>Where credible sources conflict we say so and give both. Where a number is a projection rather than an observation, we try to say that too.</p>
+    <div class="mark">The Kabul Ledger &middot; No. 4 &middot; 4 October 2026</div>
+  </div>
+
+</div>
+
+</body></html>

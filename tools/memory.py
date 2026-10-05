@@ -402,7 +402,8 @@ def check(slug, path):
     got = extract(page)
     flags = []
     FIXED = {"the week", "the fortnight", "how it works", "by the numbers", "what to watch", "the week ahead",
-             "week ahead", "a note on the figures"}
+             "week ahead", "a note on the figures", "since last time", "on the numbers in this edition",
+             "how to check this yourself", "about this edition", "primary sources", "sources this fortnight"}
 
     if not p["fixed_sections"]:
         for h in got["h2"]:
