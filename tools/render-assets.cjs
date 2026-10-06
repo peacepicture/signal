@@ -43,7 +43,7 @@ function markSVG(key, rounded){
 /* ---------------- link-preview cards (1200×630) ---------------- */
 const CARDS = {
   site: { paper:'#ECEBE6', ink:'#16161A', soft:'#55545C', accent:'#2E3F6B',
-    eyebrow:'Market data analyst', word:['Mark','Faizi'],
+    eyebrow:'Data analyst', word:['Mark','Faizi'],
     stand:'Competitor analysis, CRM and automation that saves businesses time and money.',
     url:'markfaizi.dev', note:'CV · Projects · Writing',
     motif: () => `<svg viewBox="0 0 12 18" width="192" height="288" shape-rendering="crispEdges">

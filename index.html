@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <!-- site-head:start · written by build.py, edits inside are overwritten -->
-<title>Mark Faizi · Market data analyst</title>
-<meta name="description" content="Market data analyst working on competitor analysis, CRM and automation that saves businesses time and money.">
+<title>Mark Faizi · Data analyst</title>
+<meta name="description" content="Data analyst working on competitor analysis, CRM and automation that saves businesses time and money.">
 <link rel="canonical" href="https://markfaizi.dev/">
 <link rel="icon" href="/assets/site/icon.svg" type="image/svg+xml">
 <link rel="icon" href="/assets/site/icon-32.png" sizes="32x32" type="image/png">
@@ -13,14 +13,14 @@
 <meta name="theme-color" content="#131210" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="profile">
 <meta property="og:site_name" content="Mark Faizi">
-<meta property="og:title" content="Mark Faizi · Market data analyst">
-<meta property="og:description" content="Market data analyst working on competitor analysis, CRM and automation that saves businesses time and money.">
+<meta property="og:title" content="Mark Faizi · Data analyst">
+<meta property="og:description" content="Data analyst working on competitor analysis, CRM and automation that saves businesses time and money.">
 <meta property="og:url" content="https://markfaizi.dev/">
 <meta property="og:image" content="https://markfaizi.dev/assets/site/og.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Mark Faizi, market data analyst. Competitor analysis, CRM and automation.">
+<meta property="og:image:alt" content="Mark Faizi, data analyst. Competitor analysis, CRM and automation.">
 <meta property="og:locale" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
 <!-- site-head:end -->
@@ -111,6 +111,13 @@ h1{font-family:var(--font-display);font-weight:700;text-transform:uppercase;marg
 footer{font-family:var(--font-mono);font-size:12.5px;letter-spacing:.06em;color:var(--ink-faint);
   border-top:2px solid var(--ink);padding-top:14px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 
+/* ---------- big cursor while scrolling (mouse and trackpad only) ---------- */
+#scrollcur{position:fixed;left:0;top:0;z-index:9999;pointer-events:none;display:none;will-change:transform}
+#scrollcur svg{display:block;transform-origin:0 0;transform:scale(.55);opacity:0;transition:transform .14s ease-out,opacity .1s}
+html.scrolling #scrollcur svg{transform:scale(1);opacity:1}
+html.scrolling, html.scrolling *{cursor:none !important}
+@media (prefers-reduced-motion:reduce){ #scrollcur svg{transition:none} }
+
 @media (max-width:720px){ .pubs{grid-template-columns:1fr} }
 @media (max-width:560px){
   body{padding-inline:16px;font-size:18px}
@@ -131,7 +138,7 @@ footer{font-family:var(--font-mono);font-size:12.5px;letter-spacing:.06em;color:
 
   <header>
     <p class="name">Mark Faizi</p>
-    <span class="role">Market data analyst</span>
+    <span class="role">Data analyst</span>
   </header>
 
   <section class="hero">
@@ -182,6 +189,8 @@ footer{font-family:var(--font-mono);font-size:12.5px;letter-spacing:.06em;color:
 
   <footer><span>Mark Faizi · markfaizi.dev</span><span>Full site coming soon</span></footer>
 </div>
+
+<div id="scrollcur" aria-hidden="true"></div>
 
 <script>
 (function(){
@@ -300,6 +309,41 @@ footer{font-family:var(--font-mono);font-size:12.5px;letter-spacing:.06em;color:
   }
   // pause politely when the tab is hidden
   requestAnimationFrame(frame);
+})();
+</script>
+<script>
+/* While the page scrolls, the pointer becomes a big pixel arrow, the same mark
+   as the site icon. It shrinks back to the normal pointer shortly after the
+   scrolling stops. Mouse and trackpad only; touch screens are left alone. */
+(function(){
+  if (!(window.matchMedia && window.matchMedia("(pointer: fine)").matches)) return;
+  var ARROW = ["X...........","XX..........","XoX.........","XooX........","XoooX.......","XooooX......",
+    "XoooooX.....","XooooooX....","XoooooooX...","XooooooooX..","XoooooooooX.","XoooooXXXXXX",
+    "XooXooX.....","XoX.XooX....","XX..XooX....","X....XooX...",".....XooX...","......XX...."];
+  function px(ch){ var d = ""; ARROW.forEach(function(r, y){ for (var x = 0; x < r.length; x++) if (r[x] === ch) d += "M" + x + " " + y + "h1v1h-1z"; }); return d; }
+  var SIZE = 5;   // 12 x 18 grid at 5px a cell: a 60 x 90 pointer
+  var box = document.getElementById("scrollcur");
+  box.innerHTML = '<svg width="' + 12 * SIZE + '" height="' + 18 * SIZE + '" viewBox="0 0 12 18" shape-rendering="crispEdges">' +
+    '<path d="' + px("o") + '" style="fill:var(--cur-fill)"></path><path d="' + px("X") + '" style="fill:var(--cur-ink)"></path></svg>';
+  box.style.display = "block";
+
+  var root = document.documentElement, x = null, y = null, timer = null, inside = true;
+  function move(){ if (x !== null) box.style.transform = "translate3d(" + x + "px," + y + "px,0)"; }
+  document.addEventListener("pointermove", function(e){
+    if (e.pointerType === "touch") return;
+    x = e.clientX; y = e.clientY; inside = true; move();
+  }, {passive: true});
+  root.addEventListener("mouseleave", function(){ inside = false; root.classList.remove("scrolling"); });
+
+  function onScroll(){
+    if (x === null || !inside) return;      // only once we know where the pointer is
+    move();
+    root.classList.add("scrolling");
+    clearTimeout(timer);
+    timer = setTimeout(function(){ root.classList.remove("scrolling"); }, 260);
+  }
+  window.addEventListener("scroll", onScroll, {passive: true});
+  window.addEventListener("wheel", onScroll, {passive: true});
 })();
 </script>
 </body>

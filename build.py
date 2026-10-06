@@ -31,13 +31,13 @@ ROOT = Path(__file__).resolve().parent
 BASE = "https://markfaizi.dev"
 
 SITE = {
-    "title": "Mark Faizi · Market data analyst",
-    "description": "Market data analyst working on competitor analysis, CRM "
+    "title": "Mark Faizi · Data analyst",
+    "description": "Data analyst working on competitor analysis, CRM "
                    "and automation that saves businesses time and money.",
     "site_name": "Mark Faizi",
     "icon": "site",
     "theme": ("#ECEBE6", "#131210"),
-    "og_alt": "Mark Faizi, market data analyst. Competitor analysis, CRM and "
+    "og_alt": "Mark Faizi, data analyst. Competitor analysis, CRM and "
               "automation.",
 }
 
