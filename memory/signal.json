@@ -1203,23 +1203,235 @@
    ],
    "threads_closed": [],
    "url": "https://markfaizi.dev/signal/2026-10-05"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "Signal — 8 October",
+   "lede": "A forestry regulator in northern Finland stopped Google this week. An industry that can borrow forty billion dollars in an afternoon still cannot buy a permit.",
+   "lead_theme": "ai-regulation",
+   "sections": [
+    "Who gets to say no",
+    "The rest of the world builds its own",
+    "Forty billion, borrowed",
+    "Somebody else's bill"
+   ],
+   "items": [
+    {
+     "slug": "finland-google-forest",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "Finland told Google to stop clearing forest",
+     "gist": "Finnish supervisory agency LVV ordered Tuike Finland to suspend work at Muhos and Kajaani; 300+ ha logged before mandatory environmental assessment; explanation due 14 Oct, work stops 23 Oct; Google's EUR13bn two-year Finnish investment announced Sept 2026; 130 ha replanting pledged at Muhos."
+    },
+    {
+     "slug": "ai-public-opinion-poll",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Voters fear the machines more than they fear foreign competition",
+     "gist": "Reuters/Ipsos, 4,506 adults / 3,526 registered voters, closed 5 Oct, +/-2pts: 84% call AI a threat to US workers (foreign workers 74%, big corporations 73%, illegal immigration 60%); 56% want data-centre building limits (D 69%, R 43%); 80% D and 61% R want stricter AI rules; 57% say the administration is not serious; 62% say AI could get out of control."
+    },
+    {
+     "slug": "ai-rules-us-china-nyc",
+     "theme": "ai-safety-agents",
+     "kind": "followup",
+     "headline": "The labs came to New York and could not name a number",
+     "gist": "NYC Council hearing 5 Oct ran to 14 panels. Speaker Julie Menin asked for a catastrophic-risk probability; none given. OpenAI's Morgan Dwyer said 'I don't know'; Menin called it 'flippant at best'. Ex-Anthropic researcher Jacob Coxon: 'more likely than not that humanity loses control'. SpaceXAI ignored its subpoena; council going to court. Menin bill: $25,000 per unvalidated deployment, validator also liable."
+    },
+    {
+     "slug": "mistral-large-4",
+     "theme": "ai-products-research",
+     "kind": "new",
+     "headline": "Europe's best model is one you can download",
+     "gist": "Mistral Large 4 public preview 6 Oct: 1T parameters, 49bn active, trained from scratch on 3,800 Nvidia Grace Blackwell GPUs in European data centres, 160+ languages incl. all official EU languages; weights due end of October; Surge AI blind human eval 3.74/5, second of five, v Claude Opus 5 at 4.22."
+    },
+    {
+     "slug": "foxconn-ai-revenue",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "Every dollar of American AI goes through a Taiwanese assembly line",
+     "gist": "Foxconn Q3 revenue +47% to $95.4bn v $89.1bn LSEG estimate; September $36.5bn (+38%), first month above NT$1 trillion and a record; Nvidia's largest server maker; full Q3 results 12 Nov."
+    },
+    {
+     "slug": "huawei-qualcomm-patents",
+     "theme": "deals-corporate",
+     "kind": "new",
+     "headline": "Huawei and Qualcomm decided to pay each other instead",
+     "gist": "Multi-year cross-licence signed in Shenzhen 5 Oct covering 5G, compute, AI and networking; Qualcomm also buying certain Huawei US patents subject to regulatory approval; no financial terms disclosed; FRAND framing; quotes from Alan Fan and John Han."
+    },
+    {
+     "slug": "spacex-chip-financing",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "SpaceX wants to borrow $40bn to buy chips",
+     "gist": "FT, 6-7 Oct: about $40bn of debt to buy Nvidia chips, roughly $10bn bank loans and $30bn investment-grade bonds, Apollo leading, Pimco in talks, expected to close 2027. Musk said Colossus 2 could more than double its Nvidia chip count by December. Morgan Stanley: AI infrastructure needs $1.5trn of external financing by 2028."
+    },
+    {
+     "slug": "emera-canadian-utilities",
+     "theme": "deals-corporate",
+     "kind": "new",
+     "headline": "A utility sells itself to meet the demand",
+     "gist": "Emera to buy Canadian Utilities for $14.3bn all-stock, announced 6 Oct; combined enterprise value about $72bn, six million customers, twelve regulated utilities, Florida 45% and Alberta 34%; $32bn capital programme to 2030, rate-base growth 7-8%; closing expected Q3/Q4 2027; follows NextEra-Dominion $66.8bn in May."
+    },
+    {
+     "slug": "dalio-ai-bubble",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Dalio says the bubble is near its pricking point",
+     "gist": "Ray Dalio at the Forbes Global CEO Conference in Singapore, 7 Oct: 'We're in the part of the cycle that is before that but approaching that... I think we're close to that.' Mechanism: debt-funded capex meeting rising rates, plus forced selling of paper wealth. Said on a day the S&P 500 and Nasdaq retreated from records."
+    },
+    {
+     "slug": "japan-jgb-takaichi",
+     "theme": "global-economy",
+     "kind": "new",
+     "headline": "Japan's bond market is negotiating with its new prime minister",
+     "gist": "Takaichi promised 'proactive fiscal policy' in her 5 Oct autumn-Diet speech and told investors to rest assured; 30-year JGB yield hit an all-time high of 4.235%; on 7 Oct she said Japan may review spending if yields move sharply; 30-year eased to 4.18% on 8 Oct; Washington pressing Tokyo to spend less to support the yen."
+    },
+    {
+     "slug": "fed-rates",
+     "theme": "rates-bonds",
+     "kind": "followup",
+     "headline": "The Fed's own minutes put the rise back on the table",
+     "gist": "September FOMC minutes published 7 Oct: most participants expected another increase this year, reversing the market read after two deputies talked it down. 10-year Treasury touched 5.36% (highest since April 2002), closed 5.28%; 30-year reached 5.73% (highest since May 2002), closed 5.66%; target range 3.75-4%, effective funds rate 3.88% on 6 Oct; next meeting 27-28 Oct."
+    },
+    {
+     "slug": "denmark-cpr-breach",
+     "theme": "security-breaches",
+     "kind": "new",
+     "headline": "One company's access cost 8.8 million Danes their details",
+     "gist": "Attackers used a private Danish company's legitimate credentials to query the Central Person Register, taking names, addresses and CPR numbers for 8.8 million people out of roughly 11 million records. Irregular activity in September; CPR administration learned 2 Oct evening, notified Datatilsynet 4 Oct, ministry disclosed 5 Oct. Minister Christina Egelund ordered a security review; police investigating; no attacker named."
+    }
+   ],
+   "visuals": [
+    "300-square unit grid, one square per hectare of Finnish forest cleared, 130 marked for replanting",
+    "what voters say threatens American workers, horizontal bars with AI highlighted"
+   ],
+   "watch": [
+    {
+     "text": "Tuike Finland must tell the Finnish regulator how it will proceed at Muhos and Kajaani; work stops 23 October",
+     "due": "2026-10-14"
+    },
+    {
+     "text": "Firmus lists in Sydney after institutional bidding opened 6 October",
+     "due": "2026-10-22"
+    },
+    {
+     "text": "Federal Reserve meeting, with the September minutes pointing to one more rise this year",
+     "due": "2026-10-28"
+    },
+    {
+     "text": "Mistral has promised Large 4's open weights and architecture by the end of October",
+     "due": "2026-10-31"
+    },
+    {
+     "text": "Foxconn's full third-quarter results",
+     "due": "2026-11-12"
+    },
+    {
+     "text": "Regulatory clearance for Qualcomm's purchase of Huawei's American patents",
+     "due": null
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "finland-google-forest",
+     "question": "Does Tuike Finland satisfy the LVV by 14 October, and is the Muhos/Kajaani work actually suspended on the 23rd? Any penalty or enforcement proceeding?",
+     "next_check": "2026-10-23"
+    },
+    {
+     "slug": "ai-rules-us-china-nyc",
+     "question": "Does the council enforce its subpoena against SpaceXAI, and do Menin's $25,000-per-deployment validation bills move to a vote?",
+     "next_check": "2026-10-29"
+    },
+    {
+     "slug": "mistral-large-4",
+     "question": "Do Large 4's open weights and architecture details actually ship by the end of October, and how does it score on independent evaluations rather than Mistral's own?",
+     "next_check": "2026-11-02"
+    },
+    {
+     "slug": "japan-jgb-takaichi",
+     "question": "Does Takaichi trim the fiscal package, and where does the 30-year JGB yield settle? Any BOJ response?",
+     "next_check": "2026-10-26"
+    },
+    {
+     "slug": "denmark-cpr-breach",
+     "question": "Who was behind the CPR theft, which company's credentials were used, and what does Datatilsynet conclude?",
+     "next_check": null
+    },
+    {
+     "slug": "spacex-chip-financing",
+     "question": "Does the $40bn Apollo-led package price, and at what spread for investment-grade paper funding chips?",
+     "next_check": null
+    },
+    {
+     "slug": "huawei-qualcomm-patents",
+     "question": "Do US and Chinese regulators clear Qualcomm's purchase of Huawei's American patents?",
+     "next_check": null
+    },
+    {
+     "slug": "fed-rates",
+     "question": "The Fed's 27-28 October decision, now that the September minutes show most participants expecting another rise",
+     "next_check": "2026-10-28"
+    },
+    {
+     "slug": "firmus-ipo",
+     "question": "What Firmus prices at and how it trades after listing on 22 October",
+     "next_check": "2026-10-22"
+    },
+    {
+     "slug": "oracle-stargate-jupiter",
+     "question": "Does the New Mexico air-quality permit for the Bloom fuel cells clear by the 23 November state deadline, and does the gas pipeline slip again?",
+     "next_check": "2026-11-23"
+    },
+    {
+     "slug": "us-government-funding",
+     "question": "Government funding runs to 11 December. Shutdown risk?",
+     "next_check": "2026-12-01"
+    },
+    {
+     "slug": "anthropic-finances",
+     "question": "Anthropic's listing: prospectus details, timing and pricing",
+     "next_check": null
+    },
+    {
+     "slug": "citrix-netscaler-zero-days",
+     "question": "Mandiant counts dozens compromised via NetScaler; none has named itself. Who discloses first?",
+     "next_check": null
+    },
+    {
+     "slug": "google-gemini4-cyber",
+     "question": "Gemini 4 Argon still limited to cyber defenders; any date for wider release?",
+     "next_check": null
+    },
+    {
+     "slug": "oil-hormuz",
+     "question": "Strait of Hormuz: any reopening deal, with Brent near $101 on fresh Houthi attacks on Saudi airports?",
+     "next_check": null
+    },
+    {
+     "slug": "openai-gpt61-shelved",
+     "question": "OpenAI shipped GPT-6.1 Sol instead; still no account of what Astra did",
+     "next_check": null
+    }
+   ],
+   "threads_closed": [],
+   "url": "https://markfaizi.dev/signal/2026-10-08"
   }
  ],
  "threads": [
   {
    "slug": "ai-rules-us-china-nyc",
-   "question": "What the four labs said under oath in New York on 5 October, and whether the per-agent fines survive",
+   "question": "Does the council enforce its subpoena against SpaceXAI, and do Menin's $25,000-per-deployment validation bills move to a vote?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-05",
-   "next_check": "2026-10-08"
+   "last_seen": "2026-10-08",
+   "next_check": "2026-10-29"
   },
   {
    "slug": "anthropic-finances",
    "question": "Anthropic's listing: prospectus details, timing and pricing",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-08",
    "next_check": null
   },
   {
@@ -1227,23 +1439,39 @@
    "question": "Mandiant counts dozens compromised via NetScaler; none has named itself. Who discloses first?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-05",
+   "last_seen": "2026-10-08",
+   "next_check": null
+  },
+  {
+   "slug": "denmark-cpr-breach",
+   "question": "Who was behind the CPR theft, which company's credentials were used, and what does Datatilsynet conclude?",
+   "status": "open",
+   "opened": "2026-10-08",
+   "last_seen": "2026-10-08",
    "next_check": null
   },
   {
    "slug": "fed-rates",
-   "question": "The Fed's 27–28 October decision, after two deputies talked a rise out of the market",
+   "question": "The Fed's 27-28 October decision, now that the September minutes show most participants expecting another rise",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-05",
+   "last_seen": "2026-10-08",
    "next_check": "2026-10-28"
+  },
+  {
+   "slug": "finland-google-forest",
+   "question": "Does Tuike Finland satisfy the LVV by 14 October, and is the Muhos/Kajaani work actually suspended on the 23rd? Any penalty or enforcement proceeding?",
+   "status": "open",
+   "opened": "2026-10-08",
+   "last_seen": "2026-10-08",
+   "next_check": "2026-10-23"
   },
   {
    "slug": "firmus-ipo",
    "question": "What Firmus prices at and how it trades after listing on 22 October",
    "status": "open",
    "opened": "2026-10-05",
-   "last_seen": "2026-10-05",
+   "last_seen": "2026-10-08",
    "next_check": "2026-10-22"
   },
   {
@@ -1251,15 +1479,39 @@
    "question": "Gemini 4 Argon still limited to cyber defenders; any date for wider release?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-05",
+   "last_seen": "2026-10-08",
    "next_check": null
   },
   {
+   "slug": "huawei-qualcomm-patents",
+   "question": "Do US and Chinese regulators clear Qualcomm's purchase of Huawei's American patents?",
+   "status": "open",
+   "opened": "2026-10-08",
+   "last_seen": "2026-10-08",
+   "next_check": null
+  },
+  {
+   "slug": "japan-jgb-takaichi",
+   "question": "Does Takaichi trim the fiscal package, and where does the 30-year JGB yield settle? Any BOJ response?",
+   "status": "open",
+   "opened": "2026-10-08",
+   "last_seen": "2026-10-08",
+   "next_check": "2026-10-26"
+  },
+  {
+   "slug": "mistral-large-4",
+   "question": "Do Large 4's open weights and architecture details actually ship by the end of October, and how does it score on independent evaluations rather than Mistral's own?",
+   "status": "open",
+   "opened": "2026-10-08",
+   "last_seen": "2026-10-08",
+   "next_check": "2026-11-02"
+  },
+  {
    "slug": "oil-hormuz",
-   "question": "Strait of Hormuz: any reopening deal after Trump rejected Iran's seven-day plan on 27 September?",
+   "question": "Strait of Hormuz: any reopening deal, with Brent near $101 on fresh Houthi attacks on Saudi airports?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-08",
    "next_check": null
   },
   {
@@ -1267,7 +1519,7 @@
    "question": "OpenAI shipped GPT-6.1 Sol instead; still no account of what Astra did",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-05",
+   "last_seen": "2026-10-08",
    "next_check": null
   },
   {
@@ -1275,15 +1527,23 @@
    "question": "Does the New Mexico air-quality permit for the Bloom fuel cells clear by the 23 November state deadline, and does the gas pipeline slip again?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-08",
    "next_check": "2026-11-23"
+  },
+  {
+   "slug": "spacex-chip-financing",
+   "question": "Does the $40bn Apollo-led package price, and at what spread for investment-grade paper funding chips?",
+   "status": "open",
+   "opened": "2026-10-08",
+   "last_seen": "2026-10-08",
+   "next_check": null
   },
   {
    "slug": "us-government-funding",
    "question": "Government funding runs to 11 December. Shutdown risk?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-08",
    "next_check": "2026-12-01"
   }
  ]

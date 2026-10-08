@@ -4,3 +4,6 @@
 /*/index.html
 /*/archive.html
 /sitemap.xml
+
+# Python bytecode from running the tools
+__pycache__/
