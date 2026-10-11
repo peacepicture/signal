@@ -291,48 +291,187 @@
    ],
    "threads_closed": [],
    "url": "https://markfaizi.dev/kabulledger/2026-10-04"
+  },
+  {
+   "date": "2026-10-11",
+   "title": "Kabul Ledger — 11 October",
+   "lede": "Four Iranian delegations came to Kabul this week. None of them came to discuss the 492,000 Afghans Iran has deported this year.",
+   "lead_theme": "trade-transit",
+   "sections": [],
+   "items": [
+    {
+     "slug": "iran-trade-mission",
+     "theme": "trade-transit",
+     "kind": "new",
+     "headline": "Tehran sent four delegations to Kabul in five days",
+     "gist": "5-9 Oct: Iranian parliamentary delegation, 180 traders under the Joint Chamber, energy minister Aliabadi on ~2,000MW, and Zanganeh with the Herat/Farah/Nimroz governors. Iran set aside ~110 hectares at Chabahar (10 in port, 100 in the free zone); talk of $10bn trade; Kabul promised 24-hour opening at Islam Qala, Abu Nasr Farahi and Nimroz. Nothing signed. Iran is 32.9% of imports and 31.1% of exports in FY2026 to date (World Bank, Aug)."
+    },
+    {
+     "slug": "iran-deportations",
+     "theme": "returnees-labour",
+     "kind": "followup",
+     "headline": "Iran has deported 492,300 Afghans so far this year",
+     "gist": "UNHCR, 8 Oct: 581,600 returns from Iran 1 Jan-3 Oct, of which 492,300 forced (85%); 475,400 arrived after 28 Feb. 2025 comparison: 1.9m returns, ~1.26m forced. Remittances fell from 17.8% to 15.7% of GDP, the World Bank attributing most of the drop to the returns."
+    },
+    {
+     "slug": "kabul-water",
+     "theme": "water-climate",
+     "kind": "new",
+     "headline": "Kabul now buys by the barrel what it used to pull from the ground",
+     "gist": "CNN, 6 Oct: one household pays 150 AFN ($2.35) a day for seven people. Water table down ~100 feet in a decade; about half the city's boreholes dry; one well past 700 feet; extraction exceeds recharge by 44m cubic metres a year; one in five has piped water; poorer households spend up to 30% of income against a UN benchmark of 3%. Shahtoot dam never broke ground; the 124-mile Panjshir pipeline is still at survey. Prosper Global puts day zero as early as 2030."
+    },
+    {
+     "slug": "russia-trade",
+     "theme": "money-banking",
+     "kind": "new",
+     "headline": "Trade with Russia is up by half again, and barely any of it comes back the other way",
+     "gist": "Figures released 7 Oct: Afghan-Russian trade +150% in the first seven months of 2026. Russian customs put 2025 at ~$326m, Afghan figures at ~$590m; on the Russian numbers 2026 lands near $815m. Afghan exports to Russia about $4m. Russia supplied 4.7% of Afghan imports in FY2026 to August."
+    }
+   ],
+   "visuals": [
+    "Afghanistan's trade partners, imports v exports share, connected dot plot (dumbbell)",
+    "Kabul well cross-section: water table a decade ago v today, dry boreholes, a 700-foot well",
+    "the hawala netting ledger: claims out v claims in, with the residual that must arrive as cash"
+   ],
+   "watch": [
+    {
+     "text": "Whether this week's Iranian talk produces an actual payment channel: a correspondent relationship, a joint bank or a rial-afghani settlement window, and whether Islam Qala and Nimroz really run around the clock",
+     "due": "2026-11-15"
+    },
+    {
+     "text": "The pine nut season: last year ~7,500 tonnes for $95m, almost all to Chinese buyers. Does a second buyer appear, and is anything shelled and packed inside Afghanistan?",
+     "due": "2026-12-15"
+    },
+    {
+     "text": "Hindu Kush snowpack through December: above-average precipitation helps winter wheat, but Kabul's aquifer needs slow snowmelt rather than run-off",
+     "due": "2026-12-31"
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "iran-trade-mission",
+     "question": "Do the Chabahar land allocation, the 24-hour crossings and the $10bn target produce anything signed, and is there a banking mechanism behind any of it?",
+     "next_check": "2026-11-15"
+    },
+    {
+     "slug": "kabul-water",
+     "question": "Does the Panjshir pipeline move past survey stage, does Shahtoot restart, and what does the winter recharge do to the water table?",
+     "next_check": "2026-12-20"
+    },
+    {
+     "slug": "pine-nuts",
+     "question": "Khost, Paktia and Paktika harvest is larger this year. What are the export volume, value and destinations, and does processing move onshore?",
+     "next_check": "2026-12-15"
+    },
+    {
+     "slug": "hunger-figures",
+     "question": "The new IPC analysis and FEWS NET's October outlook had still not appeared by 11 October. When do they land, and what do they say?",
+     "next_check": "2026-10-18"
+    },
+    {
+     "slug": "iran-deportations",
+     "question": "Monthly returnee and deportation counts from Iran and Pakistan (UNHCR, IOM), and whether the pace keeps easing from 2025's level",
+     "next_check": "2026-11-08"
+    },
+    {
+     "slug": "un-aid-funding",
+     "question": "UN appeal funding level, still about 31% of $1.71bn on 6 October after an $18m CERF allocation. Check monthly.",
+     "next_check": "2026-11-08"
+    },
+    {
+     "slug": "russia-trade",
+     "question": "Does 2026 trade with Russia land near $815m, and do the Russian and Afghan figures converge?",
+     "next_check": "2027-02-15"
+    },
+    {
+     "slug": "pakistan-border-closure",
+     "question": "Crossings still shut to goods, a year on; Pakistan is now on neither of the World Bank's main trade-partner lists. Mention only on a concrete development.",
+     "next_check": null
+    }
+   ],
+   "threads_closed": [
+    "energy-imports-iran-tapi"
+   ],
+   "explainer": {
+    "area": "plumbing",
+    "topic": "Who pays for the imports: how hawala settles a $13bn import bill by netting offsetting claims, why the netting cannot close when imports run seven and a half times exports, and why physical dollars have to arrive"
+   },
+   "url": "https://markfaizi.dev/kabulledger/2026-10-11"
   }
  ],
  "threads": [
   {
    "slug": "energy-imports-iran-tapi",
    "question": "Does Iran's 2,000 MW offer become a contract? Is TAPI's Serhetabat–Herat section finished by end-December?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-09-27",
    "last_seen": "2026-09-27",
-   "next_check": "2026-12-31"
+   "next_check": "2026-12-31",
+   "closed": "2026-10-11"
   },
   {
    "slug": "hunger-figures",
-   "question": "When do the new IPC analysis and FEWS NET's October outlook appear, and what do they say?",
+   "question": "The new IPC analysis and FEWS NET's October outlook had still not appeared by 11 October. When do they land, and what do they say?",
    "status": "open",
    "opened": "2026-10-04",
-   "last_seen": "2026-10-04",
+   "last_seen": "2026-10-11",
    "next_check": "2026-10-18"
   },
   {
    "slug": "iran-deportations",
-   "question": "September returnee numbers from Iran and Pakistan (IOM, UNHCR)",
+   "question": "Monthly returnee and deportation counts from Iran and Pakistan (UNHCR, IOM), and whether the pace keeps easing from 2025's level",
    "status": "open",
    "opened": "2026-09-27",
-   "last_seen": "2026-10-04",
-   "next_check": "2026-10-15"
+   "last_seen": "2026-10-11",
+   "next_check": "2026-11-08"
+  },
+  {
+   "slug": "iran-trade-mission",
+   "question": "Do the Chabahar land allocation, the 24-hour crossings and the $10bn target produce anything signed, and is there a banking mechanism behind any of it?",
+   "status": "open",
+   "opened": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "next_check": "2026-11-15"
+  },
+  {
+   "slug": "kabul-water",
+   "question": "Does the Panjshir pipeline move past survey stage, does Shahtoot restart, and what does the winter recharge do to the water table?",
+   "status": "open",
+   "opened": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "next_check": "2026-12-20"
   },
   {
    "slug": "pakistan-border-closure",
-   "question": "Southern crossings still shut to goods; airstrikes in Kunar and Helmand on 30 Sep instead of a reopening date. Mention only on a concrete development.",
+   "question": "Crossings still shut to goods, a year on; Pakistan is now on neither of the World Bank's main trade-partner lists. Mention only on a concrete development.",
    "status": "open",
    "opened": "2026-09-27",
-   "last_seen": "2026-10-04",
+   "last_seen": "2026-10-11",
    "next_check": null
   },
   {
+   "slug": "pine-nuts",
+   "question": "Khost, Paktia and Paktika harvest is larger this year. What are the export volume, value and destinations, and does processing move onshore?",
+   "status": "open",
+   "opened": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "next_check": "2026-12-15"
+  },
+  {
+   "slug": "russia-trade",
+   "question": "Does 2026 trade with Russia land near $815m, and do the Russian and Afghan figures converge?",
+   "status": "open",
+   "opened": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "next_check": "2027-02-15"
+  },
+  {
    "slug": "un-aid-funding",
-   "question": "UN appeal funding level (31% of $1.71bn in mid-September). Check monthly, not weekly.",
+   "question": "UN appeal funding level, still about 31% of $1.71bn on 6 October after an $18m CERF allocation. Check monthly.",
    "status": "open",
    "opened": "2026-09-27",
-   "last_seen": "2026-09-27",
-   "next_check": "2026-10-25"
+   "last_seen": "2026-10-11",
+   "next_check": "2026-11-08"
   },
   {
    "slug": "winter-harvest-weather",
