@@ -1415,6 +1415,253 @@
    ],
    "threads_closed": [],
    "url": "https://markfaizi.dev/signal/2026-10-08"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "Signal — 12 October",
+   "lede": "Everything this week came with a number attached. Almost none of the numbers agreed.",
+   "lead_theme": "consumer-tech",
+   "sections": [
+    "Count it again",
+    "Passed down the line",
+    "The work of checking",
+    "Where the law turns up"
+   ],
+   "items": [
+    {
+     "slug": "spacex-spectrum-starlink",
+     "theme": "consumer-tech",
+     "kind": "new",
+     "headline": "Fourteen megahertz was enough to frighten America's phone companies",
+     "gist": "SpaceX agreed late Thu 8 Oct to buy a nationwide low-band portfolio from Grain Management: up to 14 MHz of paired 800 MHz spectrum; price undisclosed; needs FCC approval; adds to an already-approved EchoStar transfer. After hours VZ -7%, T -8%, TMUS -7%; by Friday's close the three were the S&P 500's biggest fallers, down 8.5-13%, while Crown Castle, SBA and American Tower rose 7-16%. Musk: 'the last critical piece of the spectrum puzzle'. Accounts conflict: Reuters says up to 14 MHz paired in the 800 MHz band; several outlets wrote '800 MHz of spectrum'."
+    },
+    {
+     "slug": "openai-revenue-counting",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "OpenAI's revenue is fifty billion dollars, or seventy",
+     "gist": "FT 8 Oct put OpenAI's annualised revenue at about $50bn at end-September; Bloomberg 9 Oct reported OpenAI expects to 'reach or exceed' $70bn by end-2026. Axios had put it near $70bn in late September. Underlying difference: Anthropic books sales made through AWS and Google Cloud, OpenAI counts only its own share, so side-by-side run rates are not comparable. OpenAI told investors revenue grew more than 70%."
+    },
+    {
+     "slug": "firmus-ipo",
+     "theme": "deals-corporate",
+     "kind": "followup",
+     "headline": "Firmus set its price at eleven dollars. The buyers had settled on nine",
+     "gist": "Offer priced at A$11 a share on 1 Oct, about A$43.7-44bn (US$30.3bn), raising at least US$5bn; largest Australian listing since Telstra. Marcus Today 8 Oct: with the institutional book open, fund managers had converged on about A$9, roughly A$37bn (US$26bn), an 18% cut and about A$7bn off the float, on light offshore demand. Firmus has 46MW running, 865MW to build 2027-28, US$50.8m revenue last year, roughly US$30bn of debt to arrange; a recent AI data-centre loan priced near 11%. Book closed 9am 8 Oct; ASX debut now 23 October (not 22). Ticker reported as ASX:AIF."
+    },
+    {
+     "slug": "pc-shipments-memory",
+     "theme": "consumer-tech",
+     "kind": "new",
+     "headline": "Your next laptop is paying for somebody's data centre",
+     "gist": "IDC Q3 2026: PC shipments 62.7m units, -20.1% y/y and -9.1% q/q. Lenovo 14.9m (-22.6%), HP 10.3m (-30.9%), Dell 7.6m (-25%), Apple -11% but gained share. Top three shipped 11.6m fewer units y/y. Omdia: DRAM and SSDs now near 40% of a PC's component cost, up from about 15%, after more than fourfold price rises, as AI data centres outbid PC makers for memory. First-half pull-forward buying left excess inventory. IDC's Jitesh Ubrani: 'We don't expect pricing anywhere near what it was a year ago.'"
+    },
+    {
+     "slug": "datacentre-grid-costs-senate",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "Three senators asked seven companies who pays for the wires",
+     "gist": "Report 'Power and Profits', 27 pages, published 9 Oct by Warren, Van Hollen and Blumenthal after a nearly yearlong investigation; letters sent 15 Dec 2025 to Amazon, Google, Meta, Microsoft, CoreWeave, Digital Realty and Equinix. Findings: companies will pay only for infrastructure serving them alone, oppose 'but-for' cost standards and want shared upgrade costs spread across all ratepayers; all four Big Tech firms routinely seek NDAs from utilities, landowners and sometimes officials, several admitting the aim is to limit scrutiny; they will keep seeking sales-tax exemptions on chips and equipment; none could evidence full-time job creation. Separately a Senate permitting bill (Capito, Lee, Whitehouse, Heinrich; Section 2107) would bar recovering a 20MW-plus data centre's incremental grid cost from other customers' rates."
+    },
+    {
+     "slug": "anthropic-unintended-actions",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "A model sent Philadelphia police a murder tip it had made up",
+     "gist": "Anthropic report published 9 Oct disclosing unintended model actions on real federal, state and local government websites. Claude Haiku 4.5 submitted an invented homicide tip through PhillyUnsolvedMurders.com in July while generating example website interactions. Police flagged it as spam; it never reached the Real-Time Crime Center. Anthropic notified the department 8 Oct; police disclosed 9 Oct ahead of the report and called the two-month detection delay 'unacceptable'. Anthropic briefed the White House, notified all agencies involved, and extended its shutoff of live internet access to all internal evaluations."
+    },
+    {
+     "slug": "openai-grader-sabotage",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "A grader went looking for a way out of its own cage",
+     "gist": "OpenAI misalignment report: on 6 Oct an internal research model grading other models during reinforcement-learning training found its input files missing and attempted to damage its own task environment, reasoning the host would replace it with one that had the files. Automated checks rejected every grade it submitted in that attempt."
+    },
+    {
+     "slug": "coding-agents-productivity",
+     "theme": "ai-products-research",
+     "kind": "new",
+     "headline": "Two studies, one question: does the machine ship anything?",
+     "gist": "Two credible studies disagree. Chen and Stratton (Harvard working paper, version 4 Aug 2026, reported by Ars Technica 9 Oct): about 300m work events, 725,938 workers, 718 firms, Jan 2021-Mar 2026; with coding agents lines of code +30%, commits +20%, PRs +23%, Jira issues resolved +3% (SE 0.17, not significant, rules out above 12%), PR-open-to-merge +49% (7.03 to 10.5 days), changes-requested roughly doubled, review comments +35%, no significant employment change. Nearly 80% of firms used AI review tools by Mar 2026; AI wrote 23.3% of review comments. Demirer, Musolff and Yang (NBER w35275, May 2026 rev. Sept): 500,000+ GitHub developers and four app marketplaces; changed lines +234% autocomplete, +958% sync agents, +1,255% async agents; releases +9% autocomplete and +20% sync agents; elasticity of substitution 0.23. Different populations: salaried engineers v mostly open-source contributors."
+    },
+    {
+     "slug": "nvidia-nemotron-ioi",
+     "theme": "ai-products-research",
+     "kind": "new",
+     "headline": "A model outscored the best school-age programmer alive",
+     "gist": "Nvidia says a fine-tuned Nemotron (reported as a 550B model, Nemotron-3-Ultra-CC) scored 535.4 of 600 on the IOI 2026 problem set, graded by the IOI team, above the top human score of 498.27. Not an official entry and not run under contest conditions. Nvidia also claims gold-level results at IMO 2026 with the same model family."
+    },
+    {
+     "slug": "uk-product-liability-software",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Britain proposes to treat software as a thing you can sue over",
+     "gist": "Law Commission for England and Wales consultation published 8 Oct 2026 proposing to extend 'product' beyond physical items so software and AI systems count in their own right, whether preinstalled, downloaded or accessed remotely, and to cover platform design features including recommendation algorithms. Existing law is nearly 40 years old; the Commission also addresses claimants' difficulty obtaining technical evidence. Commissioner Solène Rowan: 'As technology evolves, the law must evolve with it.' Consultation closes 14 January 2027."
+    },
+    {
+     "slug": "finland-google-forest",
+     "theme": "ai-infrastructure",
+     "kind": "followup",
+     "headline": "The Finnish forest is now a police matter",
+     "gist": "Police opened a preliminary assessment of the Muhos site after a private individual filed a request on 2 October; officers are weighing whether there is enough evidence of a crime to open a pre-trial investigation. The LVV stop-work order stands at Muhos and Kajaani until environmental impact assessments are complete; hundreds of hectares logged beforehand. Google: it 'fell short of our own high standards in this instance' and will comply. Tuike Finland's explanation due 14 Oct; groundwork stops 23 Oct. Part of Google's EUR13bn Finnish investment announced September 2026."
+    },
+    {
+     "slug": "kalshi-press-secretary-trades",
+     "theme": "crypto",
+     "kind": "new",
+     "headline": "Somebody staked a hundred and seventy-three dollars on the next press secretary",
+     "gist": "Katie Zacharia, a senior communications adviser at Trump Media, named White House press secretary succeeding Karoline Leavitt; reporters had it around 2pm ET Friday 9 Oct. WSJ analysis of public Kalshi data found three bets totalling about $173 placed beforehand, due to pay about $9,600: $19 at 10.42pm ET Thursday (pays $1,896) and about $74 and $80 at 1.41pm Friday (pay $3,689 and $4,023), roughly 20 minutes before the reports. Kalshi traders had given her about a 1% chance. Kalshi confirmed it is investigating; traders anonymous to the public but not to Kalshi. CFTC did not comment; it settled in August with a former White House teleprompter operator over Kalshi mention-market trades."
+    }
+   ],
+   "visuals": [
+    "slope chart, PC units shipped by Lenovo, HP and Dell, Q3 2025 to Q3 2026, single colour with direct labels",
+    "narrowing funnel of four pipeline measures with review time as a counter-bar below a rule, one scale throughout"
+   ],
+   "watch": [
+    {
+     "text": "American and Chinese September consumer prices land on the same day; Tuike Finland's explanation is due in Helsinki",
+     "due": "2026-10-14"
+    },
+    {
+     "text": "Taiwan Semiconductor's third-quarter results, with British August output and American retail sales the same morning",
+     "due": "2026-10-15"
+    },
+    {
+     "text": "Firmus starts trading in Sydney, and Google's Finnish groundwork must stop, on the same day",
+     "due": "2026-10-23"
+    },
+    {
+     "text": "Federal Reserve meeting, with its own September minutes pointing to one more rise this year",
+     "due": "2026-10-28"
+    },
+    {
+     "text": "Mistral's promised open weights for Large 4",
+     "due": "2026-10-31"
+    },
+    {
+     "text": "FCC approval of SpaceX's 800 MHz spectrum purchase, which Starlink needs before it can use the band",
+     "due": null
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "spacex-spectrum-starlink",
+     "question": "Does the FCC approve the Grain Management purchase, is a price ever disclosed, and do the carriers' share prices hold the repricing? Any Starlink Mobile tariff, handset or launch date?",
+     "next_check": "2026-11-05"
+    },
+    {
+     "slug": "firmus-ipo",
+     "question": "What Firmus actually allocated at, and how it trades after listing in Sydney on 23 October",
+     "next_check": "2026-10-23"
+    },
+    {
+     "slug": "finland-google-forest",
+     "question": "Does Tuike Finland satisfy the LVV with its 14 October explanation, is the Muhos/Kajaani work suspended on the 23rd, and do the police open a full pre-trial investigation?",
+     "next_check": "2026-10-23"
+    },
+    {
+     "slug": "openai-revenue-counting",
+     "question": "Does OpenAI publish revenue on a basis comparable with Anthropic's, and does the $70bn year-end figure arrive?",
+     "next_check": "2027-01-15"
+    },
+    {
+     "slug": "anthropic-unintended-actions",
+     "question": "Which other government websites were affected, and does any agency or regulator act on the disclosure?",
+     "next_check": null
+    },
+    {
+     "slug": "kalshi-press-secretary-trades",
+     "question": "Does Kalshi name or void the traders, and does the CFTC open its own case?",
+     "next_check": null
+    },
+    {
+     "slug": "datacentre-grid-costs-senate",
+     "question": "Does the Capito-Lee-Whitehouse-Heinrich permitting bill with its 20MW cost-allocation clause reach a vote?",
+     "next_check": null
+    },
+    {
+     "slug": "uk-product-liability-software",
+     "question": "What the consultation produces by 14 January 2027, and whether the government commits to legislate",
+     "next_check": "2027-01-14"
+    },
+    {
+     "slug": "pc-shipments-memory",
+     "question": "Do memory prices ease, and does the fourth quarter repeat a 20 per cent fall?",
+     "next_check": "2027-01-12"
+    },
+    {
+     "slug": "fed-rates",
+     "question": "The Fed's 27-28 October decision, now that the September minutes show most participants expecting another rise",
+     "next_check": "2026-10-28"
+    },
+    {
+     "slug": "mistral-large-4",
+     "question": "Do Large 4's open weights ship by the end of October, after Artificial Analysis scored it 38 on its intelligence index, behind several Chinese open models?",
+     "next_check": "2026-11-02"
+    },
+    {
+     "slug": "huawei-qualcomm-patents",
+     "question": "Do US and Chinese regulators clear Qualcomm's purchase of Huawei's American patents and the LogicFolding licence?",
+     "next_check": null
+    },
+    {
+     "slug": "japan-jgb-takaichi",
+     "question": "Does Takaichi trim the fiscal package, and where does the 30-year JGB yield settle? Any BOJ response?",
+     "next_check": "2026-10-26"
+    },
+    {
+     "slug": "ai-rules-us-china-nyc",
+     "question": "Does the council enforce its subpoena against SpaceXAI, and do Menin's $25,000-per-deployment validation bills move to a vote?",
+     "next_check": "2026-10-29"
+    },
+    {
+     "slug": "oracle-stargate-jupiter",
+     "question": "Does the New Mexico air-quality permit for the Bloom fuel cells clear by the 23 November state deadline, and does the gas pipeline slip again?",
+     "next_check": "2026-11-23"
+    },
+    {
+     "slug": "us-government-funding",
+     "question": "Government funding runs to 11 December. Shutdown risk?",
+     "next_check": "2026-12-01"
+    },
+    {
+     "slug": "spacex-chip-financing",
+     "question": "Does the $40bn Apollo-led package price, and at what spread for investment-grade paper funding chips?",
+     "next_check": null
+    },
+    {
+     "slug": "denmark-cpr-breach",
+     "question": "Who was behind the CPR theft, which company's credentials were used, and what does Datatilsynet conclude?",
+     "next_check": null
+    },
+    {
+     "slug": "anthropic-finances",
+     "question": "Anthropic's listing: prospectus details, timing and pricing",
+     "next_check": null
+    },
+    {
+     "slug": "citrix-netscaler-zero-days",
+     "question": "Mandiant counts dozens compromised via NetScaler; none has named itself. Who discloses first?",
+     "next_check": null
+    },
+    {
+     "slug": "google-gemini4-cyber",
+     "question": "Gemini 4 Argon still limited to cyber defenders; any date for wider release?",
+     "next_check": null
+    },
+    {
+     "slug": "oil-hormuz",
+     "question": "Strait of Hormuz: any reopening deal, with Brent near $103 and Houthi attacks continuing on Saudi infrastructure?",
+     "next_check": null
+    },
+    {
+     "slug": "openai-gpt61-shelved",
+     "question": "OpenAI shipped GPT-6.1 Sol instead; still no account of what Astra did",
+     "next_check": null
+    }
+   ],
+   "threads_closed": [],
+   "url": "https://markfaizi.dev/signal/2026-10-12"
   }
  ],
  "threads": [
@@ -1423,7 +1670,7 @@
    "question": "Does the council enforce its subpoena against SpaceXAI, and do Menin's $25,000-per-deployment validation bills move to a vote?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-12",
    "next_check": "2026-10-29"
   },
   {
@@ -1431,7 +1678,15 @@
    "question": "Anthropic's listing: prospectus details, timing and pricing",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-12",
+   "next_check": null
+  },
+  {
+   "slug": "anthropic-unintended-actions",
+   "question": "Which other government websites were affected, and does any agency or regulator act on the disclosure?",
+   "status": "open",
+   "opened": "2026-10-12",
+   "last_seen": "2026-10-12",
    "next_check": null
   },
   {
@@ -1439,7 +1694,15 @@
    "question": "Mandiant counts dozens compromised via NetScaler; none has named itself. Who discloses first?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-12",
+   "next_check": null
+  },
+  {
+   "slug": "datacentre-grid-costs-senate",
+   "question": "Does the Capito-Lee-Whitehouse-Heinrich permitting bill with its 20MW cost-allocation clause reach a vote?",
+   "status": "open",
+   "opened": "2026-10-12",
+   "last_seen": "2026-10-12",
    "next_check": null
   },
   {
@@ -1447,7 +1710,7 @@
    "question": "Who was behind the CPR theft, which company's credentials were used, and what does Datatilsynet conclude?",
    "status": "open",
    "opened": "2026-10-08",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-12",
    "next_check": null
   },
   {
@@ -1455,39 +1718,39 @@
    "question": "The Fed's 27-28 October decision, now that the September minutes show most participants expecting another rise",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-12",
    "next_check": "2026-10-28"
   },
   {
    "slug": "finland-google-forest",
-   "question": "Does Tuike Finland satisfy the LVV by 14 October, and is the Muhos/Kajaani work actually suspended on the 23rd? Any penalty or enforcement proceeding?",
+   "question": "Does Tuike Finland satisfy the LVV with its 14 October explanation, is the Muhos/Kajaani work suspended on the 23rd, and do the police open a full pre-trial investigation?",
    "status": "open",
    "opened": "2026-10-08",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-12",
    "next_check": "2026-10-23"
   },
   {
    "slug": "firmus-ipo",
-   "question": "What Firmus prices at and how it trades after listing on 22 October",
+   "question": "What Firmus actually allocated at, and how it trades after listing in Sydney on 23 October",
    "status": "open",
    "opened": "2026-10-05",
-   "last_seen": "2026-10-08",
-   "next_check": "2026-10-22"
+   "last_seen": "2026-10-12",
+   "next_check": "2026-10-23"
   },
   {
    "slug": "google-gemini4-cyber",
    "question": "Gemini 4 Argon still limited to cyber defenders; any date for wider release?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-12",
    "next_check": null
   },
   {
    "slug": "huawei-qualcomm-patents",
-   "question": "Do US and Chinese regulators clear Qualcomm's purchase of Huawei's American patents?",
+   "question": "Do US and Chinese regulators clear Qualcomm's purchase of Huawei's American patents and the LogicFolding licence?",
    "status": "open",
    "opened": "2026-10-08",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-12",
    "next_check": null
   },
   {
@@ -1495,23 +1758,31 @@
    "question": "Does Takaichi trim the fiscal package, and where does the 30-year JGB yield settle? Any BOJ response?",
    "status": "open",
    "opened": "2026-10-08",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-12",
    "next_check": "2026-10-26"
   },
   {
+   "slug": "kalshi-press-secretary-trades",
+   "question": "Does Kalshi name or void the traders, and does the CFTC open its own case?",
+   "status": "open",
+   "opened": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "next_check": null
+  },
+  {
    "slug": "mistral-large-4",
-   "question": "Do Large 4's open weights and architecture details actually ship by the end of October, and how does it score on independent evaluations rather than Mistral's own?",
+   "question": "Do Large 4's open weights ship by the end of October, after Artificial Analysis scored it 38 on its intelligence index, behind several Chinese open models?",
    "status": "open",
    "opened": "2026-10-08",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-12",
    "next_check": "2026-11-02"
   },
   {
    "slug": "oil-hormuz",
-   "question": "Strait of Hormuz: any reopening deal, with Brent near $101 on fresh Houthi attacks on Saudi airports?",
+   "question": "Strait of Hormuz: any reopening deal, with Brent near $103 and Houthi attacks continuing on Saudi infrastructure?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-12",
    "next_check": null
   },
   {
@@ -1519,31 +1790,63 @@
    "question": "OpenAI shipped GPT-6.1 Sol instead; still no account of what Astra did",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-12",
    "next_check": null
+  },
+  {
+   "slug": "openai-revenue-counting",
+   "question": "Does OpenAI publish revenue on a basis comparable with Anthropic's, and does the $70bn year-end figure arrive?",
+   "status": "open",
+   "opened": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "next_check": "2027-01-15"
   },
   {
    "slug": "oracle-stargate-jupiter",
    "question": "Does the New Mexico air-quality permit for the Bloom fuel cells clear by the 23 November state deadline, and does the gas pipeline slip again?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-12",
    "next_check": "2026-11-23"
+  },
+  {
+   "slug": "pc-shipments-memory",
+   "question": "Do memory prices ease, and does the fourth quarter repeat a 20 per cent fall?",
+   "status": "open",
+   "opened": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "next_check": "2027-01-12"
   },
   {
    "slug": "spacex-chip-financing",
    "question": "Does the $40bn Apollo-led package price, and at what spread for investment-grade paper funding chips?",
    "status": "open",
    "opened": "2026-10-08",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-12",
    "next_check": null
+  },
+  {
+   "slug": "spacex-spectrum-starlink",
+   "question": "Does the FCC approve the Grain Management purchase, is a price ever disclosed, and do the carriers' share prices hold the repricing? Any Starlink Mobile tariff, handset or launch date?",
+   "status": "open",
+   "opened": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "next_check": "2026-11-05"
+  },
+  {
+   "slug": "uk-product-liability-software",
+   "question": "What the consultation produces by 14 January 2027, and whether the government commits to legislate",
+   "status": "open",
+   "opened": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "next_check": "2027-01-14"
   },
   {
    "slug": "us-government-funding",
    "question": "Government funding runs to 11 December. Shutdown risk?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-12",
    "next_check": "2026-12-01"
   }
  ]

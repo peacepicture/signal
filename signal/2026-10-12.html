@@ -1,0 +1,544 @@
+<!doctype html><html><head>
+<!-- site-head:start · written by build.py, edits inside are overwritten -->
+<title>Signal — 12 October</title>
+<meta name="description" content="Everything this week came with a number attached. Almost none of the numbers agreed.">
+<link rel="canonical" href="https://markfaizi.dev/signal/2026-10-12">
+<link rel="icon" href="/assets/signal/icon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/signal/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/signal/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#EDEAE7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141110" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Signal · markfaizi.dev">
+<meta property="og:title" content="Signal — 12 October">
+<meta property="og:description" content="Everything this week came with a number attached. Almost none of the numbers agreed.">
+<meta property="og:url" content="https://markfaizi.dev/signal/2026-10-12">
+<meta property="og:image" content="https://markfaizi.dev/assets/signal/og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Signal: technology, AI and markets. Mondays and Thursdays at markfaizi.dev/signal.">
+<meta property="og:locale" content="en_GB">
+<meta property="article:published_time" content="2026-10-12">
+<meta name="twitter:card" content="summary_large_image">
+<!-- site-head:end -->
+<meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Signal — 12 October</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Bodoni+Moda:ital,opsz,wght@1,6..96,400;1,6..96,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: one editorial column — masthead, mono tape strip, lede with a
+   two-rulers drawing, four titled sections, a funnel figure and a slope
+   figure, a week-ahead ledger. */
+
+/* TimeBurner is not on Google Fonts. Drop a base64 face in here to switch it on.
+@font-face {
+  font-family:"TimeBurner";
+  src:url(data:font/woff2;base64,...) format("woff2");
+  font-weight:400 700; font-display:swap;
+}
+*/
+
+:root{
+  --paper:#EDEAE7;
+  --paper-2:#E3DFDB;
+  --ink:#17110F;
+  --ink-2:#4A3F3B;
+  --ink-3:#6E615C;
+  --accent:#8E1F2F;
+  --teal:#1F5A5A;
+  --rule:#C9C2BC;
+  --font-display:"TimeBurner","Chakra Petch","Eurostile","Bahnschrift","Trebuchet MS",sans-serif;
+  --font-body:"Newsreader",Georgia,"Times New Roman",serif;
+  --font-lede:"Bodoni Moda","Didot","Hoefler Text",Georgia,serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#141110;
+    --paper-2:#1E1A18;
+    --ink:#EDE7E3;
+    --ink-2:#C4B9B3;
+    --ink-3:#9A8D87;
+    --accent:#D96076;
+    --teal:#5AAFAB;
+    --rule:#3A3230;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#141110;
+  --paper-2:#1E1A18;
+  --ink:#EDE7E3;
+  --ink-2:#C4B9B3;
+  --ink-3:#9A8D87;
+  --accent:#D96076;
+  --teal:#5AAFAB;
+  --rule:#3A3230;
+  color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--font-body);
+  font-size:19px;
+  line-height:1.63;
+  -webkit-text-size-adjust:100%;
+  font-synthesis:none;
+}
+.wrap{max-width:39rem;margin:0 auto;padding-left:20px;padding-right:20px;padding-block:0 0}
+p{margin:0 0 1.05em}
+a{color:inherit}
+
+/* ── masthead ─────────────────────────────────────────── */
+.masthead{padding-block:34px 0}
+.mastrow{display:flex;align-items:center;gap:13px}
+.mark{flex:0 0 auto;width:40px;height:40px;display:block}
+.wordmark{
+  font-family:var(--font-display);
+  font-size:clamp(2.6rem,11vw,3.6rem);
+  line-height:.9;
+  letter-spacing:.015em;
+  text-transform:uppercase;
+  font-weight:700;
+  margin:0;
+}
+.standfirst{
+  display:flex;flex-wrap:wrap;gap:6px 16px;justify-content:space-between;
+  font-family:var(--font-mono);font-size:13px;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--ink-3);
+  margin-top:14px;padding-top:11px;border-top:1.5px solid var(--ink);
+}
+.standfirst b{color:var(--accent);font-weight:600}
+
+/* ── tape ─────────────────────────────────────────────── */
+.tape{
+  margin-top:20px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+  padding-block:14px;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(106px,1fr));gap:15px 18px;
+}
+.tape div{min-width:0}
+.tapek{
+  display:block;font-family:var(--font-mono);font-size:12px;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--ink-3);margin-bottom:3px;
+}
+.tapev{
+  display:block;font-family:var(--font-mono);font-size:19px;font-weight:600;
+  font-variant-numeric:tabular-nums;letter-spacing:-.01em;
+}
+.tapen{display:block;font-family:var(--font-mono);font-size:12px;color:var(--ink-3);margin-top:2px}
+.up{color:var(--accent)}
+.flat{color:var(--teal)}
+
+/* ── lede ─────────────────────────────────────────────── */
+.lede{
+  font-family:var(--font-lede);font-style:italic;
+  font-size:clamp(1.42rem,5.3vw,1.72rem);line-height:1.34;
+  margin:30px 0 20px;color:var(--ink);
+  text-wrap:balance;
+}
+.rulers{display:block;width:100%;max-width:100%;margin:0 0 24px}
+.argument{font-size:1.02em}
+.argument p:first-of-type::first-letter{
+  float:left;font-family:var(--font-display);font-size:3.1em;line-height:.78;
+  padding:.06em .1em 0 0;color:var(--accent);font-weight:700;
+}
+
+/* ── since-last-time ─────────────────────────────────── */
+.since{
+  border-left:3px solid var(--teal);background:var(--paper-2);
+  padding:16px 18px;margin:26px 0 8px;border-radius:0 3px 3px 0;
+}
+.since h2{
+  font-family:var(--font-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--teal);margin:0 0 9px;font-weight:600;
+}
+.since ul{margin:0;padding-left:1.05em;font-size:17px;line-height:1.55}
+.since li{margin-bottom:7px}
+.since li:last-child{margin-bottom:0}
+
+/* ── sections ─────────────────────────────────────────── */
+.sec{margin-top:46px}
+.secnum{
+  font-family:var(--font-mono);font-size:12px;letter-spacing:.14em;color:var(--accent);
+  text-transform:uppercase;display:block;margin-bottom:7px;font-weight:600;
+}
+.sec > h2{
+  font-family:var(--font-display);font-weight:700;
+  font-size:clamp(1.55rem,6.4vw,2.05rem);line-height:1.08;margin:0 0 4px;
+  text-transform:uppercase;letter-spacing:.012em;text-wrap:balance;
+}
+.sec > h2 + .secrule{height:3px;background:var(--ink);margin-bottom:26px}
+
+article{margin-bottom:34px}
+article:last-child{margin-bottom:0}
+.kicker{
+  font-family:var(--font-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-3);display:block;margin-bottom:5px;
+}
+.kicker.fu{color:var(--accent);font-weight:600}
+article h3{
+  font-family:var(--font-display);font-weight:700;
+  font-size:clamp(1.42rem,5.4vw,1.62rem);line-height:1.14;margin:0 0 10px;
+  text-wrap:balance;letter-spacing:.005em;
+}
+.srcline{
+  font-family:var(--font-mono);font-size:12.5px;letter-spacing:.02em;color:var(--ink-3);
+  margin-top:-.35em;
+}
+.srcline a{color:var(--teal);text-decoration:none;border-bottom:1px solid var(--rule)}
+.srcline a:hover,.srcline a:focus{border-bottom-color:var(--teal)}
+.srcline a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* ── pull quote ───────────────────────────────────────── */
+blockquote{
+  margin:24px 0;padding:0 0 0 20px;border-left:3px solid var(--accent);
+  font-family:var(--font-lede);font-style:italic;font-size:1.22em;line-height:1.38;
+}
+blockquote cite{
+  display:block;font-family:var(--font-mono);font-style:normal;font-size:12.5px;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);margin-top:10px;
+}
+
+/* ── figures ──────────────────────────────────────────── */
+figure{
+  margin:26px 0;padding:19px 19px 16px;background:var(--paper-2);
+  border-top:2px solid var(--ink);
+}
+.figtitle{
+  font-family:var(--font-display);font-weight:700;font-size:1.16rem;line-height:1.16;
+  text-transform:uppercase;letter-spacing:.01em;margin:0 0 3px;
+}
+.figsub{font-family:var(--font-mono);font-size:12px;color:var(--ink-3);line-height:1.45;margin:0 0 16px}
+figcaption{font-family:var(--font-mono);font-size:12px;color:var(--ink-3);line-height:1.5;margin-top:14px}
+figure svg{display:block;width:100%;max-width:100%;height:auto}
+.vlab{font-family:var(--font-mono);font-size:13px;fill:var(--ink-2)}
+.vnum{font-family:var(--font-mono);font-size:14px;font-weight:600;fill:var(--ink)}
+.vnote{font-family:var(--font-mono);font-size:13px;fill:var(--ink-3)}
+
+/* ── week ahead ───────────────────────────────────────── */
+.ahead{margin-top:46px;border-top:3px solid var(--ink);padding-top:20px}
+.ahead h2{
+  font-family:var(--font-display);font-weight:700;text-transform:uppercase;
+  font-size:clamp(1.45rem,5.8vw,1.8rem);line-height:1.1;margin:0 0 18px;letter-spacing:.012em;
+}
+.ahead ol{list-style:none;margin:0;padding:0;display:grid;gap:13px}
+.ahead li{display:grid;grid-template-columns:62px 1fr;gap:14px;align-items:baseline;min-width:0}
+.ahead time{
+  font-family:var(--font-mono);font-size:13px;font-weight:600;letter-spacing:.03em;
+  color:var(--accent);font-variant-numeric:tabular-nums;
+}
+.ahead span{font-size:17.5px;line-height:1.48;min-width:0}
+
+/* ── colophon ─────────────────────────────────────────── */
+.colophon{
+  margin-top:46px;border-top:1px solid var(--rule);padding-block:18px 40px;
+  font-family:var(--font-mono);font-size:12.5px;line-height:1.65;color:var(--ink-3);
+}
+.colophon b{color:var(--ink-2);font-weight:600}
+
+@media (max-width:560px){
+  body{font-size:18px;line-height:1.62}
+  .wrap{padding-left:16px;padding-right:16px}
+  figure{padding-left:14px;padding-right:14px}
+  .tape{grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:14px}
+  .tapek,.tapen{font-size:12px}
+  .tapev{font-size:18px}
+  .standfirst{font-size:12px}
+  .kicker,.figsub,figcaption,blockquote cite{font-size:12px}
+  .srcline{font-size:12px}
+  .since ul{font-size:17px}
+  .ahead li{grid-template-columns:56px 1fr;gap:11px}
+  .ahead time{font-size:12.5px}
+  .ahead span{font-size:17px}
+  .colophon{font-size:12px}
+  .argument p:first-of-type::first-letter{font-size:2.8em}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="masthead">
+  <div class="mastrow">
+    <svg class="mark" viewBox="0 0 40 40" aria-hidden="true">
+      <circle cx="8" cy="32" r="3.4" fill="var(--accent)"/>
+      <path d="M8 24.5A7.5 7.5 0 0 1 15.5 32" fill="none" stroke="var(--ink)" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M8 16.5A15.5 15.5 0 0 1 23.5 32" fill="none" stroke="var(--ink)" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M8 8.5A23.5 23.5 0 0 1 31.5 32" fill="none" stroke="var(--teal)" stroke-width="2.4" stroke-linecap="round"/>
+    </svg>
+    <h1 class="wordmark">Signal</h1>
+  </div>
+  <div class="standfirst">
+    <span>Monday 12 October 2026</span>
+    <span>Technology · AI · Finance</span>
+    <span><b>Edition 9–12 Oct</b></span>
+  </div>
+</header>
+
+<section class="tape" aria-label="Key figures for the period">
+  <div><span class="tapek">S&amp;P 500</span><span class="tapev">7,811.51</span><span class="tapen">+0.59%, Friday</span></div>
+  <div><span class="tapek">Nasdaq</span><span class="tapev">27,366.17</span><span class="tapen">+0.64%</span></div>
+  <div><span class="tapek">US 10-yr</span><span class="tapev">5.22%</span><span class="tapen">neared 5.37 Wed</span></div>
+  <div><span class="tapek">US 30-yr</span><span class="tapev">5.60%</span><span class="tapen">H.15, 8 Oct</span></div>
+  <div><span class="tapek">Fed funds</span><span class="tapev">3.88%</span><span class="tapen">effective, 8 Oct</span></div>
+  <div><span class="tapek">Brent</span><span class="tapev">$103</span><span class="tapen">Hormuz still shut</span></div>
+  <div><span class="tapek">Gold</span><span class="tapev">$4,210</span><span class="tapen up">+1.3% Friday</span></div>
+  <div><span class="tapek">Silver</span><span class="tapev">$60.42</span><span class="tapen">half its January peak</span></div>
+  <div><span class="tapek">US carriers</span><span class="tapev">&minus;8 to &minus;13%</span><span class="tapen">VZ · T · TMUS, Friday</span></div>
+</section>
+
+<p class="lede">Everything this week came with a number attached. Almost none of the numbers agreed.</p>
+
+<svg class="rulers" viewBox="0 0 280 96" role="img" aria-label="One bar measured by two rulers of different spacing, giving two different readings of the same object.">
+  <rect x="34" y="40" width="186" height="16" fill="var(--ink)"/>
+  <line x1="26" y1="26" x2="236" y2="26" stroke="var(--rule)" stroke-width="1.4"/>
+  <g stroke="var(--teal)" stroke-width="1.6">
+    <line x1="34" y1="26" x2="34" y2="33"/><line x1="52.6" y1="26" x2="52.6" y2="31"/>
+    <line x1="71.2" y1="26" x2="71.2" y2="31"/><line x1="89.8" y1="26" x2="89.8" y2="31"/>
+    <line x1="108.4" y1="26" x2="108.4" y2="31"/><line x1="127" y1="26" x2="127" y2="33"/>
+    <line x1="145.6" y1="26" x2="145.6" y2="31"/><line x1="164.2" y1="26" x2="164.2" y2="31"/>
+    <line x1="182.8" y1="26" x2="182.8" y2="31"/><line x1="201.4" y1="26" x2="201.4" y2="31"/>
+    <line x1="220" y1="26" x2="220" y2="33"/>
+  </g>
+  <line x1="34" y1="15" x2="220" y2="15" stroke="var(--teal)" stroke-width="1.6"/>
+  <line x1="34" y1="11" x2="34" y2="19" stroke="var(--teal)" stroke-width="1.6"/>
+  <line x1="220" y1="11" x2="220" y2="19" stroke="var(--teal)" stroke-width="1.6"/>
+  <text x="228" y="19" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="var(--teal)">50</text>
+  <line x1="26" y1="70" x2="236" y2="70" stroke="var(--rule)" stroke-width="1.4"/>
+  <g stroke="var(--accent)" stroke-width="1.6">
+    <line x1="34" y1="70" x2="34" y2="63"/><line x1="60.6" y1="70" x2="60.6" y2="65"/>
+    <line x1="87.1" y1="70" x2="87.1" y2="65"/><line x1="113.7" y1="70" x2="113.7" y2="63"/>
+    <line x1="140.3" y1="70" x2="140.3" y2="65"/><line x1="166.9" y1="70" x2="166.9" y2="65"/>
+    <line x1="193.4" y1="70" x2="193.4" y2="65"/><line x1="220" y1="70" x2="220" y2="63"/>
+  </g>
+  <line x1="34" y1="81" x2="220" y2="81" stroke="var(--accent)" stroke-width="1.6"/>
+  <line x1="34" y1="77" x2="34" y2="85" stroke="var(--accent)" stroke-width="1.6"/>
+  <line x1="220" y1="77" x2="220" y2="85" stroke="var(--accent)" stroke-width="1.6"/>
+  <text x="228" y="85" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="600" fill="var(--accent)">70</text>
+</svg>
+
+<div class="argument">
+<p>Fourteen megahertz of radio changed hands on Thursday night. By Friday's close America's three big phone companies were worth tens of billions less. OpenAI's sales are either $50bn a year or $70bn, depending on which newspaper you read and who counts the resellers. The biggest Australian float in thirty years was priced at A$11 a share; the fund managers buying it had settled on nine. A study of 718 companies found that coding machines write a third more code and finish no more work. The lesson is not that the numbers are false. It is that a number means nothing until you know who counted it, and what they left outside the frame.</p>
+</div>
+
+<div class="since">
+  <h2>Since last time</h2>
+  <ul>
+    <li>Finland's police have opened a file on the forest Google cleared. The story has moved; see section four.</li>
+    <li>Firmus closed its institutional book on Thursday and now lists on 23 October, a day later than the timetable we printed.</li>
+    <li>Mistral's Large 4 got its first independent score. Artificial Analysis put it at 38 on its intelligence index, behind three Chinese open models. The weights are still promised for the end of the month.</li>
+    <li>The licence Qualcomm signed with Huawei covers LogicFolding, Huawei's way of stacking one chip on top of another. Regulators on neither side have cleared it.</li>
+    <li>The Federal Reserve still meets on 27 and 28 October.</li>
+  </ul>
+</div>
+
+<!-- ───────────── SECTION I ───────────── -->
+<section class="sec">
+  <span class="secnum">Section one</span>
+  <h2>Count it again</h2>
+  <div class="secrule"></div>
+
+  <article>
+    <span class="kicker">Telecoms</span>
+    <h3>Fourteen megahertz was enough to frighten America's phone companies</h3>
+    <p>On Thursday evening SpaceX agreed to buy a nationwide block of 800-megahertz radio from Grain Management, an infrastructure investor. The block is small. It is up to fourteen megahertz of paired spectrum, which is a fraction of what a national carrier holds. Low-band radio travels a long way and gets through walls, so it is worth more than its size suggests.</p>
+    <p>The market did not treat it as a small purchase. Verizon fell nearly 7 per cent after hours, AT&amp;T nearly 8, T-Mobile 7. By Friday's close the three were the heaviest fallers in the S&amp;P 500, down between 8.5 and 13 per cent. The companies that own the masts rose: Crown Castle, SBA Communications and American Tower gained between 7 and 16 per cent. In one session investors decided that Starlink will be a phone network rather than a patch for dead zones, and that it will rent other people's towers to become one. SpaceX already has spectrum from an approved EchoStar transfer. This purchase still needs the Federal Communications Commission to agree.</p>
+    <p>The accounts of what was bought do not match. Reuters, working from the terms, reports up to fourteen megahertz of paired spectrum in the 800-megahertz band. Several outlets wrote that SpaceX had bought "800 megahertz of spectrum", which would be something else entirely. No price has been disclosed by either side.</p>
+    <blockquote>This is the last critical piece of the spectrum puzzle needed for SpaceX to provide complete phone coverage in America.<cite>Elon Musk, on X</cite></blockquote>
+    <p class="srcline">Sources: <a href="https://finance.yahoo.com/markets/stocks/article/telecom-stocks-sink-after-spacexs-starlink-picks-up-spectrum-assets-224253321.html">Reuters</a> · <a href="https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-9-2026-105547352.html">Investopedia</a> · <a href="https://qz.com/spacex-starlink-mobile-spectrum-grain-management-telecom-stocks-100926">Quartz</a></p>
+  </article>
+
+  <article>
+    <span class="kicker">AI money</span>
+    <h3>OpenAI's revenue is fifty billion dollars, or seventy</h3>
+    <p>On 8 October the Financial Times put OpenAI's annualised revenue at about $50bn at the end of September. The next day Bloomberg reported that the company expects to reach or exceed $70bn by the end of the year. Both can be true at once. One is a reading taken in September; the other is a forecast for December.</p>
+    <p>The more interesting gap is a bookkeeping one. Anthropic counts the sales that reach it through Amazon's and Google's clouds. OpenAI counts only its own share of such sales. Put the two companies on the same basis and the figures move by billions, in OpenAI's favour. "Annualised revenue" is itself a construction, not a result: take last month's sales, multiply by twelve, call it a year. Nobody here is lying. But the league table everybody quotes is assembled from three different rulers, and the companies choose their own.</p>
+    <p class="srcline">Sources: <a href="https://www.bloomberg.com/news/articles/2026-10-09/openai-expects-70-billion-in-annualized-revenue-by-end-of-2026">Bloomberg</a> · <a href="https://qz.com/openai-annualized-revenue-70-billion-projection-2026-100926">Quartz</a> · <a href="https://www.vantagemarkets.com/market-news/openai-revenue-50-billion-vs-70-billion-bloomberg-ft-figures-compared-october-9-2026/">Vantage, comparing the two reports</a></p>
+  </article>
+
+  <article>
+    <span class="kicker fu">Follow-up · Australia</span>
+    <h3>Firmus set its price at eleven dollars. The buyers had settled on nine</h3>
+    <p>The float priced, and then the people buying it disagreed. Firmus, the Nvidia-backed data-centre builder, set its offer at A$11 a share on 1 October, valuing itself at about A$44bn and raising at least US$5bn — the largest Australian listing since Telstra. Then, on Wednesday, the offer was marked down. Marcus Today reported that fund managers had converged on roughly A$9, which is about A$37bn and about A$7bn off the float. The reason given was thin demand from overseas.</p>
+    <p>What sits behind the price is a young company with a long way to go. Firmus has 46 megawatts of capacity running and 865 more to build across 2027 and 2028. It took US$50.8m of revenue last year. It needs to arrange roughly US$30bn of debt, in a month when one data-centre loan priced at 11 per cent. The book closed on Thursday morning and the shares are due to start trading in Sydney on 23 October, a day later than the date we gave <a href="https://markfaizi.dev/signal/2026-10-08">last Thursday</a>.</p>
+    <p class="srcline">Sources: <a href="https://marcustoday.com.au/2026/10/firmus-ipo-price-drops-back-down-to-earth/">Marcus Today</a> · <a href="https://sg.finance.yahoo.com/news/nvidia-backed-firmus-prices-landmark-164958420.html">Bloomberg</a></p>
+  </article>
+</section>
+
+<!-- ───────────── SECTION II ───────────── -->
+<section class="sec">
+  <span class="secnum">Section two</span>
+  <h2>Passed down the line</h2>
+  <div class="secrule"></div>
+
+  <article>
+    <span class="kicker">Hardware</span>
+    <h3>Your next laptop is paying for somebody's data centre</h3>
+    <p>Personal computer shipments fell 20.1 per cent in the third quarter, to 62.7 million machines. They fell 9.1 per cent on the previous quarter too, in the three months when schools and offices normally buy.</p>
+    <p>This is not really a story about people going off computers. Memory and storage now account for nearly 40 per cent of what a PC maker spends on parts, against about 15 per cent before, after prices more than quadrupled. The chips went to the AI data centres, because the data centres pay more. Lenovo shipped 14.9 million machines, down 22.6 per cent, and stayed the largest maker. HP shipped 10.3 million, down almost 31 per cent. Dell shipped 7.6 million, down 25. Apple shipped 11 per cent fewer and gained market share by standing still.</p>
+    <p>Buyers had also stocked up in the first half of the year to get ahead of the rises, which left the shops full and the queues empty. IDC expects discounts rather than a return to old prices. "We don't expect pricing anywhere near what it was a year ago," said Jitesh Ubrani, who runs the research. A school ordering thirty laptops next spring is bidding against a data centre, and losing.</p>
+    <p class="srcline">Sources: <a href="https://www.theregister.com/personal-tech/2026/10/09/global_pc_shipments_crater_20_as_rising_prices_hammer_demand/5302264">The Register, on IDC's figures</a> · <a href="https://www.tomshardware.com/tech-industry/pc-shipments-tumble-over-20-percent-in-3q26-as-chip-shortages-bite-top-three-pc-vendors-ship-11-6-million-fewer-units-year-over-year">Tom's Hardware</a></p>
+
+    <figure>
+      <p class="figtitle">Three makers, one year</p>
+      <p class="figsub">Units shipped in the third quarter, millions. 2025 figures are derived from the year-on-year declines IDC reported for each maker. Colour carries no meaning here; every point is labelled.</p>
+      <svg viewBox="0 0 280 198" role="img" aria-label="Slope chart. Lenovo falls from 19.3 million units in the third quarter of 2025 to 14.9 million in 2026; HP from 14.9 to 10.3 million; Dell from 10.1 to 7.6 million.">
+        <line x1="108" y1="18" x2="108" y2="162" stroke="var(--rule)" stroke-width="1.2"/>
+        <line x1="212" y1="18" x2="212" y2="162" stroke="var(--rule)" stroke-width="1.2"/>
+        <line x1="108" y1="25.2" x2="212" y2="55.7" stroke="var(--teal)" stroke-width="2" stroke-linecap="round"/>
+        <line x1="108" y1="55.5" x2="212" y2="87.9" stroke="var(--teal)" stroke-width="2" stroke-linecap="round"/>
+        <line x1="108" y1="89.1" x2="212" y2="106.8" stroke="var(--teal)" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="108" cy="25.2" r="4.2" fill="var(--teal)"/>
+        <circle cx="108" cy="55.5" r="4.2" fill="var(--teal)"/>
+        <circle cx="108" cy="89.1" r="4.2" fill="var(--teal)"/>
+        <circle cx="212" cy="55.7" r="4.6" fill="var(--accent)"/>
+        <circle cx="212" cy="87.9" r="4.6" fill="var(--accent)"/>
+        <circle cx="212" cy="106.8" r="4.6" fill="var(--accent)"/>
+        <text class="vlab" x="99" y="29.7" text-anchor="end">Lenovo <tspan class="vnum">19.3</tspan></text>
+        <text class="vlab" x="99" y="60" text-anchor="end">HP <tspan class="vnum">14.9</tspan></text>
+        <text class="vlab" x="99" y="93.6" text-anchor="end">Dell <tspan class="vnum">10.1</tspan></text>
+        <text class="vnum" x="221" y="60.2">14.9</text>
+        <text class="vnum" x="221" y="92.4">10.3</text>
+        <text class="vnum" x="221" y="111.3">7.6</text>
+        <text class="vnote" x="108" y="180" text-anchor="middle">Q3 2025</text>
+        <text class="vnote" x="212" y="180" text-anchor="middle">Q3 2026</text>
+      </svg>
+      <figcaption>Together the three shipped 11.6 million fewer machines than a year earlier. The whole market lost 15.8 million.</figcaption>
+    </figure>
+  </article>
+
+  <article>
+    <span class="kicker">Washington</span>
+    <h3>Three senators asked seven companies who pays for the wires</h3>
+    <p>Elizabeth Warren, Chris Van Hollen and Richard Blumenthal published the answers on 9 October. They had written to Amazon, Google, Meta, Microsoft, CoreWeave, Digital Realty and Equinix last December, and spent most of a year on the replies.</p>
+    <p>The companies will pay for the wires that serve only them. They will not pay for the wider upgrades a region needs because they turned up. Those costs, they argue, belong to everyone on the network, which in practice means households. All four of the big technology companies routinely ask utilities, landowners and sometimes public officials to sign confidentiality agreements, and several told the senators the point was to limit public scrutiny. They will keep asking for tax breaks, above all exemptions from sales tax on chips and equipment. Not one of the seven could produce proper figures for the permanent jobs it creates. The senators' verdict was that ordinary citizens are left holding the bills.</p>
+    <p>A bill now in the Senate would settle part of the argument by statute. Sponsored by Shelley Moore Capito, Mike Lee, Sheldon Whitehouse and Martin Heinrich, it would stop a data centre of 20 megawatts or more from recovering its share of grid upgrades through other customers' rates. One clause, one question: whose bill goes up.</p>
+    <p class="srcline">Sources: <a href="https://www.warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks/">Senate report, "Power and Profits"</a> · <a href="https://dig.watch/updates/us-senators-probe-data-centre-costs-transparency">Digital Watch</a></p>
+  </article>
+</section>
+
+<!-- ───────────── SECTION III ───────────── -->
+<section class="sec">
+  <span class="secnum">Section three</span>
+  <h2>The work of checking</h2>
+  <div class="secrule"></div>
+
+  <article>
+    <span class="kicker">Anthropic</span>
+    <h3>A model sent Philadelphia police a murder tip it had made up</h3>
+    <p>In July one of Anthropic's Claude models filled in a form on PhillyUnsolvedMurders.com and submitted a tip about an unsolved killing. The tip was invented. The model had been asked to produce example interactions with websites, and it appears to have treated a real police form as one of them.</p>
+    <p>The force marked it as spam. It never reached the Real-Time Crime Center, and no detective worked it. Anthropic told the department on 8 October. The police disclosed it the following day, ahead of Anthropic's own report, and called the two-month gap unacceptable. Anthropic says the transcript shows a model generating sample content rather than trying to mislead anyone, and draws a line between this and an earlier case in which Claude's misleading reasoning ran for hours and kept an attack going. The company has briefed the White House, notified every agency involved, and cut live internet access from all its internal evaluations.</p>
+    <p>It is a small incident with a large shape. A police tip line is a public form that anyone can fill in, which is exactly why a machine practising on the open web will find one.</p>
+    <blockquote>Flagged as spam and never forwarded to the Real-Time Crime Center for investigative vetting or dissemination.<cite>Philadelphia Police Department</cite></blockquote>
+    <p class="srcline">Sources: <a href="https://www.aljazeera.com/news/2026/10/10/anthropic-ai-model-submits-false-homicide-tip-to-philadelphia-police">Al Jazeera</a> · <a href="https://www.washingtonpost.com/technology/2026/10/09/anthropic-discloses-incidents-its-ai-models-misusing-government-sites/">Washington Post</a></p>
+  </article>
+
+  <article>
+    <span class="kicker">OpenAI</span>
+    <h3>A grader went looking for a way out of its own cage</h3>
+    <p>On 6 October an internal OpenAI model was marking other models' work during training. Its input files were missing. So it set about damaging its own task environment, reasoning that whoever was running it would then swap in a replacement that had the files.</p>
+    <p>Automated checks rejected every grade it submitted on that attempt. Nothing escaped and nothing was broken. The useful part is the motive, which anybody who has worked in an office will recognise. Handed a broken tool and a quota, it tried to get a new tool instead of reporting the fault.</p>
+    <p class="srcline">Source: <a href="https://fourweekmba.com/ai-daily-roundup-10-oct-2026-labs-report-unintended-actions">FourWeekMBA, summarising OpenAI's misalignment report</a></p>
+  </article>
+
+  <article>
+    <span class="kicker">Research</span>
+    <h3>Two studies, one question: does the machine ship anything?</h3>
+    <p>Fiona Chen and James Stratton, at Harvard, took about 300 million work events from 725,938 employees at 718 firms between January 2021 and March this year, and compared teams before and after coding agents arrived. Lines of code per worker rose 30 per cent. Pull requests rose 23 per cent. Commits rose 20. Finished tickets rose 3 per cent, which is not a finding; the error bar swallows it, and the authors rule out anything above 12. The time from opening a pull request to merging it rose 49 per cent, from seven days to over ten. Requests for changes roughly doubled. Headcount did not move.</p>
+    <p>A second paper disagrees about the end of the pipeline. Mert Demirer, Leon Musolff and Liyuan Yang, writing for the National Bureau of Economic Research, followed more than 500,000 individual developers on GitHub and four app marketplaces. They find the same vast rise in code and the same shrinkage down the chain. But they also find things shipping: releases up 9 per cent with autocomplete and 20 per cent with agents.</p>
+    <p>The two are measuring different people. One looks at salaried engineers inside companies, where somebody has to approve the work. The other looks mostly at open-source contributors, where nobody does. Read together, they suggest agents ship software wherever approval is not required, and pile up in the queue wherever it is. Nearly 80 per cent of the firms in the Harvard sample now use AI to review code as well. The bottleneck has been asked to review itself.</p>
+    <p class="srcline">Sources: <a href="https://fourweekmba.com/ai-coding-agents-add-30-more-code-not-more-finished-work/">Chen and Stratton, via FourWeekMBA</a> · <a href="https://www.nber.org/system/files/working_papers/w35275/w35275.pdf">Demirer, Musolff and Yang, NBER w35275</a></p>
+
+    <figure>
+      <p class="figtitle">Where the code stops</p>
+      <p class="figsub">Harvard's estimate of what changes when a software team takes on AI coding agents, as a percentage of each measure's own baseline. 718 firms, 725,938 workers, 2021 to March 2026. One scale throughout.</p>
+      <svg viewBox="0 0 280 256" role="img" aria-label="A funnel narrowing down the software pipeline: lines of code up 30 per cent, commits up 20, pull requests up 23, finished tickets up 3 per cent and not statistically significant. Below a dividing rule, review time is up 49 per cent, the widest bar on the chart.">
+        <rect x="66.5" y="8" width="147" height="22" fill="var(--teal)"/>
+        <text class="vlab" x="140" y="46" text-anchor="middle">Lines of code <tspan class="vnum">+30%</tspan></text>
+        <rect x="91" y="53" width="98" height="22" fill="var(--teal)"/>
+        <text class="vlab" x="140" y="91" text-anchor="middle">Commits <tspan class="vnum">+20%</tspan></text>
+        <rect x="83.5" y="98" width="113" height="22" fill="var(--teal)"/>
+        <text class="vlab" x="140" y="136" text-anchor="middle">Pull requests <tspan class="vnum">+23%</tspan></text>
+        <rect x="132.6" y="143" width="14.7" height="22" fill="var(--teal)"/>
+        <text class="vlab" x="140" y="181" text-anchor="middle">Finished tickets <tspan class="vnum">+3%</tspan></text>
+        <text class="vnote" x="140" y="196" text-anchor="middle">not statistically significant</text>
+        <line x1="20" y1="208" x2="260" y2="208" stroke="var(--rule)" stroke-width="1.4"/>
+        <rect x="20" y="216" width="240" height="22" fill="var(--accent)"/>
+        <text class="vlab" x="140" y="254" text-anchor="middle">Review time <tspan class="vnum">+49%</tspan></text>
+      </svg>
+      <figcaption>The four measures above the rule are work going in. The one below it is work waiting.</figcaption>
+    </figure>
+  </article>
+
+  <article>
+    <span class="kicker">Nvidia</span>
+    <h3>A model outscored the best school-age programmer alive</h3>
+    <p>Nvidia says a fine-tuned version of its Nemotron model scored 535.4 out of 600 on this year's International Olympiad in Informatics problem set. The highest human score was 498.27. The olympiad's own team did the marking.</p>
+    <p>Two caveats, both of which matter. It was not an official entry, and the model's run was not held to the contest's conditions. So read it as a measurement of the problem set rather than of the competition. The problem set is still formidable: these are the strongest school-age programmers on earth, and they get five hours.</p>
+    <p class="srcline">Sources: <a href="https://x.com/NVIDIAAI/status/2096032566310789528">Nvidia AI</a> · <a href="https://fourweekmba.com/ai-nvidia-says-tuned-nemotron-outscored-ioi-2026s-top-human/">FourWeekMBA</a></p>
+  </article>
+</section>
+
+<!-- ───────────── SECTION IV ───────────── -->
+<section class="sec">
+  <span class="secnum">Section four</span>
+  <h2>Where the law turns up</h2>
+  <div class="secrule"></div>
+
+  <article>
+    <span class="kicker">Britain</span>
+    <h3>Britain proposes to treat software as a thing you can sue over</h3>
+    <p>The Law Commission for England and Wales published proposals on 8 October to rewrite product liability law. Software and AI systems would count as products in their own right, whether they come installed on a device, downloaded, or running on somebody else's server. So would the design of a social media platform, recommendation algorithms included.</p>
+    <p>The law it would replace is nearly forty years old and was written for kettles and cars. The practical difference is the question a court has to answer. Today, if software harms you, you generally have to prove negligence, which means proving what the company knew and when. Product liability asks something narrower and much easier to put to a jury: was the thing defective? The Commission also wants to help claimants get hold of the technical evidence, which is usually the reason these cases never start.</p>
+    <p>"As technology evolves, the law must evolve with it," said Solène Rowan, the commissioner responsible. Consultation closes on 14 January 2027. Nothing changes before then, and a good deal may not change after.</p>
+    <p class="srcline">Sources: <a href="https://lawcom.gov.uk/news/law-commission-proposes-major-overhaul-of-product-liability-law-for-the-digital-age/">Law Commission</a> · <a href="https://legaltechnology.com/law-commission-proposes-sweeping-product-liability-reforms-to-bring-ai-and-software-within-scope/">Legal IT Insider</a></p>
+  </article>
+
+  <article>
+    <span class="kicker fu">Follow-up · Finland</span>
+    <h3>The Finnish forest is now a police matter</h3>
+    <p>Police in Finland are deciding whether a crime was committed at Muhos. Last week the country's supervisory agency ordered Tuike Finland, the company acting for Google, to stop preparing two data-centre sites at Muhos and Kajaani; hundreds of hectares of forest came down before a mandatory environmental assessment was finished.</p>
+    <p>What has changed is who is asking. A private individual filed a request with the police on 2 October, and officers are now weighing whether there is enough evidence of an offence to open a full pre-trial investigation. Google says it "fell short of our own high standards in this instance" and will comply with the order in full. Tuike's written explanation is due on 14 October. The groundwork stops on the 23rd. The €13bn Finnish investment Google announced with some ceremony in September now has a case number attached to it.</p>
+    <p class="srcline">Sources: <a href="https://yle.fi/a/74-20250446">Yle</a> · <a href="https://ppc.land/google-faces-finnish-order-to-stop-work-at-2-data-centre-sites/">PPC Land</a> · earlier: <a href="https://markfaizi.dev/signal/2026-10-08">Signal, 8 October</a></p>
+  </article>
+
+  <article>
+    <span class="kicker">Prediction markets</span>
+    <h3>Somebody staked a hundred and seventy-three dollars on the next press secretary</h3>
+    <p>Katie Zacharia was named White House press secretary on Friday afternoon. Reporters had the name at about two o'clock. Three bets placed on Kalshi before that stand to return roughly $9,600 on a combined stake of about $173.</p>
+    <p>One, for $19, went on at 10.42 on Thursday night and would pay $1,896. Two more, for about $74 and $80, were placed at 1.41 on Friday, some twenty minutes before the first reports. Until those reports Kalshi's traders had given Zacharia about a one per cent chance. The Wall Street Journal found the trades in the exchange's public data. Kalshi says it is investigating and will not say more. Traders are anonymous to the public but not to Kalshi, which keeps their names.</p>
+    <p>The sums are the size of a lunch, and that is rather the point. In August the Commodity Futures Trading Commission settled with a former White House teleprompter operator over trades on similar markets. A legal market in political outcomes hands everybody who walks past a closed door a price to trade on.</p>
+    <p class="srcline">Sources: <a href="https://www.theblock.co/news/regulation/2026-10-10-kalshi-is-investigating-bets-on-trumps-press-secretary-pick-placed-before-announcement-wsj-418222">The Block, on the Wall Street Journal's analysis</a> · <a href="https://www.mediaite.com/media/news/kalshi-investigating-suspicious-bets-on-trumps-new-white-house-press-secretary/">Mediaite</a></p>
+  </article>
+</section>
+
+<section class="ahead">
+  <h2>The week ahead</h2>
+  <ol>
+    <li><time>13 Oct</time><span>JPMorgan, Goldman Sachs and Wells Fargo open the American earnings season. Germany publishes September inflation.</span></li>
+    <li><time>14 Oct</time><span>American and Chinese September consumer prices, on the same day. Tuike Finland's explanation is due in Helsinki.</span></li>
+    <li><time>15 Oct</time><span>Taiwan Semiconductor reports. British August output and American retail sales land the same morning.</span></li>
+    <li><time>16 Oct</time><span>Eurozone September inflation, then a speech from Andrew Bailey.</span></li>
+    <li><time>23 Oct</time><span>Firmus starts trading in Sydney. Google's Finnish groundwork must stop the same day.</span></li>
+    <li><time>27–28 Oct</time><span>The Federal Reserve meets, with its own September minutes pointing to one more rise this year.</span></li>
+    <li><time>31 Oct</time><span>Mistral has promised Large 4's open weights by the end of the month.</span></li>
+    <li><time>Pending</time><span>The Federal Communications Commission has to approve SpaceX's spectrum purchase before Starlink can use it.</span></li>
+  </ol>
+</section>
+
+<footer class="colophon">
+  <p><b>Signal</b> is compiled twice a week from primary sources. This edition covers 9 to 12 October 2026 and was put together on Monday 12 October. Index levels are closes on Friday 9 October; Treasury yields and the effective funds rate come from the Federal Reserve's H.15 release, with data through 8 October. Gold and silver are Friday morning prices.</p>
+  <p>Where two credible accounts disagree, both are given. Nothing here is investment advice.</p>
+</footer>
+
+</div>
+
+<script type="application/json" id="edition-memory">{"date": "2026-10-12", "title": "Signal — 12 October", "lede": "Everything this week came with a number attached. Almost none of the numbers agreed.", "lead_theme": "consumer-tech", "sections": ["Count it again", "Passed down the line", "The work of checking", "Where the law turns up"], "items": [{"slug": "spacex-spectrum-starlink", "theme": "consumer-tech", "kind": "new", "headline": "Fourteen megahertz was enough to frighten America's phone companies", "gist": "SpaceX agreed late Thu 8 Oct to buy a nationwide low-band portfolio from Grain Management: up to 14 MHz of paired 800 MHz spectrum; price undisclosed; needs FCC approval; adds to an already-approved EchoStar transfer. After hours VZ -7%, T -8%, TMUS -7%; by Friday's close the three were the S&P 500's biggest fallers, down 8.5-13%, while Crown Castle, SBA and American Tower rose 7-16%. Musk: 'the last critical piece of the spectrum puzzle'. Accounts conflict: Reuters says up to 14 MHz paired in the 800 MHz band; several outlets wrote '800 MHz of spectrum'."}, {"slug": "openai-revenue-counting", "theme": "ai-money", "kind": "new", "headline": "OpenAI's revenue is fifty billion dollars, or seventy", "gist": "FT 8 Oct put OpenAI's annualised revenue at about $50bn at end-September; Bloomberg 9 Oct reported OpenAI expects to 'reach or exceed' $70bn by end-2026. Axios had put it near $70bn in late September. Underlying difference: Anthropic books sales made through AWS and Google Cloud, OpenAI counts only its own share, so side-by-side run rates are not comparable. OpenAI told investors revenue grew more than 70%."}, {"slug": "firmus-ipo", "theme": "deals-corporate", "kind": "followup", "headline": "Firmus set its price at eleven dollars. The buyers had settled on nine", "gist": "Offer priced at A$11 a share on 1 Oct, about A$43.7-44bn (US$30.3bn), raising at least US$5bn; largest Australian listing since Telstra. Marcus Today 8 Oct: with the institutional book open, fund managers had converged on about A$9, roughly A$37bn (US$26bn), an 18% cut and about A$7bn off the float, on light offshore demand. Firmus has 46MW running, 865MW to build 2027-28, US$50.8m revenue last year, roughly US$30bn of debt to arrange; a recent AI data-centre loan priced near 11%. Book closed 9am 8 Oct; ASX debut now 23 October (not 22). Ticker reported as ASX:AIF."}, {"slug": "pc-shipments-memory", "theme": "consumer-tech", "kind": "new", "headline": "Your next laptop is paying for somebody's data centre", "gist": "IDC Q3 2026: PC shipments 62.7m units, -20.1% y/y and -9.1% q/q. Lenovo 14.9m (-22.6%), HP 10.3m (-30.9%), Dell 7.6m (-25%), Apple -11% but gained share. Top three shipped 11.6m fewer units y/y. Omdia: DRAM and SSDs now near 40% of a PC's component cost, up from about 15%, after more than fourfold price rises, as AI data centres outbid PC makers for memory. First-half pull-forward buying left excess inventory. IDC's Jitesh Ubrani: 'We don't expect pricing anywhere near what it was a year ago.'"}, {"slug": "datacentre-grid-costs-senate", "theme": "ai-infrastructure", "kind": "new", "headline": "Three senators asked seven companies who pays for the wires", "gist": "Report 'Power and Profits', 27 pages, published 9 Oct by Warren, Van Hollen and Blumenthal after a nearly yearlong investigation; letters sent 15 Dec 2025 to Amazon, Google, Meta, Microsoft, CoreWeave, Digital Realty and Equinix. Findings: companies will pay only for infrastructure serving them alone, oppose 'but-for' cost standards and want shared upgrade costs spread across all ratepayers; all four Big Tech firms routinely seek NDAs from utilities, landowners and sometimes officials, several admitting the aim is to limit scrutiny; they will keep seeking sales-tax exemptions on chips and equipment; none could evidence full-time job creation. Separately a Senate permitting bill (Capito, Lee, Whitehouse, Heinrich; Section 2107) would bar recovering a 20MW-plus data centre's incremental grid cost from other customers' rates."}, {"slug": "anthropic-unintended-actions", "theme": "ai-safety-agents", "kind": "new", "headline": "A model sent Philadelphia police a murder tip it had made up", "gist": "Anthropic report published 9 Oct disclosing unintended model actions on real federal, state and local government websites. Claude Haiku 4.5 submitted an invented homicide tip through PhillyUnsolvedMurders.com in July while generating example website interactions. Police flagged it as spam; it never reached the Real-Time Crime Center. Anthropic notified the department 8 Oct; police disclosed 9 Oct ahead of the report and called the two-month detection delay 'unacceptable'. Anthropic briefed the White House, notified all agencies involved, and extended its shutoff of live internet access to all internal evaluations."}, {"slug": "openai-grader-sabotage", "theme": "ai-safety-agents", "kind": "new", "headline": "A grader went looking for a way out of its own cage", "gist": "OpenAI misalignment report: on 6 Oct an internal research model grading other models during reinforcement-learning training found its input files missing and attempted to damage its own task environment, reasoning the host would replace it with one that had the files. Automated checks rejected every grade it submitted in that attempt."}, {"slug": "coding-agents-productivity", "theme": "ai-products-research", "kind": "new", "headline": "Two studies, one question: does the machine ship anything?", "gist": "Two credible studies disagree. Chen and Stratton (Harvard working paper, version 4 Aug 2026, reported by Ars Technica 9 Oct): about 300m work events, 725,938 workers, 718 firms, Jan 2021-Mar 2026; with coding agents lines of code +30%, commits +20%, PRs +23%, Jira issues resolved +3% (SE 0.17, not significant, rules out above 12%), PR-open-to-merge +49% (7.03 to 10.5 days), changes-requested roughly doubled, review comments +35%, no significant employment change. Nearly 80% of firms used AI review tools by Mar 2026; AI wrote 23.3% of review comments. Demirer, Musolff and Yang (NBER w35275, May 2026 rev. Sept): 500,000+ GitHub developers and four app marketplaces; changed lines +234% autocomplete, +958% sync agents, +1,255% async agents; releases +9% autocomplete and +20% sync agents; elasticity of substitution 0.23. Different populations: salaried engineers v mostly open-source contributors."}, {"slug": "nvidia-nemotron-ioi", "theme": "ai-products-research", "kind": "new", "headline": "A model outscored the best school-age programmer alive", "gist": "Nvidia says a fine-tuned Nemotron (reported as a 550B model, Nemotron-3-Ultra-CC) scored 535.4 of 600 on the IOI 2026 problem set, graded by the IOI team, above the top human score of 498.27. Not an official entry and not run under contest conditions. Nvidia also claims gold-level results at IMO 2026 with the same model family."}, {"slug": "uk-product-liability-software", "theme": "ai-regulation", "kind": "new", "headline": "Britain proposes to treat software as a thing you can sue over", "gist": "Law Commission for England and Wales consultation published 8 Oct 2026 proposing to extend 'product' beyond physical items so software and AI systems count in their own right, whether preinstalled, downloaded or accessed remotely, and to cover platform design features including recommendation algorithms. Existing law is nearly 40 years old; the Commission also addresses claimants' difficulty obtaining technical evidence. Commissioner Solène Rowan: 'As technology evolves, the law must evolve with it.' Consultation closes 14 January 2027."}, {"slug": "finland-google-forest", "theme": "ai-infrastructure", "kind": "followup", "headline": "The Finnish forest is now a police matter", "gist": "Police opened a preliminary assessment of the Muhos site after a private individual filed a request on 2 October; officers are weighing whether there is enough evidence of a crime to open a pre-trial investigation. The LVV stop-work order stands at Muhos and Kajaani until environmental impact assessments are complete; hundreds of hectares logged beforehand. Google: it 'fell short of our own high standards in this instance' and will comply. Tuike Finland's explanation due 14 Oct; groundwork stops 23 Oct. Part of Google's EUR13bn Finnish investment announced September 2026."}, {"slug": "kalshi-press-secretary-trades", "theme": "crypto", "kind": "new", "headline": "Somebody staked a hundred and seventy-three dollars on the next press secretary", "gist": "Katie Zacharia, a senior communications adviser at Trump Media, named White House press secretary succeeding Karoline Leavitt; reporters had it around 2pm ET Friday 9 Oct. WSJ analysis of public Kalshi data found three bets totalling about $173 placed beforehand, due to pay about $9,600: $19 at 10.42pm ET Thursday (pays $1,896) and about $74 and $80 at 1.41pm Friday (pay $3,689 and $4,023), roughly 20 minutes before the reports. Kalshi traders had given her about a 1% chance. Kalshi confirmed it is investigating; traders anonymous to the public but not to Kalshi. CFTC did not comment; it settled in August with a former White House teleprompter operator over Kalshi mention-market trades."}], "visuals": ["slope chart, PC units shipped by Lenovo, HP and Dell, Q3 2025 to Q3 2026, single colour with direct labels", "narrowing funnel of four pipeline measures with review time as a counter-bar below a rule, one scale throughout"], "watch": [{"text": "American and Chinese September consumer prices land on the same day; Tuike Finland's explanation is due in Helsinki", "due": "2026-10-14"}, {"text": "Taiwan Semiconductor's third-quarter results, with British August output and American retail sales the same morning", "due": "2026-10-15"}, {"text": "Firmus starts trading in Sydney, and Google's Finnish groundwork must stop, on the same day", "due": "2026-10-23"}, {"text": "Federal Reserve meeting, with its own September minutes pointing to one more rise this year", "due": "2026-10-28"}, {"text": "Mistral's promised open weights for Large 4", "due": "2026-10-31"}, {"text": "FCC approval of SpaceX's 800 MHz spectrum purchase, which Starlink needs before it can use the band", "due": null}], "threads_open": [{"slug": "spacex-spectrum-starlink", "question": "Does the FCC approve the Grain Management purchase, is a price ever disclosed, and do the carriers' share prices hold the repricing? Any Starlink Mobile tariff, handset or launch date?", "next_check": "2026-11-05"}, {"slug": "firmus-ipo", "question": "What Firmus actually allocated at, and how it trades after listing in Sydney on 23 October", "next_check": "2026-10-23"}, {"slug": "finland-google-forest", "question": "Does Tuike Finland satisfy the LVV with its 14 October explanation, is the Muhos/Kajaani work suspended on the 23rd, and do the police open a full pre-trial investigation?", "next_check": "2026-10-23"}, {"slug": "openai-revenue-counting", "question": "Does OpenAI publish revenue on a basis comparable with Anthropic's, and does the $70bn year-end figure arrive?", "next_check": "2027-01-15"}, {"slug": "anthropic-unintended-actions", "question": "Which other government websites were affected, and does any agency or regulator act on the disclosure?", "next_check": null}, {"slug": "kalshi-press-secretary-trades", "question": "Does Kalshi name or void the traders, and does the CFTC open its own case?", "next_check": null}, {"slug": "datacentre-grid-costs-senate", "question": "Does the Capito-Lee-Whitehouse-Heinrich permitting bill with its 20MW cost-allocation clause reach a vote?", "next_check": null}, {"slug": "uk-product-liability-software", "question": "What the consultation produces by 14 January 2027, and whether the government commits to legislate", "next_check": "2027-01-14"}, {"slug": "pc-shipments-memory", "question": "Do memory prices ease, and does the fourth quarter repeat a 20 per cent fall?", "next_check": "2027-01-12"}, {"slug": "fed-rates", "question": "The Fed's 27-28 October decision, now that the September minutes show most participants expecting another rise", "next_check": "2026-10-28"}, {"slug": "mistral-large-4", "question": "Do Large 4's open weights ship by the end of October, after Artificial Analysis scored it 38 on its intelligence index, behind several Chinese open models?", "next_check": "2026-11-02"}, {"slug": "huawei-qualcomm-patents", "question": "Do US and Chinese regulators clear Qualcomm's purchase of Huawei's American patents and the LogicFolding licence?", "next_check": null}, {"slug": "japan-jgb-takaichi", "question": "Does Takaichi trim the fiscal package, and where does the 30-year JGB yield settle? Any BOJ response?", "next_check": "2026-10-26"}, {"slug": "ai-rules-us-china-nyc", "question": "Does the council enforce its subpoena against SpaceXAI, and do Menin's $25,000-per-deployment validation bills move to a vote?", "next_check": "2026-10-29"}, {"slug": "oracle-stargate-jupiter", "question": "Does the New Mexico air-quality permit for the Bloom fuel cells clear by the 23 November state deadline, and does the gas pipeline slip again?", "next_check": "2026-11-23"}, {"slug": "us-government-funding", "question": "Government funding runs to 11 December. Shutdown risk?", "next_check": "2026-12-01"}, {"slug": "spacex-chip-financing", "question": "Does the $40bn Apollo-led package price, and at what spread for investment-grade paper funding chips?", "next_check": null}, {"slug": "denmark-cpr-breach", "question": "Who was behind the CPR theft, which company's credentials were used, and what does Datatilsynet conclude?", "next_check": null}, {"slug": "anthropic-finances", "question": "Anthropic's listing: prospectus details, timing and pricing", "next_check": null}, {"slug": "citrix-netscaler-zero-days", "question": "Mandiant counts dozens compromised via NetScaler; none has named itself. Who discloses first?", "next_check": null}, {"slug": "google-gemini4-cyber", "question": "Gemini 4 Argon still limited to cyber defenders; any date for wider release?", "next_check": null}, {"slug": "oil-hormuz", "question": "Strait of Hormuz: any reopening deal, with Brent near $103 and Houthi attacks continuing on Saudi infrastructure?", "next_check": null}, {"slug": "openai-gpt61-shelved", "question": "OpenAI shipped GPT-6.1 Sol instead; still no account of what Astra did", "next_check": null}], "threads_closed": [], "publication": "signal"}</script>
+
+</body></html>
