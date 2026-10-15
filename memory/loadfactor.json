@@ -172,16 +172,124 @@
     "ttc-guaranteed-departures"
    ],
    "url": "https://markfaizi.dev/loadfactor/2026-10-03"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "Load Factor — 15 October",
+   "lede": "Every autumn the Civil Aviation Authority goes through the books of a thousand British holiday firms. Its figures this year account for 993 of the 1,042 licences that fell due.",
+   "lead_theme": "regulation",
+   "sections": [
+    "The Fortnight",
+    "How It Works",
+    "By the Numbers",
+    "What to Watch"
+   ],
+   "items": [
+    {
+     "slug": "atol-renewal-round",
+     "theme": "regulation",
+     "kind": "new",
+     "headline": "The annual check on who may hold your money",
+     "gist": "CAA, 7 Oct: 1,624 ATOL holders; of 1,042 licences expiring 30 Sep, 951 renewed and 42 still in process, leaving 49 unaccounted for in the notice. About 20m ATOL-protected passengers Jan-Aug 2026, flat. Holder total barely moves: 1,607 (Oct 23), 1,616 (Apr 25), 1,624 now."
+    },
+    {
+     "slug": "travelopia-education-sale",
+     "theme": "results-ownership",
+     "kind": "new",
+     "headline": "Nine years in, KKR is selling Travelopia a piece at a time",
+     "gist": "14 Oct: Travelopia agreed to sell Experience Education (Travelbound, SkiBound, Edwin Doran, Masterclass, World Challenge, JCA; c.1,400 schools and c.100,000 pupils a year) to Rockaway Capital, price undisclosed, completion expected Q4 2026. KKR bought Travelopia from TUI for GBP 325m, completed June 2017: a nine-year-four-month hold. Earlier disposals: MyPlanet, Gullivers, and Sovereign/Citalia/American Holidays to TravCorp in July 2025. Core retained: Exodus Group, Quark, TCS World Travel, Le Boat, Sunsail, The Moorings, Enchanting Travels, Europe Express, Kalos Golf."
+    },
+    {
+     "slug": "newmarket-accounts",
+     "theme": "results-ownership",
+     "kind": "new",
+     "headline": "Turnover up by nearly a third, and £1.5m of its own money at the end of it",
+     "gist": "Newmarket Holidays Limited (02238316), year to 31 Dec 2024: turnover about £75.8m, up roughly £17.5m (+30%); cash £20.7m (+£4.4m); net assets £1.48m (+£1.43m). Soho Square Capital backed a minority buyout for existing shareholders in Oct 2024; founders stay majority. A 2025 set of accounts was filed 14 July 2026 but the document could not be retrieved this edition."
+    },
+    {
+     "slug": "abta-holiday-habits",
+     "theme": "demand-distribution",
+     "kind": "new",
+     "headline": "Confidence slipped, and more holidaymakers went to a human being",
+     "gist": "ABTA consumer research at the Madeira convention, 13 Oct: travel confidence index 50, down 3 but second-highest on record; 88% took a holiday Aug 25-Jul 26; 38% booked via agent or operator, up from 34%, with 18-24s up 6pt to 35%; ease of booking 60% (from 56%), value for money 44% (+5); 15% intend to spend less, 52% of those blaming cost of living; 63% of overseas travellers booked a package (+2)."
+    }
+   ],
+   "visuals": [
+    "customers' cash held month by month across one season, illustrative stepped area chart with the company's own capital as a dashed reference line",
+    "September 2026 ATOL renewal arithmetic, four-row table ending in the 49 unaccounted for",
+    "the four routes customer money travels (ATOL, bond, trust, insurance), comparison table with cash cost to the operator",
+    "illustrative cancellation position frozen at the March cash peak, table"
+   ],
+   "watch": [
+    {
+     "text": "6 April 2027: the Package Travel and Linked Travel Arrangements (Amendment) Regulations 2026 come into force. LTAs fold into the package definition, suppliers must refund organisers within 14 days, and agent-only declarations stop working. Contracts signed before that date keep the old rules.",
+     "due": "2027-04-06"
+    },
+    {
+     "text": "Whether ABTA's three-point confidence dip shows up in deposits taken over Black Friday and the January peaks, and how Trafalgar's three tiers sell now Insight and Costsaver are folded in.",
+     "due": "2026-12-01"
+    },
+    {
+     "text": "Whether KKR sells more Travelopia brands, including YMT Vacations and Sawadee, and whether Rockaway buys more school travel businesses.",
+     "due": null
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "atol-reform",
+     "question": "Still no consultation date from the DfT or CAA; ABTA's Madeira convention produced none. Is the reform now effectively parked in favour of licence conditions?",
+     "next_check": "2026-11-15"
+    },
+    {
+     "slug": "atol-renewal-round",
+     "question": "Do any of the 49 licences missing from the CAA's September notice turn out to have been failures, and does the CAA explain the gap?",
+     "next_check": "2027-04-15"
+    },
+    {
+     "slug": "ptr-amendment-2027",
+     "question": "How operators prepare for 6 April 2027: are supplier contracts being rewritten to use the new 14-day refund right, and does anyone reprice risk because of it?",
+     "next_check": "2027-02-01"
+    },
+    {
+     "slug": "travelopia-education-sale",
+     "question": "Does the Rockaway deal complete in Q4 2026, and does KKR sell YMT Vacations, Sawadee or any of the brands it called core?",
+     "next_check": "2027-01-15"
+    },
+    {
+     "slug": "newmarket-accounts",
+     "question": "Read the 2025 accounts filed 14 July 2026: turnover, net assets, and whether the Soho Square holding structure carries debt above the trading company.",
+     "next_check": "2026-11-15"
+    }
+   ],
+   "threads_closed": [],
+   "explainer": {
+    "area": "regulation-risk-money",
+    "topic": "Customer deposits as working capital: why an operator holds cash it has not earned, the four routes that protect it (ATOL and the £2.50 APC, bonds, trust accounts, insurance), what the CAA examines at renewal, and why protection and continuity are different things"
+   },
+   "method": "abta-membership",
+   "companies_house": {
+    "company": "Newmarket Holidays Limited (02238316)",
+    "finding": "Year to 31 Dec 2024: turnover about £75.8m (+30%), cash £20.7m, net assets only £1.48m — fourteen times more cash than company, because the cash is customers' deposits. Soho Square Capital minority buyout Oct 2024 with a Blossom Topco/Midco/Bidco holding chain. 2025 accounts filed 14 July 2026, 26 pages, document not retrievable this edition."
+   },
+   "url": "https://markfaizi.dev/loadfactor/2026-10-15"
   }
  ],
  "threads": [
   {
    "slug": "atol-reform",
-   "question": "Any consultation date from the DfT and CAA on ATOL reform? Listen for it at ABTA's convention, 12–14 October.",
+   "question": "Still no consultation date from the DfT or CAA; ABTA's Madeira convention produced none. Is the reform now effectively parked in favour of licence conditions?",
    "status": "open",
    "opened": "2026-09-16",
-   "last_seen": "2026-10-03",
-   "next_check": "2026-10-15"
+   "last_seen": "2026-10-15",
+   "next_check": "2026-11-15"
+  },
+  {
+   "slug": "atol-renewal-round",
+   "question": "Do any of the 49 licences missing from the CAA's September notice turn out to have been failures, and does the CAA explain the gap?",
+   "status": "open",
+   "opened": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "next_check": "2027-04-15"
   },
   {
    "slug": "grj-year-end",
@@ -192,12 +300,36 @@
    "next_check": null
   },
   {
+   "slug": "newmarket-accounts",
+   "question": "Read the 2025 accounts filed 14 July 2026: turnover, net assets, and whether the Soho Square holding structure carries debt above the trading company.",
+   "status": "open",
+   "opened": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "next_check": "2026-11-15"
+  },
+  {
+   "slug": "ptr-amendment-2027",
+   "question": "How operators prepare for 6 April 2027: are supplier contracts being rewritten to use the new 14-day refund right, and does anyone reprice risk because of it?",
+   "status": "open",
+   "opened": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "next_check": "2027-02-01"
+  },
+  {
    "slug": "river-cruise-low-water",
    "question": "Do river cruise operators reprice or reroute 2027 after the low-water summer? Watch Saga and others' booked loads.",
    "status": "open",
    "opened": "2026-10-03",
    "last_seen": "2026-10-03",
    "next_check": null
+  },
+  {
+   "slug": "travelopia-education-sale",
+   "question": "Does the Rockaway deal complete in Q4 2026, and does KKR sell YMT Vacations, Sawadee or any of the brands it called core?",
+   "status": "open",
+   "opened": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "next_check": "2027-01-15"
   },
   {
    "slug": "ttc-brand-consolidation",

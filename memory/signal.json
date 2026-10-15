@@ -1662,6 +1662,187 @@
    ],
    "threads_closed": [],
    "url": "https://markfaizi.dev/signal/2026-10-12"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "Signal — 15 October",
+   "lede": "A Houthi missile started a fire at Saudi Aramco's head office on Tuesday night. By Wednesday morning Americans could read the result on a petrol pump.",
+   "lead_theme": "oil-energy-war",
+   "sections": [
+    "The fire reaches the pump",
+    "The machines that make the machines",
+    "What China sold, and what it threatened",
+    "Found out"
+   ],
+   "items": [
+    {
+     "slug": "oil-hormuz",
+     "theme": "oil-energy-war",
+     "kind": "followup",
+     "headline": "Aramco's head office caught fire, and oil went to $106",
+     "gist": "Houthi ballistic missile struck an administrative building at Aramco's Dhahran HQ on Tue night 13 Oct; energy ministry called the fire limited, no casualties. Riyadh airport hit four times, a Saturday strike killed 13. Brent +87c to $106.56 at 17:25 GMT 14 Oct; WTI $95.60, a three-week high. Iranian officials told Reuters they plan new, unspecified tactics against tankers in Hormuz; a container ship sank south of the strait after hitting a naval mine. Gulf flows excluding Iran back to just over 81% of pre-war levels, led by Saudi exports; Iranian exports zero under US blockade. Phil Flynn (Price Futures): 'We're seeing a lot of fear trade today.' Ole Hansen (Saxo): the recovery is 'a redistribution of available barrels', not more production."
+    },
+    {
+     "slug": "us-inflation",
+     "theme": "us-macro",
+     "kind": "new",
+     "headline": "American prices rose 3.7 per cent, and the pump did nearly all of it",
+     "gist": "BLS September CPI published 14 Oct: headline +0.6% m/m, +3.7% y/y; core +0.3% m/m, +2.6% y/y. Energy +5.2% m/m and +20.4% y/y; petrol +9.1% m/m and +34.2% y/y; heating oil +15.3% m/m and +74.2% y/y; airline fares +22.4% y/y; shelter +3.2% y/y; electricity +4.4%; food at home +1.8%; used cars -1.5%. CPI-U index 336.940. Markets sold: S&P 500 -1.11% to 7,718.94, Nasdaq -1.88% to 26,692.87, Russell 2000 -1.93% to 2,729.53; info tech -3.00%, health care +2.44%. 10-yr yield rose ~6bp to 5.278% on the wire; H.15 for 13 Oct shows 10-yr 5.21, 30-yr 5.56, 2-yr 4.79, effective funds 3.88. Bitcoin below $82,000. Thomas Wu (Ledn): 'A hotter core at 0.3% puts an October hike back on the table after a soft jobs report.' FOMC 27-28 Oct."
+    },
+    {
+     "slug": "imf-weo-october",
+     "theme": "global-economy",
+     "kind": "new",
+     "headline": "The IMF nudged its forecast up, then said who it is for",
+     "gist": "World Economic Outlook published 13 Oct: global growth 3.1% in 2026 (up from 3.0% in July; 3.5% in 2025) and 3.4% in 2027. Global inflation 4.7% then 4.1%. US 2.3% both years; China 4.5%; India 7.0% (from 7.7%); euro area 1.1% then 1.2%; advanced 2.1%; emerging 3.7%; Middle East and Central Asia contracts in 2026 then +6.3%. Thirty-two countries now produce 95% of global growth, against 54 in April. US and China are over three quarters of net AI chip and equipment demand. Assumes oil averages $96 (+41%) and Hormuz flows resume by March. Risks listed include an AI equity correction, rising bond yields and cyberthreats. Silvana Tenreyro: 'The outlook is highly uneven.' Georgieva on AI and jobs: 'a slow moving tsunami, but a tsunami nonetheless', about 40% of jobs affected."
+    },
+    {
+     "slug": "tsmc-q3-earnings",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "Half of what TSMC charges is profit",
+     "gist": "Q3 2026 reported 15 Oct: net profit NT$763.1bn (about US$23.6bn), +68.7% y/y, a sixth straight record and above the NT$746.3bn LSEG SmartEstimate. Revenue NT$1.49trn, +50.9%. Gross margin 66.4% (guidance 65-67%), operating margin 58.7% (above 56-58% guidance), net margin 51.1%. Diluted EPS NT$29.43 / US$4.60 per ADR. 2026 capex $60-64bn; about $265bn committed to Arizona. Customers include Nvidia and Apple."
+    },
+    {
+     "slug": "asml-q3-capacity",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "ASML has sold 2028, and buyers are asking about 2030",
+     "gist": "Q3 2026 reported 14 Oct: net sales EUR11.662bn (upper end of guidance), net income EUR4.96bn, gross margin 57.5% (above 55-57% guidance), EPS EUR12.95, 113 new systems plus 8 used (86 the quarter before), Installed Base Management EUR3.289bn. Q4 guidance EUR14.2-15.2bn; FY2026 raised to EUR44-45bn, gross margin about 56%. EUR4.1bn of buybacks in Q3, interim dividend EUR1.88. CEO Christophe Fouquet: 'we now expect that our supply as currently planned for both 2027 and 2028 will not fully meet the demand of our customers'; investigating capacity for 2028 beyond the previously communicated 30% increase; customers asking to order for 2029 and 2030. China about 20% of business in 2026, down from roughly 30%. About 65 EUV systems to ship in 2026."
+    },
+    {
+     "slug": "japan-globalfoundries-ny",
+     "theme": "deals-corporate",
+     "kind": "new",
+     "headline": "Japan will pay $21 billion for two chip factories in New York",
+     "gist": "Trade minister Ryosei Akazawa said in Tokyo on 15 Oct that Japan and the US had finalised their first semiconductor project under last year's trade deal and its $550bn investment programme. Up to $21bn for two fabs in Malta, New York, built and run by GlobalFoundries: roughly $10bn to accelerate a plant opening in 2029, roughly $10bn for a second. Trump posted that Washington will receive shares in GlobalFoundries, as with Intel; no terms disclosed. GlobalFoundries said the deal was 'made possible by the Trump administration's trade and investment agreement with the Japanese government'; spokesman Kenneth Craig said earlier Biden-era federal funding will go to other areas. Financing structure, Japanese entity and repayment terms not disclosed."
+    },
+    {
+     "slug": "china-exports-september",
+     "theme": "global-economy",
+     "kind": "new",
+     "headline": "Chinese exports grew 36 per cent in a month, and chips led",
+     "gist": "Customs data published 14 Oct: September exports +36.3% y/y (August +25%), fastest since February; imports +31% (August +28.2%); monthly surplus $133.5bn against August's $119.1bn; Jan-Sep surplus $938bn against last year's full-year record $1.2trn. Jan-Sep semiconductor exports +108.1% by value, automatic data processing equipment +54.6%, autos +54.3%. Weaker yuan a factor; Beijing says it has 'no need or intent' to devalue for advantage. EU deficit with China over $1.1bn a day; Sefcovic says a deal halves Chinese hybrid car imports into the EU over coming years; US extended a tariff truce on $60bn of goods while probing excess capacity. Max Zenglein (Conference Board): a slowdown in global AI investment is a bigger threat to Chinese exports than trade restrictions. IMF cut 2026 China growth to 4.5%."
+    },
+    {
+     "slug": "cxmt-dram-kospi",
+     "theme": "consumer-tech",
+     "kind": "new",
+     "headline": "A speech in China knocked five per cent off the Korean market",
+     "gist": "CXMT president Cao Kanyu told the Integrated Chips and Chiplets Conference on Saturday 10 Oct that the company's first 4F2 DRAM, using a Vertical Surrounded Gate transistor, will be a server DDR5 RDIMM by the end of 2026; a 4F2 cell is about a third smaller than the 6F2 cells shipping today. No speeds, capacities, die density, node, customers or volumes announced, no press release, nothing tested outside the company; Korean reports suggest early products may use 4F2 only in part. TrendForce puts CXMT at 9.5% of global DRAM revenue in Q2 2026, fourth place, up from 7.6% in Q1. Kospi closed 13 Oct at 6,035.35, -5.46%, briefly below 6,000, first sell-side sidecar in nearly two months; Kosdaq -1.43% to 837.03; Samsung Electronics -7.39%, SK hynix -10.09%. Foreign net selling 2.2trn won that day, nearly 8trn in the month, 199trn this year. Heo Jae-hwan (Eugene): 'The outflows are too large to be attributed solely to portfolio rebalancing after the rally'; selling pressure more than three times Taiwan's relative to market size."
+    },
+    {
+     "slug": "bofa-aml-fine",
+     "theme": "deals-corporate",
+     "kind": "new",
+     "headline": "Bank of America will pay $1.2 billion for not asking questions",
+     "gist": "Treasury announced 13 Oct: FinCEN assessed a $1.2bn penalty on Bank of America, of which the OCC takes $750m, the largest fine that regulator has ever imposed; a separate OFAC settlement added $11.6m. The bank admitted willful violation of the Bank Secrecy Act of 1970. Treasury cited failures to mitigate and report national security risks including Chinese money laundering networks and illicit finance along the south-west border, touching Iran, Russia, narcotics and global terrorism sanctions; a 2024 OCC consent order preceded it. Scott Bessent: 'Today's actions send a clear message that even the biggest financial institutions are not above the law.' Bank: 'Financial crime compliance is serious, and we are responsible for getting it right.' Third-largest Treasury penalty, after about $4bn from Binance in 2023 and about $3bn from TD Bank in 2024."
+    },
+    {
+     "slug": "openai-bugging-arrest",
+     "theme": "security-breaches",
+     "kind": "new",
+     "headline": "Someone hid a recorder behind the television in OpenAI's boardroom",
+     "gist": "DOJ announced the arrest of Abdulrahman Alfozan, 35, a Saudi national and OpenAI engineer employed since July 2025, charged with attempting to capture private conversations. Alleged timeline: 24-30 Sep a chatbot account sharing identifiers with his own submitted device-related prompts, 27-28 Sep prompts about the specific device, 28 Sep the recorder installed in a USB port behind a television in an executive conference room in San Francisco, wrapped in toilet paper with encrypted contents, 30 Sep found by OpenAI staff, 5 Oct he allegedly looked behind the television and left a bag holding a second recorder with his wallet and ID, 9 Oct arrested, 13 Oct first court appearance. Allegedly used a productivity tool to query office addresses, meeting rooms, capacities, executive locations and partner meetings. Maximum five years, $250,000 fine, three years supervised release. FBI Director Kash Patel and US Attorney Craig Missakian ('For us it is a matter of national security') quoted; prosecuted by AUSA Nicolas Parker with the National Security Division; cited under NSPM-11. No plea entered."
+    },
+    {
+     "slug": "microsoft-patch-record",
+     "theme": "security-breaches",
+     "kind": "new",
+     "headline": "Microsoft closed 1,413 holes in a single day",
+     "gist": "October 2026 Patch Tuesday, 13 Oct: 1,413 CVEs across 176 updates, a record for a single release, taking 2026's total past 4,000; about 70 rated critical. One actively exploited: CVE-2026-96951, a Windows Shell command-injection security-feature bypass, CVSS 8.8, letting an unauthenticated remote attacker bypass Mark of the Web so a crafted file opens without the usual untrusted-content warnings. CISA added it to KEV on 13 Oct with a federal remediation deadline of 16 Oct. Microsoft credited researchers from Fujitsu and Anthropic among others. Analysts attribute the volume partly to AI-assisted discovery; no share disclosed."
+    },
+    {
+     "slug": "uk-ai-committee-hearing",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "London asked four AI labs to accept binding rules and got two answers",
+     "gist": "The Commons Business, Innovation, Science and Trade Committee questioned Anthropic, Google DeepMind, Meta and OpenAI on 13 Oct. Reported accounts say OpenAI and Anthropic backed legally binding AI safety rules while Google DeepMind and Meta preferred existing frameworks; MLex framed it more cautiously, saying all four agreed on the need for external scrutiny and safety testing but differed on how binding rules should be. All four broadly committed to giving the UK AI Security Institute access to unreleased models, 'provided they are legally allowed to'. Follows the NYC Council hearing of 5 October."
+    }
+   ],
+   "visuals": [
+    "dot-and-stem chart, twelve-month US price change by category, September 2026, oxblood for energy items and grey for the rest",
+    "waterfall, where a TSMC revenue dollar went last quarter, revenue 100 down through cost of sales, opex and tax to 51.1 kept",
+    "lede illustration, inline SVG: broadcast-style arcs spreading from Dhahran across a dotted meridian to a fuel pump"
+   ],
+   "watch": [
+    {
+     "text": "American federal agencies must have patched the Windows Shell flaw CVE-2026-96951",
+     "due": "2026-10-16"
+    },
+    {
+     "text": "China publishes third-quarter GDP, the first full reading since exports began growing at 36 per cent a month",
+     "due": "2026-10-19"
+    },
+    {
+     "text": "Firmus lists in Sydney and Google's Finnish groundwork at Muhos and Kajaani must stop, on the same day",
+     "due": "2026-10-23"
+    },
+    {
+     "text": "The Federal Reserve meets with September inflation at 3.7 per cent and its own minutes pointing to another rise",
+     "due": "2026-10-28"
+    },
+    {
+     "text": "Mistral's promised open weights for Large 4",
+     "due": "2026-10-31"
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "oil-hormuz",
+     "question": "Do the Houthi strikes on Saudi territory continue, does Iran carry out the new tanker tactics it has promised, and does any reopening of the Strait of Hormuz come close to the IMF's assumed March date?",
+     "next_check": "2026-10-19"
+    },
+    {
+     "slug": "us-inflation",
+     "question": "Does the October CPI show energy still driving the headline, and does core hold near 2.6 per cent, before the 27-28 October Fed meeting?",
+     "next_check": "2026-11-12"
+    },
+    {
+     "slug": "cxmt-dram-kospi",
+     "question": "Does CXMT actually ship a 4F2 server DDR5 module by the end of 2026, with speeds, capacities and a named customer, and do Samsung and SK hynix recover the ground they lost?",
+     "next_check": "2027-01-05"
+    },
+    {
+     "slug": "japan-globalfoundries-ny",
+     "question": "On what terms does Japan get its $21bn back, what stake does Washington actually take in GlobalFoundries, and which Japanese entity provides the money?",
+     "next_check": "2026-11-16"
+    },
+    {
+     "slug": "asml-q3-capacity",
+     "question": "Does ASML commit to raising 2028 capacity beyond the 30 per cent increase already promised, and does it start booking 2029 and 2030 orders?",
+     "next_check": "2027-01-28"
+    },
+    {
+     "slug": "openai-bugging-arrest",
+     "question": "Does Alfozan enter a plea, does any motive or foreign connection emerge, and does OpenAI say what was discussed in the room?",
+     "next_check": null
+    },
+    {
+     "slug": "bofa-aml-fine",
+     "question": "Does Bank of America face further action over the 2024 OCC consent order, and does Treasury bring similar cases against other large banks?",
+     "next_check": null
+    },
+    {
+     "slug": "uk-ai-committee-hearing",
+     "question": "Does the committee recommend binding rules, and does the government move beyond the voluntary regime?",
+     "next_check": null
+    },
+    {
+     "slug": "imf-weo-october",
+     "question": "Do the IMF's two load-bearing assumptions hold: oil averaging $96 and Hormuz flows resuming by March?",
+     "next_check": "2027-01-20"
+    },
+    {
+     "slug": "microsoft-patch-record",
+     "question": "Does Microsoft say what share of the 1,413 flaws came from AI-assisted discovery, and does November set another record?",
+     "next_check": "2026-11-10"
+    }
+   ],
+   "threads_closed": [
+    "google-gemini4-cyber"
+   ],
+   "url": "https://markfaizi.dev/signal/2026-10-15"
   }
  ],
  "threads": [
@@ -1690,12 +1871,36 @@
    "next_check": null
   },
   {
+   "slug": "asml-q3-capacity",
+   "question": "Does ASML commit to raising 2028 capacity beyond the 30 per cent increase already promised, and does it start booking 2029 and 2030 orders?",
+   "status": "open",
+   "opened": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "next_check": "2027-01-28"
+  },
+  {
+   "slug": "bofa-aml-fine",
+   "question": "Does Bank of America face further action over the 2024 OCC consent order, and does Treasury bring similar cases against other large banks?",
+   "status": "open",
+   "opened": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "next_check": null
+  },
+  {
    "slug": "citrix-netscaler-zero-days",
    "question": "Mandiant counts dozens compromised via NetScaler; none has named itself. Who discloses first?",
    "status": "open",
    "opened": "2026-10-01",
    "last_seen": "2026-10-12",
    "next_check": null
+  },
+  {
+   "slug": "cxmt-dram-kospi",
+   "question": "Does CXMT actually ship a 4F2 server DDR5 module by the end of 2026, with speeds, capacities and a named customer, and do Samsung and SK hynix recover the ground they lost?",
+   "status": "open",
+   "opened": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "next_check": "2027-01-05"
   },
   {
    "slug": "datacentre-grid-costs-senate",
@@ -1740,10 +1945,11 @@
   {
    "slug": "google-gemini4-cyber",
    "question": "Gemini 4 Argon still limited to cyber defenders; any date for wider release?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-01",
    "last_seen": "2026-10-12",
-   "next_check": null
+   "next_check": null,
+   "closed": "2026-10-15"
   },
   {
    "slug": "huawei-qualcomm-patents",
@@ -1752,6 +1958,22 @@
    "opened": "2026-10-08",
    "last_seen": "2026-10-12",
    "next_check": null
+  },
+  {
+   "slug": "imf-weo-october",
+   "question": "Do the IMF's two load-bearing assumptions hold: oil averaging $96 and Hormuz flows resuming by March?",
+   "status": "open",
+   "opened": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "next_check": "2027-01-20"
+  },
+  {
+   "slug": "japan-globalfoundries-ny",
+   "question": "On what terms does Japan get its $21bn back, what stake does Washington actually take in GlobalFoundries, and which Japanese entity provides the money?",
+   "status": "open",
+   "opened": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "next_check": "2026-11-16"
   },
   {
    "slug": "japan-jgb-takaichi",
@@ -1770,6 +1992,14 @@
    "next_check": null
   },
   {
+   "slug": "microsoft-patch-record",
+   "question": "Does Microsoft say what share of the 1,413 flaws came from AI-assisted discovery, and does November set another record?",
+   "status": "open",
+   "opened": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "next_check": "2026-11-10"
+  },
+  {
    "slug": "mistral-large-4",
    "question": "Do Large 4's open weights ship by the end of October, after Artificial Analysis scored it 38 on its intelligence index, behind several Chinese open models?",
    "status": "open",
@@ -1779,10 +2009,18 @@
   },
   {
    "slug": "oil-hormuz",
-   "question": "Strait of Hormuz: any reopening deal, with Brent near $103 and Houthi attacks continuing on Saudi infrastructure?",
+   "question": "Do the Houthi strikes on Saudi territory continue, does Iran carry out the new tanker tactics it has promised, and does any reopening of the Strait of Hormuz come close to the IMF's assumed March date?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-15",
+   "next_check": "2026-10-19"
+  },
+  {
+   "slug": "openai-bugging-arrest",
+   "question": "Does Alfozan enter a plea, does any motive or foreign connection emerge, and does OpenAI say what was discussed in the room?",
+   "status": "open",
+   "opened": "2026-10-15",
+   "last_seen": "2026-10-15",
    "next_check": null
   },
   {
@@ -1834,6 +2072,14 @@
    "next_check": "2026-11-05"
   },
   {
+   "slug": "uk-ai-committee-hearing",
+   "question": "Does the committee recommend binding rules, and does the government move beyond the voluntary regime?",
+   "status": "open",
+   "opened": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "next_check": null
+  },
+  {
    "slug": "uk-product-liability-software",
    "question": "What the consultation produces by 14 January 2027, and whether the government commits to legislate",
    "status": "open",
@@ -1848,6 +2094,14 @@
    "opened": "2026-10-01",
    "last_seen": "2026-10-12",
    "next_check": "2026-12-01"
+  },
+  {
+   "slug": "us-inflation",
+   "question": "Does the October CPI show energy still driving the headline, and does core hold near 2.6 per cent, before the 27-28 October Fed meeting?",
+   "status": "open",
+   "opened": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "next_check": "2026-11-12"
   }
  ]
 }
