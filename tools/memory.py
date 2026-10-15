@@ -31,19 +31,19 @@ BASE = "https://markfaizi.dev"
 
 PUBS = {
     "signal": {
-        "name": "Signal", "window": 6, "max_followups": 3, "fixed_sections": False,
+        "name": "Signal", "window": 6, "max_followups": 3, "fixed_sections": False, "stale_days": 21,
         "themes": ["rates-bonds", "oil-energy-war", "us-macro", "ai-safety-agents", "ai-regulation",
                    "ai-money", "ai-infrastructure", "ai-products-research", "security-breaches",
                    "consumer-tech", "deals-corporate", "crypto", "science-space", "global-economy"],
     },
     "kabulledger": {
-        "name": "The Kabul Ledger", "window": 4, "max_followups": 1, "fixed_sections": True,
+        "name": "The Kabul Ledger", "window": 4, "max_followups": 1, "fixed_sections": True, "stale_days": 42,
         "themes": ["trade-transit", "prices-livelihoods", "money-banking", "aid", "state-budget",
                    "returnees-labour", "resources-energy", "water-climate"],
         "areas": ["plumbing", "earn-and-spend", "trade-and-resources"],
     },
     "loadfactor": {
-        "name": "Load Factor", "window": 4, "max_followups": 1, "fixed_sections": True,
+        "name": "Load Factor", "window": 4, "max_followups": 1, "fixed_sections": True, "stale_days": 75,
         "themes": ["risk-guarantees", "results-ownership", "regulation", "demand-distribution",
                    "supply-operations", "ai", "insolvency"],
         "areas": ["unit-economics", "distribution-demand", "regulation-risk-money", "ai-integration"],
@@ -311,10 +311,15 @@ def brief(slug, today=None):
             tag = "DUE " if nc and d(nc) <= today else "    "
             w(f"  {tag}{t['slug']:<30} opened {short(t['opened'])}  last {short(t['last_seen'])}  check {short(nc)}")
             w(f"      {t['question']}")
-        stale = [t for t in open_t if (today - d(t["last_seen"])).days > 60 and not t.get("next_check")]
+        limit = p.get("stale_days", 60)
+        stale = [t for t in open_t if (today - d(t["last_seen"])).days > limit
+                 and not (t.get("next_check") and d(t["next_check"]) > today)]
         if stale:
-            w("  Threads untouched for 60+ days with no check date: close them in threads_closed unless they moved: "
+            w(f"  QUIET for {limit}+ days: close these in threads_closed unless they moved: "
               + ", ".join(t["slug"] for t in stale))
+        if len(open_t) > 15:
+            w(f"  {len(open_t)} threads are open, which is too many to follow. Close at least "
+              f"{max(len(open_t) - 15, 3)} this edition: the quiet ones first, then any whose story has resolved.")
 
     # watch list
     if last.get("watch"):
