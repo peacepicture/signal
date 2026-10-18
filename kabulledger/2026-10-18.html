@@ -1,0 +1,950 @@
+<!doctype html><html><head>
+<!-- site-head:start · written by build.py, edits inside are overwritten -->
+<title>Kabul Ledger — 18 October</title>
+<meta name="description" content="Afghan farmers have just had a good year. Nineteen million Afghans will still go short this winter.">
+<link rel="canonical" href="https://markfaizi.dev/kabulledger/2026-10-18">
+<link rel="icon" href="/assets/kabulledger/icon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/kabulledger/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/kabulledger/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#EEEAE1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14120F" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Kabul Ledger · markfaizi.dev">
+<meta property="og:title" content="Kabul Ledger — 18 October">
+<meta property="og:description" content="Afghan farmers have just had a good year. Nineteen million Afghans will still go short this winter.">
+<meta property="og:url" content="https://markfaizi.dev/kabulledger/2026-10-18">
+<meta property="og:image" content="https://markfaizi.dev/assets/kabulledger/og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Kabul Ledger: a weekly reading of Afghanistan&#x27;s economy, at markfaizi.dev/kabulledger.">
+<meta property="og:locale" content="en_GB">
+<meta property="article:published_time" content="2026-10-18">
+<meta name="twitter:card" content="summary_large_image">
+<!-- site-head:end -->
+<meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Kabul Ledger — 18 October</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Spectral:ital,wght@0,400;0,600;1,300;1,400;1,600&family=IBM+Plex+Mono:wght@400;500;600&family=Chakra+Petch:wght@500;600;700&display=swap">
+<style>
+/* ---------------------------------------------------------------
+   Layout: a single measured column on sand paper. Masthead, mono
+   indicator tape, then numbered sections down one 62-character
+   reading column; the explainer opens into two columns on wide
+   screens. Figures break the measure and scroll inside themselves.
+   --------------------------------------------------------------- */
+
+/* House display face. Self-hosted TimeBurner goes here when the
+   base64 payload is available; the stack below carries it until then.
+@font-face {
+  font-family: "TimeBurner";
+  src: url(data:font/woff2;base64,) format("woff2");
+  font-weight: 400 700; font-display: swap;
+}
+*/
+
+:root {
+  --paper:   #EEEAE1;
+  --card:    #F7F4EE;
+  --ink:     #16130E;
+  --ink-mid: #4A4237;
+  --rule:    #CFC7B7;
+  --lapis:   #1F4E9C;
+  --ochre:   #A8701E;
+  --mark-a:  #1F4E9C;
+  --mark-b:  #A8701E;
+
+  /* severity ramp, one hue, light to dark: used in the hunger grid */
+  --sev0:    #D5CDBD;
+  --sev1:    #C79A57;
+  --sev2:    #8E5412;
+
+  --font-display: "TimeBurner","Chakra Petch","Eurostile","Bahnschrift","Trebuchet MS",sans-serif;
+  --font-editorial: "Spectral",Georgia,"Times New Roman",serif;
+  --font-body: "Newsreader",Georgia,"Times New Roman",serif;
+  --font-mono: "IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper:   #14120F;
+    --card:    #211E19;
+    --ink:     #EDE8DE;
+    --ink-mid: #A79C8B;
+    --rule:    #3A342B;
+    --lapis:   #7EA6ED;
+    --ochre:   #D6A45C;
+    --mark-a:  #5E8CD6;
+    --mark-b:  #BE8945;
+    --sev0:    #332E26;
+    --sev1:    #9C7536;
+    --sev2:    #EBBB78;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper:   #14120F;
+  --card:    #211E19;
+  --ink:     #EDE8DE;
+  --ink-mid: #A79C8B;
+  --rule:    #3A342B;
+  --lapis:   #7EA6ED;
+  --ochre:   #D6A45C;
+  --mark-a:  #5E8CD6;
+  --mark-b:  #BE8945;
+  --sev0:    #332E26;
+  --sev1:    #9C7536;
+  --sev2:    #EBBB78;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 20px;
+  line-height: 1.62;
+  margin: 0;
+  padding-left: max(20px, env(safe-area-inset-left, 0px));
+  padding-right: max(20px, env(safe-area-inset-right, 0px));
+  padding-block: 0 72px;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+.wrap { max-width: 1120px; margin: 0 auto; }
+.col  { max-width: 38em; }           /* ~62 characters at 20px */
+
+/* ---------- masthead ---------- */
+
+.masthead {
+  border-bottom: 2px solid var(--ink);
+  padding-block: 34px 14px;
+}
+.flag {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.5rem, 8.6vw, 5.1rem);
+  line-height: 0.92;
+  letter-spacing: -0.015em;
+  margin: 0;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+.flag em {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: -0.01em;
+  color: var(--ochre);
+}
+.flagline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 22px;
+  align-items: baseline;
+  margin-top: 18px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+}
+.flagline .live { color: var(--lapis); }
+
+/* ---------- indicator tape ---------- */
+
+.tape {
+  border-bottom: 1px solid var(--rule);
+  padding-block: 16px 18px;
+  overflow-x: auto;
+}
+.tape ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: max-content;
+}
+.tape li { min-width: 0; }
+.tape dt, .tapek {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  white-space: nowrap;
+}
+.tapev {
+  font-family: var(--font-mono);
+  font-size: 1.12rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  display: block;
+  margin-top: 3px;
+}
+.tapev .dir { color: var(--ochre); font-weight: 500; }
+
+/* ---------- lede ---------- */
+
+.opener { padding-block: 44px 0; }
+.lede {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.42rem, 3.1vw, 2rem);
+  line-height: 1.36;
+  max-width: 38ch;
+  margin: 0;
+  text-wrap: pretty;
+}
+.standfirst { margin: 26px 0 0; }
+.standfirst p { margin: 0 0 1em; }
+.standfirst p:last-child { margin-bottom: 0; }
+
+.sincebox {
+  margin: 40px 0 0;
+  padding: 20px 22px;
+  background: var(--card);
+  border-left: 3px solid var(--ochre);
+  max-width: 40em;
+}
+.sincebox h2 {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--ochre);
+  margin: 0 0 10px;
+}
+.sincebox ul { margin: 0; padding-left: 1.1em; }
+.sincebox li { font-size: 1.06rem; line-height: 1.55; margin-bottom: 7px; }
+.sincebox li:last-child { margin-bottom: 0; }
+
+/* ---------- sections ---------- */
+
+.section { margin-top: 64px; }
+.section > header {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  border-top: 2px solid var(--ink);
+  padding-top: 12px;
+  margin-bottom: 34px;
+}
+.numeral {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-size: 2.1rem;
+  line-height: 1;
+  color: var(--ochre);
+}
+.section > header h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.3rem, 3.2vw, 1.78rem);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* ---------- news items ---------- */
+
+.item { margin-bottom: 52px; }
+.item:last-child { margin-bottom: 0; }
+.kicker {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--lapis);
+  margin: 0 0 8px;
+}
+.kicker.fu { color: var(--ochre); }
+.item h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.44rem, 3.6vw, 2.05rem);
+  line-height: 1.14;
+  letter-spacing: -0.005em;
+  margin: 0 0 16px;
+  text-wrap: balance;
+  max-width: 30em;
+}
+.item p { margin: 0 0 1em; }
+.item p:last-of-type { margin-bottom: 0; }
+.srcline {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--ink-mid);
+  margin-top: 14px !important;
+  padding-top: 10px;
+  border-top: 1px solid var(--rule);
+  max-width: 40em;
+}
+.srcline a { color: var(--ink-mid); text-decoration-color: var(--rule); }
+.srcline a:hover { color: var(--lapis); }
+
+a { color: var(--lapis); text-underline-offset: 2px; }
+
+/* ---------- a ledger strip: label, figure, gloss ---------- */
+
+.ledgerrows {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+  margin: 0 0 1.3em;
+  padding-left: 0;
+  list-style: none;
+  max-width: 36em;
+}
+.ledgerrows li {
+  display: grid;
+  grid-template-columns: 1fr 7.5em;
+  gap: 2px 14px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--rule);
+  line-height: 1.5;
+  align-items: baseline;
+}
+.ledgerrows li b {
+  font-weight: 600;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--ochre);
+}
+
+/* ---------- figures ---------- */
+
+figure {
+  margin: 28px 0;
+  padding: 0;
+  max-width: 100%;
+}
+.fig-scroll { overflow-x: auto; }
+figure svg { display: block; max-width: 100%; height: auto; }
+figcaption {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  line-height: 1.55;
+  letter-spacing: 0.01em;
+  color: var(--ink-mid);
+  margin-top: 12px;
+  max-width: 42em;
+}
+.figtitle {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0 0 14px;
+}
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  margin: 0 0 12px;
+}
+.legend span { display: inline-flex; align-items: center; gap: 7px; }
+.swatch { width: 11px; height: 11px; border-radius: 2px; display: inline-block; }
+
+/* svg paint hooks */
+.sq0 { fill: var(--sev0); }
+.sq1 { fill: var(--sev1); }
+.sq2 { fill: var(--sev2); }
+.svg-ink  { fill: currentColor; }
+.svg-mid  { fill: var(--ink-mid); }
+.svg-lap  { fill: var(--lapis); }
+.svg-och  { fill: var(--ochre); }
+.st-ink   { stroke: currentColor; fill: none; }
+.st-rule  { stroke: var(--rule); fill: none; }
+.st-lap   { stroke: var(--lapis); fill: none; }
+.svg-card { fill: var(--card); }
+.svglab {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+}
+.svgnum {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.svgkey {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+/* ---------- explainer ---------- */
+
+.explainer .deck {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-size: 1.28rem;
+  line-height: 1.44;
+  max-width: 34em;
+  margin: 0 0 26px;
+}
+.twocol { max-width: 1000px; }
+.twocol > p { margin: 0 0 1em; }
+.twocol > p:first-child { margin-top: 0; }
+@media (min-width: 900px) {
+  .twocol {
+    columns: 2;
+    column-gap: 46px;
+  }
+  .twocol > * { min-width: 0; }
+  .steps, .pull { break-inside: avoid; }
+}
+.steps { counter-reset: s; list-style: none; margin: 0 0 1.4em; padding: 0; }
+.steps li {
+  position: relative;
+  padding-left: 2.2em;
+  margin-bottom: 0.9em;
+  counter-increment: s;
+}
+.steps li::before {
+  content: counter(s);
+  position: absolute;
+  left: 0;
+  top: 0.16em;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ochre);
+  border: 1px solid var(--rule);
+  width: 1.65em;
+  height: 1.65em;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+.pull {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-size: 1.32rem;
+  line-height: 1.4;
+  color: var(--ink);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  padding-block: 18px;
+  margin: 10px 0 1.3em;
+  max-width: 24em;
+}
+
+/* ---------- numbers ---------- */
+
+.numbers { display: grid; gap: 26px; }
+@media (min-width: 760px) { .numbers { grid-template-columns: repeat(3, 1fr); gap: 30px; } }
+.numcard {
+  background: var(--card);
+  border-top: 2px solid var(--lapis);
+  padding: 22px 22px 24px;
+  min-width: 0;
+}
+.bignum {
+  font-family: var(--font-mono);
+  font-size: clamp(2rem, 5.4vw, 2.7rem);
+  font-weight: 600;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+  display: block;
+}
+.numcard h3 {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  margin: 12px 0 10px;
+}
+.numcard p { font-size: 1.06rem; line-height: 1.56; margin: 0 0 0.8em; }
+.numcard p:last-child { margin-bottom: 0; }
+
+/* ---------- watch ---------- */
+
+.watch { display: grid; gap: 34px; max-width: 46em; }
+.watch article { display: grid; grid-template-columns: auto 1fr; gap: 6px 18px; }
+.watch .wnum {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  color: var(--ochre);
+  grid-row: span 2;
+}
+.watch h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.18rem;
+  line-height: 1.25;
+  margin: 0;
+  letter-spacing: 0.005em;
+}
+.watch p { margin: 0; font-size: 1.06rem; line-height: 1.58; }
+
+/* ---------- colophon ---------- */
+
+.colophon {
+  margin-top: 70px;
+  border-top: 2px solid var(--ink);
+  padding-top: 22px;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  line-height: 1.65;
+  color: var(--ink-mid);
+  max-width: 46em;
+}
+.colophon h2 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+.colophon p { margin: 0 0 0.9em; }
+.colophon p:last-child { margin-bottom: 0; }
+
+/* ---------- small screens ---------- */
+
+@media (max-width: 560px) {
+  body {
+    font-size: 19px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  .tape dt, .tapek, .flagline, .legend, figcaption, .srcline,
+  .sincebox h2, .kicker, .figtitle, .numcard h3 { font-size: 12.5px; }
+  .colophon, .colophon h2, .ledgerrows { font-size: 12.5px; }
+  .tapev { font-size: 17.5px; }
+  .ledgerrows li { grid-template-columns: 1fr; }
+  .ledgerrows li b { text-align: left; }
+  .section > header { gap: 12px; }
+  .numeral { font-size: 1.7rem; }
+  .watch article { grid-template-columns: auto 1fr; gap: 4px 12px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <h1 class="flag">The Kabul <em>Ledger</em></h1>
+    <div class="flagline">
+      <span>Sunday 18 October 2026</span>
+      <span>Week of 12&ndash;18 October</span>
+      <span class="live">A weekly reading of Afghanistan&rsquo;s economy</span>
+    </div>
+  </header>
+
+  <div class="tape">
+    <ul>
+      <li><span class="tapek">AFN / USD</span><span class="tapev">64.9</span></li>
+      <li><span class="tapek">Short of food, now</span><span class="tapev">15.9m</span></li>
+      <li><span class="tapek">Winter forecast</span><span class="tapev">19.2m</span></li>
+      <li><span class="tapek">Day wage</span><span class="tapev">295 AFN</span></li>
+      <li><span class="tapek">Work found</span><span class="tapev">2.0 d/wk</span></li>
+      <li><span class="tapek">Buying power, y/y</span><span class="tapev">&minus;25<span class="dir">%</span></span></li>
+      <li><span class="tapek">Diesel</span><span class="tapev">80.9 AFN/l</span></li>
+      <li><span class="tapek">Urea, y/y</span><span class="tapev">+24<span class="dir">%</span></span></li>
+      <li><span class="tapek">CASA-1000, Afghan leg</span><span class="tapev">70<span class="dir">% built</span></span></li>
+    </ul>
+  </div>
+
+  <section class="opener col">
+    <p class="lede">Afghan farmers have just had a good year. Nineteen million Afghans will still go short this winter.</p>
+    <div class="standfirst">
+      <p>The harvest was strong. The rain came back, the wheat came in, and the shops have food in them. Then on Tuesday the United Nations published its new hunger forecast, and the numbers went the wrong way. More people are short of food than a year ago, and twice as many are in the category below that.</p>
+      <p>Both things are true because food in the market is not the binding problem. Money is. The average labourer found two days of work last week and earned 295 afghanis a day, about $4.50. That buys a quarter less than it did last October.</p>
+      <p>Meanwhile the government spent the week selling the one asset it cannot exhaust: the ground between other people&rsquo;s countries. A power line, a railway study, a port plot. All of it is rent on geography, and almost none of it pays before 2028.</p>
+    </div>
+
+    <div class="sincebox">
+      <h2>Since last time</h2>
+      <ul>
+        <li>The two missing reports arrived. The IPC published its new analysis on 13 October and FEWS NET issued its outlook to January. Both are in the first item below.</li>
+        <li>On the Iranian payment channel we said we would watch: Afghan and Iranian firms signed 28 memoranda worth $451.8m on 10 October, and President Pezeshkian promised simpler customs. On banking, nothing. No correspondent relationship, no rial&ndash;afghani settlement window.</li>
+        <li>FEWS NET keeps its wet-winter call. It expects above-average rain and a larger area planted with winter wheat than usual.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ I. THE WEEK ============ -->
+  <section class="section">
+    <header><span class="numeral">I</span><h2>The Week</h2></header>
+
+    <article class="item">
+      <p class="kicker">Prices &amp; livelihoods</p>
+      <h3>The harvest came in strong. The hunger forecast got worse.</h3>
+      <div class="col">
+        <p>On 13 October the IPC, the inter-agency body that grades food crises on a five-point scale, published its reading of Afghanistan. It found 15.9 million people &mdash; 32% of the country &mdash; in crisis or worse. Of those, 3.4 million are one step further down, at what the scale calls emergency.</p>
+        <p>The winter forecast is the part that matters. Between November and April, the IPC expects 19.2 million people in crisis or worse, 38% of the population. Five million of them would be at emergency level. That is nearly double the figure projected for this summer, and about half a million more than last winter.</p>
+        <p>Seven provinces are expected to tip into emergency as a whole: Daykundi, rural Ghazni, Badakhshan, Samangan, Sar-e-Pul, Badghis and Ghor. The malnutrition numbers move with them. Just over four million children under five will need treatment next year, 9% more than this year&rsquo;s estimate, and the severe cases rise faster, from 942,000 to about 1.1 million.</p>
+      </div>
+
+      <figure class="fig-scroll">
+        <p class="figtitle">Fifty squares, fifty million people</p>
+        <div class="legend">
+          <span><i class="swatch" style="background:var(--sev2)"></i>Emergency</span>
+          <span><i class="swatch" style="background:var(--sev1)"></i>Crisis</span>
+          <span><i class="swatch" style="background:var(--sev0)"></i>Below crisis</span>
+        </div>
+        <svg viewBox="0 0 426 172" role="img" aria-label="Each square is one million Afghans. In September and October 2026, three squares are at emergency level and thirteen in crisis. For November to April the forecast is five and fourteen.">
+      <text class="svgkey svg-mid" x="0" y="14">NOW · SEPTEMBER–OCTOBER 2026</text>
+      <rect class="sq2" x="0" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq2" x="17" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq2" x="34" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="51" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="68" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="85" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="102" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="119" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="136" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="153" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="170" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="187" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="204" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="221" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="238" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="255" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="272" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="289" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="306" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="323" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="340" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="357" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="374" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="391" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="408" y="24" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="0" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="17" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="34" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="51" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="68" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="85" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="102" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="119" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="136" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="153" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="170" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="187" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="204" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="221" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="238" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="255" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="272" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="289" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="306" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="323" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="340" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="357" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="374" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="391" y="41" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="408" y="41" width="14" height="14" rx="2"/>
+      <text class="svglab svg-mid" x="0" y="72">3.4m emergency  ·  12.5m crisis  ·  15.9m total, 32%</text>
+      <text class="svgkey svg-mid" x="0" y="104">PROJECTED · NOVEMBER 2026 – APRIL 2027</text>
+      <rect class="sq2" x="0" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq2" x="17" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq2" x="34" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq2" x="51" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq2" x="68" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="85" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="102" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="119" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="136" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="153" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="170" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="187" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="204" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="221" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="238" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="255" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="272" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="289" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq1" x="306" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="323" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="340" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="357" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="374" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="391" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="408" y="114" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="0" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="17" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="34" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="51" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="68" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="85" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="102" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="119" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="136" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="153" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="170" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="187" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="204" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="221" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="238" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="255" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="272" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="289" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="306" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="323" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="340" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="357" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="374" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="391" y="131" width="14" height="14" rx="2"/>
+      <rect class="sq0" x="408" y="131" width="14" height="14" rx="2"/>
+      <text class="svglab svg-mid" x="0" y="162">5.0m emergency  ·  14.2m crisis  ·  19.2m total, 38%</text>
+        </svg>
+        <figcaption>One square, one million people. The IPC&rsquo;s percentages imply a population just under 50 million, which is itself an estimate. Squares are rounded to the nearest million.</figcaption>
+      </figure>
+
+      <div class="col">
+        <p>None of this is a crop failure. FAO&rsquo;s representative in Kabul, Richard Trenchard, called it a strong harvest and said it shows &ldquo;what Afghan farmers can achieve&rdquo;. The cereals are in the country. What is missing is the wage that buys them.</p>
+        <p>WFP&rsquo;s market monitors, who collect prices in all 34 provincial capitals, put the problem in numbers. Unskilled workers found work two days a week in the first week of October, 14% less often than a year ago. The daily wage fell 5%, to 295 afghanis. Rice costs 31% more than last October, cooking oil 12% more, flour 10% more. Put days, wages and flour together and a labourer&rsquo;s buying power is down 25% in a year.</p>
+        <p>Aid is not filling the gap and is not expected to. The IPC reckons humanitarian food assistance will reach about 1% of the population through the winter. Roughly a third of nutrition treatment sites have closed or been suspended. &ldquo;This crisis is increasingly being defined by the gap between growing needs and shrinking funding,&rdquo; said John Aylieff, WFP&rsquo;s country director.</p>
+        <p>FEWS NET, the American famine early-warning service, published its own outlook the same week and reads the map slightly differently. It expects crisis conditions to persist in six named provinces and the big cities rather than nationwide, and it emphasises the good winter planting season ahead. The two agencies use the same scale. They disagree about how much the harvest offsets the wage.</p>
+        <p class="srcline">Sources: <a href="https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1165462/?iso3=AFG">IPC Afghanistan acute food insecurity analysis, 13 October</a>; <a href="https://www.wfp.org/news/food-insecurity-and-child-malnutrition-worsen-afghanistan-despite-strong-agricultural-season">WFP and FAO joint statement, 15 October</a>; <a href="https://amu.tv/254264/">WFP weekly market report, via Amu, 12 October</a>; <a href="https://fews.net/middle-east-and-asia/afghanistan">FEWS NET Afghanistan key message update</a>.</p>
+      </div>
+    </article>
+
+    <article class="item">
+      <p class="kicker fu">Follow-up &middot; Trade &amp; transit</p>
+      <h3>A year with the border shut, and the stand-in only works one way</h3>
+      <div class="col">
+        <p>On 14 October the government&rsquo;s spokesman, Zabihullah Mujahid, said Afghanistan has made up the losses from the closed Pakistani crossings by trading more with Central Asia. The claim is testable, and it is half right.</p>
+        <p>Pakistan shut nearly a dozen crossings on 12 October last year after a round of border fighting. Five of the big ones &mdash; Torkham, Chaman, Ghulam Khan, Kharlachi and Angoor Adda &mdash; are still closed to goods. We last reported on this when Islamabad promised a reopening and then exchanged fire at Spin Boldak instead (<a href="https://markfaizi.dev/kabulledger/2026-09-27">27 September</a>).</p>
+        <p>Start with what has genuinely been replaced. Kazakhstan is now Afghanistan&rsquo;s granary. In the first seven months of this year the two countries traded $581.1m, and Kazakh grain and flour shipments rose by roughly half in volume. On 13 October ten Afghan companies signed five more contracts in Kazakhstan, worth $55m: $40m of wheat and other farm goods, $15m of flour.</p>
+        <p>Now look at the direction of travel.</p>
+      </div>
+
+      <figure class="fig-scroll">
+        <p class="figtitle">Seventy dollars in, one dollar out</p>
+        <svg viewBox="0 0 500 136" role="img" aria-label="In the first seven months of 2026 Kazakhstan sold Afghanistan 572.9 million dollars of goods and bought 8.2 million dollars back, a ratio of about seventy to one, drawn to scale.">
+          <line class="st-rule" x1="0" y1="20" x2="0" y2="126" stroke-width="1"/>
+          <text class="svgkey svg-mid" x="0" y="14">KAZAKHSTAN SELLS TO AFGHANISTAN</text>
+          <rect class="svg-och" x="0" y="22" width="378" height="26" rx="2"/>
+          <polygon class="svg-och" points="378,22 394,35 378,48"/>
+          <text class="svgnum svg-ink" x="404" y="40">$572.9m</text>
+          <text class="svgkey svg-mid" x="0" y="84">AFGHANISTAN SELLS TO KAZAKHSTAN</text>
+          <rect class="svg-lap" x="0" y="92" width="5" height="26" rx="1"/>
+          <polygon class="svg-lap" points="5,92 21,105 5,118"/>
+          <text class="svgnum svg-ink" x="31" y="110">$8.2m</text>
+        </svg>
+        <figcaption>January to July 2026, Kazakh official figures, drawn to scale. Flour alone accounted for $215.6m of the outbound total; wheat $122m; vegetable oil $51.1m.</figcaption>
+      </figure>
+
+      <div class="col">
+        <p>A supplier is not a market. Central Asia has replaced the shop Afghanistan bought from. It has not replaced the customer Afghanistan sold to, and it has not replaced the road to the customers beyond.</p>
+        <p>The export side of the ledger is where the year shows. Afghan goods worth $6.7bn transited Pakistan in 2023; this fiscal year the figure is $367m. Container traffic fell from 42,959 in 2024&ndash;25 to 11,592. Fruit traders describe the detour in cents. A consignment to India used to cost about $0.25 a unit through Pakistan and take ten to fifteen days. Routed through Iran it costs $0.70 to $0.80 and takes two months. One Kabul trader is $350,000 down on this season&rsquo;s apples and grapes, and owes money to orchards and money changers.</p>
+        <p>The state feels it too, in a line that is rarely quoted. Customs duties brought in 24.7% less this fiscal year to June than in the same months last year.</p>
+        <p class="srcline">Sources: <a href="https://www.afintl.com/en/202610145422">Afghanistan International, 14 October</a> (Mujahid; Kazakh trade and contract figures); <a href="https://www.rferl.org/a/afghanistan-pakistan-border-closure-year-taliban/33868985.html">RFE/RL, 4 October</a> (transit values, container counts, trader accounts); <a href="https://freshplaza.com/asia/article/9883298/afghan-fruit-exporters-face-rising-costs-as-pakistan-border-remains-closed">FreshPlaza, 15 October</a> (freight costs); <a href="https://thedocs.worldbank.org/en/doc/da300f3625779dfdc79e169bafca6f2a-0310012026/original/Afghanistan-Economic-Monitor-June-2026.pdf">World Bank Afghanistan Economic Monitor, June 2026</a> (customs revenue).</p>
+      </div>
+    </article>
+
+    <article class="item">
+      <p class="kicker">Resources &amp; energy</p>
+      <h3>The transit line is nearly built. The buyer at the far end is Pakistan.</h3>
+      <div class="col">
+        <p>Afghanistan&rsquo;s electricity utility said this week that the Afghan section of CASA-1000 is 70% complete. It expects to finish by the end of the Afghan year 1406, which is March 2028.</p>
+        <p>CASA-1000 is a high-voltage line that carries summer hydropower from Kyrgyzstan and Tajikistan south through Kabul to Nowshera in Pakistan. It costs about $1.2bn and is designed for 1,300 megawatts: 1,000 for Pakistan, up to 300 for Afghanistan. Kabul also expects $60m to $65m a year for letting the power across, a payment known as a wheeling fee.</p>
+        <p>The participating countries met in Bishkek from 7 to 9 October and agreed, again, to hurry. Kyrgyzstan has finished its own stretch &mdash; 456 kilometres and 1,243 towers, done in November 2024. The Afghan line is the last big piece.</p>
+        <p>Two details complicate the announcement. The first is arithmetic. A year ago the Afghan section was publicly put at about 75% complete; this week&rsquo;s figure is 70%. Nobody has explained whether the earlier number was optimistic or the job was re-measured. The World Bank&rsquo;s January update expected the whole project finished by the end of 2027, which is three months earlier than the utility now says.</p>
+        <p>The second is the customer. The 1,000 megawatts and most of the fee come from Pakistan, whose crossings have been shut to Afghan goods for a year and whose air force bombed Kunar and Helmand on 1 October. Nobody has published a payment mechanism for a wheeling fee between the two.</p>
+        <p>Three days before the Bishkek meeting, Kazakhstan, Uzbekistan and the United Arab Emirates signed a memorandum to study a 900-kilometre railway from Central Asia to Pakistan&rsquo;s ports. The route runs through Afghanistan. Afghanistan did not sign it.</p>
+        <p class="srcline">Sources: <a href="https://www.tolonews.com/business-201164">TOLOnews, DABS statement</a> (70%, March 2028, $60&ndash;65m); <a href="https://www.trend.az/casia/kyrgyzstan/4234554.html">Trend, 14 October</a> (Bishkek working group, Kyrgyz section, 1,300 MW split, World Bank timeline); <a href="https://kun.uz/en/news/2026/10/05/uzbekistan-kazakhstan-and-uae-plan-rail-route-to-pakistan-through-afghanistan">Kun.uz</a> and <a href="https://www.ariananews.af/kazakhstan-uzbekistan-and-uae-sign-mou-on-casa-railway-project-via-afghanistan/">Ariana News, 3 October</a> (rail memorandum).</p>
+      </div>
+    </article>
+
+    <article class="item">
+      <p class="kicker">Water &amp; climate</p>
+      <h3>The money for weather stations sits behind a recognition problem</h3>
+      <div class="col">
+        <p>Mullah Abdul Ghani Baradar, the deputy prime minister for economic affairs, spoke in Kabul on 13 October and asked for something modest: meteorological equipment, early-warning systems and rescue gear. He argued that Afghanistan emits almost nothing and suffers a great deal, and called the mismatch &ldquo;completely inconsistent with the principles of international climate justice&rdquo;.</p>
+        <p>The request is small and the obstacle is structural. The large climate funds do not hand money to countries. They accredit national institutions, and accreditation runs through a government that other governments recognise. Afghanistan&rsquo;s entire book at the Green Climate Fund is $17.2m across one project, approved in August 2020 and run by the UN Development Programme, plus $1.6m of preparatory support. Nothing new has been approved since 2021.</p>
+        <p>The workaround is to route around the state. UN agencies apply, hold the money and do the work. FAO sought $10m and UNDP $8.9m from the Global Environment Facility on that basis. At the last public account, both were still waiting on its council. That design keeps funds away from the authorities, which is the point. It also means the ministry that would run a weather station does not get one.</p>
+        <p>Donors have their own reasons, and the clearest of them appears in the IPC report itself, which lists restrictions on women working as a driver of hunger. The standoff is real on both sides. What it produces, this winter, is a country facing an unusually wet El Ni&ntilde;o season with very little ability to forecast it.</p>
+        <p class="srcline">Sources: <a href="https://pajhwok.com/2026/10/13/mullah-baradar-calls-for-fair-international-climate-aid-for-afghanistan/">Pajhwok, 13 October</a>; <a href="https://www.greenclimate.fund/countries/afghanistan">Green Climate Fund country page</a>; <a href="https://www.arabnews.pk/world/un-moves-to-unlock-stuck-climate-financing-for-afghanistan-2580057">Reuters via Arab News</a> (the GEF route).</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- ============ II. HOW IT WORKS ============ -->
+  <section class="section explainer">
+    <header><span class="numeral">II</span><h2>How It Works</h2></header>
+
+    <p class="deck">Afghanistan has little to sell and a great deal to cross. This is how a country charges rent on its own map &mdash; and why the rent is harder to collect than it looks.</p>
+
+    <figure class="fig-scroll">
+      <p class="figtitle">A wheeling fee, and the three gates before it</p>
+      <svg viewBox="0 0 680 300" role="img" aria-label="Diagram. Power flows from Kyrgyzstan and Tajikistan through Afghanistan to Pakistan; Afghanistan draws off up to 300 megawatts and charges a wheeling fee of 60 to 65 million dollars a year, while Pakistan pays the generators for the power. Below, three gates: the line is 70 percent built, the buyer is Pakistan with the border shut, and no payment channel has been published.">
+        <defs>
+          <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/>
+          </marker>
+          <marker id="arl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--lapis)"/>
+          </marker>
+        </defs>
+
+        <!-- afghan territory -->
+        <rect class="st-lap" x="175" y="14" width="220" height="96" rx="4" stroke-width="1.5" stroke-dasharray="5 4"/>
+        <text class="svgkey svg-lap" x="285" y="128" text-anchor="middle">AFGHANISTAN</text>
+
+        <!-- generator and buyer -->
+        <rect class="svg-card" x="0" y="36" width="130" height="44" rx="3"/>
+        <rect class="st-ink" x="0" y="36" width="130" height="44" rx="3" stroke-width="1.2"/>
+        <text class="svglab svg-ink" x="12" y="55">Kyrgyzstan,</text>
+        <text class="svglab svg-ink" x="12" y="71">Tajikistan</text>
+
+        <rect class="svg-card" x="440" y="36" width="170" height="44" rx="3"/>
+        <rect class="st-ink" x="440" y="36" width="170" height="44" rx="3" stroke-width="1.2"/>
+        <text class="svglab svg-ink" x="452" y="55">Pakistan, Nowshera</text>
+        <text class="svglab svg-mid" x="452" y="71">buys 1,000 MW</text>
+
+        <!-- the power path -->
+        <line class="st-lap" x1="130" y1="58" x2="436" y2="58" stroke-width="4" marker-end="url(#arl)"/>
+        <text class="svglab svg-mid" x="132" y="78">1,300 MW south</text>
+
+        <!-- drawn off -->
+        <line class="st-lap" x1="215" y1="58" x2="215" y2="30" stroke-width="2" marker-end="url(#arl)"/>
+        <text class="svglab svg-ink" x="225" y="28">300 MW stays here</text>
+
+        <!-- the meter -->
+        <circle class="svg-card" cx="300" cy="58" r="14"/>
+        <circle class="st-lap" cx="300" cy="58" r="14" stroke-width="2"/>
+        <line class="st-lap" x1="300" y1="58" x2="306" y2="49" stroke-width="2"/>
+        <line class="st-lap" x1="300" y1="76" x2="300" y2="146" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arl)"/>
+        <text class="svgkey svg-lap" x="300" y="164" text-anchor="middle">WHEELING FEE &middot; $60&ndash;65M A YEAR</text>
+
+        <!-- the money, going the other way -->
+        <path class="st-ink" d="M 525 84 L 525 196 L 70 196 L 70 84" stroke-width="1.2" marker-end="url(#ar)"/>
+        <text class="svglab svg-mid" x="297" y="214" text-anchor="middle">Pakistan pays the generators for the power</text>
+
+        <!-- gates -->
+        <line class="st-rule" x1="0" y1="236" x2="680" y2="236" stroke-width="1"/>
+        <text class="svgkey svg-och" x="0" y="258">GATE 1</text>
+        <text class="svglab svg-ink" x="0" y="276">The line is finished</text>
+        <text class="svglab svg-mid" x="0" y="292">70% built; 2028 at best</text>
+
+        <text class="svgkey svg-och" x="234" y="258">GATE 2</text>
+        <text class="svglab svg-ink" x="234" y="276">A buyer that pays</text>
+        <text class="svglab svg-mid" x="234" y="292">Pakistan; border shut</text>
+
+        <text class="svgkey svg-och" x="468" y="258">GATE 3</text>
+        <text class="svglab svg-ink" x="468" y="276">A way to be paid</text>
+        <text class="svglab svg-mid" x="468" y="292">No channel published</text>
+      </svg>
+      <figcaption>The electricity and the money travel in opposite directions, and Afghanistan stands in the middle of both. The three gates are sequential: the fee begins only when all of them are open.</figcaption>
+    </figure>
+
+    <div class="twocol">
+      <p>Afghanistan does not have much to sell. In June it imported goods worth $1.06bn and exported $78m. That gap is the central fact of the economy, and no harvest closes it.</p>
+      <p>So the government sells something it does not have to grow or dig up. It sells passage.</p>
+      <p>A transit fee is a charge for letting someone else&rsquo;s cargo cross your country. The electricity version has its own name: a wheeling fee, paid per unit of power that travels down your wires on its way somewhere else. In both cases the seller is foreign, the buyer is foreign, and you are the road.</p>
+      <p>The appeal is obvious once you say it plainly. A toll needs no factory, no crop and no export standard to meet. It is paid in hard currency by people outside the country. And it grows with other economies rather than your own, which is useful when your own is shrinking per head.</p>
+      <p>Four things have to be in place before a single dollar arrives.</p>
+      <ol class="steps">
+        <li>A finished link. A line that is 70% built carries nothing at all; there is no partial credit in a circuit.</li>
+        <li>A buyer who takes delivery. The fee follows the flow. No flow, no fee.</li>
+        <li>A contract and a way to be paid under it. A banking system that cannot receive a wire cannot receive a toll.</li>
+        <li>A government the counterparties will sign with. Three countries signed a memorandum this month about a railway through Afghanistan without Afghanistan in the room.</li>
+      </ol>
+      <p class="pull">A toll needs no factory. It does need a customer who turns up.</p>
+      <p>Then there is the size of it. Sixty-five million dollars is about four billion afghanis a year. Set against the population the IPC assumes, that is roughly $1.30 a head annually. It is real money for a finance ministry and it is not a solution to anything.</p>
+      <p>Which brings us to the toll Afghanistan already collects, and which is much larger. Customs duties and fees at the land borders brought in 2.8 billion afghanis in June alone, and 12.4 billion in the fiscal year to that month &mdash; about a fifth of all government revenue. The state&rsquo;s most reliable income is a charge on goods crossing a line.</p>
+      <p>That has an odd consequence. In most countries tax revenue rises when people at home produce more. Here it rises when the country buys more from abroad, and falls when a border shuts. Customs receipts are down 24.7% on last year. That is what a closed Torkham looks like in the accounts.</p>
+      <p>So the week&rsquo;s announcements are one business in two forms. A customs duty and a wheeling fee are the same trick: charge for crossing. The difference is who pays. Customs is paid by Afghan importers and handed on to Afghan shoppers in the price of flour. A wheeling fee is paid by foreigners. That is exactly why Kabul wants the second kind, and exactly why the second kind is so hard to get.</p>
+      <p>And then the timing. On the utility&rsquo;s own schedule the first wheeling fee arrives in 2028. The hunger forecast at the top of this edition runs to April.</p>
+    </div>
+  </section>
+
+  <!-- ============ III. BY THE NUMBERS ============ -->
+  <section class="section">
+    <header><span class="numeral">III</span><h2>By the Numbers</h2></header>
+
+    <div class="numbers">
+      <article class="numcard">
+        <span class="bignum">295</span>
+        <h3>afghanis a day</h3>
+        <p>The average wage for unskilled work in the first week of October, about $4.50. It is a day rate, not a salary, and the average worker found two days of work that week.</p>
+        <p>So the week&rsquo;s earnings came to roughly 600 afghanis, under $10, for a household that is often seven or eight people.</p>
+      </article>
+      <article class="numcard">
+        <span class="bignum">$8.2m</span>
+        <h3>what Kazakhstan bought</h3>
+        <p>Afghan goods sold to Kazakhstan in the first seven months of 2026, against $572.9m sold the other way. Seventy dollars in for every dollar out.</p>
+        <p>It explains why the northern route has solved the import problem and not the export one. Kabul has found a shop, not a customer.</p>
+      </article>
+      <article class="numcard">
+        <span class="bignum">&minus;5.6%</span>
+        <h3>income per head, 2025</h3>
+        <p>The economy grew about 4.8% that year. Income per person fell 5.6%, because the population grew faster and more than a million deported Afghans arrived to share it.</p>
+        <p>Growth and poverty are rising together. Any Afghan figure quoted as a national total needs dividing before it means anything.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ IV. WHAT TO WATCH ============ -->
+  <section class="section">
+    <header><span class="numeral">IV</span><h2>What to Watch</h2></header>
+
+    <div class="watch">
+      <article>
+        <span class="wnum">i</span>
+        <h3>Whether the winter money appears</h3>
+        <p>The IPC expects aid to reach about 1% of the population through the lean season. The 2026 appeal was roughly 31% funded in early October, after an $18m release from the UN&rsquo;s emergency fund. Watch the next funding figure and whether WFP revises the five million it expects at emergency level.</p>
+      </article>
+      <article>
+        <span class="wnum">ii</span>
+        <h3>Which CASA-1000 gate moves first</h3>
+        <p>The interesting thing is not the percentage. It is whether anyone publishes a payment arrangement for the wheeling fee while the Pakistani crossings stay shut, and whether the 70% figure gets reconciled with last year&rsquo;s 75%.</p>
+      </article>
+      <article>
+        <span class="wnum">iii</span>
+        <h3>Anything moving north</h3>
+        <p>Kazakh flour coming south is settled business. The test is traffic in the other direction: a real Afghan export contract into Central Asia, of any size, and whether the CASA railway study adds Kabul as a party rather than a corridor.</p>
+      </article>
+    </div>
+  </section>
+
+  <footer class="colophon">
+    <h2>A note on the numbers</h2>
+    <p>Afghanistan has not held a census since 1979. Every percentage of &ldquo;the population&rdquo; in this edition rests on a projection, and the projections disagree with each other by millions. The IPC&rsquo;s 32% and 38% imply a country of just under 50 million; other estimates run several million lower.</p>
+    <p>The hunger figures come from household surveys of limited coverage, combined with price series, satellite imagery and expert judgement. They are estimates, carefully built, and they are not measurements. The wage and price series are collected by third-party monitors in the 34 provincial capitals, which means they describe towns rather than villages.</p>
+    <p>Trade figures from Kabul and from partner governments routinely disagree, sometimes by a factor of two. Where they do, this page gives the figure and names whose it is. The exchange rate quoted is the market rate WFP&rsquo;s monitors observed, which runs close to but not exactly on Da Afghanistan Bank&rsquo;s published rate.</p>
+    <p>The Kabul Ledger &middot; markfaizi.dev/kabulledger &middot; Sunday 18 October 2026</p>
+  </footer>
+
+</div>
+
+<script type="application/json" id="edition-memory">{"date": "2026-10-18", "title": "Kabul Ledger — 18 October", "lede": "Afghan farmers have just had a good year. Nineteen million Afghans will still go short this winter.", "lead_theme": "prices-livelihoods", "sections": ["The Week", "How It Works", "By the Numbers", "What to Watch"], "items": [{"slug": "hunger-figures", "theme": "prices-livelihoods", "kind": "new", "headline": "The harvest came in strong. The hunger forecast got worse.", "gist": "IPC analysis published 13 Oct: 15.9m (32%) in Phase 3+ now, of which 3.4m Phase 4; Nov 2026-Apr 2027 projection 19.2m (38%) including 5m Phase 4, nearly double the Apr-Sep projection and ~0.5m above last winter; May-Sep 2027 falls back to 15.3m (30%). Seven provinces projected into Phase 4: Daykundi, rural Ghazni, Badakhshan, Samangan, Sar-e-Pul, Badghis, Ghor. Malnutrition caseload 4.04m children in 2027 (+9%), SAM 1.095m (up from 942,000), 1.27m pregnant and breastfeeding women, 3.9m stunted. A third of nutrition sites closed or suspended; food aid expected to reach ~1% of the population in the lean season. Strong 2026 cereal harvest; the binding constraint is wages, not supply. WFP market report for the first week of October: work found 2 days/week (-14% y/y), day wage 295 AFN (-5%), buying power -25% y/y and -30% v three-year average; rice +31%, oil +12%, flour +10%; diesel 80.9 AFN/l; urea +24%; AFN 64.9/USD. FEWS NET's new outlook is less alarming: Phase 3 in six provinces plus urban centres, above-average winter precipitation and above-average winter wheat area."}, {"slug": "pakistan-border-closure", "theme": "trade-transit", "kind": "followup", "headline": "A year with the border shut, and the stand-in only works one way", "gist": "Mujahid claimed on 14 Oct that Central Asian trade has offset the closed Pakistani crossings. Kazakh figures show substitution on the import side only: Jan-Jul 2026 bilateral trade $581.1m, of which $572.9m Kazakh exports and $8.2m Afghan exports (70:1); flour $215.6m, wheat $122m, vegetable oil $51.1m; grain and flour volumes up ~54-58% to about 2m tonnes. On 13 Oct ten Afghan companies signed five contracts in Kazakhstan worth $55m ($40m wheat and farm goods, $15m flour) - all purchases. Export side unreplaced: Afghan transit through Pakistan $6.7bn in 2023 v $367m this fiscal year; containers 42,959 in FY24-25 v 11,592. Fruit to India now $0.70-0.80 per unit and two months via Iran, against $0.25 and 10-15 days via Pakistan; one Kabul trader $350,000 down on apples and grapes. Customs duties fell 24.7% y/y in the fiscal year to June. Crossings closed 12 Oct 2025; Torkham, Chaman, Ghulam Khan, Kharlachi and Angoor Adda still shut to goods."}, {"slug": "casa-1000", "theme": "resources-energy", "kind": "new", "headline": "The transit line is nearly built. The buyer at the far end is Pakistan.", "gist": "DABS said this week the Afghan section of CASA-1000 is 70% complete, finishing end of 1406 (March 2028). Project: ~$1.2bn, 1,300 MW from Kyrgyzstan and Tajikistan via Kabul to Nowshera, split 1,000 MW Pakistan / up to 300 MW Afghanistan; Kabul expects $60-65m a year in wheeling fees. Joint working group met in Bishkek 7-9 Oct; Kyrgyz section finished Nov 2024 (456 km, 1,243 towers); World Bank's January update expected whole-project completion by end-2027. Discrepancy unexplained: the Afghan section was put at ~75% complete in Oct 2025 and is now 70%. No payment mechanism published for a wheeling fee from Pakistan, whose crossings are shut and whose air force struck Kunar and Helmand on 1 Oct. On 3 Oct Kazakhstan, Uzbekistan and the UAE signed an MoU to study a ~900 km railway to Pakistani ports through Afghanistan; Afghanistan was not a signatory."}, {"slug": "climate-finance", "theme": "water-climate", "kind": "new", "headline": "The money for weather stations sits behind a recognition problem", "gist": "Baradar, deputy PM for economic affairs, spoke in Kabul on 13 Oct for the International Day for Disaster Risk Reduction, asking for meteorological equipment, early-warning systems and rescue gear and calling Afghanistan's exclusion 'completely inconsistent with the principles of international climate justice'. Mechanism: the big funds accredit national entities, and accreditation runs through a recognised government. Afghanistan's whole Green Climate Fund book is $17.2m across one project (FP129, approved Aug 2020, UNDP) plus $1.6m readiness; no new multilateral climate approval since 2021. Workaround routes around the state: FAO ($10m) and UNDP ($8.9m) proposals to the GEF, still awaiting its council at the last public account. Donor reluctance ties back to restrictions on women working, which the IPC lists as a hunger driver."}], "visuals": ["fifty squares, fifty million people: IPC phase 3 and 4 now v the winter projection, unit (waffle) grid", "Kazakhstan sells $572.9m and buys $8.2m: opposed arrow pair drawn to scale", "a wheeling fee and the three gates before it: CASA-1000 power south, money north, meter on the Afghan segment, plus the three sequential gates"], "watch": [{"text": "Whether the winter money appears: aid is expected to reach about 1% of the population in the lean season, with the 2026 appeal roughly 31% funded in early October after an $18m CERF release. Watch the next funding figure and whether WFP revises the 5m projected at emergency level", "due": "2026-11-22"}, {"text": "Which CASA-1000 gate moves first: whether any payment arrangement for the wheeling fee is published while the Pakistani crossings stay shut, and whether the 70% figure is reconciled with last year's 75%", "due": "2027-01-31"}, {"text": "Anything moving north: a real Afghan export contract into Central Asia of any size, and whether the CASA railway study adds Kabul as a party rather than a corridor", "due": "2026-12-31"}], "threads_open": [{"slug": "hunger-figures", "question": "Does the 19.2m / 5m winter projection hold, does lean-season funding move above 31% of the appeal, and does FEWS NET converge with the IPC?", "next_check": "2026-11-22"}, {"slug": "casa-1000", "question": "Is a wheeling-fee payment mechanism with Pakistan ever published, is the 70% v 75% progress gap explained, and does the Afghan section hold its March 2028 date?", "next_check": "2027-01-31"}, {"slug": "kazakh-grain", "question": "Does anything move north? Watch for an Afghan export contract into Central Asia of any size against the $8.2m Kazakhstan bought in seven months, and whether the CASA rail study adds Kabul as a party", "next_check": "2026-12-31"}, {"slug": "climate-finance", "question": "Do the FAO and UNDP GEF proposals (about $19m) clear the GEF council, and does any equipment or early-warning capacity reach the ministries rather than UN agencies?", "next_check": "2027-01-15"}, {"slug": "pakistan-border-closure", "question": "Crossings shut to goods for a year. Mention only on a concrete development: a reopening, a new round of talks with an outcome, or fresh transit figures", "next_check": null}, {"slug": "iran-trade-mission", "question": "28 private-sector MoUs worth $451.8m signed 10 Oct and Pezeshkian promising easier customs, but still no banking mechanism. Does a correspondent relationship, joint bank or rial-afghani window appear, and do Islam Qala and Nimroz run around the clock?", "next_check": "2026-11-15"}, {"slug": "iran-deportations", "question": "Monthly returnee and deportation counts from Iran and Pakistan (UNHCR, IOM), and whether the pace keeps easing from 2025's level", "next_check": "2026-11-08"}, {"slug": "un-aid-funding", "question": "UN appeal funding level, about 31% of $1.71bn in early October. Check monthly", "next_check": "2026-11-08"}, {"slug": "winter-harvest-weather", "question": "FEWS NET now expects above-average precipitation and an above-average winter wheat area. Does the rain arrive, and does planting happen despite urea up 24%?", "next_check": "2026-11-15"}, {"slug": "pine-nuts", "question": "Khost, Paktia and Paktika harvest is larger this year. What are the export volume, value and destinations, and does processing move onshore?", "next_check": "2026-12-15"}, {"slug": "kabul-water", "question": "Does the Panjshir pipeline move past survey stage, does Shahtoot restart, and what does the winter recharge do to the water table?", "next_check": "2026-12-20"}, {"slug": "russia-trade", "question": "Moscow's envoy said on 17 October that trade doubled in the first half of 2026, against the +150% seven-month figure reported on 7 October. Do the Russian and Afghan figures converge, and does 2026 land near $815m?", "next_check": "2027-02-15"}], "threads_closed": [], "explainer": {"area": "trade-and-resources", "topic": "The toll economy: what a transit fee and an electricity wheeling fee actually are, the four conditions a toll needs before a dollar arrives, why $60-65m a year is about $1.30 a head, and why customs duty - a fifth of state revenue, down 24.7% with the border shut - is the same trick paid by Afghans instead of foreigners"}, "publication": "kabulledger"}</script>
+
+</body></html>

@@ -397,9 +397,154 @@
     "topic": "Who pays for the imports: how hawala settles a $13bn import bill by netting offsetting claims, why the netting cannot close when imports run seven and a half times exports, and why physical dollars have to arrive"
    },
    "url": "https://markfaizi.dev/kabulledger/2026-10-11"
+  },
+  {
+   "date": "2026-10-18",
+   "title": "Kabul Ledger — 18 October",
+   "lede": "Afghan farmers have just had a good year. Nineteen million Afghans will still go short this winter.",
+   "lead_theme": "prices-livelihoods",
+   "sections": [
+    "The Week",
+    "How It Works",
+    "By the Numbers",
+    "What to Watch"
+   ],
+   "items": [
+    {
+     "slug": "hunger-figures",
+     "theme": "prices-livelihoods",
+     "kind": "new",
+     "headline": "The harvest came in strong. The hunger forecast got worse.",
+     "gist": "IPC analysis published 13 Oct: 15.9m (32%) in Phase 3+ now, of which 3.4m Phase 4; Nov 2026-Apr 2027 projection 19.2m (38%) including 5m Phase 4, nearly double the Apr-Sep projection and ~0.5m above last winter; May-Sep 2027 falls back to 15.3m (30%). Seven provinces projected into Phase 4: Daykundi, rural Ghazni, Badakhshan, Samangan, Sar-e-Pul, Badghis, Ghor. Malnutrition caseload 4.04m children in 2027 (+9%), SAM 1.095m (up from 942,000), 1.27m pregnant and breastfeeding women, 3.9m stunted. A third of nutrition sites closed or suspended; food aid expected to reach ~1% of the population in the lean season. Strong 2026 cereal harvest; the binding constraint is wages, not supply. WFP market report for the first week of October: work found 2 days/week (-14% y/y), day wage 295 AFN (-5%), buying power -25% y/y and -30% v three-year average; rice +31%, oil +12%, flour +10%; diesel 80.9 AFN/l; urea +24%; AFN 64.9/USD. FEWS NET's new outlook is less alarming: Phase 3 in six provinces plus urban centres, above-average winter precipitation and above-average winter wheat area."
+    },
+    {
+     "slug": "pakistan-border-closure",
+     "theme": "trade-transit",
+     "kind": "followup",
+     "headline": "A year with the border shut, and the stand-in only works one way",
+     "gist": "Mujahid claimed on 14 Oct that Central Asian trade has offset the closed Pakistani crossings. Kazakh figures show substitution on the import side only: Jan-Jul 2026 bilateral trade $581.1m, of which $572.9m Kazakh exports and $8.2m Afghan exports (70:1); flour $215.6m, wheat $122m, vegetable oil $51.1m; grain and flour volumes up ~54-58% to about 2m tonnes. On 13 Oct ten Afghan companies signed five contracts in Kazakhstan worth $55m ($40m wheat and farm goods, $15m flour) - all purchases. Export side unreplaced: Afghan transit through Pakistan $6.7bn in 2023 v $367m this fiscal year; containers 42,959 in FY24-25 v 11,592. Fruit to India now $0.70-0.80 per unit and two months via Iran, against $0.25 and 10-15 days via Pakistan; one Kabul trader $350,000 down on apples and grapes. Customs duties fell 24.7% y/y in the fiscal year to June. Crossings closed 12 Oct 2025; Torkham, Chaman, Ghulam Khan, Kharlachi and Angoor Adda still shut to goods."
+    },
+    {
+     "slug": "casa-1000",
+     "theme": "resources-energy",
+     "kind": "new",
+     "headline": "The transit line is nearly built. The buyer at the far end is Pakistan.",
+     "gist": "DABS said this week the Afghan section of CASA-1000 is 70% complete, finishing end of 1406 (March 2028). Project: ~$1.2bn, 1,300 MW from Kyrgyzstan and Tajikistan via Kabul to Nowshera, split 1,000 MW Pakistan / up to 300 MW Afghanistan; Kabul expects $60-65m a year in wheeling fees. Joint working group met in Bishkek 7-9 Oct; Kyrgyz section finished Nov 2024 (456 km, 1,243 towers); World Bank's January update expected whole-project completion by end-2027. Discrepancy unexplained: the Afghan section was put at ~75% complete in Oct 2025 and is now 70%. No payment mechanism published for a wheeling fee from Pakistan, whose crossings are shut and whose air force struck Kunar and Helmand on 1 Oct. On 3 Oct Kazakhstan, Uzbekistan and the UAE signed an MoU to study a ~900 km railway to Pakistani ports through Afghanistan; Afghanistan was not a signatory."
+    },
+    {
+     "slug": "climate-finance",
+     "theme": "water-climate",
+     "kind": "new",
+     "headline": "The money for weather stations sits behind a recognition problem",
+     "gist": "Baradar, deputy PM for economic affairs, spoke in Kabul on 13 Oct for the International Day for Disaster Risk Reduction, asking for meteorological equipment, early-warning systems and rescue gear and calling Afghanistan's exclusion 'completely inconsistent with the principles of international climate justice'. Mechanism: the big funds accredit national entities, and accreditation runs through a recognised government. Afghanistan's whole Green Climate Fund book is $17.2m across one project (FP129, approved Aug 2020, UNDP) plus $1.6m readiness; no new multilateral climate approval since 2021. Workaround routes around the state: FAO ($10m) and UNDP ($8.9m) proposals to the GEF, still awaiting its council at the last public account. Donor reluctance ties back to restrictions on women working, which the IPC lists as a hunger driver."
+    }
+   ],
+   "visuals": [
+    "fifty squares, fifty million people: IPC phase 3 and 4 now v the winter projection, unit (waffle) grid",
+    "Kazakhstan sells $572.9m and buys $8.2m: opposed arrow pair drawn to scale",
+    "a wheeling fee and the three gates before it: CASA-1000 power south, money north, meter on the Afghan segment, plus the three sequential gates"
+   ],
+   "watch": [
+    {
+     "text": "Whether the winter money appears: aid is expected to reach about 1% of the population in the lean season, with the 2026 appeal roughly 31% funded in early October after an $18m CERF release. Watch the next funding figure and whether WFP revises the 5m projected at emergency level",
+     "due": "2026-11-22"
+    },
+    {
+     "text": "Which CASA-1000 gate moves first: whether any payment arrangement for the wheeling fee is published while the Pakistani crossings stay shut, and whether the 70% figure is reconciled with last year's 75%",
+     "due": "2027-01-31"
+    },
+    {
+     "text": "Anything moving north: a real Afghan export contract into Central Asia of any size, and whether the CASA railway study adds Kabul as a party rather than a corridor",
+     "due": "2026-12-31"
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "hunger-figures",
+     "question": "Does the 19.2m / 5m winter projection hold, does lean-season funding move above 31% of the appeal, and does FEWS NET converge with the IPC?",
+     "next_check": "2026-11-22"
+    },
+    {
+     "slug": "casa-1000",
+     "question": "Is a wheeling-fee payment mechanism with Pakistan ever published, is the 70% v 75% progress gap explained, and does the Afghan section hold its March 2028 date?",
+     "next_check": "2027-01-31"
+    },
+    {
+     "slug": "kazakh-grain",
+     "question": "Does anything move north? Watch for an Afghan export contract into Central Asia of any size against the $8.2m Kazakhstan bought in seven months, and whether the CASA rail study adds Kabul as a party",
+     "next_check": "2026-12-31"
+    },
+    {
+     "slug": "climate-finance",
+     "question": "Do the FAO and UNDP GEF proposals (about $19m) clear the GEF council, and does any equipment or early-warning capacity reach the ministries rather than UN agencies?",
+     "next_check": "2027-01-15"
+    },
+    {
+     "slug": "pakistan-border-closure",
+     "question": "Crossings shut to goods for a year. Mention only on a concrete development: a reopening, a new round of talks with an outcome, or fresh transit figures",
+     "next_check": null
+    },
+    {
+     "slug": "iran-trade-mission",
+     "question": "28 private-sector MoUs worth $451.8m signed 10 Oct and Pezeshkian promising easier customs, but still no banking mechanism. Does a correspondent relationship, joint bank or rial-afghani window appear, and do Islam Qala and Nimroz run around the clock?",
+     "next_check": "2026-11-15"
+    },
+    {
+     "slug": "iran-deportations",
+     "question": "Monthly returnee and deportation counts from Iran and Pakistan (UNHCR, IOM), and whether the pace keeps easing from 2025's level",
+     "next_check": "2026-11-08"
+    },
+    {
+     "slug": "un-aid-funding",
+     "question": "UN appeal funding level, about 31% of $1.71bn in early October. Check monthly",
+     "next_check": "2026-11-08"
+    },
+    {
+     "slug": "winter-harvest-weather",
+     "question": "FEWS NET now expects above-average precipitation and an above-average winter wheat area. Does the rain arrive, and does planting happen despite urea up 24%?",
+     "next_check": "2026-11-15"
+    },
+    {
+     "slug": "pine-nuts",
+     "question": "Khost, Paktia and Paktika harvest is larger this year. What are the export volume, value and destinations, and does processing move onshore?",
+     "next_check": "2026-12-15"
+    },
+    {
+     "slug": "kabul-water",
+     "question": "Does the Panjshir pipeline move past survey stage, does Shahtoot restart, and what does the winter recharge do to the water table?",
+     "next_check": "2026-12-20"
+    },
+    {
+     "slug": "russia-trade",
+     "question": "Moscow's envoy said on 17 October that trade doubled in the first half of 2026, against the +150% seven-month figure reported on 7 October. Do the Russian and Afghan figures converge, and does 2026 land near $815m?",
+     "next_check": "2027-02-15"
+    }
+   ],
+   "threads_closed": [],
+   "explainer": {
+    "area": "trade-and-resources",
+    "topic": "The toll economy: what a transit fee and an electricity wheeling fee actually are, the four conditions a toll needs before a dollar arrives, why $60-65m a year is about $1.30 a head, and why customs duty - a fifth of state revenue, down 24.7% with the border shut - is the same trick paid by Afghans instead of foreigners"
+   },
+   "url": "https://markfaizi.dev/kabulledger/2026-10-18"
   }
  ],
  "threads": [
+  {
+   "slug": "casa-1000",
+   "question": "Is a wheeling-fee payment mechanism with Pakistan ever published, is the 70% v 75% progress gap explained, and does the Afghan section hold its March 2028 date?",
+   "status": "open",
+   "opened": "2026-10-18",
+   "last_seen": "2026-10-18",
+   "next_check": "2027-01-31"
+  },
+  {
+   "slug": "climate-finance",
+   "question": "Do the FAO and UNDP GEF proposals (about $19m) clear the GEF council, and does any equipment or early-warning capacity reach the ministries rather than UN agencies?",
+   "status": "open",
+   "opened": "2026-10-18",
+   "last_seen": "2026-10-18",
+   "next_check": "2027-01-15"
+  },
   {
    "slug": "energy-imports-iran-tapi",
    "question": "Does Iran's 2,000 MW offer become a contract? Is TAPI's Serhetabat–Herat section finished by end-December?",
@@ -411,26 +556,26 @@
   },
   {
    "slug": "hunger-figures",
-   "question": "The new IPC analysis and FEWS NET's October outlook had still not appeared by 11 October. When do they land, and what do they say?",
+   "question": "Does the 19.2m / 5m winter projection hold, does lean-season funding move above 31% of the appeal, and does FEWS NET converge with the IPC?",
    "status": "open",
    "opened": "2026-10-04",
-   "last_seen": "2026-10-11",
-   "next_check": "2026-10-18"
+   "last_seen": "2026-10-18",
+   "next_check": "2026-11-22"
   },
   {
    "slug": "iran-deportations",
    "question": "Monthly returnee and deportation counts from Iran and Pakistan (UNHCR, IOM), and whether the pace keeps easing from 2025's level",
    "status": "open",
    "opened": "2026-09-27",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-18",
    "next_check": "2026-11-08"
   },
   {
    "slug": "iran-trade-mission",
-   "question": "Do the Chabahar land allocation, the 24-hour crossings and the $10bn target produce anything signed, and is there a banking mechanism behind any of it?",
+   "question": "28 private-sector MoUs worth $451.8m signed 10 Oct and Pezeshkian promising easier customs, but still no banking mechanism. Does a correspondent relationship, joint bank or rial-afghani window appear, and do Islam Qala and Nimroz run around the clock?",
    "status": "open",
    "opened": "2026-10-11",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-18",
    "next_check": "2026-11-15"
   },
   {
@@ -438,15 +583,23 @@
    "question": "Does the Panjshir pipeline move past survey stage, does Shahtoot restart, and what does the winter recharge do to the water table?",
    "status": "open",
    "opened": "2026-10-11",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-18",
    "next_check": "2026-12-20"
   },
   {
+   "slug": "kazakh-grain",
+   "question": "Does anything move north? Watch for an Afghan export contract into Central Asia of any size against the $8.2m Kazakhstan bought in seven months, and whether the CASA rail study adds Kabul as a party",
+   "status": "open",
+   "opened": "2026-10-18",
+   "last_seen": "2026-10-18",
+   "next_check": "2026-12-31"
+  },
+  {
    "slug": "pakistan-border-closure",
-   "question": "Crossings still shut to goods, a year on; Pakistan is now on neither of the World Bank's main trade-partner lists. Mention only on a concrete development.",
+   "question": "Crossings shut to goods for a year. Mention only on a concrete development: a reopening, a new round of talks with an outcome, or fresh transit figures",
    "status": "open",
    "opened": "2026-09-27",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-18",
    "next_check": null
   },
   {
@@ -454,31 +607,31 @@
    "question": "Khost, Paktia and Paktika harvest is larger this year. What are the export volume, value and destinations, and does processing move onshore?",
    "status": "open",
    "opened": "2026-10-11",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-18",
    "next_check": "2026-12-15"
   },
   {
    "slug": "russia-trade",
-   "question": "Does 2026 trade with Russia land near $815m, and do the Russian and Afghan figures converge?",
+   "question": "Moscow's envoy said on 17 October that trade doubled in the first half of 2026, against the +150% seven-month figure reported on 7 October. Do the Russian and Afghan figures converge, and does 2026 land near $815m?",
    "status": "open",
    "opened": "2026-10-11",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-18",
    "next_check": "2027-02-15"
   },
   {
    "slug": "un-aid-funding",
-   "question": "UN appeal funding level, still about 31% of $1.71bn on 6 October after an $18m CERF allocation. Check monthly.",
+   "question": "UN appeal funding level, about 31% of $1.71bn in early October. Check monthly",
    "status": "open",
    "opened": "2026-09-27",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-18",
    "next_check": "2026-11-08"
   },
   {
    "slug": "winter-harvest-weather",
-   "question": "NOAA gives 75% odds of the strongest El Niño since 1950. Does the rain arrive, and does planting happen despite fertiliser costs?",
+   "question": "FEWS NET now expects above-average precipitation and an above-average winter wheat area. Does the rain arrive, and does planting happen despite urea up 24%?",
    "status": "open",
    "opened": "2026-09-27",
-   "last_seen": "2026-10-04",
+   "last_seen": "2026-10-18",
    "next_check": "2026-11-15"
   }
  ]
