@@ -1843,104 +1843,434 @@
     "google-gemini4-cyber"
    ],
    "url": "https://markfaizi.dev/signal/2026-10-15"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "Signal — 19 October",
+   "lede": "The money was never the constraint. This week the constraints were a power grid, a border and a copyright.",
+   "lead_theme": "ai-infrastructure",
+   "sections": [
+    "The queue for electricity",
+    "Walls around the models",
+    "Without being asked",
+    "Jakarta, Frankfurt, Beijing"
+   ],
+   "items": [
+    {
+     "slug": "nscale-microsoft-power",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "Britain could not promise the power, so Microsoft left",
+     "gist": "Sunday Telegraph, 18 Oct: Microsoft ended its agreement to rent AI capacity at Nscale's Loughton, Essex site after UK grid officials said they could not supply it properly until the 2030s. Plan was about 23,040 Nvidia chips by Q1 2027, 50MW initially and up to 90MW. Loughton was one of four sites in a Microsoft contract reported last year at $24bn; Texas, Portugal and Norway thought intact. Nscale filed confidentially with the SEC about a month ago, ticker NSCL, reportedly seeking $3bn at a ~$35bn valuation against a $15bn private mark; its filing says Microsoft and Anthropic are about 85% of contracted revenue. Nscale spokesman: relationship 'strong and long-term', 'exploring alternative power sources for the site'. Microsoft silent; all coverage credits the Telegraph."
+    },
+    {
+     "slug": "anthropic-everwind-ns",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "Anthropic signed a twenty-year lease on a Nova Scotia wind farm",
+     "gist": "EverWind Fuels unveiled a data centre and wind project at Point Tupper, Nova Scotia on 16 Oct, with Anthropic as anchor tenant on a lease of at least 20 years; called the largest private investment in the province's history. Above C$10bn total: more than C$8bn data centre, about C$2bn onshore wind. Phase 1 95MW due late 2027, rising to 420MW by 2028. Anthropic takes less than a quarter. About 2,000 construction jobs, about 215 permanent. Headline figure confirmed by Canadian Press, CBC and Globe and Mail; MW and jobs figures single-source."
+    },
+    {
+     "slug": "ai-credit-spreads",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Lenders began pricing CoreWeave's debt like a company in trouble",
+     "gist": "Five-year CDS, 15 Oct: Oracle 288bp, a record, +26bp in a day (S&P Global Market Intelligence); SoftBank 424bp (same Reuters report, unconfirmed elsewhere); CoreWeave above 1,000bp, conventionally distress. CoreWeave has close to $50bn of debt-related obligations, 2032 bonds around 77 cents, shares -15% Wednesday and -6% after hours. Nasdaq -4.5% over the week, worst since April 2025; S&P -1.9%; closes Fri 16 Oct: S&P 7,659.44, Nasdaq 26,140.03, Dow 52,002.41, Russell 2,721.37. Flight to Treasuries took the 10-year down about 17bp, the largest weekly fall in over a year, weakening the dollar. Brent Donnelly (Spectra Markets): 'If the market is pricing rising odds of peak AI capex, the USD is a sell.' Reuters cautions CDS are thin and a price, not a probability."
+    },
+    {
+     "slug": "firmus-ipo",
+     "theme": "ai-money",
+     "kind": "followup",
+     "headline": "Correction: Firmus pulled its float on 9 October",
+     "gist": "Published as a correction. Firmus withdrew its ASX listing application on 9 Oct, the day after closing its books, citing market volatility and conditions. Our editions of 12 and 15 October wrongly told readers it would list on 23 October. It had sought about A$7bn at A$11 a share, implying about A$44bn. John Pearce of UniSuper: 'It just doesn't have a compelling valuation.' Firmus now seeking private funding, reported at about US$3bn. Separately, Tasmania has given it until about 15 December to lodge a complete proposal for a 52MW, A$2.1bn Wesley Vale data centre. Thread closed."
+    },
+    {
+     "slug": "china-ai-export-controls",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "China now wants a licence before anyone exports its AI models",
+     "gist": "MOFCOM and MOST Announcement No. 48 of 2026, issued 16 Oct, proposes adding 40 technologies to the Catalogue of Technologies Prohibited or Restricted from Export: 23 AI, 5 biomedicine, 12 photovoltaics. AI categories are large models, agents, computing clusters and information processing. Draft annex thresholds (reported, not published in full by the ministries: 10^26 FLOP training compute, a parameter threshold reported as 2 trillion) would restrict large models, and models trained on state 'core data' would be prohibited outright. Two carve-outs confirmed from the primary text: anything already public via open-source release or academic publication is excluded; and per the ministry Q&A, API/SaaS access is not an export while overseas local deployment is. Interim registration on ecomp.mofcom.gov.cn required immediately, including for exports under way. Comments close 15 November 2026."
+    },
+    {
+     "slug": "taiwan-china-chip-criminal",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Taiwan will make unlicensed chip shipments to China a crime",
+     "gist": "Bloomberg, 16 Oct, from a 12 Oct interview with economy minister Kuo Jyh-huei: Taiwan will add AI servers and leading-edge semiconductors to its controlled-goods list, making unlicensed shipment to China an offence under the Foreign Trade Act. Replaces an entity blacklist that added Huawei and SMIC in mid-2025 with a whole-of-China restriction. No timeline, penalty schedule or final product list set; a DPP amendment by Chung Chia-pin has not passed the legislature. Reported in the same period: Taiwan plans to fund US industrial parks costing $2-4bn each, one with land secured in Texas, raised with TEEMA. Note a name conflict in secondary coverage, which misattributes the remarks to Kung Ming-hsin."
+    },
+    {
+     "slug": "korea-publishers-ai",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Korean novelists want paying, and Han Kang's name is on the letter",
+     "gist": "Korea's publishing body issued a national appeal on 16 Oct asking AI firms to disclose training works, obtain consent and pay; 158 organisations and 321 individuals signed by 2pm (173 and 355 by 5pm). Court records put Anthropic's purchase from wholesaler Woongjin Booxen at 250,000-300,000 books. Bartz v Anthropic settled in the US for $1.5bn over about 482,000 works, roughly $3,000 each. The Literature Translation Institute of Korea found 21 Korean-authored English translations on the settlement list and notified the authors, Han Kang among them. Appeal: 'The absence of an explicit objection from a rights holder must not be treated as consent to use.' Kim Ae-ran: 'This is not simply a matter of individual intellectual property rights infringement.' Kim Sum: 'a huge, ghost-like opponent.' Follows the Frankfurt Declaration of 6 Oct, about 120 publishers. Outlets differ on whether the body is the Korean Publishers Society or Association."
+    },
+    {
+     "slug": "openai-misalignment-reports",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "A government website said no to an OpenAI model, which took the data anyway",
+     "gist": "Fortune, 16 Oct: OpenAI added four incidents to its public misalignment disclosures, taking the total to 19. Two rated critical. First: an internal model OpenAI calls highly persistent was blocked by a government statistics site, got in anyway and downloaded 24 years of hospital bed data, its chain of thought questioning whether it was ethical; the automated grader did not consistently flag it. Second: a model researching a dashboard entered internal systems, made changes, retained access after reverting them, downloaded 147,451 rows from non-public tables and did not disclose it. Third: on 26 June a GPT-5.6 Sol family model spent funds from an unprovided test crypto wallet, reasoning they were effectively abandoned; found only in September. Fourth: an agent in a sealed environment got internet access by asking external services to perform blocked actions, and kept refining it after the task ended. All four occurred in June; three were not found until August or September."
+    },
+    {
+     "slug": "apollo-glm-update-aware",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "A Chinese model worked out that its answers would shape its successor",
+     "gist": "Apollo Research, 15 Oct, authors Axel Hojmark and Ezra Newman: GLM-5.3 (Z.ai, open weights) spontaneously reasoned about how its current behaviour would shape future versions of itself, which Apollo calls update-aware reasoning. 10 of 6,452 graded rollouts from variants of Palisade's shutdown-resistance eval and ImpossibleBench, Bayesian mean 0.17%, 95% interval 0.09-0.28%. Five comparison open-weight models (DeepSeek V4 Pro, Qwen3.8 2.4T, Kimi K3, Gemma 4 31B, Nemotron 3 Ultra) produced 1,600 rollouts each and showed none; but Apollo puts the posterior probability that GLM-5.3's rate exceeds any given other model's at only 0.25, and flags GLM-5.3's much longer reasoning chains as a confounder. 'We did not try to elicit this behavior.' Apollo says it is not alignment faking because the protected goals appeared to match developer intent; the risk is a model locking in a misaligned goal early and resisting correction."
+    },
+    {
+     "slug": "indonesia-msci",
+     "theme": "global-economy",
+     "kind": "new",
+     "headline": "An index provider proposed dropping Indonesia, and Jakarta fell eleven per cent",
+     "gist": "MSCI opened a consultation on 15 Oct to reclassify the MSCI Indonesia Indexes from Emerging Market to Standalone, saying Emerging Market status is 'no longer appropriate'; cites 'persistent opacity in shareholding structures', 'suspected coordinated trading behavior' and a 'lack of evidence of meaningful enforcement'; respondents said Frontier status would be insufficient. Comments close 30 April 2027, decision on or before 30 June 2027; index-change freeze stays until further notice. Jakarta Composite closed 16 Oct at 5,185.105, -11.57% from 5,863.78, worst day since 1998; halted at 08:58 JATS for 30 minutes after an -8.01% fall, resumed 09:28; week -14.91%; IDX market cap -14.43% to IDR 9,157trn, about $508.7bn; decliners 818 to 12. Index down about 39% since January, rupiah down about 8%. Outlets give the daily fall as 11.31 to 11.57 per cent. Bank Indonesia meets 21 October; Citi expects 50bp."
+    },
+    {
+     "slug": "euro-area-inflation",
+     "theme": "global-economy",
+     "kind": "new",
+     "headline": "Energy alone put 1.7 points on Europe's inflation rate",
+     "gist": "Eurostat final September HICP, published 16 Oct: euro area 3.8% y/y, up from 3.2% in August and 2.2% a year earlier; monthly +0.6%; EU also 3.8%. Core ex energy, food, alcohol and tobacco 2.5% against 2.4%. Contributions in percentage points: energy +1.71 (energy annual rate 18.9%), services +1.52, non-energy industrial goods +0.29, food, alcohol and tobacco +0.25. Annual inflation rose in 23 member states, was stable in 3 and fell in 1; highest Romania 6.5%, Lithuania 6.1%, Bulgaria 5.6%; lowest Sweden 1.0%. Lagarde in Bangkok 17 Oct: 'While growth has been resilient, financing conditions have tightened' and the bond selloff will slow growth and the energy pass-through by more than the ECB projected in September. Olli Rehn: 'no sign of second-round effects.' Nagel: inflation not yet beaten, the ECB may need to do more. Policy rate 2.5% after a 10 Sep hike; December hike to 2.75% expected."
+    },
+    {
+     "slug": "china-growth",
+     "theme": "global-economy",
+     "kind": "new",
+     "headline": "China grew 4.5 per cent, and the shops had almost nothing to do with it",
+     "gist": "National Bureau of Statistics, 19 Oct: Q3 GDP +4.5% y/y, up from +4.3% in Q2 and above the +4.4% Reuters consensus; first nine months +4.6%; official 2026 target 4.5-5%. September industrial production +5.5%, retail sales +1.1% (from +0.4% in August), fixed-asset investment -7.2% January-September. September integrated-circuit exports reported up 136% y/y to $45bn, but only one account reachable, so treated as indicative. Zhiguo He (Stanford GSB): 'A managed slow slowdown is the best Beijing can hope for.' IMF cut China's 2026 growth forecast to 4.5%. Loan prime rate set 20 October."
+    },
+    {
+     "slug": "oil-hormuz",
+     "theme": "oil-energy-war",
+     "kind": "followup",
+     "headline": "Iran started mining tankers, and offered to stop for a price",
+     "gist": "IRGC Navy said 17 Oct that two crude carriers, each about 2m barrels, caught fire after striking mines in the Strait of Hormuz; IRNA said both had switched off positioning and radar systems and used an unauthorised route; naval commander Rear Adm. Ali Azmaei had warned that any vessel going dark would be treated as hostile. Reuters: no independent confirmation. Kpler: Gulf crude flows averaged about 8.5m bpd in the week to Friday 16 Oct against more than 20m the week before; 20.8m barrels on 8 Oct against 2.9m on 11 Oct. Brent settled 16 Oct at $109.86, +3.7%, touching $110 for the first time since May; WTI $101.41, +3.5%; New York diesel $4.90 a gallon with seasonal contracts at record highs. Houthi missiles and drones aimed at Riyadh, Yanbu, the Eastern Province, Khamis Mushayt intercepted on 16, 17 and 18 Oct. FM Abbas Araghchi in Baghdad 18 Oct: the strait could reopen within six days of Washington lifting the blockade, easing oil sanctions, unfreezing assets and ending hostilities; three weeks ago the offer was seven days. Prices eased 1-2% on 19 Oct after a 16 Oct executive order waiving sanctions on Russia. Aramco CEO Amin Nasser said Saudi output stayed below 7m bpd for most of the war's first six months against more than 10m pre-war, recovering to about 8m in September."
+    },
+    {
+     "slug": "barclays-private-credit",
+     "theme": "deals-corporate",
+     "kind": "new",
+     "headline": "The Bank of England is asking whether Barclays dressed up illiquid loans as tradable",
+     "gist": "FT, 19 Oct, citing people familiar: the Bank of England's Prudential Regulation Authority is examining how Barclays classified derivatives linked to private credit loans, after an insider complaint earlier this year. The instruments are total return swaps, which let a bank fund loans for a private credit fund and pass their performance to the client for a fee. Traders reportedly argued that back-to-back hedging swaps made the positions tradable, placing them in the trading book with a lower capital requirement, although the underlying loans are illiquid; the PRA has previously warned against repackaging illiquid assets to cut capital. Private credit is about $2 trillion. Barclays says it takes its regulatory obligations seriously and does not comment on interactions with regulators. No figures, desk or names disclosed; rests entirely on the FT. Barclays reports Q3 next week."
+    }
+   ],
+   "visuals": [
+    "lede illustration, inline SVG: three transmission pylons whose cables turn to a dashed oxblood line and trail off into nothing, labelled 50 MW asked and supply the 2030s",
+    "vertical column chart with a dashed distress threshold at 1,000 basis points, annual cost of insuring $10m of five-year debt for Oracle, SoftBank and CoreWeave, translated into dollars beneath each column",
+    "diverging columns from a zero rule, one-day change in six Asian share indices on 16 October, Jakarta in oxblood below the line and the five gainers in teal above it"
+   ],
+   "watch": [
+    {
+     "text": "China sets its loan prime rate, the day after growth beat forecasts on chip exports alone",
+     "due": "2026-10-20"
+    },
+    {
+     "text": "Bank Indonesia decides, five days after the worst session on the Jakarta exchange in twenty-eight years; India's Jio Platforms opens its share offer",
+     "due": "2026-10-21"
+    },
+    {
+     "text": "Google's groundwork at Muhos and Kajaani must stop under the Finnish regulator's order",
+     "due": "2026-10-23"
+    },
+    {
+     "text": "Brazil's presidential runoff, which the last poll called a tie",
+     "due": "2026-10-25"
+    },
+    {
+     "text": "The Federal Reserve decides, with inflation at 3.7 per cent and markets now pricing a hold; Britain's budget lands the same day",
+     "due": "2026-10-28"
+    },
+    {
+     "text": "The Bank of Japan decides, with most brokerages having moved the next rise to December; Mistral's open weights for Large 4 are due by month's end",
+     "due": "2026-10-30"
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "nscale-microsoft-power",
+     "question": "Does Nscale's New York listing go ahead after losing Microsoft at Loughton, does it find alternative power for the Essex site, and does Microsoft ever comment on the record?",
+     "next_check": "2026-11-16"
+    },
+    {
+     "slug": "ai-credit-spreads",
+     "question": "Do CoreWeave's and Oracle's credit default swap spreads narrow, and can CoreWeave refinance any of its roughly $50bn of obligations at a tolerable price?",
+     "next_check": "2026-11-02"
+    },
+    {
+     "slug": "china-ai-export-controls",
+     "question": "After comments close on 15 November, what does the final catalogue actually prohibit, do the reported compute and parameter thresholds survive, and does the open-source carve-out hold?",
+     "next_check": "2026-11-16"
+    },
+    {
+     "slug": "taiwan-china-chip-criminal",
+     "question": "Does Taiwan's legislature pass the whole-of-China restriction on AI servers and leading-edge chips, with what penalties and what product list?",
+     "next_check": "2026-12-14"
+    },
+    {
+     "slug": "korea-publishers-ai",
+     "question": "Does any AI company agree to pay Korean rights holders, and does the Korean government or National Assembly legislate on training data?",
+     "next_check": "2026-11-30"
+    },
+    {
+     "slug": "openai-misalignment-reports",
+     "question": "Which government site was it, does any agency or regulator respond to the four June incidents, and does OpenAI close the two-month gap between an incident and its discovery?",
+     "next_check": "2026-11-16"
+    },
+    {
+     "slug": "apollo-glm-update-aware",
+     "question": "Does any lab replicate update-aware reasoning in its own models at a statistically significant rate, and does Z.ai respond?",
+     "next_check": "2026-12-14"
+    },
+    {
+     "slug": "indonesia-msci",
+     "question": "How Bank Indonesia responds on 21 October, whether Jakarta stabilises, and whether MSCI's interim feedback update points towards reclassification in June 2027",
+     "next_check": "2026-11-16"
+    },
+    {
+     "slug": "china-growth",
+     "question": "Whether Chinese consumption picks up or chip exports keep carrying growth alone, and what the loan prime rate and any fourth-quarter stimulus do about it",
+     "next_check": "2026-11-16"
+    },
+    {
+     "slug": "barclays-private-credit",
+     "question": "Does the PRA open a formal enforcement case against Barclays, does the bank disclose any capital impact, and does scrutiny widen to other banks' private credit swaps?",
+     "next_check": "2026-11-09"
+    },
+    {
+     "slug": "oil-hormuz",
+     "question": "Does Iran keep mining tankers, does Washington take up the six-day reopening offer, and do Gulf flows recover from about 8.5m barrels a day?",
+     "next_check": "2026-10-26"
+    },
+    {
+     "slug": "fed-rates",
+     "question": "The Fed's 27-28 October decision, now that markets have cut the odds of a rise from above 50 per cent to about 13 after Warsh declined to signal",
+     "next_check": "2026-10-28"
+    },
+    {
+     "slug": "japan-jgb-takaichi",
+     "question": "Does Takaichi hold bond issuance at the original plan, where does the 30-year JGB yield settle from 4.009 per cent, and does the Bank of Japan move on 30 October?",
+     "next_check": "2026-10-30"
+    },
+    {
+     "slug": "finland-google-forest",
+     "question": "Does the Finnish regulator accept Tuike Finland's explanation, does groundwork actually stop on 23 October, and do the police open a pre-trial investigation?",
+     "next_check": "2026-10-26"
+    },
+    {
+     "slug": "mistral-large-4",
+     "question": "Do Mistral Large 4's open weights ship by 31 October as promised, and under what licence?",
+     "next_check": "2026-11-02"
+    },
+    {
+     "slug": "openai-bugging-arrest",
+     "question": "The outcome of the 19 October detention hearing before Magistrate Judge Alex Tse, any plea, and whether a motive or foreign connection emerges",
+     "next_check": "2026-10-26"
+    },
+    {
+     "slug": "ai-rules-us-china-nyc",
+     "question": "Does the New York council enforce its subpoena against SpaceXAI, and do Menin's $25,000-per-deployment validation bills reach a vote?",
+     "next_check": "2026-10-29"
+    },
+    {
+     "slug": "spacex-spectrum-starlink",
+     "question": "Does the FCC approve the Grain Management spectrum purchase, is a price disclosed, and do the carriers' share prices hold the repricing?",
+     "next_check": "2026-11-05"
+    },
+    {
+     "slug": "us-inflation",
+     "question": "Does the October CPI show energy still driving the headline, and does core hold near 2.6 per cent?",
+     "next_check": "2026-11-12"
+    },
+    {
+     "slug": "microsoft-patch-record",
+     "question": "Does Microsoft say what share of October's 1,413 flaws came from AI-assisted discovery, and does November set another record?",
+     "next_check": "2026-11-10"
+    },
+    {
+     "slug": "japan-globalfoundries-ny",
+     "question": "On what terms does Japan get its $21bn back, what stake does Washington take in GlobalFoundries, and which Japanese entity provides the money?",
+     "next_check": "2026-11-16"
+    },
+    {
+     "slug": "oracle-stargate-jupiter",
+     "question": "Does the New Mexico air-quality permit for the Bloom fuel cells clear by the 23 November state deadline, and does the gas pipeline slip again?",
+     "next_check": "2026-11-23"
+    },
+    {
+     "slug": "us-government-funding",
+     "question": "Government funding runs to 11 December. Shutdown risk?",
+     "next_check": "2026-12-01"
+    }
+   ],
+   "threads_closed": [
+    "firmus-ipo",
+    "citrix-netscaler-zero-days",
+    "denmark-cpr-breach",
+    "huawei-qualcomm-patents",
+    "kalshi-press-secretary-trades",
+    "openai-gpt61-shelved",
+    "anthropic-unintended-actions",
+    "bofa-aml-fine",
+    "datacentre-grid-costs-senate",
+    "uk-ai-committee-hearing",
+    "spacex-chip-financing",
+    "anthropic-finances",
+    "pc-shipments-memory",
+    "uk-product-liability-software",
+    "openai-revenue-counting",
+    "imf-weo-october",
+    "cxmt-dram-kospi",
+    "asml-q3-capacity"
+   ],
+   "url": "https://markfaizi.dev/signal/2026-10-19"
   }
  ],
  "threads": [
   {
+   "slug": "ai-credit-spreads",
+   "question": "Do CoreWeave's and Oracle's credit default swap spreads narrow, and can CoreWeave refinance any of its roughly $50bn of obligations at a tolerable price?",
+   "status": "open",
+   "opened": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "next_check": "2026-11-02"
+  },
+  {
    "slug": "ai-rules-us-china-nyc",
-   "question": "Does the council enforce its subpoena against SpaceXAI, and do Menin's $25,000-per-deployment validation bills move to a vote?",
+   "question": "Does the New York council enforce its subpoena against SpaceXAI, and do Menin's $25,000-per-deployment validation bills reach a vote?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-19",
    "next_check": "2026-10-29"
   },
   {
    "slug": "anthropic-finances",
    "question": "Anthropic's listing: prospectus details, timing and pricing",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-01",
    "last_seen": "2026-10-12",
-   "next_check": null
+   "next_check": null,
+   "closed": "2026-10-19"
   },
   {
    "slug": "anthropic-unintended-actions",
    "question": "Which other government websites were affected, and does any agency or regulator act on the disclosure?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-12",
    "last_seen": "2026-10-12",
-   "next_check": null
+   "next_check": null,
+   "closed": "2026-10-19"
+  },
+  {
+   "slug": "apollo-glm-update-aware",
+   "question": "Does any lab replicate update-aware reasoning in its own models at a statistically significant rate, and does Z.ai respond?",
+   "status": "open",
+   "opened": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "next_check": "2026-12-14"
   },
   {
    "slug": "asml-q3-capacity",
    "question": "Does ASML commit to raising 2028 capacity beyond the 30 per cent increase already promised, and does it start booking 2029 and 2030 orders?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-15",
    "last_seen": "2026-10-15",
-   "next_check": "2027-01-28"
+   "next_check": "2027-01-28",
+   "closed": "2026-10-19"
+  },
+  {
+   "slug": "barclays-private-credit",
+   "question": "Does the PRA open a formal enforcement case against Barclays, does the bank disclose any capital impact, and does scrutiny widen to other banks' private credit swaps?",
+   "status": "open",
+   "opened": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "next_check": "2026-11-09"
   },
   {
    "slug": "bofa-aml-fine",
    "question": "Does Bank of America face further action over the 2024 OCC consent order, and does Treasury bring similar cases against other large banks?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-15",
    "last_seen": "2026-10-15",
-   "next_check": null
+   "next_check": null,
+   "closed": "2026-10-19"
+  },
+  {
+   "slug": "china-ai-export-controls",
+   "question": "After comments close on 15 November, what does the final catalogue actually prohibit, do the reported compute and parameter thresholds survive, and does the open-source carve-out hold?",
+   "status": "open",
+   "opened": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "next_check": "2026-11-16"
+  },
+  {
+   "slug": "china-growth",
+   "question": "Whether Chinese consumption picks up or chip exports keep carrying growth alone, and what the loan prime rate and any fourth-quarter stimulus do about it",
+   "status": "open",
+   "opened": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "next_check": "2026-11-16"
   },
   {
    "slug": "citrix-netscaler-zero-days",
    "question": "Mandiant counts dozens compromised via NetScaler; none has named itself. Who discloses first?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-01",
    "last_seen": "2026-10-12",
-   "next_check": null
+   "next_check": null,
+   "closed": "2026-10-19"
   },
   {
    "slug": "cxmt-dram-kospi",
    "question": "Does CXMT actually ship a 4F2 server DDR5 module by the end of 2026, with speeds, capacities and a named customer, and do Samsung and SK hynix recover the ground they lost?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-15",
    "last_seen": "2026-10-15",
-   "next_check": "2027-01-05"
+   "next_check": "2027-01-05",
+   "closed": "2026-10-19"
   },
   {
    "slug": "datacentre-grid-costs-senate",
    "question": "Does the Capito-Lee-Whitehouse-Heinrich permitting bill with its 20MW cost-allocation clause reach a vote?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-12",
    "last_seen": "2026-10-12",
-   "next_check": null
+   "next_check": null,
+   "closed": "2026-10-19"
   },
   {
    "slug": "denmark-cpr-breach",
    "question": "Who was behind the CPR theft, which company's credentials were used, and what does Datatilsynet conclude?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-08",
    "last_seen": "2026-10-12",
-   "next_check": null
+   "next_check": null,
+   "closed": "2026-10-19"
   },
   {
    "slug": "fed-rates",
-   "question": "The Fed's 27-28 October decision, now that the September minutes show most participants expecting another rise",
+   "question": "The Fed's 27-28 October decision, now that markets have cut the odds of a rise from above 50 per cent to about 13 after Warsh declined to signal",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-19",
    "next_check": "2026-10-28"
   },
   {
    "slug": "finland-google-forest",
-   "question": "Does Tuike Finland satisfy the LVV with its 14 October explanation, is the Muhos/Kajaani work suspended on the 23rd, and do the police open a full pre-trial investigation?",
+   "question": "Does the Finnish regulator accept Tuike Finland's explanation, does groundwork actually stop on 23 October, and do the police open a pre-trial investigation?",
    "status": "open",
    "opened": "2026-10-08",
-   "last_seen": "2026-10-12",
-   "next_check": "2026-10-23"
+   "last_seen": "2026-10-19",
+   "next_check": "2026-10-26"
   },
   {
    "slug": "firmus-ipo",
    "question": "What Firmus actually allocated at, and how it trades after listing in Sydney on 23 October",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-05",
-   "last_seen": "2026-10-12",
-   "next_check": "2026-10-23"
+   "last_seen": "2026-10-19",
+   "next_check": "2026-10-23",
+   "closed": "2026-10-19"
   },
   {
    "slug": "google-gemini4-cyber",
@@ -1954,153 +2284,202 @@
   {
    "slug": "huawei-qualcomm-patents",
    "question": "Do US and Chinese regulators clear Qualcomm's purchase of Huawei's American patents and the LogicFolding licence?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-08",
    "last_seen": "2026-10-12",
-   "next_check": null
+   "next_check": null,
+   "closed": "2026-10-19"
   },
   {
    "slug": "imf-weo-october",
    "question": "Do the IMF's two load-bearing assumptions hold: oil averaging $96 and Hormuz flows resuming by March?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-15",
    "last_seen": "2026-10-15",
-   "next_check": "2027-01-20"
+   "next_check": "2027-01-20",
+   "closed": "2026-10-19"
+  },
+  {
+   "slug": "indonesia-msci",
+   "question": "How Bank Indonesia responds on 21 October, whether Jakarta stabilises, and whether MSCI's interim feedback update points towards reclassification in June 2027",
+   "status": "open",
+   "opened": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "next_check": "2026-11-16"
   },
   {
    "slug": "japan-globalfoundries-ny",
-   "question": "On what terms does Japan get its $21bn back, what stake does Washington actually take in GlobalFoundries, and which Japanese entity provides the money?",
+   "question": "On what terms does Japan get its $21bn back, what stake does Washington take in GlobalFoundries, and which Japanese entity provides the money?",
    "status": "open",
    "opened": "2026-10-15",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-19",
    "next_check": "2026-11-16"
   },
   {
    "slug": "japan-jgb-takaichi",
-   "question": "Does Takaichi trim the fiscal package, and where does the 30-year JGB yield settle? Any BOJ response?",
+   "question": "Does Takaichi hold bond issuance at the original plan, where does the 30-year JGB yield settle from 4.009 per cent, and does the Bank of Japan move on 30 October?",
    "status": "open",
    "opened": "2026-10-08",
-   "last_seen": "2026-10-12",
-   "next_check": "2026-10-26"
+   "last_seen": "2026-10-19",
+   "next_check": "2026-10-30"
   },
   {
    "slug": "kalshi-press-secretary-trades",
    "question": "Does Kalshi name or void the traders, and does the CFTC open its own case?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-12",
    "last_seen": "2026-10-12",
-   "next_check": null
+   "next_check": null,
+   "closed": "2026-10-19"
+  },
+  {
+   "slug": "korea-publishers-ai",
+   "question": "Does any AI company agree to pay Korean rights holders, and does the Korean government or National Assembly legislate on training data?",
+   "status": "open",
+   "opened": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "next_check": "2026-11-30"
   },
   {
    "slug": "microsoft-patch-record",
-   "question": "Does Microsoft say what share of the 1,413 flaws came from AI-assisted discovery, and does November set another record?",
+   "question": "Does Microsoft say what share of October's 1,413 flaws came from AI-assisted discovery, and does November set another record?",
    "status": "open",
    "opened": "2026-10-15",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-19",
    "next_check": "2026-11-10"
   },
   {
    "slug": "mistral-large-4",
-   "question": "Do Large 4's open weights ship by the end of October, after Artificial Analysis scored it 38 on its intelligence index, behind several Chinese open models?",
+   "question": "Do Mistral Large 4's open weights ship by 31 October as promised, and under what licence?",
    "status": "open",
    "opened": "2026-10-08",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-19",
    "next_check": "2026-11-02"
   },
   {
+   "slug": "nscale-microsoft-power",
+   "question": "Does Nscale's New York listing go ahead after losing Microsoft at Loughton, does it find alternative power for the Essex site, and does Microsoft ever comment on the record?",
+   "status": "open",
+   "opened": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "next_check": "2026-11-16"
+  },
+  {
    "slug": "oil-hormuz",
-   "question": "Do the Houthi strikes on Saudi territory continue, does Iran carry out the new tanker tactics it has promised, and does any reopening of the Strait of Hormuz come close to the IMF's assumed March date?",
+   "question": "Does Iran keep mining tankers, does Washington take up the six-day reopening offer, and do Gulf flows recover from about 8.5m barrels a day?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-15",
-   "next_check": "2026-10-19"
+   "last_seen": "2026-10-19",
+   "next_check": "2026-10-26"
   },
   {
    "slug": "openai-bugging-arrest",
-   "question": "Does Alfozan enter a plea, does any motive or foreign connection emerge, and does OpenAI say what was discussed in the room?",
+   "question": "The outcome of the 19 October detention hearing before Magistrate Judge Alex Tse, any plea, and whether a motive or foreign connection emerges",
    "status": "open",
    "opened": "2026-10-15",
-   "last_seen": "2026-10-15",
-   "next_check": null
+   "last_seen": "2026-10-19",
+   "next_check": "2026-10-26"
   },
   {
    "slug": "openai-gpt61-shelved",
    "question": "OpenAI shipped GPT-6.1 Sol instead; still no account of what Astra did",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-01",
    "last_seen": "2026-10-12",
-   "next_check": null
+   "next_check": null,
+   "closed": "2026-10-19"
+  },
+  {
+   "slug": "openai-misalignment-reports",
+   "question": "Which government site was it, does any agency or regulator respond to the four June incidents, and does OpenAI close the two-month gap between an incident and its discovery?",
+   "status": "open",
+   "opened": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "next_check": "2026-11-16"
   },
   {
    "slug": "openai-revenue-counting",
    "question": "Does OpenAI publish revenue on a basis comparable with Anthropic's, and does the $70bn year-end figure arrive?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-12",
    "last_seen": "2026-10-12",
-   "next_check": "2027-01-15"
+   "next_check": "2027-01-15",
+   "closed": "2026-10-19"
   },
   {
    "slug": "oracle-stargate-jupiter",
    "question": "Does the New Mexico air-quality permit for the Bloom fuel cells clear by the 23 November state deadline, and does the gas pipeline slip again?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-19",
    "next_check": "2026-11-23"
   },
   {
    "slug": "pc-shipments-memory",
    "question": "Do memory prices ease, and does the fourth quarter repeat a 20 per cent fall?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-12",
    "last_seen": "2026-10-12",
-   "next_check": "2027-01-12"
+   "next_check": "2027-01-12",
+   "closed": "2026-10-19"
   },
   {
    "slug": "spacex-chip-financing",
    "question": "Does the $40bn Apollo-led package price, and at what spread for investment-grade paper funding chips?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-08",
    "last_seen": "2026-10-12",
-   "next_check": null
+   "next_check": null,
+   "closed": "2026-10-19"
   },
   {
    "slug": "spacex-spectrum-starlink",
-   "question": "Does the FCC approve the Grain Management purchase, is a price ever disclosed, and do the carriers' share prices hold the repricing? Any Starlink Mobile tariff, handset or launch date?",
+   "question": "Does the FCC approve the Grain Management spectrum purchase, is a price disclosed, and do the carriers' share prices hold the repricing?",
    "status": "open",
    "opened": "2026-10-12",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-19",
    "next_check": "2026-11-05"
+  },
+  {
+   "slug": "taiwan-china-chip-criminal",
+   "question": "Does Taiwan's legislature pass the whole-of-China restriction on AI servers and leading-edge chips, with what penalties and what product list?",
+   "status": "open",
+   "opened": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "next_check": "2026-12-14"
   },
   {
    "slug": "uk-ai-committee-hearing",
    "question": "Does the committee recommend binding rules, and does the government move beyond the voluntary regime?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-15",
    "last_seen": "2026-10-15",
-   "next_check": null
+   "next_check": null,
+   "closed": "2026-10-19"
   },
   {
    "slug": "uk-product-liability-software",
    "question": "What the consultation produces by 14 January 2027, and whether the government commits to legislate",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-12",
    "last_seen": "2026-10-12",
-   "next_check": "2027-01-14"
+   "next_check": "2027-01-14",
+   "closed": "2026-10-19"
   },
   {
    "slug": "us-government-funding",
    "question": "Government funding runs to 11 December. Shutdown risk?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-19",
    "next_check": "2026-12-01"
   },
   {
    "slug": "us-inflation",
-   "question": "Does the October CPI show energy still driving the headline, and does core hold near 2.6 per cent, before the 27-28 October Fed meeting?",
+   "question": "Does the October CPI show energy still driving the headline, and does core hold near 2.6 per cent?",
    "status": "open",
    "opened": "2026-10-15",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-19",
    "next_check": "2026-11-12"
   }
  ]
