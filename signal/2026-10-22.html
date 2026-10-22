@@ -1,0 +1,787 @@
+<!doctype html><html><head>
+<!-- site-head:start · written by build.py, edits inside are overwritten -->
+<title>Signal — 22 October</title>
+<meta name="description" content="A private key is meant to be a number nobody can guess. One of eMudhra&#x27;s was four.">
+<link rel="canonical" href="https://markfaizi.dev/signal/2026-10-22">
+<link rel="icon" href="/assets/signal/icon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/signal/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/signal/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#EDEAE7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141110" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Signal · markfaizi.dev">
+<meta property="og:title" content="Signal — 22 October">
+<meta property="og:description" content="A private key is meant to be a number nobody can guess. One of eMudhra&#x27;s was four.">
+<meta property="og:url" content="https://markfaizi.dev/signal/2026-10-22">
+<meta property="og:image" content="https://markfaizi.dev/assets/signal/og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Signal: technology, AI and markets. Mondays and Thursdays at markfaizi.dev/signal.">
+<meta property="og:locale" content="en_GB">
+<meta property="article:published_time" content="2026-10-22">
+<meta name="twitter:card" content="summary_large_image">
+<!-- site-head:end -->
+<meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Signal — 22 October</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%A1%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Bodoni+Moda:ital,opsz,wght@1,6..96,400;1,6..96,500&family=IBM+Plex+Mono:wght@400;500;600&family=Chakra+Petch:wght@500;600;700&display=swap">
+
+<style>
+/* Layout: single editorial column, 34rem measure, full-bleed tape strip and section rules.
+   TimeBurner for titles (local-only; @font-face placeholder below), Newsreader for body,
+   Bodoni Moda italic for lede and pull quotes, IBM Plex Mono for all data and labels. */
+
+/* TimeBurner is not on Google Fonts. Drop a base64 face in here to make titles render
+   everywhere; until then the stack below falls through to Chakra Petch.
+@font-face {
+  font-family: "TimeBurner";
+  src: url(data:font/woff2;base64,...) format("woff2");
+  font-weight: 400 700; font-display: swap;
+}
+*/
+
+:root {
+  --paper: #EDEAE7;
+  --paper-2: #E4E0DC;
+  --ink: #17110F;
+  --ink-2: #4A413D;
+  --ink-3: #6E635E;
+  --rule: #CFC8C2;
+  --oxblood: #8E1F2F;
+  --teal: #1F5A5A;
+  --font-display: "TimeBurner","Chakra Petch","Eurostile","Bahnschrift","Trebuchet MS",sans-serif;
+  --font-body: "Newsreader","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --font-quote: "Bodoni Moda","Didot","Playfair Display",Georgia,serif;
+  --font-mono: "IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #141110;
+    --paper-2: #1E1A18;
+    --ink: #EDE7E3;
+    --ink-2: #C3B9B3;
+    --ink-3: #9A8F89;
+    --rule: #3A3330;
+    --oxblood: #D96076;
+    --teal: #5AAFAB;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #141110;
+  --paper-2: #1E1A18;
+  --ink: #EDE7E3;
+  --ink-2: #C3B9B3;
+  --ink-3: #9A8F89;
+  --rule: #3A3330;
+  --oxblood: #D96076;
+  --teal: #5AAFAB;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 19px;
+  line-height: 1.64;
+  margin: 0;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+.wrap {
+  max-width: 41rem;
+  margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 3.5rem;
+}
+
+/* ---------- masthead ---------- */
+
+.masthead { padding-block: 2.75rem 1.25rem; }
+
+.wordmark {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+.wordmark h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(3.1rem, 15vw, 5.1rem);
+  line-height: 0.88;
+  letter-spacing: -0.02em;
+  margin: 0;
+  text-transform: uppercase;
+}
+.wordmark .arcs { flex: 0 0 auto; }
+
+.standfirst {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.1rem;
+  padding-top: 0.7rem;
+  border-top: 2px solid var(--ink);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+.standfirst .beat { color: var(--oxblood); }
+
+/* ---------- tape strip ---------- */
+
+.tape {
+  background: var(--ink);
+  color: var(--paper);
+  margin-top: 1.5rem;
+}
+.tape .tape-inner {
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 1rem 0.9rem;
+}
+.tape h2 {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin: 0 0 0.75rem;
+  opacity: 0.62;
+}
+.tape-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.85rem 0.9rem;
+}
+.tape-cell { min-width: 0; }
+.tapek {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  opacity: 0.62;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tapev {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 18px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+  margin-top: 0.1rem;
+}
+.tapev .delta { font-size: 12px; font-weight: 500; opacity: 0.8; margin-left: 0.3em; }
+.tape-note {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.5;
+  opacity: 0.58;
+  margin: 0.95rem 0 0;
+}
+
+/* ---------- lede ---------- */
+
+.lede-block { padding-block: 2.25rem 0; }
+
+p.lede {
+  font-family: var(--font-quote);
+  font-style: italic;
+  font-size: clamp(1.55rem, 5.6vw, 2.05rem);
+  line-height: 1.26;
+  margin: 0 0 1.4rem;
+  text-wrap: balance;
+  letter-spacing: -0.005em;
+}
+.lede-body { margin: 0; max-width: 34rem; }
+.lede-body + .lede-body { margin-top: 1rem; }
+
+figure.illo {
+  margin: 1.9rem 0 0;
+  padding-block: 0;
+}
+figure.illo svg { display: block; width: 100%; height: auto; max-width: 100%; }
+figcaption {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--ink-3);
+  margin-top: 0.6rem;
+  max-width: 30rem;
+}
+
+.sincelast {
+  margin-top: 1.9rem;
+  border-left: 3px solid var(--teal);
+  padding: 0.15rem 0 0.15rem 1rem;
+}
+.sincelast h3 {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin: 0 0 0.45rem;
+}
+.sincelast p { margin: 0 0 0.45rem; font-size: 17px; line-height: 1.55; color: var(--ink-2); }
+.sincelast p:last-child { margin-bottom: 0; }
+
+/* ---------- sections ---------- */
+
+section.chapter { margin-top: 3.4rem; }
+
+.chapter > h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.6rem, 6.4vw, 2.3rem);
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+  margin: 0;
+  padding-bottom: 0.55rem;
+  border-bottom: 2px solid var(--ink);
+  text-wrap: balance;
+}
+.chapter > .chapter-num {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--oxblood);
+  margin-bottom: 0.5rem;
+}
+
+article.item { margin-top: 2.3rem; }
+article.item + article.item { border-top: 1px solid var(--rule); padding-top: 2.1rem; }
+
+.kicker {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin: 0 0 0.4rem;
+}
+.kicker.fup { color: var(--oxblood); }
+
+article.item h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.42rem, 5.3vw, 1.78rem);
+  line-height: 1.16;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.85rem;
+  text-wrap: balance;
+}
+article.item p { margin: 0 0 0.95rem; max-width: 34rem; }
+article.item p:last-child { margin-bottom: 0; }
+
+.srcline {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--ink-3);
+  margin-top: 1rem !important;
+}
+.srcline a { color: var(--ink-2); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.srcline a:hover { color: var(--oxblood); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--oxblood); outline-offset: 2px; }
+
+blockquote.pull {
+  margin: 2.2rem 0;
+  padding: 0 0 0 1.1rem;
+  border-left: 3px solid var(--oxblood);
+  font-family: var(--font-quote);
+  font-style: italic;
+  font-size: clamp(1.3rem, 4.9vw, 1.6rem);
+  line-height: 1.3;
+  color: var(--ink);
+}
+blockquote.pull cite {
+  display: block;
+  font-family: var(--font-mono);
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-top: 0.7rem;
+}
+
+/* ---------- figures / charts ---------- */
+
+figure.chart {
+  margin: 1.6rem 0 0;
+  background: var(--paper-2);
+  border: 1px solid var(--rule);
+  padding: 1.1rem 1rem 0.9rem;
+}
+figure.chart h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.07rem;
+  line-height: 1.2;
+  margin: 0 0 0.15rem;
+}
+figure.chart .chart-sub {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--ink-3);
+  margin: 0 0 0.85rem;
+}
+figure.chart svg { display: block; width: 100%; height: auto; max-width: 100%; }
+figure.chart figcaption { margin-top: 0.7rem; max-width: 32rem; }
+
+/* ---------- week ahead ---------- */
+
+.weekahead { margin-top: 3.4rem; border-top: 2px solid var(--ink); padding-top: 1.2rem; }
+.weekahead h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.5rem, 5.8vw, 2rem);
+  line-height: 1.1;
+  margin: 0 0 1.1rem;
+  letter-spacing: -0.015em;
+}
+.wa-row {
+  display: grid;
+  grid-template-columns: 7.6rem 1fr;
+  gap: 0.5rem 1rem;
+  padding-block: 0.8rem;
+  border-bottom: 1px solid var(--rule);
+}
+.wa-row:last-of-type { border-bottom: 0; }
+.wa-date {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--oxblood);
+  min-width: 0;
+  padding-top: 0.22rem;
+}
+.wa-body { margin: 0; font-size: 17px; line-height: 1.55; min-width: 0; }
+
+/* ---------- colophon ---------- */
+
+.colophon {
+  margin-top: 3rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.65;
+  color: var(--ink-3);
+}
+.colophon p { margin: 0 0 0.5rem; max-width: 34rem; }
+.colophon p:last-child { margin-bottom: 0; }
+.colophon a { color: var(--ink-2); }
+
+/* ---------- responsive ---------- */
+
+@media (max-width: 760px) {
+  .tape-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 560px) {
+  body { font-size: 18px; line-height: 1.62; }
+  .wrap { padding-block: 0 2.75rem; }
+  .masthead { padding-block: 2rem 1rem; }
+  .tape-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.8rem 0.8rem; }
+  .tapek { font-size: 12px; letter-spacing: 0.05em; }
+  .tapev { font-size: 17px; }
+  .tapev .delta { font-size: 12px; }
+  .tape h2, .tape-note { font-size: 12px; }
+  .standfirst { font-size: 12px; letter-spacing: 0.06em; }
+  .kicker, .srcline, figcaption, figure.chart .chart-sub, .colophon,
+  .sincelast h3, blockquote.pull cite { font-size: 12px; }
+  .wa-row { grid-template-columns: 1fr; gap: 0.2rem; }
+  .wa-date { font-size: 13px; padding-top: 0; }
+  .wa-body, .sincelast p { font-size: 17px; }
+  article.item p, .lede-body { max-width: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <div class="wordmark">
+      <svg class="arcs" width="54" height="54" viewBox="0 0 54 54" role="img" aria-label="Signal broadcast mark">
+        <circle cx="10" cy="44" r="5" fill="var(--oxblood)"></circle>
+        <path d="M10 30a14 14 0 0 1 14 14" fill="none" stroke="var(--ink)" stroke-width="3.4" stroke-linecap="round"></path>
+        <path d="M10 19a25 25 0 0 1 25 25" fill="none" stroke="var(--ink)" stroke-width="3.4" stroke-linecap="round"></path>
+        <path d="M10 8a36 36 0 0 1 36 36" fill="none" stroke="var(--oxblood)" stroke-width="3.4" stroke-linecap="round"></path>
+      </svg>
+      <h1>Signal</h1>
+    </div>
+    <div class="standfirst">
+      <span class="beat">Technology · Artificial intelligence · Finance</span>
+      <span>Thursday 22 October 2026 — the three days to Thursday morning</span>
+    </div>
+  </header>
+</div>
+
+<div class="tape">
+  <div class="tape-inner">
+    <div class="wrap" style="padding-left:0;padding-right:0;padding-block:0;">
+      <h2>The tape</h2>
+      <div class="tape-grid">
+        <div class="tape-cell"><span class="tapek">S&amp;P 500</span><span class="tapev">7,757.17<span class="delta">+0.6%</span></span></div>
+        <div class="tape-cell"><span class="tapek">Nasdaq Comp</span><span class="tapev">26,702.86<span class="delta">+1.1%</span></span></div>
+        <div class="tape-cell"><span class="tapek">Dow</span><span class="tapev">52,856.09<span class="delta">+0.7%</span></span></div>
+        <div class="tape-cell"><span class="tapek">10-yr Treasury</span><span class="tapev">5.12%</span></div>
+        <div class="tape-cell"><span class="tapek">30-yr Treasury</span><span class="tapev">5.42%</span></div>
+        <div class="tape-cell"><span class="tapek">Fed funds, effective</span><span class="tapev">3.88%</span></div>
+        <div class="tape-cell"><span class="tapek">Brent crude</span><span class="tapev">$110.38</span></div>
+        <div class="tape-cell"><span class="tapek">Gold, spot</span><span class="tapev">$4,119</span></div>
+        <div class="tape-cell"><span class="tapek">Bitcoin</span><span class="tapev">$83,405</span></div>
+        <div class="tape-cell"><span class="tapek">UK CPI, Sept</span><span class="tapev">3.5%</span></div>
+      </div>
+      <p class="tape-note">Index levels are Wednesday 21 October closes. Treasury yields and the effective funds rate are the Federal Reserve's H.15 for Monday 20 October, released 21 October. Brent, gold and bitcoin as at 21 October.</p>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="lede-block">
+    <p class="lede">A private key is meant to be a number nobody can guess. One of eMudhra's was four.</p>
+
+    <p class="lede-body">Things built in a hurry came due this week. An Indian company that vouches for the identity of websites had been doing it with keys a laptop can work out in under a second. Two audits had passed them. A power fault in one London data centre took Lloyds, HSBC and Royal Mail offline for eight hours. Four men died raising the steel frame of a chip factory in Kaohsiung, and a worn bolt is the leading suspect.</p>
+
+    <p class="lede-body">Then the sums. SpaceX spent $48bn building things in nine months and took $13bn in from its operations. A judge in New Mexico put a price of $25bn on a privacy claim first filed in 2021. Korean investors asked for 388 times the shares in a data-centre float and lost a third of their money on the first day. And almost no central bank anywhere is cutting. The cheap part is over.</p>
+
+    <figure class="illo">
+      <svg viewBox="0 0 600 200" role="img" aria-label="Illustration: a certificate whose seal carries the single digit four, with a forged copy trailing away from it">
+        <!-- genuine certificate -->
+        <rect x="8" y="22" width="248" height="156" rx="3" fill="var(--paper-2)" stroke="var(--ink)" stroke-width="2.5"></rect>
+        <g fill="none" stroke="var(--rule)" stroke-width="4" stroke-linecap="round">
+          <path d="M32 54h150"></path>
+          <path d="M32 74h200"></path>
+          <path d="M32 94h176"></path>
+          <path d="M32 114h120"></path>
+        </g>
+        <circle cx="196" cy="140" r="30" fill="var(--oxblood)"></circle>
+        <text x="196" y="140" fill="var(--paper)" font-family="var(--font-display)" font-size="40" font-weight="700" text-anchor="middle" dominant-baseline="central">4</text>
+        <!-- trail -->
+        <path d="M268 100h58" fill="none" stroke="var(--oxblood)" stroke-width="2.5" stroke-dasharray="7 7" stroke-linecap="round"></path>
+        <path d="M318 92l10 8-10 8" fill="none" stroke="var(--oxblood)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <!-- forged copies -->
+        <rect x="344" y="30" width="236" height="148" rx="3" fill="none" stroke="var(--ink-3)" stroke-width="2" stroke-dasharray="6 6"></rect>
+        <rect x="356" y="18" width="236" height="148" rx="3" fill="var(--paper)" stroke="var(--ink-3)" stroke-width="2" stroke-dasharray="6 6"></rect>
+        <g fill="none" stroke="var(--rule)" stroke-width="4" stroke-linecap="round">
+          <path d="M380 50h150"></path>
+          <path d="M380 70h186"></path>
+          <path d="M380 90h164"></path>
+        </g>
+        <circle cx="532" cy="128" r="30" fill="none" stroke="var(--oxblood)" stroke-width="2.5" stroke-dasharray="6 6"></circle>
+        <text x="532" y="128" fill="var(--oxblood)" font-family="var(--font-display)" font-size="40" font-weight="700" text-anchor="middle" dominant-baseline="central">4</text>
+      </svg>
+      <figcaption>With the key, anybody can sign a certificate for anybody. Cloudflare's warning was that an attacker could forge one for any domain and read or alter the traffic.</figcaption>
+    </figure>
+
+    <div class="sincelast">
+      <h3>Since last time</h3>
+      <p>China left its loan prime rates alone on 20 October — 3.00 per cent for a year, 3.50 for five — the seventeenth month without a change.</p>
+      <p>Bank Indonesia held its policy rate too, and then did almost everything else. Below.</p>
+      <p>Jio Platforms opened India's largest share sale on Wednesday. It was covered before lunch. Also below.</p>
+    </div>
+  </div>
+
+  <!-- ===================== SECTION 1 ===================== -->
+  <section class="chapter">
+    <span class="chapter-num">Section one</span>
+    <h2>One bolt, one key, one power cut</h2>
+
+    <article class="item">
+      <p class="kicker">Web security · India</p>
+      <h3>An Indian company guarded the web with the number four</h3>
+      <p>Eight of eMudhra's intermediate certificates had private keys that anyone could work out. The private key is the secret half of the pair that proves a website is who it claims to be. A proper one is a random 384-bit number, which is to say one of roughly 10<sup>115</sup> possibilities. One of eMudhra's was 4.</p>
+      <p>The researcher Scott Helme pulled it off the public certificate on his laptop in under a second. &ldquo;Not a number that starts with 4, or the number 4 followed by a few hundred random digits,&rdquo; he wrote. &ldquo;Just, 4.&rdquo; He also found 56 and 115. Other researchers reported 66, 155, 156, 230 and 237.</p>
+      <p>Mozilla's Dennis Jackson published the problem on Tuesday, three days after a volunteer reported it on a Saturday evening. Firefox, Chrome and Apple's browsers have all shipped blocks, and the root certificate sitting above those eight was distrusted as a precaution. Readers who have not updated a browser this week should.</p>
+      <p>eMudhra says it takes full responsibility. It traces the fault to a key-wrapping step in a ceremony held in April 2025, which quietly produced a weak set of keys alongside the strong set. The weak ones went to the browsers. Nobody noticed for about eighteen months, through two independent audits.</p>
+      <p>The company and the researchers do not agree about how bad this is. eMudhra says seven of the eight were never used in production, the eighth issued nothing, and the exposure is confined to &ldquo;one customer ecosystem in the United States.&rdquo; Researchers describe a web-wide emergency. Both accounts can hold: the harm may turn out small and the near-miss enormous. eMudhra has issued more than 60 million certificates.</p>
+      <p class="srcline">Sources: <a href="https://emudhra.com/en/post/certificate-security-incident">eMudhra statement</a> · <a href="https://emudhra.we-have-a-problem.com/">Mozilla, Dennis Jackson</a> · <a href="https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312">The Register</a> · <a href="https://www.helpnetsecurity.com/2026/10/21/emudhra-certificates-private-keys-compromised/">Help Net Security</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker">Software · Disclosure</p>
+      <h3>Two holes in PHP, and a machine found one of them</h3>
+      <p>PHP runs a large share of the world's websites. On Wednesday its maintainers patched two flaws that let a stranger run code on a web server without logging in. Both scored 9.2 out of 10 for severity. The worst case is a common Apache configuration, where a single unauthenticated request triggers the bug before a site's own code runs at all.</p>
+      <p>One of the two was found by a machine. OpenAI says a security agent of its own, built on its GPT-5.6 Sol model, turned it up; the security firm Wiz found both independently and reported them. OpenAI briefed the White House and America's cyber agency during the days between the fix and its release, and has put $1bn behind subsidised access to its tools for defenders.</p>
+      <p>The patched versions are 8.5.12, 8.4.27, 8.3.36 and 8.2.35. There are backports for versions nobody should still be running, which is itself a statement about how this will go.</p>
+      <p class="srcline">Sources: <a href="https://www.php.net/archive/2026.php#2026-10-21-5">php.net release notes</a> · <a href="https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/">OpenAI</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker">Cloud · Britain and Ireland</p>
+      <h3>One London data centre took the banks down with it</h3>
+      <p>On Tuesday morning a power fault hit a single zone of Google's London region, the one it calls europe-west2-b. One zone of one region, in a system sold on the premise that losing one should not matter.</p>
+      <p>Customers lost eight hours. Lloyds Bank, HSBC, Royal Mail, Revolut, Rightmove, DPD, BT and Screwfix all went down or slowed to a crawl. Revolut's fault reports spiked between 7am and 8am; it has 3.4 million customers in Ireland alone, and told them their money and data were safe. Allied Irish Banks and Bank of Ireland, who do not sit in that zone, carried on as usual.</p>
+      <p>Google's own timeline runs like this: failures from 06:08 UTC, a tentative all-clear by 13:00, most customers back by 14:03, a &ldquo;very small number&rdquo; still broken at 17:37. Seven of its products were hit, among them Cloud Run, App Engine and its Kubernetes service. It has promised an analysis once the internal investigation finishes.</p>
+      <p>Every bank that went dark had moved to the cloud partly for resilience. The thing that failed was not software.</p>
+      <p class="srcline">Sources: <a href="https://www.theregister.com/paas-and-iaas/2026/10/20/google-cloud-says-a-power-event-caused-todays-outage/5304160">The Register</a> · <a href="https://www.irishtimes.com/business/2026/10/20/revolut-services-hit-by-outage-including-in-ireland/">The Irish Times</a> · <a href="https://www.thousandeyes.com/blog/google-cloud-outage-analysis-october-20-2026">ThousandEyes</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker">Semiconductors · Taiwan</p>
+      <h3>Four men died building a chip factory</h3>
+      <p>On Tuesday four workers fell while hoisting steel at TSMC's Fab 22 construction site in Kaohsiung. The fourth died in hospital on Wednesday. All four worked for a subcontractor, Shang Hao Machinery.</p>
+      <p>The science park's bureau believes aged or broken bolts on a steel connection plate may have given way. That finding is preliminary. Inspectors had been to the site three times in 2025 and eighteen times this year, including one steel-structure inspection in July. Two other contractors there had already been fined a combined NT$210,000, about $6,500.</p>
+      <p>TSMC has suspended steel work at Kaohsiung and at every new fab it is building anywhere in Taiwan. It resumes only once Shang Hao's improvement plan passes review. Nobody has put a figure on the delay. Fab 22 is being built to make 2-nanometre chips, the leading edge, much of it destined for data centres. Tom's Hardware counts at least nine deaths across TSMC construction sites since 2024.</p>
+      <p>The industry measures this build-out in gigawatts and in hundreds of billions of dollars. In Kaohsiung on Tuesday the unit was a bolt.</p>
+      <p class="srcline">Sources: <a href="https://focustaiwan.tw/society/202610210009">Focus Taiwan (CNA)</a> · <a href="https://www.taipeitimes.com/News/biz/archives/2026/10/22/2003866386">Taipei Times</a> · <a href="https://www.tomshardware.com/tech-industry/semiconductors/three-workers-killed-one-in-intensive-care-after-fall-at-tsmcs-2nm-fab-construction-site-in-kaohsiung-broken-bolt-on-a-steel-connection-plate-suspected-as-cause-behind-tragic-accident">Tom's Hardware</a></p>
+    </article>
+  </section>
+
+  <!-- ===================== SECTION 2 ===================== -->
+  <section class="chapter">
+    <span class="chapter-num">Section two</span>
+    <h2>Ahead of the cash</h2>
+
+    <article class="item">
+      <p class="kicker">Earnings · United States</p>
+      <h3>SpaceX spent nearly four dollars for every one it earned</h3>
+      <p>SpaceX made its first quarterly profit as a public company. Net income was $4.4bn on revenue of $14.6bn, against a $1.1bn loss a year earlier. Revenue rose 161 per cent. Then look at the cash.</p>
+      <p>In the nine months to September the company spent $48.1bn on capital projects. Its operations generated $13.1bn. That is $3.67 going out for every dollar coming in. Of the third quarter's $19.6bn, $16.4bn went into one division: the AI business SpaceX calls Super Intelligence, which has grown from $813m of quarterly revenue a year ago to $7.56bn, and has now overtaken Starlink.</p>
+
+      <figure class="chart">
+        <h4>Nine months of building, nine months of earning</h4>
+        <p class="chart-sub">SpaceX, January to September 2026, US$ billion</p>
+        <svg viewBox="0 0 600 182" role="img" aria-label="Bar chart: SpaceX capital spending of 48.1 billion dollars against 13.1 billion dollars of cash from operations over the nine months to September 2026">
+          <!-- capex -->
+          <text x="8" y="14" fill="var(--ink-3)" font-family="var(--font-mono)" font-size="13" font-weight="500" letter-spacing="0.08em">CAPITAL SPENDING</text>
+          <rect x="8" y="22" width="530.7" height="42" fill="var(--oxblood)"></rect>
+          <text x="528" y="43" fill="var(--paper)" font-family="var(--font-mono)" font-size="21" font-weight="600" text-anchor="end" dominant-baseline="central">$48.1bn</text>
+          <!-- operating cash -->
+          <text x="8" y="86" fill="var(--ink-3)" font-family="var(--font-mono)" font-size="13" font-weight="500" letter-spacing="0.08em">CASH FROM OPERATIONS</text>
+          <rect x="8" y="94" width="144.6" height="42" fill="var(--teal)"></rect>
+          <text x="164" y="115" fill="var(--ink)" font-family="var(--font-mono)" font-size="21" font-weight="600" text-anchor="start" dominant-baseline="central">$13.1bn</text>
+          <!-- axis -->
+          <path d="M8 148h552" fill="none" stroke="var(--rule)" stroke-width="1.5"></path>
+          <g fill="var(--ink-3)" font-family="var(--font-mono)" font-size="13">
+            <g stroke="var(--rule)" stroke-width="1.5">
+              <path d="M8 148v6"></path><path d="M118.4 148v6"></path><path d="M228.8 148v6"></path>
+              <path d="M339.2 148v6"></path><path d="M449.6 148v6"></path><path d="M560 148v6"></path>
+            </g>
+            <text x="8" y="172" text-anchor="start">0</text>
+            <text x="118.4" y="172" text-anchor="middle">10</text>
+            <text x="228.8" y="172" text-anchor="middle">20</text>
+            <text x="339.2" y="172" text-anchor="middle">30</text>
+            <text x="449.6" y="172" text-anchor="middle">40</text>
+            <text x="560" y="172" text-anchor="end">50</text>
+          </g>
+        </svg>
+        <figcaption>Capital expenditure of $48,069m against net cash from operating activities of $13,097m, from the company's own third-quarter release.</figcaption>
+      </figure>
+
+      <p>Starlink is the quieter story in the same filing. Consumer subscribers nearly doubled to 13.6 million. Average revenue per subscriber fell from $83 a month to $69. More customers, each worth less.</p>
+      <p>On the call Musk said SpaceX and Tesla have each set up committees of independent directors, at shareholders' request, to discuss merging the two. He said he cannot take part, being conflicted. &ldquo;Do I think it would be a good idea? Yes,&rdquo; he said, and then: &ldquo;This is definitely kind of a question where I feel like I'm tap dancing through a minefield.&rdquo;</p>
+      <p>Tesla reported the same day. Revenue was flat at $28.1bn, gross margin improved to 19.6 per cent, and net profit fell 43 per cent to $787m. The figure that moved the shares was smaller and pointed the other way. Tesla cut its capital spending plan for the year to about $20bn, from more than $25bn. One Musk company is spending everything it has. The other has just decided not to.</p>
+      <p class="srcline">Sources: <a href="https://s21.q4cdn.com/184289198/files/content_files/SpaceX-Reports-Third-Quarter-2026-Results.pdf">SpaceX third-quarter results</a> · <a href="https://finance.yahoo.com/markets/stocks/article/musk-backs-spacex-tesla-merger-idea-as-both-boards-form-special-committees-113219080.html">Bloomberg via Yahoo Finance</a> · <a href="https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/">Electrek on Tesla</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker">Capital markets · Korea</p>
+      <h3>Korean investors asked for 388 times the shares, then sold</h3>
+      <p>Elice, a Korean data-centre operator, priced its listing at the very top of its range. Institutions bid for 389 times the stock on offer. Retail investors bid for 408 times. More than 10 trillion won sat in deposits waiting for an allocation.</p>
+      <p>It opened on Tuesday 16 per cent below the issue price and kept falling, touching 61,000 won against the 90,500 it had been sold at. Outlets put the first day's loss anywhere between 28 and 33 per cent, depending on whether they used the intraday low or the last trade. Either way, the people who queued hardest lost the most.</p>
+      <p>This is the second data-centre float to break this month, after Firmus pulled its Australian listing on 9 October. American data-centre shares fell on the read-across, and by Thursday morning Asian chipmakers were being sold hard: SK Hynix down 4 per cent, Samsung Electronics 3.6, the Kospi more than 2.</p>
+
+      <blockquote class="pull">
+        Demand is extraordinary. Capacity is the constraint.
+        <cite>Jensen Huang, Nvidia, in Berlin on Wednesday</cite>
+      </blockquote>
+
+      <p>The people selling the equipment see none of this doubt. Lam Research reported its first quarter above a 40 per cent operating margin, and said spending on wafer-fab equipment — about $150bn this year — will pass $200bn in 2027. Its shares fell 7 per cent anyway, on a warning that its own suppliers could delay shipments. Nvidia, meanwhile, has started paying for capacity years ahead, including $1.1bn handed to a Taiwanese chip-testing firm to build new plants in America, and a commitment to roughly $10bn across Europe.</p>
+      <p>Two markets are now telling opposite stories. The machines are sold out to 2028. The companies that buy them cannot reliably raise money for a week.</p>
+      <p class="srcline">Sources: <a href="https://finance.yahoo.com/markets/stocks/articles/elice-shares-plunge-28-debut-043200689.html">Reuters via Yahoo Finance</a> · <a href="https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html">CNBC</a> · <a href="https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/">Nvidia</a> · <a href="https://www.globenewswire.com/news-release/2026/10/21/3385344/0/en/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout.html">Nvidia supply-chain release</a></p>
+    </article>
+  </section>
+
+  <!-- ===================== SECTION 3 ===================== -->
+  <section class="chapter">
+    <span class="chapter-num">Section three</span>
+    <h2>Rulings and orders</h2>
+
+    <article class="item">
+      <p class="kicker">Courts · United States</p>
+      <h3>Meta's bill for one week came to thirty-five billion dollars</h3>
+      <p>On Wednesday a judge in New Mexico ordered Meta to pay the state $25bn. Judge Francis Mathew found that the statute warranted more than $219bn, and reduced it.</p>
+      <p>The arithmetic is the remarkable part. A Santa Fe jury decided on 25 September that 26 of 29 statements by Meta and its leadership about data privacy were misleading. That came to more than 43 million separate violations of New Mexico law, each carrying up to $5,000. The state filed the case in 2021. It goes back to the personality quiz that harvested roughly 87 million Facebook profiles for Cambridge Analytica.</p>
+      <p>Attorney General Raúl Torrez called it a warning &ldquo;to those in this space and beyond that we intend to protect our people.&rdquo; Meta's chief legal officer, C.J. Mahoney, said the ruling &ldquo;makes it all but impossible to do business in the state of New Mexico.&rdquo; Meta says it will win on appeal, and analysts expect it to keep appealing for years. No money moves soon.</p>
+      <p>The same week's results carried the second bill, and that one is already booked. Meta took a $9.89bn charge for an August settlement with 52 state attorneys general over teenagers' mental health, an agreement providing for payments of up to $18.6bn. The charge halved the operating margin, from 40 per cent to 20. Strip it out and the quarter beat expectations: revenue up 26 per cent to $64.6bn, and earnings of $7.40 a share rather than $3.83.</p>
+      <p>Meta also raised the floor of this year's capital spending, to a range of $135bn to $145bn, and spent $34.9bn in the quarter alone. Free cash flow was negative $2.1bn. Both of the week's bills are survivable. Spending more than you take in, at that scale, is the thing to watch.</p>
+      <p class="srcline">Sources: <a href="https://finance.yahoo.com/news/meta-ordered-pay-25-billion-172737485.html">Reuters via Yahoo Finance</a> · <a href="https://www.cbsnews.com/news/meta-new-mexico-25-billion-privacy-ruling/">CBS News</a> · <a href="https://www.prnewswire.com/news-releases/meta-reports-third-quarter-2026-results-302915964.html">Meta third-quarter results</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker">Procurement · United States and China</p>
+      <h3>Washington ordered DeepSeek out, and anything built on it</h3>
+      <p>The Department of Homeland Security published an order on 20 October removing DeepSeek from every federal civilian agency. Agencies may not buy its products, and must take out what they already run. Exceptions can be requested.</p>
+      <p>The reach is the new part. The order covers &ldquo;third-party products and services developed using DeepSeek implementations&rdquo; — not only DeepSeek's own software, but anything built on its models. A good deal of software now has an open-weight Chinese model somewhere inside it, and very few buyers could tell you which. Compliance means auditing a supply chain that nobody has mapped. The order was signed for the department by its general counsel, James H. Percival II, under procurement security powers passed in 2018.</p>
+      <p>China's foreign ministry objected. Its spokeswoman Mao Ning criticised &ldquo;overstretching the concept of national security and politicizing technology and trade issues,&rdquo; and said Beijing would defend its companies' interests.</p>
+      <p>DeepSeek's own answer, the same day, was to publish the inference engine that runs its production service as open source. It supports Nvidia's newest chips and Huawei's Ascend 950 alike. Washington can bar the company from government systems. It cannot easily bar the arithmetic.</p>
+      <p class="srcline">Sources: <a href="https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive">Federal Register, 91 FR 66346</a> · <a href="https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/">TechCrunch</a> · <a href="https://github.com/deepseek-ai/DeepInfer">DeepSeek, DeepInfer</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker">Policy · United States</p>
+      <h3>Anthropic has drafted the law that could stop its own models</h3>
+      <p>Anthropic is circulating a draft federal bill. It would let the government block the release of a model — but only through a judge, and only at a very high bar.</p>
+      <p>Independent evaluators would register with the Commerce Department and test frontier models. Labs could pay them, but could not make the payment depend on the result. If an evaluator finds an imminent catastrophic risk, it has 72 hours to tell Commerce, and Commerce must then petition a judge in Washington to halt the release. No federal agency could stop a model by itself.</p>
+      <p>The bar is a &ldquo;foreseeable, imminent risk&rdquo; of more than 50 deaths or more than $1bn in property damage, arising from a biological weapon, a cyberattack, or a model slipping its developer's controls. Those are the same two numbers as California's SB 53. A spokesperson said the bill &ldquo;represents the proposals outlined in Anthropic's Advanced AI Framework.&rdquo;</p>
+      <p>Fifty is an odd figure to legislate. It is also the first figure a frontier lab has been willing to write down. Asked in New York three weeks ago to put a number on catastrophic risk, none of them would.</p>
+      <p class="srcline">Sources: <a href="https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/">TechCrunch</a> · <a href="https://www.motherjones.com/politics/2026/10/anthropics-ai-safety-bill-has-an-alarming-threshold-for-government-action/">Mother Jones</a></p>
+    </article>
+  </section>
+
+  <!-- ===================== SECTION 4 ===================== -->
+  <section class="chapter">
+    <span class="chapter-num">Section four</span>
+    <h2>Nobody is cutting</h2>
+
+    <article class="item">
+      <p class="kicker">Inflation · Britain</p>
+      <h3>A tank of petrol is now setting Britain's interest rate</h3>
+      <p>UK inflation jumped to 3.5 per cent in September, from 3.1 in August. The Office for National Statistics published it on Wednesday. It is the highest rate in almost a year, and higher than forecast.</p>
+      <p>Transport did most of the work, and fuel did most of the transport. Petrol averaged 169.5 pence a litre, up 8.2 pence in a single month. Diesel averaged 192.5 pence, up 10.7. Over the year fuel prices rose 29.8 per cent, and transport alone added 0.94 percentage points to the headline rate. Core inflation, which strips out energy and food, rose to 2.8 per cent, and services to 3.7. Hotels and restaurants were the only real drag.</p>
+      <p>The Bank of England meets on 5 November with its rate at 3.75 per cent, and has not moved it since 2023. Danni Hewson of AJ Bell put it bluntly: &ldquo;Market expectation of a November increase is now nearing 100 per cent,&rdquo; with better than even odds of a second rise before the year ends.</p>
+      <p>Britain is not unusual. Reuters polled 100 economists between 16 and 20 October. Ninety-four expect the Federal Reserve to hold next week. All 100 expect a rise in December. Last month fewer than half did. The Bank of Korea held at 3 per cent on Thursday after raising twice in the summer; Hungary held at 5.5; China held for the seventeenth month. Across the rich world the question is no longer whether to tighten. It is how much more.</p>
+      <p class="srcline">Sources: <a href="https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/september2026">ONS consumer price inflation, September 2026</a> · <a href="https://www.933thedrive.com/2026/10/20/fed-to-skip-october-but-raise-rates-again-in-december-nearly-all-economists-say-reuters-poll/">Reuters poll</a> · <a href="https://www.investing.com/news/economy-news/bank-of-korea-holds-rates-as-expected-after-backtoback-hikes-4964494">Reuters on the Bank of Korea</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker fup">Follow-up · Indonesia</p>
+      <h3>Jakarta defended the rupiah without touching its main rate</h3>
+      <p>Five days after the worst session on the Jakarta exchange since 1998, Bank Indonesia held its policy rate at 5.75 per cent. Then it changed nearly everything else. We reported the crash on <a href="https://markfaizi.dev/signal/2026-10-19">19 October</a>, when MSCI opened a consultation on dropping Indonesia from its emerging-market indices and the market fell 11.57 per cent in a day.</p>
+      <p>What moved: the bank raised its deposit facility rate by a quarter point to 5 per cent and left its lending rate at 6.5. That pays banks more to park rupiah overnight without making loans dearer — a currency defence, not a growth decision. It also cut the share of deposits banks must hold in reserve from 9 per cent to 8 on 1 November, and to 7 on 1 December, which frees cash to lend. And it raised the discount on hedging rupiah forwards for foreign money from 25 to 40 per cent at six months. The bank says that incentive scheme has pulled in $9.9bn since June.</p>
+      <p>Half of it worked. Shares recovered; the currency did not.</p>
+
+      <figure class="chart">
+        <h4>Four sessions in Jakarta</h4>
+        <p class="chart-sub">Jakarta Composite Index, closing level, 15–20 October 2026</p>
+        <svg viewBox="0 0 600 250" role="img" aria-label="Line chart: the Jakarta Composite Index closed at 5,863.78 on 15 October, fell 11.57 per cent to 5,185.11 on 16 October, fell again to 4,996.60 on 19 October, then rose 5.65 per cent to 5,278.89 on 20 October">
+          <!-- gridlines -->
+          <g stroke="var(--rule)" stroke-width="1" stroke-dasharray="3 5">
+            <path d="M62 182.9h528"></path>
+            <path d="M62 140h528"></path>
+            <path d="M62 97.1h528"></path>
+            <path d="M62 54.3h528"></path>
+          </g>
+          <g fill="var(--ink-3)" font-family="var(--font-mono)" font-size="13" text-anchor="end">
+            <text x="54" y="187">5,000</text>
+            <text x="54" y="144">5,250</text>
+            <text x="54" y="101">5,500</text>
+            <text x="54" y="58">5,750</text>
+          </g>
+          <!-- series -->
+          <path d="M70 34.8L220 151.1L370 183.4L520 135" fill="none" stroke="var(--oxblood)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"></path>
+          <g fill="var(--oxblood)" stroke="var(--paper-2)" stroke-width="2">
+            <circle cx="70" cy="34.8" r="5"></circle>
+            <circle cx="220" cy="151.1" r="5"></circle>
+            <circle cx="370" cy="183.4" r="5"></circle>
+            <circle cx="520" cy="135" r="5"></circle>
+          </g>
+          <!-- value labels -->
+          <g fill="var(--ink)" font-family="var(--font-mono)" font-size="14" font-weight="600">
+            <text x="70" y="22" text-anchor="start">5,863.78</text>
+            <text x="370" y="205" text-anchor="middle">4,996.60</text>
+            <text x="520" y="122" text-anchor="end">5,278.89</text>
+          </g>
+          <!-- change annotations -->
+          <g fill="var(--oxblood)" font-family="var(--font-mono)" font-size="13" font-weight="600">
+            <text x="232" y="146" text-anchor="start">&#8722;11.57%</text>
+            <text x="508" y="166" text-anchor="end">+5.65%</text>
+          </g>
+          <!-- x axis -->
+          <path d="M62 218h528" fill="none" stroke="var(--ink-3)" stroke-width="1.5"></path>
+          <g fill="var(--ink-3)" font-family="var(--font-mono)" font-size="13" text-anchor="middle">
+            <text x="70" y="240">15 Oct</text>
+            <text x="220" y="240">16 Oct</text>
+            <text x="370" y="240">19 Oct</text>
+            <text x="520" y="240">20 Oct</text>
+          </g>
+        </svg>
+        <figcaption>Monday 19 October was the lowest close since 2020. Wednesday 21 October added a further 1.27 per cent, which the index level above does not yet include.</figcaption>
+      </figure>
+
+      <p>The rupiah closed at 18,022 to the dollar on Wednesday, back through 18,000. Foreign investors have pulled a record 88.19 trillion rupiah out of Indonesian shares this year, more than in 2008 and 2020 combined. The index is down about 40 per cent since January.</p>
+      <p>MSCI does not decide until June 2027. Indonesia has to hold the line for twenty months.</p>
+      <p class="srcline">Sources: <a href="https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2823326.aspx">Bank Indonesia</a> · <a href="https://en.antaranews.com/news/437037/bi-rate-holds-at-575-percent-deposit-facility-rate-at-5-percent">Antara</a> · <a href="https://www.thestar.com.my/business/business-news/2026/10/20/panic-blamed-for-indonesia039s-record-stock-market-outflows">Reuters via The Star</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker">Capital markets · India</p>
+      <h3>Ambani's $3.2bn was covered in under two hours</h3>
+      <p>Jio Platforms opened India's largest share sale on Wednesday and had it covered before lunch. The institutional tranche filled in about ten minutes.</p>
+      <p>The terms: ₹30,213 crore, roughly $3.2bn, all of it new shares rather than existing holders cashing out. A price band of ₹1,065 to ₹1,119 values Reliance's telecoms and digital arm at up to $108bn, against Bharti Airtel's $123bn, on 33 times earnings. Abu Dhabi's sovereign fund and BlackRock were among anchor investors who took $853m; anchor bids came to more than $25bn. By Thursday the book was 3.47 times covered overall, and institutions 9.42 times.</p>
+      <p>Most of the proceeds repay borrowings at the operating subsidiary. The book closes on Friday and the shares are expected to list on 28 October. It is the first flotation by a Reliance company since 2006.</p>
+      <p>Set it against the week's other listing and the lesson is narrow. Elice was 388 times oversubscribed and lost a third of its value on day one. How many people want the shares tells you nothing about what happens after they get them.</p>
+      <p class="srcline">Sources: <a href="https://www.investing.com/news/stock-market-news/ambanis-32-billion-jio-ipo-subscribed-within-two-hours-in-record-indian-sale-4961607">Reuters via Investing.com</a> · <a href="https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/">Issue terms</a> · <a href="https://www.onmanorama.com/news/business/2026/10/22/retail-investors-fully-subscribe-ambani-jio-ipo-on-second-day-helps-rupee-recovery.html">Onmanorama</a></p>
+    </article>
+  </section>
+
+  <!-- ===================== WEEK AHEAD ===================== -->
+  <section class="weekahead">
+    <h2>The week ahead</h2>
+    <div class="wa-row">
+      <span class="wa-date">Fri 23 Oct</span>
+      <p class="wa-body">Google's groundwork at Muhos and Kajaani is meant to stop under the Finnish regulator's order. Jio's book closes. Moody's reviews France, whose ten-year yield passed 5 per cent on Thursday for the first time in 24 years.</p>
+    </div>
+    <div class="wa-row">
+      <span class="wa-date">Sun 25 Oct</span>
+      <p class="wa-body">Brazil votes. Quaest's poll on Tuesday had Flávio Bolsonaro on 45 and Lula on 44, inside a two-point margin of error.</p>
+    </div>
+    <div class="wa-row">
+      <span class="wa-date">27–28 Oct</span>
+      <p class="wa-body">The Federal Reserve decides, with 94 of 100 economists expecting a hold and all 100 expecting a rise in December. Jio lists on the Wednesday.</p>
+    </div>
+    <div class="wa-row">
+      <span class="wa-date">Fri 30 Oct</span>
+      <p class="wa-body">The Bank of Japan decides. Mistral's open weights for Large 4 are due by the end of the month.</p>
+    </div>
+    <div class="wa-row">
+      <span class="wa-date">Wed 5 Nov</span>
+      <p class="wa-body">The Bank of England, where the market has all but stopped pricing a hold.</p>
+    </div>
+  </section>
+
+  <footer class="colophon">
+    <p>Signal is compiled twice a week and covers technology, artificial intelligence and finance. This edition covers the three days to Thursday 22 October 2026 and was compiled on 22 October 2026. Permanent link: <a href="https://markfaizi.dev/signal/2026-10-22">markfaizi.dev/signal/2026-10-22</a></p>
+    <p>Every item links to its source. Where two credible outlets disagree, both accounts are given. Figures are as reported at the time of writing. Nothing here is investment advice.</p>
+  </footer>
+</div>
+
+<script type="application/json" id="edition-memory">{"date": "2026-10-22", "title": "Signal — 22 October", "lede": "A private key is meant to be a number nobody can guess. One of eMudhra's was four.", "lead_theme": "security-breaches", "sections": ["One bolt, one key, one power cut", "Ahead of the cash", "Rulings and orders", "Nobody is cutting"], "items": [{"slug": "emudhra-ca-keys", "theme": "security-breaches", "kind": "new", "headline": "An Indian company guarded the web with the number four", "gist": "Eight eMudhra intermediate CA certificates had trivially guessable private keys: Scott Helme recovered one that was simply the number 4, plus 56 and 115, off the public certificates on a laptop in under a second; other researchers reported 66, 155, 156, 230, 237. A P-384 key should be a random 384-bit number, about 10^115 possibilities. A volunteer reported it to Mozilla Sat 17 Oct 20:06 UTC; the eight were revoked 19 Oct; Mozilla's Dennis Jackson published Tue 20 Oct; eMudhra's statement 20 Oct, updated 21 Oct. Firefox, Chrome and Apple shipped blocks (Mozilla via OneCRL, root removed from NSS 3.131.1) and root programmes distrusted the ECC root above the eight. eMudhra blames a key wrap/unwrap flaw in an April 2025 key generation ceremony that produced a weak key set alongside the strong one, with the weak keys published to root stores, undetected about 18 months through two independent audit cycles; says FIPS 140-2 Level 3 HSMs were used and root CA keys unaffected. Severity disputed: eMudhra says seven of eight never used in production, the eighth issued nothing, exposure confined to 'one customer ecosystem in the United States'; researchers and Cloudflare frame it as a Web PKI emergency in which an attacker could forge a certificate for any domain. eMudhra has issued over 60 million certificates."}, {"slug": "php-ai-vulnerabilities", "theme": "security-breaches", "kind": "new", "headline": "Two holes in PHP, and a machine found one of them", "gist": "CVE-2026-109618 and CVE-2026-109619, both CVSS v4.0 9.2, unauthenticated remote code execution; advance notice 20 Oct, patches 21 Oct in PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35, with minimal backports for 7.4/8.0/8.1. Risk highest under mod_php, where an unauthenticated request triggers it before application code runs. OpenAI says its security agent 'Calif', running on GPT-5.6 Sol, found one under its 'Patch the Planet' initiative; Wiz independently found and reported both. OpenAI briefed the White House, ONCD and CISA during what it calls the 'Defender's Window', proposed a five-stage disclosure framework, and committed $1bn of subsidised 'Daybreak' access for defenders. Reported downstream outages (Finnish government services, BBC and Edinburgh council pages) were single-sourced and not printed."}, {"slug": "google-cloud-london-outage", "theme": "security-breaches", "kind": "new", "headline": "One London data centre took the banks down with it", "gist": "A power event in europe-west2-b, one of three zones in Google Cloud's London region, on Tue 20 Oct. Google's status timeline (UTC): failures from 06:08, tentative full recovery claimed by 13:00 at 11:58, restored for most customers 14:03, a 'very small number' still affected at 17:37 - roughly eight hours. Seven Google products affected including Cloud Run, App Engine, GKE, Cloud Filestore, BigQuery Data Transfer, NetApp Volumes and Managed Service for Apache Kafka. Customers named: Revolut, Lloyds Bank, HSBC, Royal Mail, Rightmove, DPD, BT, Screwfix, plus an Irish courts video platform. AIB and Bank of Ireland said they were unaffected. Revolut Downdetector reports spiked 07:00-08:00; it has 3.4m customers in Ireland and said customers' money and data were safe. Google: 'We will publish an analysis of this incident once we have completed our internal investigation.' No postmortem published as at 22 Oct; no customer-count figure exists."}, {"slug": "tsmc-kaohsiung-deaths", "theme": "ai-infrastructure", "kind": "new", "headline": "Four men died building a chip factory", "gist": "Tue 20 Oct, four workers fell from height during steel-structure hoisting at TSMC's under-construction Fab 22, Southern Taiwan Science Park, Kaohsiung; the fourth died in hospital, toll confirmed 21 Oct. All four employed by subcontractor Shang Hao Machinery. The Southern Taiwan Science Park Bureau's preliminary assessment points to aged or broken bolts on a steel connection plate. The site had 3 labour inspections in 2025 and 18 in 2026, including a steel-structure inspection on 8 July; two other contractors previously fined a combined NT$210,000 (about US$6,467). TSMC voluntarily suspended steel-structure work at Kaohsiung and at all its new fab construction sites across Taiwan; work resumes only after Shang Hao's improvement plan passes review. Fab 22 is a leading-edge 2nm site for data-centre HPC chips. No schedule impact disclosed by anyone. Tom's Hardware counts at least nine construction deaths across TSMC sites since 2024. No TSMC spokesperson named in any report."}, {"slug": "spacex-q3-capex", "theme": "ai-money", "kind": "new", "headline": "SpaceX spent nearly four dollars for every one it earned", "gist": "Q3 2026 reported 20 Oct, figures from the company release: revenue $14,575m (from $5,576m, +161%); net income $4,404m against a $(1,054)m loss a year earlier - first quarterly profit as a public company; diluted EPS $0.35 v $(0.36). Segments: SI $7,560m revenue (from $813m) and $431m operating income; Connectivity $5,248m and $2,367m; Space $1,767m and $(7)m, 35 launches (12 customer, 23 internal) v 44. Starlink consumer subscribers 13.6m (from 7.2m), consumer ARPU $69/month down from $83. Capex $19,593m in the quarter, of which $16.4bn in SI; nine-month capex $48,069m against nine-month net cash from operating activities of $13,097m, i.e. $3.67 out per dollar in. On the call Musk said SpaceX and Tesla have each formed special committees of independent directors, at shareholders' request, to discuss a merger, and that he cannot participate as a conflicted party: 'Do I think it would be a good idea? Yes' and 'This is definitely kind of a question where I feel like I'm tap dancing through a minefield.' SpaceX about $2.1tn, Tesla about $1.5tn; Musk owns about 20% of Tesla and about 48% of SpaceX (about 82% of the vote); Barclays' Dan Levy expects an all-stock deal at roughly 0.7 SpaceX shares per Tesla share pre-premium; Tesla must hold its annual meeting by 6 Dec. Tesla Q3 same day: revenue $28.05bn flat, gross margin 19.6%, GAAP net income $787m -43%, non-GAAP EPS $0.48, deliveries 486,532 -2.1%, FY capex guidance cut to about $20bn from more than $25bn, shares -3.3% after hours. Outlets conflict on SpaceX's year-ago comparative loss (company release $1,054m; Fortune wrote $5.5bn) and on the combined valuation ($3.5tn to $3.7tn)."}, {"slug": "datacentre-ipos", "theme": "ai-money", "kind": "new", "headline": "Korean investors asked for 388 times the shares, then sold", "gist": "Elice priced its KOSDAQ IPO at 90,500 won, the top of a 70,400-90,500 range, raising 201.1bn won (about $150m); institutional demand 388.84x subscribed, retail 408.26x, with over 10 trillion won in deposits. It opened Tue 20 Oct at 75,700 won (-16.4%), traded as low as 61,000 (-32.6%) and last traded 65,300 (-27.8%). Headline falls differ by outlet because of intraday low v close: Reuters -28%, CNBC -30%, Bloomberg -32%, The Edge -33%. Follows Firmus pulling its Australian float on 9 Oct. US data-centre shares slid on the read-across; by Thu 22 Oct Asian chipmakers were sold hard - SK Hynix -4%, Samsung Electronics -3.6%, Kospi -2.1%, Hang Seng -2.7%, CSI 300 -1.6%; the Philadelphia Semiconductor Index had just had its longest losing streak since October 2008. Against that, Lam Research's Q1 FY2027 (21 Oct): revenue $8.22bn +54% y/y, non-GAAP EPS $2.20, gross margin 52.4%, operating margin 40.2% - first above 40% - record FCF $3.24bn, and guidance that wafer fab equipment spending of the mid-$150bn range in CY2026 will preliminarily exceed $200bn in CY2027; shares still fell about 7% on supply-chain constraints that could delay shipments. At GTC Berlin on 21 Oct Jensen Huang said 'Demand is extraordinary. Capacity is the constraint', announced a $1.1bn capacity-reservation advance to King Yuan Electronics for new US test facilities, a multibillion-dollar advance to IBIDEN, substrate capacity up 2.5x over three years, and nearly $10bn committed across Europe with over 12,000 partners."}, {"slug": "meta-new-mexico-judgment", "theme": "consumer-tech", "kind": "new", "headline": "Meta's bill for one week came to thirty-five billion dollars", "gist": "Judge Francis Mathew entered final judgment on Wed 21 Oct 2026 in New Mexico v Meta Platforms, ordering Meta to pay the state $25bn. A Santa Fe jury had found on 25 September that 26 of 29 statements by Meta and its leadership about data privacy were misleading, amounting to more than 43 million violations of New Mexico consumer protection law at up to $5,000 each; Mathew found a penalty above $219bn warranted under the statute and reduced it to $25bn. The state filed in 2021; the case stems from the personality quiz that harvested about 87 million Facebook profiles for Cambridge Analytica. AG Raul Torrez called it a warning 'to those in this space and beyond that we intend to protect our people' and one of the largest single-state verdicts in US history; Meta chief legal officer C.J. Mahoney said it 'makes it all but impossible to do business in the state of New Mexico'; Meta expects to prevail on appeal and D.A. Davidson's Gil Luria expects years of appeals. Separately, Meta's Q3 2026 results (21 Oct) carried a $9.89bn G&A charge for an August 2026 agreement with 52 state attorneys general over teen mental health providing payments of up to about $18.59bn: revenue $64.601bn +26% (consensus $63.31bn), costs $51.613bn +68%, operating income $12.988bn -37% with margin 20% v 40%, net income $9.860bn +264%, diluted EPS $3.83 against about $6.67 expected but $7.40 ex-charge. Q3 capex $34.91bn; FCF negative $2.12bn; headcount 66,775 -15%; DAP 3.64bn +3%. Guidance: Q4 revenue $73-76bn, FY26 expenses $175-179bn, FY26 capex $135-145bn with the floor raised from $130bn, Reality Labs loss $18-19bn narrowing to about $15bn in 2027. Board also approved a publicly listed non-voting Class C stock effective 19 Jan 2027, a one-for-one stock dividend after which Class A is expected to reflect a 2-for-1 split, with a Founder Alignment Agreement signed with Mark Zuckerberg."}, {"slug": "deepseek-federal-ban", "theme": "ai-regulation", "kind": "new", "headline": "Washington ordered DeepSeek out, and anything built on it", "gist": "DHS Notice of Order, docket DHS-2026-0628, 91 FR 66346-66350, on public inspection 19 Oct and published 20 Oct, under the Federal Acquisition Supply Chain Security Act 2018 (41 U.S.C. 1321-1328) following a Federal Acquisition Security Council recommendation. It bars federal civilian agencies from procuring IT products or services developed by Hangzhou DeepSeek Artificial Intelligence Co. and affiliates and requires removal of DeepSeek products plus 'third-party products and services developed using DeepSeek implementations'; exceptions may be requested. Signed for DHS by general counsel James H. Percival II. Builds on a December 2025 law restricting DeepSeek in intelligence national security systems. Chinese foreign ministry spokeswoman Mao Ning opposed 'overstretching the concept of national security and politicizing technology and trade issues' and said Beijing would safeguard its firms' interests. Aggregator claims of a 60-day compliance window and an underlying order dated 24 July could not be confirmed and were not printed. Same day DeepSeek open-sourced DeepInfer under Apache 2.0, the inference framework behind its production services, supporting Nvidia SM100 GPUs and Huawei Ascend 950 NPUs, targeting DeepSeek-V4.1-Flash; it ships without a KV cache system, so it is offline inference rather than a complete service."}, {"slug": "anthropic-safety-bill", "theme": "ai-regulation", "kind": "new", "headline": "Anthropic has drafted the law that could stop its own models", "gist": "Anthropic is circulating a draft federal AI safety bill, broken by Politico on 16 Oct and reported by TechCrunch on 20 Oct. Mechanism: independent evaluators register with the US Commerce Department and assess frontier models; labs may pay them but payment cannot be contingent on results; on finding an imminent catastrophic risk an evaluator has 72 hours to notify Commerce, which must then petition a judge in Washington DC to halt the release - no federal agency could halt distribution on its own. Threshold is a 'foreseeable, imminent risk' of more than 50 deaths or more than $1bn in property damage arising from the creation or release of a biological weapon, a model evading its developer's controls, or a cyberattack - the same numbers as California SB 53. An Anthropic spokesperson said 'This bill represents the proposals outlined in Anthropic's Advanced AI Framework' and that Anthropic has pushed these since June. Daily Caller coverage names it the AEGIS Act and names Anthony Cimino of Anthropic policy, but the bill name is single-sourced and was not printed; TechCrunch says no name was given and Anthropic did not respond to it. No member of Congress has introduced it."}, {"slug": "uk-inflation", "theme": "rates-bonds", "kind": "new", "headline": "A tank of petrol is now setting Britain's interest rate", "gist": "ONS consumer price inflation for September 2026, published 21 Oct: CPI 3.5% y/y, up from 3.1% in August and above expectations, the highest since October 2025; +0.4% m/m. Core 2.8% (from 2.6%), services 3.7% (from 3.4%), goods 3.2% (from 2.7%), CPIH 3.6% (from 3.3%). Largest upward contribution transport, mainly motor fuels: fuel prices +29.8% y/y (from 23.0%), petrol averaging 169.5p a litre (+8.2p in the month), diesel 192.5p (+10.7p); transport added 0.94 percentage points to the headline rate. Largest drag restaurants and hotels, with hotel prices +2.3% y/y. Bank Rate 3.75%, unchanged since 2023; MPC meets 5 November; next CPI 18 November. Danni Hewson of AJ Bell: 'Market expectation of a November increase is now nearing 100%', with a better-than-even chance of a second hike before year end. UK unemployment fell to 4.7%. Set against a Reuters poll of 100 economists taken 16-20 Oct: 94 expect the Fed to hold on 27-28 Oct and all 100 expect a December hike, up from fewer than half last month; nearly 60% see the peak at 4.00-4.25%. The Bank of Korea held at 3.00% unanimously on 22 Oct after hikes in July and August; Hungary's MNB held at 5.50% on 20 Oct; China held its loan prime rates at 3.00% and 3.50% on 20 Oct for a 17th month."}, {"slug": "indonesia-msci", "theme": "global-economy", "kind": "followup", "headline": "Jakarta defended the rupiah without touching its main rate", "gist": "Bank Indonesia's Board of Governors met 20-21 October and held the BI-Rate at 5.75%, the level reached after four hikes totalling 100bp in 2026. The actual action was asymmetric: the Deposit Facility rate was raised 25bp to 5.00% while the Lending Facility was held at 6.50% - a rupiah defence rather than a growth move. Reserve requirements cut for conventional banks from 9% to 8% on 1 Nov and to 7% on 1 Dec (sharia 7.5% to 6.5% to 5.5%); the macroprudential liquidity incentive cut from 6% to 5% from 1 Dec; DNDF hedging premium discounts for foreign-funded transactions raised from 25% to 40% at six months and 30% to 45% at twelve. BI says the incentive regime has drawn US$9.9bn of foreign inflows since June 2026. Jakarta Composite closes: 5,863.78 on 15 Oct, 5,185.11 on 16 Oct (-11.57%), 4,996.60 on 19 Oct (-3.64%, lowest since 2020), 5,278.89 on 20 Oct (+5.65%), +1.27% on 21 Oct, +1.1% intraday on 22 Oct against a falling Asia. Rupiah Rp17,985 on 20 Oct per BI, then closed Rp18,022 on 21 Oct (-0.17%), back through 18,000 on the day BI held. Record foreign outflows of Rp88.19tn in 2026, against Rp53.84tn in all of 2020 and Rp50.17tn in all of 2008; index down about 40% year to date. September CPI 3.28% y/y, core 2.84%, target 2.5% +/-1%; credit +13.26% y/y; 2026 growth forecast 4.9-5.7%. OJK's Hasan Fawzi cited 'measured enforcement' and Rp2.1tn of fines; reform package includes disclosure of holders above 1% and a roadmap to a 15% minimum free float. MSCI's decision is due on or before 30 June 2027, comments close 30 April 2027. Note: Antara's own report is internally inconsistent on whether Destry Damayanti is Governor or Deputy Governor, so no name was printed; the Governor is Perry Warjiyo."}, {"slug": "jio-ipo", "theme": "deals-corporate", "kind": "new", "headline": "Ambani's $3.2bn was covered in under two hours", "gist": "Jio Platforms opened India's largest-ever share sale on 21 Oct and was fully covered in under two hours, the institutional tranche in about ten minutes. Size Rs30,213 crore, about US$3.2bn, entirely a fresh issue of 270,000,000 shares with no offer for sale; price band Rs1,065-1,119, face value Rs10, lot 12 shares, minimum retail Rs13,428. Bidding 21-23 Oct, anchor book 19 Oct, allotment about 26 Oct, listing tentatively 28 Oct on BSE and NSE. Valuation up to US$108.3bn (Rs10,30,490 crore post-issue market cap, post-issue P/E 33.19x, EPS Rs33.72), against Bharti Airtel at US$123.38bn the same day. Anchor allotment US$853m (Rs8,109.85 crore) including the Abu Dhabi Investment Authority and BlackRock, with anchor bids above US$25bn. Day 1 close 3.16x; day 2 (22 Oct) 3.47x overall with QIB 9.42x. Allocation QIB 50%, NII 15%, retail 35%; about Rs27,500 crore of proceeds to prepay borrowings at subsidiary RJIL. BRLM Kotak Mahindra Capital, registrar KFin Technologies. FY2026 PAT Rs30,052.70 crore, up about 15%, revenue up about 16%; Reuters puts it at about $3.2bn profit on $15.5bn revenue in the year to March. First Reliance group IPO since 2006. For pace: NSE's sale was 42% subscribed on day one and Hyundai Motor India 18%."}], "visuals": ["lede illustration, inline SVG: a certificate whose wax seal is the single digit 4, with two dashed forged copies trailing away from it", "paired proportional bars on one shared scale, SpaceX nine-month capital spending against cash from operations, oxblood and teal with values labelled directly on each bar", "four-point line chart, Jakarta Composite closing level 15 to 20 October, with the two daily percentage changes annotated beside the line"], "watch": [{"text": "Google's groundwork at Muhos and Kajaani is meant to stop under the Finnish regulator's order", "due": "2026-10-23"}, {"text": "Brazil's presidential runoff, with Quaest's last poll at Bolsonaro 45, Lula 44, inside a two-point margin", "due": "2026-10-25"}, {"text": "The Federal Reserve decides, with 94 of 100 economists expecting a hold and all 100 expecting a December rise; Jio Platforms lists the same day against a $108bn valuation", "due": "2026-10-28"}, {"text": "The Bank of Japan decides; Mistral's open weights for Large 4 are due by the end of the month", "due": "2026-10-30"}, {"text": "The Bank of England, with a November rise all but fully priced after inflation hit 3.5 per cent", "due": "2026-11-05"}], "threads_open": [{"slug": "emudhra-ca-keys", "question": "Does any forged certificate from the eight weak keys turn up in the wild, do browser root programmes make the distrust of eMudhra's ECC root permanent, and does any auditor explain how two independent cycles passed weak keys that were published to root stores?", "next_check": "2026-11-05"}, {"slug": "google-cloud-london-outage", "question": "Does Google publish its promised analysis of the europe-west2-b power event, and do UK or Irish regulators ask banks about depending on a single cloud zone?", "next_check": "2026-11-05"}, {"slug": "tsmc-kaohsiung-deaths", "question": "Does the investigation confirm the bolt failure, when does steel-structure work resume at Kaohsiung and the other Taiwanese sites, is Shang Hao Machinery or TSMC penalised, and does Fab 22's 2nm schedule slip?", "next_check": "2026-11-09"}, {"slug": "spacex-q3-capex", "question": "Do the SpaceX and Tesla special committees recommend a merger and on what terms, is it put to Tesla's annual meeting by 6 December, and can SpaceX keep funding capex running at nearly four times operating cash flow?", "next_check": "2026-11-19"}, {"slug": "datacentre-ipos", "question": "After Firmus pulled its float and Elice fell by about a third on debut, can any data-centre operator raise equity, does Nscale's New York listing go ahead, and does Elice recover its issue price?", "next_check": "2026-11-09"}, {"slug": "meta-new-mexico-judgment", "question": "Does Meta appeal the $25bn judgment, does any part of it survive, and do other state attorneys general file on the same 43-million-violations theory?", "next_check": "2026-11-23"}, {"slug": "deepseek-federal-ban", "question": "How do agencies actually audit third-party products built on DeepSeek models, how many exceptions does DHS grant, and is the order extended to other Chinese open-weight models?", "next_check": "2026-11-19"}, {"slug": "anthropic-safety-bill", "question": "Does any member of Congress introduce Anthropic's draft bill, does the 50-death and $1bn threshold survive, and do OpenAI, Google DeepMind or Meta back or oppose it?", "next_check": "2026-12-15"}, {"slug": "uk-inflation", "question": "Does the Bank of England raise on 5 November, and does the October CPI on 18 November still show fuel driving the headline?", "next_check": "2026-11-06"}, {"slug": "indonesia-msci", "question": "Does Bank Indonesia's deposit-rate and reserve-requirement package hold the rupiah below 18,000, do foreign outflows slow from a record Rp88.19tn, and does MSCI's interim feedback point towards reclassification in June 2027?", "next_check": "2026-11-23"}, {"slug": "jio-ipo", "question": "How does Jio Platforms trade from 28 October against a $108bn valuation and 33 times earnings, after a book covered 3.47 times?", "next_check": "2026-11-05"}, {"slug": "oil-hormuz", "question": "Does Iran keep attacking tankers, does Washington take up the reopening offer, and do Gulf flows recover after the Houthi drone strike at Shaybah and the reported halt on the East-West pipeline?", "next_check": "2026-10-29"}, {"slug": "fed-rates", "question": "The Fed's 27-28 October decision and whether December is as certain as all 100 economists in the Reuters poll now say", "next_check": "2026-10-29"}, {"slug": "finland-google-forest", "question": "Does Google's groundwork at Muhos and Kajaani actually stop on 23 October, does the regulator accept Tuike Finland's explanation, and do the police open a pre-trial investigation?", "next_check": "2026-10-27"}, {"slug": "mistral-large-4", "question": "Do Mistral Large 4's open weights ship by 31 October as promised, and under what licence?", "next_check": "2026-11-02"}, {"slug": "us-inflation", "question": "Does the October CPI show energy still driving the headline, and does core hold near 2.6 per cent?", "next_check": "2026-11-12"}, {"slug": "china-ai-export-controls", "question": "After comments close on 15 November, what does the final catalogue prohibit, do the reported compute and parameter thresholds survive, and does the open-source carve-out hold?", "next_check": "2026-11-16"}, {"slug": "japan-globalfoundries-ny", "question": "On what terms does Japan get its $21bn back, what stake does Washington take in GlobalFoundries, and which Japanese entity provides the money?", "next_check": "2026-11-16"}, {"slug": "nscale-microsoft-power", "question": "Does Nscale's New York listing go ahead after losing Microsoft at Loughton, does it find alternative power for the Essex site, and does Microsoft ever comment on the record?", "next_check": "2026-11-16"}, {"slug": "oracle-stargate-jupiter", "question": "Does the New Mexico air-quality permit for the Bloom fuel cells clear by the 23 November state deadline, and does the gas pipeline slip again?", "next_check": "2026-11-23"}, {"slug": "korea-publishers-ai", "question": "Does any AI company agree to pay Korean rights holders, and does the Korean government or National Assembly legislate on training data?", "next_check": "2026-11-30"}, {"slug": "us-government-funding", "question": "Government funding runs to 11 December. Shutdown risk?", "next_check": "2026-12-01"}, {"slug": "taiwan-china-chip-criminal", "question": "Does Taiwan's legislature pass the whole-of-China restriction on AI servers and leading-edge chips, with what penalties and what product list?", "next_check": "2026-12-14"}], "threads_closed": ["openai-bugging-arrest", "ai-rules-us-china-nyc", "japan-jgb-takaichi", "ai-credit-spreads", "spacex-spectrum-starlink", "barclays-private-credit", "microsoft-patch-record", "openai-misalignment-reports", "apollo-glm-update-aware", "china-growth"], "publication": "signal"}</script>
+
+</body></html>
