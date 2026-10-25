@@ -526,9 +526,132 @@
     "topic": "The toll economy: what a transit fee and an electricity wheeling fee actually are, the four conditions a toll needs before a dollar arrives, why $60-65m a year is about $1.30 a head, and why customs duty - a fifth of state revenue, down 24.7% with the border shut - is the same trick paid by Afghans instead of foreigners"
    },
    "url": "https://markfaizi.dev/kabulledger/2026-10-18"
+  },
+  {
+   "date": "2026-10-25",
+   "title": "Kabul Ledger — 25 October",
+   "lede": "Afghanistan's finance ministry began designing a stock market this week. The money that actually holds the country up arrives by hand, from men who are being deported.",
+   "lead_theme": "money-banking",
+   "sections": [
+    "The Week",
+    "How It Works",
+    "By the Numbers",
+    "What to Watch"
+   ],
+   "items": [
+    {
+     "slug": "capital-market",
+     "theme": "money-banking",
+     "kind": "new",
+     "headline": "Kabul starts drawing up a stock market",
+     "gist": "22 Oct: finance ministry's first meeting on establishing a capital market, ordered by the Taliban leader. Chaired by Finance Minister Mullah Mohammad Nasir Akhund, with Commerce Minister Nooruddin Azizi and DAB governor Haji Noor Ahmad Agha; treasury DG Nasratullah Mahmood presented. Stated aim: turn 'idle capital' into investment in industry and infrastructure. No law, regulator or timetable announced. Context: World Bank Enterprise Survey 2025 found banks financed 0.28% of Afghan firms' investment (MENA 9.8%; Afghanistan 1.5% in 2014), under 1% of working capital; access to finance the top constraint; 32% of women-led firms fully credit-constrained v 16% of male-led."
+    },
+    {
+     "slug": "china-rail-freight",
+     "theme": "trade-transit",
+     "kind": "new",
+     "headline": "Two trains, and a headline that needs correcting",
+     "gist": "21 Oct: freight train left Linyi, Shandong, for Hairatan with 8m yuan (~$1.1m) of textiles, chemical feedstock, tools and construction machinery; route Khorgos–Kazakhstan–Uzbekistan–Termez, 20 days, due ~10 Nov. Widely reported as the first direct China–Afghanistan freight train; in fact a Chongqing–Hairatan direct service ran its first train 10 Feb 2025 (55 FEU, 12–15 days, ZTE equipment), so this is the first from Shandong. Westbound: 22 Oct the public works ministry said 600 tonnes of cotton left for Türkiye via the Khaf–Herat railway through Iran (no value, no exporter named). Herat chamber of commerce: exports through Islam Qala ~$124m in H1 2026, +72% y/y, ~1,000 lorries a day, ~6,000 staff; prior-year figure in the same statement does not reconcile (flagged by Pajhwok)."
+    },
+    {
+     "slug": "pakistan-detentions",
+     "theme": "returnees-labour",
+     "kind": "new",
+     "headline": "Pakistan arrested 86,644 Afghans this year, then sent most of them home",
+     "gist": "UNHCR–IOM joint flash update 115, published 24 Oct, covering 1 Jan–17 Oct 2026: 86,644 Afghans arrested or detained in Pakistan, of whom 82,526 ACC-holders or undocumented and 4,118 PoR-holders or asylum seekers. Balochistan 55% of cases; Chaghi district alone 35,740. Returns from Pakistan 812,131 in 2026, including 85,821 deportees — about one in ten. Week to 17 Oct: 517 arrests (-47%), 3,883 returns via Torkham, Chaman and Bahramcha including 499 deportees (-48%). Since 1 Apr 2025 nearly 1.9m returns incl 237,387 deportations; since Sep 2023 2.74m incl 278,758. IOM July survey: 96% of returnees from Pakistan cited fear of arrest. Agencies say arrest counts are likely undercounts."
+    },
+    {
+     "slug": "doha-coordination-group",
+     "theme": "aid",
+     "kind": "new",
+     "headline": "Donors met in Doha to discuss life after aid",
+     "gist": "Afghanistan Coordination Group met in Doha 20–21 Oct. Qatar's minister of state for international cooperation, Maryam bint Ali bin Nasser Al Misnad, pressed for a shift from emergency relief to economic recovery and private-sector development, and better donor coordination; OIC delegation set out girls' education, food security and counterterrorism. Qatar has given or pledged ~$150m over a decade. Nothing decided, nothing newly pledged. Three days later the Shelter and Non-Food Items Cluster asked for $12.8m for 102 priority districts Oct 2026–Mar 2027, including cash for 198,832 people; the 2026 appeal stands at 31.38% of $1.71bn."
+    }
+   ],
+   "visuals": [
+    "the remittance corridor and what closing it does: two-panel flow, Tehran building site to hawala dealer to Herat dealer to household, beside the deportation case with the flows dashed out",
+    "three sums drawn to area: proportional squares, remittances ~$3.0bn v the $1.71bn appeal v the $537m raised"
+   ],
+   "watch": [
+    {
+     "text": "Whether the Shandong train arrives at Hairatan around 10 November, whether a second departure follows, and whether a freight rate is published — the number a trader needs to switch corridor",
+     "due": "2026-11-15"
+    },
+    {
+     "text": "Whether the capital market acquires a law, a supervisor and companies with audited accounts, and who would be permitted to list. A second meeting is not progress",
+     "due": "2026-12-20"
+    },
+    {
+     "text": "What the Kunduz gold contract pays: the contractor's name, the royalty rate, and whether the $500,000 pledged for local roads is accounted for",
+     "due": "2027-01-23"
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "capital-market",
+     "question": "Does a securities law, a regulator or a listing framework appear, or does the capital market stay a committee? Watch also for whether any bank-lending reform accompanies it, against 0.28% of firm investment bank-financed",
+     "next_check": "2026-12-20"
+    },
+    {
+     "slug": "china-rail-freight",
+     "question": "Does the Shandong train arrive on time, does a regular service emerge from Shandong, and do Afghan goods travel back east on these rails rather than only imports coming west?",
+     "next_check": "2026-11-15"
+    },
+    {
+     "slug": "herat-exports-west",
+     "question": "Is the Herat chamber's $124m H1 export figure confirmed by customs or the World Bank, and does the Khaf–Herat railway carry more Afghan exports after the 600 tonnes of cotton to Türkiye?",
+     "next_check": "2026-12-06"
+    },
+    {
+     "slug": "pakistan-detentions",
+     "question": "Do arrests in Pakistan keep easing from the 86,644 recorded to 17 October, and does the share of returns that are formal deportations stay near one in ten?",
+     "next_check": "2026-11-22"
+    },
+    {
+     "slug": "remittances",
+     "question": "Does the next World Bank reading show remittances falling further below 15.7% of GDP, and does any measured figure replace the derived ~$3bn?",
+     "next_check": "2027-01-31"
+    },
+    {
+     "slug": "kunduz-gold",
+     "question": "Who holds the five-year $22m Qala-e-Zal gold contract, what royalty does the state take, and is the $500,000 community fund spent on the roads promised?",
+     "next_check": "2027-01-23"
+    },
+    {
+     "slug": "turkmen-power",
+     "question": "Does the Kerki–Kabul 500kV line's Sheberghan–Dasht Alwan section finish as promised, and does the Dasht Alwan–Arghandi section hold its June 2027 date for up to 800MW?",
+     "next_check": "2027-02-28"
+    },
+    {
+     "slug": "un-aid-funding",
+     "question": "UN appeal funding level, 31.38% of $1.71bn on 24 October, plus whether the $12.8m winter shelter request is met before the lean season bites",
+     "next_check": "2026-11-22"
+    },
+    {
+     "slug": "kazakh-grain",
+     "question": "Does anything move north? Still no Afghan export contract into Central Asia against the $8.2m Kazakhstan bought in seven months; the week's export news went west instead",
+     "next_check": "2026-12-31"
+    }
+   ],
+   "threads_closed": [
+    "pine-nuts"
+   ],
+   "explainer": {
+    "area": "earn-and-spend",
+    "topic": "Wages earned somewhere else: remittances as the country's largest dependable foreign-currency inflow (15.7% of GDP in FY2025, down from 17.8%, roughly $3bn on a $20.3bn economy, about six times what the 2026 appeal has raised), how they travel outside the banking system through a hawala dealer and a code for a 1–3% fee, who receives them (15% of rural households, about a fifth of their spending; the main income for 5% of the population), and why deporting a worker ends the income rather than relocating it — the wage stops, a consumer arrives, and he enters a market paying 300 afs for 2.0 days' work a week, about $37 a month against a 1,700 afs sack of flour"
+   },
+   "url": "https://markfaizi.dev/kabulledger/2026-10-25"
   }
  ],
  "threads": [
+  {
+   "slug": "capital-market",
+   "question": "Does a securities law, a regulator or a listing framework appear, or does the capital market stay a committee? Watch also for whether any bank-lending reform accompanies it, against 0.28% of firm investment bank-financed",
+   "status": "open",
+   "opened": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "next_check": "2026-12-20"
+  },
   {
    "slug": "casa-1000",
    "question": "Is a wheeling-fee payment mechanism with Pakistan ever published, is the 70% v 75% progress gap explained, and does the Afghan section hold its March 2028 date?",
@@ -536,6 +659,14 @@
    "opened": "2026-10-18",
    "last_seen": "2026-10-18",
    "next_check": "2027-01-31"
+  },
+  {
+   "slug": "china-rail-freight",
+   "question": "Does the Shandong train arrive on time, does a regular service emerge from Shandong, and do Afghan goods travel back east on these rails rather than only imports coming west?",
+   "status": "open",
+   "opened": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "next_check": "2026-11-15"
   },
   {
    "slug": "climate-finance",
@@ -553,6 +684,14 @@
    "last_seen": "2026-09-27",
    "next_check": "2026-12-31",
    "closed": "2026-10-11"
+  },
+  {
+   "slug": "herat-exports-west",
+   "question": "Is the Herat chamber's $124m H1 export figure confirmed by customs or the World Bank, and does the Khaf–Herat railway carry more Afghan exports after the 600 tonnes of cotton to Türkiye?",
+   "status": "open",
+   "opened": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "next_check": "2026-12-06"
   },
   {
    "slug": "hunger-figures",
@@ -588,11 +727,19 @@
   },
   {
    "slug": "kazakh-grain",
-   "question": "Does anything move north? Watch for an Afghan export contract into Central Asia of any size against the $8.2m Kazakhstan bought in seven months, and whether the CASA rail study adds Kabul as a party",
+   "question": "Does anything move north? Still no Afghan export contract into Central Asia against the $8.2m Kazakhstan bought in seven months; the week's export news went west instead",
    "status": "open",
    "opened": "2026-10-18",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-25",
    "next_check": "2026-12-31"
+  },
+  {
+   "slug": "kunduz-gold",
+   "question": "Who holds the five-year $22m Qala-e-Zal gold contract, what royalty does the state take, and is the $500,000 community fund spent on the roads promised?",
+   "status": "open",
+   "opened": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "next_check": "2027-01-23"
   },
   {
    "slug": "pakistan-border-closure",
@@ -603,12 +750,29 @@
    "next_check": null
   },
   {
+   "slug": "pakistan-detentions",
+   "question": "Do arrests in Pakistan keep easing from the 86,644 recorded to 17 October, and does the share of returns that are formal deportations stay near one in ten?",
+   "status": "open",
+   "opened": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "next_check": "2026-11-22"
+  },
+  {
    "slug": "pine-nuts",
    "question": "Khost, Paktia and Paktika harvest is larger this year. What are the export volume, value and destinations, and does processing move onshore?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-11",
    "last_seen": "2026-10-18",
-   "next_check": "2026-12-15"
+   "next_check": "2026-12-15",
+   "closed": "2026-10-25"
+  },
+  {
+   "slug": "remittances",
+   "question": "Does the next World Bank reading show remittances falling further below 15.7% of GDP, and does any measured figure replace the derived ~$3bn?",
+   "status": "open",
+   "opened": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "next_check": "2027-01-31"
   },
   {
    "slug": "russia-trade",
@@ -619,12 +783,20 @@
    "next_check": "2027-02-15"
   },
   {
+   "slug": "turkmen-power",
+   "question": "Does the Kerki–Kabul 500kV line's Sheberghan–Dasht Alwan section finish as promised, and does the Dasht Alwan–Arghandi section hold its June 2027 date for up to 800MW?",
+   "status": "open",
+   "opened": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "next_check": "2027-02-28"
+  },
+  {
    "slug": "un-aid-funding",
-   "question": "UN appeal funding level, about 31% of $1.71bn in early October. Check monthly",
+   "question": "UN appeal funding level, 31.38% of $1.71bn on 24 October, plus whether the $12.8m winter shelter request is met before the lean season bites",
    "status": "open",
    "opened": "2026-09-27",
-   "last_seen": "2026-10-18",
-   "next_check": "2026-11-08"
+   "last_seen": "2026-10-25",
+   "next_check": "2026-11-22"
   },
   {
    "slug": "winter-harvest-weather",
