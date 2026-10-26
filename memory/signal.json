@@ -2379,6 +2379,186 @@
     "china-growth"
    ],
    "url": "https://markfaizi.dev/signal/2026-10-22"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "Signal — 26 October",
+   "lede": "Two long-serving leaders lost their jobs this weekend. Five American banks changed the locks.",
+   "lead_theme": "global-economy",
+   "sections": [
+    "Refused at the ballot box",
+    "Refused at the login",
+    "Refused at the price",
+    "And still they build",
+    "The week ahead"
+   ],
+   "items": [
+    {
+     "slug": "brazil-election",
+     "theme": "global-economy",
+     "kind": "new",
+     "headline": "Brazil's voters changed their minds in three weeks",
+     "gist": "Lula won the 25 Oct runoff with 51.78% against Flavio Bolsonaro's 48.22%, 100% counted, a margin of about 4.4m votes, after losing the first round 45-47. Bolsonaro refuses to concede and wants the result annulled, citing Justice Cristiano Zanin's two-hour extension of polling granted three minutes before close (both campaigns had asked for it). Lula is 81; fourth term begins 5 Jan 2027. A Tokyo-listed Brazil ETF fell almost 15% on Monday's Asian open; Goldman's bad case was BRL -10%, long yields +200bp, equities -15%. Chicago soybeans hit a two-month low."
+    },
+    {
+     "slug": "serbia-election",
+     "theme": "global-economy",
+     "kind": "new",
+     "headline": "Serbia's students won, and Vucic read out the numbers himself",
+     "gist": "Vucic conceded on 25 Oct after 14 years in power (SNS governing since 2012), reading a sample count giving the Student List 135-140 of 250 seats against 105 for his own; 126 is a majority. 'It is clear that we have lost these elections.' Turnout 64.9% by 6pm, highest since 1992. Movement grew from the Nov 2024 Novi Sad canopy collapse that killed 16. CRTA logged pressure at almost a third of 500 monitored stations; CeSID about 260 irregularity reports. Von der Leyen congratulated the students."
+    },
+    {
+     "slug": "bank-ai-agents",
+     "theme": "ai-safety-agents",
+     "kind": "new",
+     "headline": "Five American banks changed the locks on AI",
+     "gist": "Axios reported 22 Oct that Morgan Stanley has begun blocking third-party AI agents and that JPMorgan, Bank of America, Citi and Wells Fargo are restricting them; confirmations followed 23 Oct. Core conflict: an agent needs the customer's username and password, which bank terms forbid sharing. Executives tracked agents telephoning call centres and acting unasked, and say they cannot reliably tell agent from human or authorised from rogue. Jamie Dimon told analysts on 13 Oct rogue agents may number in the thousands. Emerging compromise is read-only access via intermediaries such as Plaid. Schwab reportedly exploring Model Context Protocol links."
+    },
+    {
+     "slug": "finland-google-forest",
+     "theme": "ai-infrastructure",
+     "kind": "followup",
+     "headline": "Google's Finnish diggers are parked until the paperwork catches up",
+     "gist": "Finland's Licensing and Supervision Authority ordered Tuike Finland (Google) to suspend environmentally significant preparatory work at BOTH Muhos and Kajaani until environmental impact assessments are complete; reported 23 Oct. Order names trees felled, topsoil stripped, roads and storage yards built, ditches and culverts moved. Guardian estimates 250,000 trees cleared at Muhos. Tommi Muilu, head of the environment department: 'The measures in question will change the environment and cause impacts.' Planning, measurement and soil surveys may continue. Sites belong to a EUR13bn September investment. Over 96,000 Finns have signed a citizens' initiative for tighter data-centre rules including a fee. Google did not comment. Thread closed: the question we asked is answered."
+    },
+    {
+     "slug": "uk-eu-cloud-act",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "Britain is asking Brussels to let its cloud companies bid",
+     "gist": "Bloomberg, 23 Oct: the UK is seeking a carve-out from the EU's draft Cloud and AI Development Act, which sorts public-sector procurement into four sovereignty assurance levels, the strictest closed to foreign-owned or foreign-controlled suppliers. London objects to the EU operational-presence requirement and the ownership-control limits; BT and Nscale would be affected. UK says it breaches the UK-EU trade agreement; the Commission disagrees. France and Germany have floated letting UK firms access certain EU industrial subsidies if Britain aligns on foreign investment screening and subsidised Chinese imports. Jonathan Reynolds: UK might tariff Chinese EVs but on British terms. London-Brussels summit 20 Nov. Separately, on 23 Oct the Council adopted its position on 'EU Inc', a 28th optional corporate regime with two-day online registration at up to EUR100, 21 months to implement."
+    },
+    {
+     "slug": "korea-ai-selloff",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Seoul's chip boom has lost two fifths of its value",
+     "gist": "Kospi closed 5,550.30 on Fri 23 Oct, fell to about 5,455 intraday Monday; more than 40% below its June high, about -19% in October, still roughly +27% year to date. Goldman cut its 12-month target from 12,000 to 9,000 on 26 Oct, a 25% cut that still implies about 62% upside; it blames valuation rather than earnings, notes Korea trades near 4x forward earnings (cheapest major market) and that current memory prices imply a 65% fall in 2027 earnings, which it calls too pessimistic. Ex-memory, about half the index trades at 7.6x. Memory and storage shares have lost $1.3tn from 2026 highs: about $489bn at SK Hynix, $411bn at Micron; 58 of 59 chip stocks in Yahoo Finance's basket fell in October."
+    },
+    {
+     "slug": "sk-hynix-solidigm",
+     "theme": "deals-corporate",
+     "kind": "new",
+     "headline": "SK Hynix shelved a float worth up to $150bn",
+     "gist": "SK Hynix shelved the US listing of Solidigm, its flash-memory unit bought from Intel, on 23 Oct, citing market conditions and share price. WSJ put the planned raise at $10-15bn at a valuation up to $150bn. SK Hynix's own July US listing priced at $149 and raised a record $26.5bn (largest-ever US listing by a foreign company); the stock traded $136.83 on 23 Oct, about a third below September's record. SK Hynix shares rose about 4% on the news. It still wants a US fab for high-capacity SSDs and is still seeking funding. Joins Firmus (cancelled) and AirTrunk (delayed to 2027)."
+    },
+    {
+     "slug": "moderna-melanoma-vaccine",
+     "theme": "science-space",
+     "kind": "new",
+     "headline": "The vaccine worked, and Moderna lost a quarter of its value",
+     "gist": "Phase 3 INTerpath-001: intismeran autogene (individualised mRNA, up to 34 neoantigens) plus Keytruda cut risk of recurrence or death by 42% versus Keytruda alone after a median 24.6 months; distant metastasis-free risk -38%. Full data at ESMO Saturday 24 Oct after a social-media leak forced early release on 22 Oct. Moderna shares fell nearly 25%, Merck about 1%. Analysts had wanted 40-50%; Moderna had said 35% would be clinically meaningful; Phase 2 showed 44%. 7% of vaccine patients discontinued for an adverse event versus 5%. RBC's Trung Huynh: 'While approval seems likely, commercial success is far less certain.' Kidney interim data late 2026 or H1 2027. BioNTech's rival vaccine recently failed in colorectal cancer."
+    },
+    {
+     "slug": "oil-hormuz",
+     "theme": "oil-energy-war",
+     "kind": "followup",
+     "headline": "Oil reached $117 while the president wondered aloud",
+     "gist": "Brent closed Fri 23 Oct at $116.72, +3.1% on the day and +6.2% on the week, from under $97 at the start of October; WTI $103.27, +3.8%. Dow -652.82 (-1.2%), worst day in two months; S&P 500 -0.52% to 7,623.68; Nasdaq -0.21% to 25,955.34; selling spread into staples, utilities and health care. IRGC claimed on 22 Oct it struck four ships on the southern route near Oman with three more hitting mines, uncorroborated. UAE closed Umm Al Quwain beaches after a spill traced to the Gem No. 2, hit 9 Oct. Iranian state TV said non-compliant vessels have stopped transiting. Trump, 25 Oct: claimed the US now controls the Strait of Hormuz and asked 'do I make a deal with them, or do I finish them off?'; said no strike that day; on 23 Oct accused Iran of inventing attacks to raise oil prices before the 3 Nov midterms, and is reported to have told officials strikes wait until after. Brent eased to $115.48 Monday."
+    },
+    {
+     "slug": "sk-hyper-350bn",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "Korea has one gigawatt of data centres. SK wants fifteen.",
+     "gist": "SK Hyper, SK Telecom's data-centre arm, is seeking about $350bn (463 trillion won) for its first 5GW, reported 23 Oct by Bloomberg and the Seoul Economic Daily; full plan is 15GW in Korea by 2035, first capacity operating 2029. CEO Chung Suk-keun says Korea's entire data-centre market is about 1GW today, so phase one is five times the existing industry. Over 2GW planned in Yeongnam starting with Ulsan, plus gigawatt-scale sites in Chungcheong and the south-west. Talking to hyperscalers about siting inference work in Korea; first outside investment targeted late 2026 or early 2027. SK Telecom has committed up to 750bn won by 2030, about 0.16% of phase one. Chung names demand and capital, not power or land, as the binding constraints."
+    },
+    {
+     "slug": "deepseek-funding",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "DeepSeek raised $15bn and wants to list before OpenAI",
+     "gist": "WSJ, 22 Oct: DeepSeek raised $15bn in its second private round, nearly double target, at about $74bn pre-close. Investors include Tencent, CATL, Geely, Legend Capital, Stony Creek Capital, plus existing backers Monolith Management and Shixiang. Citic Securities hired for a Shanghai listing in early 2027, potentially beating OpenAI to public markets; Yan Wentao joined as CFO in September. Still trains hardest models on Nvidia; working with Huawei to shift training to Chinese chips. Liang Wenfeng told investors in September annualised revenue reached $1bn, up from $400-500m in July, almost all developer API; claims 70-80% gross margin on V4 while undercutting US rivals."
+    },
+    {
+     "slug": "mmx-phobos",
+     "theme": "science-space",
+     "kind": "new",
+     "headline": "Japan is going to Phobos for ten grams",
+     "gist": "JAXA's Martian Moons eXploration launched on an H3 (its 10th flight) from Tanegashima pad 2 at 1941 GMT on 19 Oct, 4:41am 20 Oct Japan time. Mars arrival August 2027, about three years in the system, two touchdowns on Phobos, roughly 10g of sample. French-German IDEFIX rover deploys late 2028 or early 2029. Departs Mars November 2030; capsule lands in Australia 2031. First-ever Phobos landing and sample return; Russia's Phobos-Grunt failed in 2011-12. NASA has invested about $87m, supplied the MEGANE spectrometer and a Honeybee pneumatic sampler plus Deep Space Network support, and gets at least 15% of the sample. Open question the samples settle: captured asteroid or giant-impact debris."
+    }
+   ],
+   "visuals": [
+    "lede illustration, inline SVG: a ballot box with a folded paper entering the slot, casting a shadow drawn as three descending oxblood columns",
+    "one horizontal bar split into three proportional segments with 2px gaps, market value lost by memory and storage shares since their 2026 highs, SK Hynix and Micron named and the residual in grey",
+    "three nested area-proportional squares with leader lines, Korean data-centre capacity at 1GW today, 5GW first phase and 15GW plan"
+   ],
+   "watch": [
+    {
+     "text": "The Federal Reserve decides, with markets expecting no change and roughly an 80 per cent chance of a December rise; John Healey delivers his first British budget; Jio Platforms lists in Mumbai against a $108bn valuation; New Zealand and Canada are expected to raise",
+     "due": "2026-10-28"
+    },
+    {
+     "text": "SK Hynix results, then Samsung's on the 29th, the first real test of Goldman's claim that Korean shares at four times earnings are too cheap; Microsoft and Alphabet report the same evening, Amazon the next",
+     "due": "2026-10-29"
+    },
+    {
+     "text": "The Bank of Japan decides, with no analyst in Bloomberg's survey expecting a move and the yen at 157",
+     "due": "2026-10-30"
+    },
+    {
+     "text": "Mistral's deadline to publish open weights for Large 4",
+     "due": "2026-10-31"
+    },
+    {
+     "text": "American midterm elections, after which Trump is reported to have said any strike on Iran would come",
+     "due": "2026-11-03"
+    },
+    {
+     "text": "Brazil's electoral court rules on Flavio Bolsonaro's request to annul the runoff",
+     "due": "2026-11-09"
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "brazil-election",
+     "question": "Does Brazil's electoral court reject Bolsonaro's annulment request, does he eventually concede, and where do the real, Brazilian shares and long-term yields settle against Goldman's bad case?",
+     "next_check": "2026-11-09"
+    },
+    {
+     "slug": "serbia-election",
+     "question": "Does the Student List form a government and who becomes prime minister, does the official count match Vucic's sample, and does the EU open accession chapters in response?",
+     "next_check": "2026-11-12"
+    },
+    {
+     "slug": "bank-ai-agents",
+     "question": "Do the five banks publish a read-only standard for AI agents, does any AI company sign a formal agreement with a bank, and do the OCC, CFPB or Federal Reserve say anything about agent access?",
+     "next_check": "2026-11-19"
+    },
+    {
+     "slug": "korea-ai-selloff",
+     "question": "Do SK Hynix's and Samsung's results stop the Kospi's slide, and does Goldman's view that four times earnings is too pessimistic survive the quarter?",
+     "next_check": "2026-11-02"
+    },
+    {
+     "slug": "sk-hyper-350bn",
+     "question": "Does SK Hyper land its first outside investor by early 2027, which hyperscaler commits to Korean inference capacity, and does the 5GW phase-one cost estimate hold?",
+     "next_check": "2026-12-15"
+    },
+    {
+     "slug": "uk-eu-cloud-act",
+     "question": "Does the 20 November London summit win British cloud firms a carve-out from the Cloud and AI Development Act, and does Britain agree to match EU rules on Chinese imports as the price?",
+     "next_check": "2026-11-23"
+    },
+    {
+     "slug": "moderna-melanoma-vaccine",
+     "question": "Do Moderna and Merck file intismeran for approval, what do the kidney-cancer interim results show, and does Moderna's share price recover from the 25 per cent fall?",
+     "next_check": "2026-12-21"
+    }
+   ],
+   "threads_closed": [
+    "finland-google-forest",
+    "ai-rules-us-china-nyc",
+    "emudhra-ca-keys",
+    "google-cloud-london-outage",
+    "tsmc-kaohsiung-deaths",
+    "japan-globalfoundries-ny",
+    "deepseek-federal-ban",
+    "indonesia-msci",
+    "korea-publishers-ai",
+    "nscale-microsoft-power"
+   ],
+   "url": "https://markfaizi.dev/signal/2026-10-26"
   }
  ],
  "threads": [
@@ -2398,7 +2578,7 @@
    "opened": "2026-10-01",
    "last_seen": "2026-10-19",
    "next_check": "2026-10-29",
-   "closed": "2026-10-22"
+   "closed": "2026-10-26"
   },
   {
    "slug": "anthropic-finances",
@@ -2445,6 +2625,14 @@
    "closed": "2026-10-19"
   },
   {
+   "slug": "bank-ai-agents",
+   "question": "Do the five banks publish a read-only standard for AI agents, does any AI company sign a formal agreement with a bank, and do the OCC, CFPB or Federal Reserve say anything about agent access?",
+   "status": "open",
+   "opened": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "next_check": "2026-11-19"
+  },
+  {
    "slug": "barclays-private-credit",
    "question": "Does the PRA open a formal enforcement case against Barclays, does the bank disclose any capital impact, and does scrutiny widen to other banks' private credit swaps?",
    "status": "closed",
@@ -2461,6 +2649,14 @@
    "last_seen": "2026-10-15",
    "next_check": null,
    "closed": "2026-10-19"
+  },
+  {
+   "slug": "brazil-election",
+   "question": "Does Brazil's electoral court reject Bolsonaro's annulment request, does he eventually concede, and where do the real, Brazilian shares and long-term yields settle against Goldman's bad case?",
+   "status": "open",
+   "opened": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "next_check": "2026-11-09"
   },
   {
    "slug": "china-ai-export-controls",
@@ -2517,10 +2713,11 @@
   {
    "slug": "deepseek-federal-ban",
    "question": "How do agencies actually audit third-party products built on DeepSeek models, how many exceptions does DHS grant, and is the order extended to other Chinese open-weight models?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-22",
    "last_seen": "2026-10-22",
-   "next_check": "2026-11-19"
+   "next_check": "2026-11-19",
+   "closed": "2026-10-26"
   },
   {
    "slug": "denmark-cpr-breach",
@@ -2534,10 +2731,11 @@
   {
    "slug": "emudhra-ca-keys",
    "question": "Does any forged certificate from the eight weak keys turn up in the wild, do browser root programmes make the distrust of eMudhra's ECC root permanent, and does any auditor explain how two independent cycles passed weak keys that were published to root stores?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-22",
    "last_seen": "2026-10-22",
-   "next_check": "2026-11-05"
+   "next_check": "2026-11-05",
+   "closed": "2026-10-26"
   },
   {
    "slug": "fed-rates",
@@ -2550,10 +2748,11 @@
   {
    "slug": "finland-google-forest",
    "question": "Does Google's groundwork at Muhos and Kajaani actually stop on 23 October, does the regulator accept Tuike Finland's explanation, and do the police open a pre-trial investigation?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-08",
-   "last_seen": "2026-10-22",
-   "next_check": "2026-10-27"
+   "last_seen": "2026-10-26",
+   "next_check": "2026-10-27",
+   "closed": "2026-10-26"
   },
   {
    "slug": "firmus-ipo",
@@ -2567,10 +2766,11 @@
   {
    "slug": "google-cloud-london-outage",
    "question": "Does Google publish its promised analysis of the europe-west2-b power event, and do UK or Irish regulators ask banks about depending on a single cloud zone?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-22",
    "last_seen": "2026-10-22",
-   "next_check": "2026-11-05"
+   "next_check": "2026-11-05",
+   "closed": "2026-10-26"
   },
   {
    "slug": "google-gemini4-cyber",
@@ -2602,18 +2802,20 @@
   {
    "slug": "indonesia-msci",
    "question": "Does Bank Indonesia's deposit-rate and reserve-requirement package hold the rupiah below 18,000, do foreign outflows slow from a record Rp88.19tn, and does MSCI's interim feedback point towards reclassification in June 2027?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-19",
    "last_seen": "2026-10-22",
-   "next_check": "2026-11-23"
+   "next_check": "2026-11-23",
+   "closed": "2026-10-26"
   },
   {
    "slug": "japan-globalfoundries-ny",
    "question": "On what terms does Japan get its $21bn back, what stake does Washington take in GlobalFoundries, and which Japanese entity provides the money?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-15",
    "last_seen": "2026-10-22",
-   "next_check": "2026-11-16"
+   "next_check": "2026-11-16",
+   "closed": "2026-10-26"
   },
   {
    "slug": "japan-jgb-takaichi",
@@ -2642,12 +2844,21 @@
    "closed": "2026-10-19"
   },
   {
+   "slug": "korea-ai-selloff",
+   "question": "Do SK Hynix's and Samsung's results stop the Kospi's slide, and does Goldman's view that four times earnings is too pessimistic survive the quarter?",
+   "status": "open",
+   "opened": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "next_check": "2026-11-02"
+  },
+  {
    "slug": "korea-publishers-ai",
    "question": "Does any AI company agree to pay Korean rights holders, and does the Korean government or National Assembly legislate on training data?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-19",
    "last_seen": "2026-10-22",
-   "next_check": "2026-11-30"
+   "next_check": "2026-11-30",
+   "closed": "2026-10-26"
   },
   {
    "slug": "meta-new-mexico-judgment",
@@ -2675,19 +2886,28 @@
    "next_check": "2026-11-02"
   },
   {
+   "slug": "moderna-melanoma-vaccine",
+   "question": "Do Moderna and Merck file intismeran for approval, what do the kidney-cancer interim results show, and does Moderna's share price recover from the 25 per cent fall?",
+   "status": "open",
+   "opened": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "next_check": "2026-12-21"
+  },
+  {
    "slug": "nscale-microsoft-power",
    "question": "Does Nscale's New York listing go ahead after losing Microsoft at Loughton, does it find alternative power for the Essex site, and does Microsoft ever comment on the record?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-19",
    "last_seen": "2026-10-22",
-   "next_check": "2026-11-16"
+   "next_check": "2026-11-16",
+   "closed": "2026-10-26"
   },
   {
    "slug": "oil-hormuz",
    "question": "Does Iran keep attacking tankers, does Washington take up the reopening offer, and do Gulf flows recover after the Houthi drone strike at Shaybah and the reported halt on the East-West pipeline?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-26",
    "next_check": "2026-10-29"
   },
   {
@@ -2744,6 +2964,22 @@
    "closed": "2026-10-19"
   },
   {
+   "slug": "serbia-election",
+   "question": "Does the Student List form a government and who becomes prime minister, does the official count match Vucic's sample, and does the EU open accession chapters in response?",
+   "status": "open",
+   "opened": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "next_check": "2026-11-12"
+  },
+  {
+   "slug": "sk-hyper-350bn",
+   "question": "Does SK Hyper land its first outside investor by early 2027, which hyperscaler commits to Korean inference capacity, and does the 5GW phase-one cost estimate hold?",
+   "status": "open",
+   "opened": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "next_check": "2026-12-15"
+  },
+  {
    "slug": "spacex-chip-financing",
    "question": "Does the $40bn Apollo-led package price, and at what spread for investment-grade paper funding chips?",
    "status": "closed",
@@ -2780,10 +3016,11 @@
   {
    "slug": "tsmc-kaohsiung-deaths",
    "question": "Does the investigation confirm the bolt failure, when does steel-structure work resume at Kaohsiung and the other Taiwanese sites, is Shang Hao Machinery or TSMC penalised, and does Fab 22's 2nm schedule slip?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-22",
    "last_seen": "2026-10-22",
-   "next_check": "2026-11-09"
+   "next_check": "2026-11-09",
+   "closed": "2026-10-26"
   },
   {
    "slug": "uk-ai-committee-hearing",
@@ -2793,6 +3030,14 @@
    "last_seen": "2026-10-15",
    "next_check": null,
    "closed": "2026-10-19"
+  },
+  {
+   "slug": "uk-eu-cloud-act",
+   "question": "Does the 20 November London summit win British cloud firms a carve-out from the Cloud and AI Development Act, and does Britain agree to match EU rules on Chinese imports as the price?",
+   "status": "open",
+   "opened": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "next_check": "2026-11-23"
   },
   {
    "slug": "uk-inflation",
