@@ -2559,6 +2559,205 @@
     "nscale-microsoft-power"
    ],
    "url": "https://markfaizi.dev/signal/2026-10-26"
+  },
+  {
+   "date": "2026-10-29",
+   "title": "Signal — 29 October",
+   "lede": "Canada raised interest rates on Wednesday for the first time in more than three years. The reason sits in a strait that has now been shut for 241 days.",
+   "lead_theme": "rates-bonds",
+   "sections": [
+    "Priced in oil",
+    "Profit, and no cash",
+    "Eighty cents in the dollar",
+    "Nothing to do with the money",
+    "What to watch"
+   ],
+   "items": [
+    {
+     "slug": "oil-hormuz",
+     "theme": "oil-energy-war",
+     "kind": "followup",
+     "headline": "Four tankers a day, where there used to be eighty-five",
+     "gist": "Day 241 of closure. Iran said 28 Oct the strait could reopen in 4-5 days if the US lifts its naval blockade of Iranian ports; Tehran talks on 26 Oct ended with no ceasefire and no joint statement. IMF PortWatch counted 4 tanker transits on 18 Oct against an 85 pre-war baseline. War-risk insurance 6-10% of hull value per transit, against 0.15-0.25% before the war. IMO said 27 Oct the route holds mines and it cannot guarantee safe transit. Brent settled $115.32 on 28 Oct, +1.3%, about 60% above pre-war. Betting markets price normal traffic by 31 Dec at about 12%. Washington has said no strike before the 3 Nov midterms."
+    },
+    {
+     "slug": "boc-rate-hike",
+     "theme": "rates-bonds",
+     "kind": "new",
+     "headline": "Canada raised rates to stop petrol becoming everything else",
+     "gist": "Bank of Canada raised the overnight rate 25bp to 2.50% on 28 Oct, first increase since July 2023; Bank Rate 2.75%, deposit 2.45%. CPI near 3% since April, expected about 3.5% by year-end, driven by persistently high oil. Excluding gasoline, September inflation was 2.2% and core near 2%. Council considered holding, then judged pass-through risk had risen. Statement: 'there could be a need to increase the policy rate further'; Macklem: decisions 'one meeting at a time'. Inflation forecast to average 3% in 2027, back to 2% around mid-2028. Q2 growth 3.3%, Q3 about 2%."
+    },
+    {
+     "slug": "fed-rates",
+     "theme": "rates-bonds",
+     "kind": "followup",
+     "headline": "Two votes at the Fed were for a rise, and they lost",
+     "gist": "FOMC held the target range at 3.75-4.00% on 28 Oct, vote 10-2. Lisa Cook and Beth Hammack both dissented in favour of a 25bp RISE - two hawkish dissents in one meeting. Statement: activity expanding at a strong pace, job gains keeping pace with the workforce, 'inflation remains elevated', 'The Committee will deliver price stability.' Chair Kevin Warsh said the 'monetary medicine' was 'starting to work some, but there's no firm conclusions', and that he 'didn't hear an utterance about politics'. Futures price about 85% odds of a 25bp rise on 9 December, up from about 80% a week earlier. 10-year closed near 5.04%; H.15 for 26 Oct put the 10-year at 5.00%, 30-year 5.31%, effective funds rate 3.88%. S&P 500 closed +0.28% at 7,743.98, a third straight gain."
+    },
+    {
+     "slug": "uk-budget-2026",
+     "theme": "global-economy",
+     "kind": "new",
+     "headline": "Britain taxed its banks to pay for the heating",
+     "gist": "John Healey's first Budget, 28 Oct. Bank surcharge doubled from 3% to 6% for 15 months from January, raising about GBP1.2bn. GBP100 Household Energy Payment to about 20m households in council tax bands A-D, costing GBP2.6bn; electricity VAT cut extended to July (about GBP50 off the cap); gas standing charges scrapped next year for about 23m homes, average saving about GBP45; 5p fuel duty cut extended to July 2027. Small business rates relief threshold up from GBP12,000 to GBP18,000. GBP10bn more support for Ukraine. Measures add GBP12.4bn to borrowing over three years. OBR: CPI 3.5% next year against 2% previously; growth 1.25% this year to 1% next; debt interest GBP109bn this year (3.5% of GDP) against GBP39bn in 2019-20, rising to GBP160bn by 2031-32, with about GBP14bn of this year's rise attributed to the Middle East; GBP15bn headroom in 2029-30, GBP24bn against the PSNFL target. Gilt yields eased; NatWest and Lloyds +1.5%, Barclays +1.1%."
+    },
+    {
+     "slug": "france-oat-spread",
+     "theme": "rates-bonds",
+     "kind": "new",
+     "headline": "France borrows at 4.94 per cent. Germany pays 3.37.",
+     "gist": "French 10-year OAT 4.94% on 28 Oct against a 3.37% Bund; spread 156.6bp, down from a 174.6bp peak on 22 Oct, against a one-year average of 79.8bp and a 2011 record of 225.1bp. Cause is domestic: no budget majority, debt path, and suggestions from parts of the left that ECB-held French debt could be written off. ECB met 29 Oct, expected to hold the deposit rate at 2.5% after two rises since June; money markets price about three more, to 3.25%. Intervention unlikely for now; the Transmission Protection Instrument remains unused. Reuters reported the World Economic Forum could name Lagarde its next chair as early as November, a year before her term ends; Klaas Knot and Pablo Hernandez de Cos named as frontrunners."
+    },
+    {
+     "slug": "alphabet-cash-flow",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Google made twenty-six billion dollars and still ran short",
+     "gist": "Alphabet Q3 2026 (reported 28 Oct): revenue $127,577m, +25%; Google Cloud $30,709m, +103% from $15,157m; operating income $40,576m (32% margin); net income $26,468m; diluted EPS $2.12 against $2.87, cut 55c by an $8.7bn equity-securities loss; capex $51,355m against about $24bn a year earlier; operating cash flow $42,290m; FREE CASH FLOW NEGATIVE $9,065m, worse than -$5.9bn in Q2; TTM FCF $19,747m. Shares fell as much as 10% after hours. Microsoft FY27 Q1 same evening: revenue $92,279m +19%, operating income $45,915m, net income $36,629m +32%, diluted EPS $4.92, Microsoft Cloud $63.9bn +30%, Azure +48% (revenue $33,165m), commercial RPO $677bn +73%, additions to property and equipment $39,367m against $19,394m; stayed cash-positive; shares +2.6% after hours."
+    },
+    {
+     "slug": "oracle-funding-cap",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Oracle promised to stop borrowing, and the shares jumped",
+     "gist": "Oracle Investor Day, 28 Oct: new capital-market funding for the FY27-FY30 cycle capped at $20bn, split $10bn equity and $10bn gross debt, excluding refinancing and on top of a $20bn ATM equity raise completed in Q1 FY27. Targets: FY30 revenue $225bn+ (over 35% CAGR from FY26), non-GAAP operating margin 40%+, non-GAAP EPS $21+; FY27 guidance reaffirmed at $90bn+ revenue and $8.10 EPS. Free cash flow positive in H2 FY28, at least $30bn in FY29, self-funded growth from FY29, net debt below 3.5x adjusted EBITDA in FY29; capex peaks FY27-FY28 then steps down; vendor financing, customer hardware and prepayments to reduce upfront cash. Shares +11%. Vertiv +17% the same day on AI-infrastructure forecasts. Context: Oracle five-year CDS hit a record 288bp on 15 Oct."
+    },
+    {
+     "slug": "eqt-range-gas",
+     "theme": "deals-corporate",
+     "kind": "new",
+     "headline": "America's largest gas producer was assembled for the data centres",
+     "gist": "EQT agreed 26 Oct to buy Range Resources all-stock, 0.987 EQT shares per Range share, valuing Range equity at about $12.83bn ($54.91/share), a premium of nearly 21%; Range holders take 27%; closing expected Q1 2027; two Range directors join the board. Combined: over 9 Bcf/d including NGLs (largest US producer), 2.8m net acres, 30+ years of inventory, 3,700 miles of pipeline, about $50bn enterprise value; $300m long-term and $325m near-term synergies. CEO Toby Rice called it 'America's natural gas champion' and said it could scale to 17 and eventually 20 Bcf/d. Demand case: gas-fired power for AI data centres plus Gulf Coast LNG exports into a Europe and Asia short of gas because of the Iran war. Infralogic's Patrick Harris flagged three risks: a Russia-Ukraine peace deal, normalised Middle East LNG flows, slower AI adoption. Range +11%, EQT -8%."
+    },
+    {
+     "slug": "korea-ai-selloff",
+     "theme": "ai-money",
+     "kind": "followup",
+     "headline": "The memory makers are keeping four fifths of what they charge",
+     "gist": "SK hynix Q3 2026 (27 Oct): revenue KRW104,615.5bn, first quarter above 100tn, +32% q/q and +328% y/y; operating profit KRW83,333.8bn, +632% y/y; operating margin 80% against 47% a year earlier; net profit KRW39,775.6bn. FY2026 shareholder returns about KRW100tn: at least 30tn dividends, at least 60tn buybacks/cancellations; Q3 dividend KRW20,000/share (half a special dividend from Kioxia gains); a further KRW20tn repurchase approved; cash KRW114.5tn, net cash KRW98.7tn. CEO Kwak Noh-Jung confirmed the Solidigm IPO review is discontinued, closing the listing shelved on 26 Oct at up to $150bn. Samsung Q3 (29 Oct): revenue KRW195,253bn +126.9%, operating profit KRW107,440bn +783.1%, margin 55.0% against 14.1%; nine-month operating profit KRW254.17tn; DRAM ASPs +about 20% q/q, NAND up high teens, bit shipments up only single digits; HBM4 sales up; dividend KRW4,601/share, about KRW30tn, matching expectations, with the rest of the 90-110tn 2026 return plan left to a late-January board meeting. Market: Kospi hit a record 6,100.11 intraday on 29 Oct then fell to about 5,920, -1.5%; Samsung -5.0% to KRW230,000 after +9.01% the day before; SK hynix +2.5% to KRW1,524,000; won 1,332/USD. Korea's finance ministry and the Bank of Korea said they were watching volatility."
+    },
+    {
+     "slug": "cxmt-hbm-yields",
+     "theme": "ai-infrastructure",
+     "kind": "new",
+     "headline": "China is making the chip anyway, and discarding most of it",
+     "gist": "Reuters reported 28 Oct, citing people familiar, that only about 20-30% of ChangXin Memory's (CXMT) high-bandwidth memory chips meet specification. CXMT, China's largest DRAM maker, plans limited HBM3E production within two months and has sent samples to several Chinese AI chip designers. Its parts reportedly perform closer to SK hynix's older HBM3 than to HBM3E; SK hynix's comparable yield is around 70%. Drivers: US export controls on memory and equipment, and Beijing's push for domestic alternatives to Nvidia. Context: Stargate-scale projects need hundreds of thousands more DRAM wafers a month, about 40% of global output (Tom's Hardware); SK hynix, Samsung, Kioxia and CXMT are together worth over $2tn and supply about a third of big tech's data-centre spend (Bloomberg)."
+    },
+    {
+     "slug": "gmo-ransomware",
+     "theme": "security-breaches",
+     "kind": "new",
+     "headline": "A Japanese internet company told its customers to unplug",
+     "gist": "GMO Internet told customers to disconnect PCs from the network, shut them down and unplug cables. Timeline: malicious programs confirmed in some customer server environments 20 Oct; all Onamae Desktop Cloud plans shut from 4am 21 Oct, 26,739 servers identified as potentially affected; ransom email the same day demanding about JPY8bn (roughly $50m); police consulted 22 Oct and GMO refused to pay, saying payment would guarantee neither deletion nor non-use; compensation and alternative service offered 24 Oct; customer devices collected 25-26 Oct. Attackers threatened to publish data and launch ransomware at noon JST 27 Oct; alleged company and customer data appeared at 12:30pm; at 1:55pm GMO said no ransomware attack was confirmed and the material was still being verified. Onamae Desktop Cloud rents virtual desktops to financial traders; customers told to reset passwords after reports of unauthorised operations on trading accounts. Japan's FSA called for better 'vulnerability management, defense-in-depth and incident preparedness'. Attacker group not named; GMO's own unit separately reported the Artex AI pentesting tool used against Japanese firms, not publicly linked to this breach."
+    },
+    {
+     "slug": "genie-4",
+     "theme": "ai-products-research",
+     "kind": "new",
+     "headline": "DeepMind's new model builds a world that answers back",
+     "gist": "Google DeepMind released Genie 4 on 27 Oct as a research preview to trusted testers. Real-time interactive world simulation steered in natural language: move the camera, change the weather, add characters and objects; characters hold real-time dialogue; each world generates its own ambient sound and music. Scenes stay consistent up to two minutes, double Genie 3's limit (Genie 3 shipped a little over a year earlier). Gemini plans steps and checks frames while Genie generates visuals; Gemini Omni grounds appearance and behaviour. Rolling out to Google AI Ultra subscribers via Project Genie and to Gemini API and AI Studio early-access partners in coming weeks. Acknowledged limits: object drift over longer runs, no solution for audio accuracy or legible in-world text, product experience unclear. Quotes: Tejas Kulkarni on 'hybrid world models, where you have a combination of Gemini writing code and text'; engineer Diego Rivas on flow in creative ideation. DeepMind frames world simulation as a step toward AGI, naming safe training environments for robots and agents."
+    }
+   ],
+   "visuals": [
+    "lede illustration, inline SVG: a fuel pump nozzle whose hose rises to the right as a stepped staircase of rate increases, the top step marked +0.25",
+    "isotype pictogram, 85 small tanker hulls in a 17-wide grid, the first four in oxblood, daily Hormuz tanker transits against the pre-war baseline",
+    "bullet-style single horizontal bar, Alphabet capital spending overshooting a vertical rule set at the cash its operations produced, the overshoot segment in oxblood labelled minus $9.1bn",
+    "ranked horizontal bars with direct value labels, latest-quarter operating margin for SK hynix, Samsung, Microsoft and Alphabet, oxblood for Korean memory and teal for American software"
+   ],
+   "watch": [
+    {
+     "text": "The European Central Bank decides, expected to hold at 2.5 per cent, and Lagarde is asked whether she is leaving early; Amazon reports after the American close, the third big spender to show its cash flow this week",
+     "due": "2026-10-29"
+    },
+    {
+     "text": "The Bank of Japan decides, with no analyst in Bloomberg's survey expecting a move and the yen at 157",
+     "due": "2026-10-30"
+    },
+    {
+     "text": "Mistral's own deadline to publish open weights for Large 4, and the licence it chooses",
+     "due": "2026-10-31"
+    },
+    {
+     "text": "American midterm elections, after which Washington is reported to have told officials any strike on Iran would come",
+     "due": "2026-11-03"
+    },
+    {
+     "text": "The Bank of England decides, with the OBR now forecasting 3.5 per cent inflation next year",
+     "due": "2026-11-05"
+    },
+    {
+     "text": "The Federal Reserve decides again, with futures pricing about an 85 per cent chance of a rise",
+     "due": "2026-12-09"
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "fed-rates",
+     "question": "Does the Fed raise on 9 December as futures price at about 85 per cent, do Cook and Hammack dissent again, and does the 10-year hold above 5 per cent?",
+     "next_check": "2026-12-09"
+    },
+    {
+     "slug": "oil-hormuz",
+     "question": "Does Iran's four-to-five-day reopening offer survive the 3 November midterms, does Washington lift the naval blockade, and do tanker transits rise above four a day?",
+     "next_check": "2026-11-05"
+    },
+    {
+     "slug": "mistral-large-4",
+     "question": "Do Mistral Large 4's open weights ship by 31 October as promised, and under what licence?",
+     "next_check": "2026-11-02"
+    },
+    {
+     "slug": "uk-inflation",
+     "question": "Does the Bank of England raise on 5 November after the OBR put next year's CPI at 3.5 per cent, and does the October CPI on 18 November still show fuel driving the headline?",
+     "next_check": "2026-11-06"
+    },
+    {
+     "slug": "uk-budget-2026",
+     "question": "Does the 15-month bank surcharge survive scrutiny, does the GBP15bn of headroom hold through the spring, and do the GBP100 energy payments reach 20 million households this winter?",
+     "next_check": "2026-11-20"
+    },
+    {
+     "slug": "alphabet-cash-flow",
+     "question": "Do Amazon and Meta also report negative free cash flow this quarter, does Alphabet name a 2027 capital spending number, and does its free cash flow turn positive?",
+     "next_check": "2026-11-02"
+    },
+    {
+     "slug": "oracle-funding-cap",
+     "question": "Does Oracle stick to its $20bn funding cap, and do its five-year credit default swaps narrow from the record 288 basis points?",
+     "next_check": "2026-11-16"
+    },
+    {
+     "slug": "boc-rate-hike",
+     "question": "Does the Bank of Canada raise again in December, and does Canadian inflation peak near 3.5 per cent as forecast?",
+     "next_check": "2026-12-10"
+    },
+    {
+     "slug": "france-oat-spread",
+     "question": "Does the French spread over Germany widen past 174.6 basis points, does the ECB touch its Transmission Protection Instrument, and does Lagarde leave for the World Economic Forum?",
+     "next_check": "2026-11-13"
+    },
+    {
+     "slug": "cxmt-hbm-yields",
+     "question": "Does CXMT begin HBM3E production within two months, at what yield, and do any Chinese AI chip designers commit to buying it?",
+     "next_check": "2026-12-28"
+    },
+    {
+     "slug": "gmo-ransomware",
+     "question": "Was the data published on 27 October genuine, did the threatened ransomware ever fire on customer machines, and how many of the 26,739 servers were compromised?",
+     "next_check": "2026-11-05"
+    }
+   ],
+   "threads_closed": [
+    "korea-ai-selloff",
+    "jio-ipo",
+    "datacentre-ipos",
+    "serbia-election",
+    "brazil-election",
+    "uk-eu-cloud-act",
+    "bank-ai-agents",
+    "moderna-melanoma-vaccine"
+   ],
+   "url": "https://markfaizi.dev/signal/2026-10-29"
   }
  ],
  "threads": [
@@ -2579,6 +2778,14 @@
    "last_seen": "2026-10-19",
    "next_check": "2026-10-29",
    "closed": "2026-10-26"
+  },
+  {
+   "slug": "alphabet-cash-flow",
+   "question": "Do Amazon and Meta also report negative free cash flow this quarter, does Alphabet name a 2027 capital spending number, and does its free cash flow turn positive?",
+   "status": "open",
+   "opened": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "next_check": "2026-11-02"
   },
   {
    "slug": "anthropic-finances",
@@ -2627,10 +2834,11 @@
   {
    "slug": "bank-ai-agents",
    "question": "Do the five banks publish a read-only standard for AI agents, does any AI company sign a formal agreement with a bank, and do the OCC, CFPB or Federal Reserve say anything about agent access?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-26",
    "last_seen": "2026-10-26",
-   "next_check": "2026-11-19"
+   "next_check": "2026-11-19",
+   "closed": "2026-10-29"
   },
   {
    "slug": "barclays-private-credit",
@@ -2640,6 +2848,14 @@
    "last_seen": "2026-10-19",
    "next_check": "2026-11-09",
    "closed": "2026-10-22"
+  },
+  {
+   "slug": "boc-rate-hike",
+   "question": "Does the Bank of Canada raise again in December, and does Canadian inflation peak near 3.5 per cent as forecast?",
+   "status": "open",
+   "opened": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "next_check": "2026-12-10"
   },
   {
    "slug": "bofa-aml-fine",
@@ -2653,10 +2869,11 @@
   {
    "slug": "brazil-election",
    "question": "Does Brazil's electoral court reject Bolsonaro's annulment request, does he eventually concede, and where do the real, Brazilian shares and long-term yields settle against Goldman's bad case?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-26",
    "last_seen": "2026-10-26",
-   "next_check": "2026-11-09"
+   "next_check": "2026-11-09",
+   "closed": "2026-10-29"
   },
   {
    "slug": "china-ai-export-controls",
@@ -2694,6 +2911,14 @@
    "closed": "2026-10-19"
   },
   {
+   "slug": "cxmt-hbm-yields",
+   "question": "Does CXMT begin HBM3E production within two months, at what yield, and do any Chinese AI chip designers commit to buying it?",
+   "status": "open",
+   "opened": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "next_check": "2026-12-28"
+  },
+  {
    "slug": "datacentre-grid-costs-senate",
    "question": "Does the Capito-Lee-Whitehouse-Heinrich permitting bill with its 20MW cost-allocation clause reach a vote?",
    "status": "closed",
@@ -2705,10 +2930,11 @@
   {
    "slug": "datacentre-ipos",
    "question": "After Firmus pulled its float and Elice fell by about a third on debut, can any data-centre operator raise equity, does Nscale's New York listing go ahead, and does Elice recover its issue price?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-22",
    "last_seen": "2026-10-22",
-   "next_check": "2026-11-09"
+   "next_check": "2026-11-09",
+   "closed": "2026-10-29"
   },
   {
    "slug": "deepseek-federal-ban",
@@ -2739,11 +2965,11 @@
   },
   {
    "slug": "fed-rates",
-   "question": "The Fed's 27-28 October decision and whether December is as certain as all 100 economists in the Reuters poll now say",
+   "question": "Does the Fed raise on 9 December as futures price at about 85 per cent, do Cook and Hammack dissent again, and does the 10-year hold above 5 per cent?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-22",
-   "next_check": "2026-10-29"
+   "last_seen": "2026-10-29",
+   "next_check": "2026-12-09"
   },
   {
    "slug": "finland-google-forest",
@@ -2762,6 +2988,22 @@
    "last_seen": "2026-10-19",
    "next_check": "2026-10-23",
    "closed": "2026-10-19"
+  },
+  {
+   "slug": "france-oat-spread",
+   "question": "Does the French spread over Germany widen past 174.6 basis points, does the ECB touch its Transmission Protection Instrument, and does Lagarde leave for the World Economic Forum?",
+   "status": "open",
+   "opened": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "next_check": "2026-11-13"
+  },
+  {
+   "slug": "gmo-ransomware",
+   "question": "Was the data published on 27 October genuine, did the threatened ransomware ever fire on customer machines, and how many of the 26,739 servers were compromised?",
+   "status": "open",
+   "opened": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "next_check": "2026-11-05"
   },
   {
    "slug": "google-cloud-london-outage",
@@ -2829,10 +3071,11 @@
   {
    "slug": "jio-ipo",
    "question": "How does Jio Platforms trade from 28 October against a $108bn valuation and 33 times earnings, after a book covered 3.47 times?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-22",
    "last_seen": "2026-10-22",
-   "next_check": "2026-11-05"
+   "next_check": "2026-11-05",
+   "closed": "2026-10-29"
   },
   {
    "slug": "kalshi-press-secretary-trades",
@@ -2846,10 +3089,11 @@
   {
    "slug": "korea-ai-selloff",
    "question": "Do SK Hynix's and Samsung's results stop the Kospi's slide, and does Goldman's view that four times earnings is too pessimistic survive the quarter?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "next_check": "2026-11-02"
+   "last_seen": "2026-10-29",
+   "next_check": "2026-11-02",
+   "closed": "2026-10-29"
   },
   {
    "slug": "korea-publishers-ai",
@@ -2882,16 +3126,17 @@
    "question": "Do Mistral Large 4's open weights ship by 31 October as promised, and under what licence?",
    "status": "open",
    "opened": "2026-10-08",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-29",
    "next_check": "2026-11-02"
   },
   {
    "slug": "moderna-melanoma-vaccine",
    "question": "Do Moderna and Merck file intismeran for approval, what do the kidney-cancer interim results show, and does Moderna's share price recover from the 25 per cent fall?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-26",
    "last_seen": "2026-10-26",
-   "next_check": "2026-12-21"
+   "next_check": "2026-12-21",
+   "closed": "2026-10-29"
   },
   {
    "slug": "nscale-microsoft-power",
@@ -2904,11 +3149,11 @@
   },
   {
    "slug": "oil-hormuz",
-   "question": "Does Iran keep attacking tankers, does Washington take up the reopening offer, and do Gulf flows recover after the Houthi drone strike at Shaybah and the reported halt on the East-West pipeline?",
+   "question": "Does Iran's four-to-five-day reopening offer survive the 3 November midterms, does Washington lift the naval blockade, and do tanker transits rise above four a day?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-26",
-   "next_check": "2026-10-29"
+   "last_seen": "2026-10-29",
+   "next_check": "2026-11-05"
   },
   {
    "slug": "openai-bugging-arrest",
@@ -2947,6 +3192,14 @@
    "closed": "2026-10-19"
   },
   {
+   "slug": "oracle-funding-cap",
+   "question": "Does Oracle stick to its $20bn funding cap, and do its five-year credit default swaps narrow from the record 288 basis points?",
+   "status": "open",
+   "opened": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "next_check": "2026-11-16"
+  },
+  {
    "slug": "oracle-stargate-jupiter",
    "question": "Does the New Mexico air-quality permit for the Bloom fuel cells clear by the 23 November state deadline, and does the gas pipeline slip again?",
    "status": "open",
@@ -2966,10 +3219,11 @@
   {
    "slug": "serbia-election",
    "question": "Does the Student List form a government and who becomes prime minister, does the official count match Vucic's sample, and does the EU open accession chapters in response?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-26",
    "last_seen": "2026-10-26",
-   "next_check": "2026-11-12"
+   "next_check": "2026-11-12",
+   "closed": "2026-10-29"
   },
   {
    "slug": "sk-hyper-350bn",
@@ -3032,19 +3286,28 @@
    "closed": "2026-10-19"
   },
   {
+   "slug": "uk-budget-2026",
+   "question": "Does the 15-month bank surcharge survive scrutiny, does the GBP15bn of headroom hold through the spring, and do the GBP100 energy payments reach 20 million households this winter?",
+   "status": "open",
+   "opened": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "next_check": "2026-11-20"
+  },
+  {
    "slug": "uk-eu-cloud-act",
    "question": "Does the 20 November London summit win British cloud firms a carve-out from the Cloud and AI Development Act, and does Britain agree to match EU rules on Chinese imports as the price?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-26",
    "last_seen": "2026-10-26",
-   "next_check": "2026-11-23"
+   "next_check": "2026-11-23",
+   "closed": "2026-10-29"
   },
   {
    "slug": "uk-inflation",
-   "question": "Does the Bank of England raise on 5 November, and does the October CPI on 18 November still show fuel driving the headline?",
+   "question": "Does the Bank of England raise on 5 November after the OBR put next year's CPI at 3.5 per cent, and does the October CPI on 18 November still show fuel driving the headline?",
    "status": "open",
    "opened": "2026-10-22",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-29",
    "next_check": "2026-11-06"
   },
   {
