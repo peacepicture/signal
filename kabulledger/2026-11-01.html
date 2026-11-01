@@ -1,0 +1,889 @@
+<!doctype html><html><head>
+<!-- site-head:start · written by build.py, edits inside are overwritten -->
+<title>Kabul Ledger — 1 November</title>
+<meta name="description" content="Poppy pays in cash, at the farm gate, on the day. Very little else in Afghanistan settles that easily.">
+<link rel="canonical" href="https://markfaizi.dev/kabulledger/2026-11-01">
+<link rel="icon" href="/assets/kabulledger/icon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/kabulledger/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/kabulledger/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#EEEAE1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14120F" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Kabul Ledger · markfaizi.dev">
+<meta property="og:title" content="Kabul Ledger — 1 November">
+<meta property="og:description" content="Poppy pays in cash, at the farm gate, on the day. Very little else in Afghanistan settles that easily.">
+<meta property="og:url" content="https://markfaizi.dev/kabulledger/2026-11-01">
+<meta property="og:image" content="https://markfaizi.dev/assets/kabulledger/og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Kabul Ledger: a weekly reading of Afghanistan&#x27;s economy, at markfaizi.dev/kabulledger.">
+<meta property="og:locale" content="en_GB">
+<meta property="article:published_time" content="2026-11-01">
+<meta name="twitter:card" content="summary_large_image">
+<!-- site-head:end -->
+<meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Kabul Ledger — 1 November</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Spectral:ital,wght@0,400;0,600;1,300;1,400;1,600&family=IBM+Plex+Mono:wght@400;500;600&family=Chakra+Petch:wght@600;700&display=swap">
+
+<style>
+/* Layout: one editorial column of 62ch on a sand ground, with figures and the
+   indicator tape breaking full width; the explainer sets into two columns on desktop. */
+
+/* The house display face. Ships as a webfont only where TimeBurner is licensed;
+   until then the stack below carries it.
+@font-face {
+  font-family: "TimeBurner";
+  src: url("data:font/woff2;base64,PLACEHOLDER") format("woff2");
+  font-weight: 400 700; font-display: swap;
+}
+*/
+
+:root {
+  --font-display: "TimeBurner","Chakra Petch","Eurostile","Bahnschrift","Trebuchet MS",sans-serif;
+  --font-editorial: "Spectral",Georgia,"Times New Roman",serif;
+  --font-body: "Newsreader",Georgia,"Times New Roman",serif;
+  --font-mono: "IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+
+  --paper: #EEEAE1;
+  --ink: #16130E;
+  --ink-soft: #554C3D;
+  --lapis: #1F4E9C;
+  --ochre: #A8701E;
+  --card: #F7F4EE;
+  --rule: #CFC7B7;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #14120F;
+    --ink: #EDE8DE;
+    --ink-soft: #A79C8A;
+    --lapis: #7EA6ED;
+    --ochre: #D6A45C;
+    --card: #211E19;
+    --rule: #3A342B;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #14120F;
+  --ink: #EDE8DE;
+  --ink-soft: #A79C8A;
+  --lapis: #7EA6ED;
+  --ochre: #D6A45C;
+  --card: #211E19;
+  --rule: #3A342B;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 20px;
+  line-height: 1.62;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.shell {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 4rem;
+}
+
+.col { max-width: 38rem; }
+
+/* ---------- masthead ---------- */
+
+.masthead {
+  border-bottom: 2px solid var(--ink);
+  padding-block: 2.4rem 1rem;
+  margin-bottom: 0;
+}
+.masthead h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.5rem, 8.4vw, 5.2rem);
+  line-height: 0.92;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  margin: 0 0 0.5rem;
+  text-wrap: balance;
+}
+.masthead h1 .the {
+  display: block;
+  font-size: 0.26em;
+  letter-spacing: 0.34em;
+  line-height: 1;
+  margin-bottom: 0.55em;
+  color: var(--ochre);
+}
+.dateline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.2rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.dateline b { color: var(--ink); font-weight: 500; }
+
+/* ---------- indicator tape ---------- */
+
+.tape {
+  border-bottom: 1px solid var(--rule);
+  padding-block: 0.85rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.tape ul {
+  display: flex;
+  gap: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: max-content;
+}
+.tape li {
+  padding: 0 1.15rem;
+  border-left: 1px solid var(--rule);
+  white-space: nowrap;
+}
+.tape li:first-child { border-left: 0; padding-left: 0; }
+.tape .k {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 0.18rem;
+}
+.tape .v {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 1.05rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+.tape .v small {
+  font-size: 0.76rem;
+  color: var(--ochre);
+  margin-left: 0.3rem;
+  letter-spacing: 0.03em;
+}
+
+/* ---------- lede ---------- */
+
+.lede-block { padding-block: 2.6rem 0; }
+p.lede {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.42rem, 3.1vw, 2rem);
+  line-height: 1.36;
+  max-width: 19em;
+  margin: 0 0 1.4rem;
+  text-wrap: pretty;
+}
+p.standfirst {
+  max-width: 38rem;
+  margin: 0;
+  font-size: 1.06rem;
+  line-height: 1.6;
+}
+p.standfirst + p.standfirst { margin-top: 0.9rem; }
+
+.since {
+  max-width: 38rem;
+  margin-top: 2rem;
+  padding: 1.1rem 1.25rem;
+  background: var(--card);
+  border-left: 3px solid var(--ochre);
+}
+.since h3 {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin: 0 0 0.55rem;
+  color: var(--ochre);
+}
+.since p { margin: 0 0 0.6rem; font-size: 1.02rem; line-height: 1.55; }
+.since p:last-child { margin-bottom: 0; }
+
+/* ---------- sections ---------- */
+
+section { padding-block: 3.2rem 0; }
+.sec-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.85rem;
+  border-top: 1px solid var(--ink);
+  padding-top: 0.7rem;
+  margin-bottom: 2rem;
+}
+.sec-head .num {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-size: 1.5rem;
+  color: var(--ochre);
+  line-height: 1;
+}
+.sec-head h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: clamp(1.05rem, 2.4vw, 1.3rem);
+  margin: 0;
+  line-height: 1.1;
+}
+
+article.item { max-width: 38rem; margin-bottom: 2.9rem; }
+article.item:last-child { margin-bottom: 0; }
+.kicker {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0 0 0.45rem;
+}
+.kicker.flag { color: var(--lapis); font-weight: 600; }
+article.item h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3.6vw, 1.95rem);
+  line-height: 1.1;
+  letter-spacing: -0.005em;
+  margin: 0 0 0.9rem;
+  text-wrap: balance;
+}
+article.item p { margin: 0 0 0.95rem; }
+article.item p:last-of-type { margin-bottom: 0.7rem; }
+.srcline {
+  font-family: var(--font-mono);
+  font-size: 0.81rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+.srcline a { color: var(--ink-soft); text-decoration-color: var(--rule); text-underline-offset: 2px; }
+.srcline a:hover { color: var(--lapis); }
+a { color: var(--lapis); }
+
+/* ---------- figures ---------- */
+
+figure {
+  margin: 2rem 0;
+  max-width: 100%;
+}
+.figwrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  padding: 1.1rem;
+}
+figure svg { display: block; width: 100%; height: auto; }
+.figwrap svg.w700 { min-width: 660px; max-width: 760px; }
+.figwrap svg.w780 { min-width: 720px; max-width: 880px; }
+figcaption {
+  font-family: var(--font-mono);
+  font-size: 0.81rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin-top: 0.7rem;
+  max-width: 44rem;
+}
+figcaption b { color: var(--ink); font-weight: 500; }
+.chart-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.86rem;
+  margin: 0 0 0.15rem;
+}
+.chart-sub {
+  font-family: var(--font-mono);
+  font-size: 0.81rem;
+  color: var(--ink-soft);
+  margin: 0 0 0.9rem;
+}
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+  font-family: var(--font-mono);
+  font-size: 0.81rem;
+  margin: 0.8rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.legend li { display: flex; align-items: center; gap: 0.4rem; }
+.swatch { width: 11px; height: 11px; flex: none; border-radius: 2px; }
+
+/* ---------- explainer ---------- */
+
+.explainer-intro { max-width: 38rem; }
+.explainer-intro p.pull {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-size: 1.24rem;
+  line-height: 1.42;
+  color: var(--ink);
+  border-left: 3px solid var(--lapis);
+  padding-left: 1.1rem;
+  margin: 1.6rem 0;
+}
+.twocol { max-width: 72rem; }
+.twocol p { margin: 0 0 0.95rem; }
+.twocol h4 {
+  font-family: var(--font-mono);
+  font-size: 0.81rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--ochre);
+  margin: 1.6rem 0 0.5rem;
+  break-after: avoid;
+}
+.twocol h4:first-child { margin-top: 0; }
+@media (min-width: 62rem) {
+  .twocol { columns: 2; column-gap: 3.4rem; }
+  .twocol > :first-child { margin-top: 0; }
+}
+
+/* ---------- numbers ---------- */
+
+.numbers { display: grid; gap: 1.6rem; max-width: 60rem; }
+.numfig {
+  display: grid;
+  grid-template-columns: minmax(0, 11rem) minmax(0, 1fr);
+  gap: 0.4rem 1.6rem;
+  align-items: start;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--rule);
+}
+.numfig .big {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: clamp(1.65rem, 5vw, 2.1rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  color: var(--lapis);
+}
+.numfig .big span {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-top: 0.4rem;
+  line-height: 1.4;
+}
+.numfig .body { min-width: 0; }
+.numfig .body p { margin: 0 0 0.6rem; font-size: 1.06rem; line-height: 1.58; }
+.numfig .body p:last-of-type { margin-bottom: 0.5rem; }
+@media (max-width: 42rem) {
+  .numfig { grid-template-columns: 1fr; gap: 0.7rem; }
+}
+
+/* ---------- watch ---------- */
+
+.watch { display: grid; gap: 1.5rem; max-width: 60rem; }
+.watchitem {
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--rule);
+  min-width: 0;
+}
+.watchitem .when {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ochre);
+  margin: 0 0 0.35rem;
+}
+.watchitem h3 {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1.16rem;
+  line-height: 1.34;
+  margin: 0 0 0.5rem;
+}
+.watchitem p { margin: 0; font-size: 1.06rem; line-height: 1.56; }
+
+/* ---------- colophon ---------- */
+
+.colophon {
+  margin-top: 4rem;
+  border-top: 2px solid var(--ink);
+  padding-top: 1.4rem;
+  max-width: 44rem;
+}
+.colophon h3 {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin: 0 0 0.7rem;
+  color: var(--ink-soft);
+}
+.colophon p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0 0 0.8rem;
+  color: var(--ink-soft);
+}
+.colophon p:last-child { margin-bottom: 0; }
+.colophon b { color: var(--ink); font-weight: 600; }
+
+/* ---------- mobile type floor ---------- */
+
+@media (max-width: 560px) {
+  body { font-size: 19px; }
+  .tape .k, .tape li .k { font-size: 12.5px; }
+  .tape .v { font-size: 17px; }
+  .tape .v small { font-size: 12.5px; }
+  .dateline { font-size: 12.5px; }
+  .kicker { font-size: 12.5px; }
+  .srcline { font-size: 13px; }
+  figcaption { font-size: 13px; }
+  .chart-sub, .legend { font-size: 13px; }
+  .numfig .big span { font-size: 12.5px; }
+  .watchitem .when { font-size: 12.5px; }
+  .since h3, .colophon h3 { font-size: 12.5px; }
+  .twocol h4 { font-size: 13px; }
+  .colophon p { font-size: 16px; }
+  .numfig .body p, .watchitem p, .since p, p.standfirst { font-size: 19px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+</style>
+
+<div class="shell">
+
+  <header class="masthead">
+    <h1><span class="the">The</span>Kabul Ledger</h1>
+    <div class="dateline">
+      <span><b>No. 8</b></span>
+      <span>Sunday 1 November 2026</span>
+      <span>Week of 25–31 October</span>
+      <span>How It Works: <b>the missing correspondent</b></span>
+    </div>
+  </header>
+
+  <div class="tape" role="group" aria-label="Key indicators">
+    <ul>
+      <li><span class="k">AFN / USD</span><span class="v">65.17 <small>DAB, 1 Nov</small></span></li>
+      <li><span class="k">Wheat flour</span><span class="v">+11% <small>y/y</small></span></li>
+      <li><span class="k">Diesel</span><span class="v">79.9 <small>AFN/litre</small></span></li>
+      <li><span class="k">Day wage</span><span class="v">295 <small>AFN</small></span></li>
+      <li><span class="k">Work found</span><span class="v">2.0 <small>days/week</small></span></li>
+      <li><span class="k">Exports, 6 mo</span><span class="v">$598.5m <small>−17%</small></span></li>
+      <li><span class="k">Poppy area</span><span class="v">43,300 <small>hectares</small></span></li>
+    </ul>
+  </div>
+
+  <div class="lede-block">
+    <p class="lede">Poppy pays in cash, at the farm gate, on the day. Very little else in Afghanistan settles that easily.</p>
+    <p class="standfirst">The UN said on Thursday that Afghan opium production rose roughly fivefold this year, four years after the Taliban banned the crop. Two days earlier, the government's own statisticians reported that legal exports had fallen by a sixth. In between, in an exhibition hall in Kabul, the mines ministry showed a portfolio of some 350 mining contracts to visiting buyers from China, India and Iran.</p>
+    <p class="standfirst">Put the three together and a pattern appears. Afghanistan has things to sell and no shortage of people willing to sign for them. What it lacks is a way to be paid. That is this week's lesson, and it is the subject of the explainer below.</p>
+
+    <div class="since">
+      <h3>Since last time</h3>
+      <p>The freight train that left Linyi, in Shandong, on 21 October is still crossing Central Asia. It is due at Hairatan around 10 November, and no freight rate for the route has been published.</p>
+      <p>The finance ministry has not reported a second meeting on its proposed capital market. One meeting, so far, remains one meeting.</p>
+      <p>Work began at the Qala-e-Zal gold concession in Kunduz on 25 October. The contractor is still unnamed and no royalty rate has been published. Accounts of the company's local development fund differ. Ariana News puts it at $200,000, against the $500,000 reported when the contract was signed.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="sec-head"><span class="num">I</span><h2>The Week</h2></div>
+
+    <article class="item">
+      <p class="kicker">Agriculture · 29 October</p>
+      <h3>Four years after the ban, the poppy is back</h3>
+      <p>Afghan farmers planted 43,300 hectares of opium poppy this year. Last year they planted about 10,200. The UN Office on Drugs and Crime published the figures on Thursday, and they describe the collapse of the most effective drug-control measure of the century.</p>
+      <p>Production rose further than the area did, because the weather was kind. A yield of 33.8 kilograms a hectare, up from 29, lifted the harvest from 296 tonnes to roughly 1,466. That is a rise of about 400% in a single season.</p>
+      <p>The geography has moved. Before the ban, poppy was a southern crop, grown in the irrigated belt of Helmand and Kandahar. This year three-quarters of it grew in the north-east, and most of that in Badakhshan. There the area under poppy went from about 6,600 hectares to nearly 29,500. Takhar rose from 274 hectares to about 3,400. Badakhshan is where the government's writ is thinnest. It is also where villagers have fought eradication teams, and where ACLED has recorded repeated armed clashes over mining sites. Helmand and Kandahar did grow again, to 3,500 and 1,560 hectares. But they are no longer the story.</p>
+      <p>The reason is arithmetic, not ideology. Dried opium sold for about $500 a kilogram this year, down from $570, but still five times the pre-ban price of under $100. At this year's yield, a hectare of poppy grossed something like $16,900. A hectare of wheat, at the 28 afghanis a kilo the World Food Programme recorded in October and an ordinary irrigated yield, grosses perhaps a thousand dollars. No agricultural extension programme closes a gap of that size.</p>
+      <p>The interior ministry rejected the survey. Its spokesman, Mufti Abdul Mateen Qani, told Pajhwok that cultivation was close to zero and that more than 26,000 hectares had been cleared. He asked UNODC to publish its satellite dates, coordinates and error margins. Other accounts of the ministry's own position put cultivation near 24,000 hectares and eradication at 22,000 or 23,000. The official numbers have been reported three ways in a week. That is part of the problem. UNODC says it cannot verify the eradication claim.</p>
+      <p class="srcline">Sources: <a href="https://news.un.org/en/story/2026/10/1168697">UN News, 29 Oct</a> · <a href="https://amu.tv/255453/">Amu TV on the UNODC survey, 29 Oct</a> · <a href="https://pajhwok.com/2026/10/29/unodc-reports-rise-in-opium-poppy-cultivation-production-in-afghanistan-qani-rejects-findings/">Pajhwok, 29 Oct</a> · <a href="https://kabulnow.com/2026/10/un-reports-fourfold-rise-in-poppy-cultivation-in-afghanistan-taliban-reject-findings/">KabulNow, 29 Oct</a> · <a href="https://amu.tv/255254/">WFP market report, week to 26 Oct</a></p>
+
+      <figure>
+        <div class="figwrap">
+          <p class="chart-title">Where the poppy went</p>
+          <p class="chart-sub">Area under opium poppy, hectares, 2025 and 2026 · UNODC</p>
+          <svg class="w700" viewBox="0 0 700 300" role="img" aria-label="Grouped column chart of opium poppy area in four provinces. Badakhshan rose from about 6,600 hectares in 2025 to about 29,500 in 2026; Takhar from 274 to about 3,400; Helmand from 681 to about 3,500; Kandahar from about 500 to about 1,560.">
+            <!-- grid -->
+            <g stroke="var(--rule)" stroke-width="1">
+              <line x1="86" y1="90" x2="690" y2="90"/>
+              <line x1="86" y1="140" x2="690" y2="140"/>
+              <line x1="86" y1="190" x2="690" y2="190"/>
+            </g>
+            <g fill="var(--ink-soft)" font-family="IBM Plex Mono, monospace" font-size="12.5" text-anchor="end">
+              <text x="76" y="94">30,000</text>
+              <text x="76" y="144">20,000</text>
+              <text x="76" y="194">10,000</text>
+              <text x="76" y="244">0</text>
+            </g>
+            <!-- baseline -->
+            <line x1="86" y1="240" x2="690" y2="240" stroke="var(--ink)" stroke-width="1.5"/>
+            <!-- bars: scale 10,000 ha = 50px, baseline y=240, 2026 top = 240 - ha/200 -->
+            <!-- Badakhshan: 2025 6,600 -> h 33; 2026 29,500 -> h 147.5 -->
+            <g>
+              <rect x="110" y="207" width="26" height="33" rx="4" fill="var(--ochre)"/>
+              <rect x="140" y="92.5" width="26" height="147.5" rx="4" fill="var(--lapis)"/>
+              <text x="153" y="84" font-family="IBM Plex Mono, monospace" font-size="12.5" fill="var(--ink)" text-anchor="middle" font-weight="500">29,500</text>
+              <text x="138" y="262" font-family="IBM Plex Mono, monospace" font-size="13" fill="var(--ink)" text-anchor="middle">Badakhshan</text>
+              <text x="138" y="280" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink-soft)" text-anchor="middle">×4.5</text>
+            </g>
+            <!-- Takhar: 274 -> 1.4; 3,400 -> 17 -->
+            <g>
+              <rect x="268" y="238.6" width="26" height="1.4" rx="1" fill="var(--ochre)"/>
+              <rect x="298" y="223" width="26" height="17" rx="4" fill="var(--lapis)"/>
+              <text x="311" y="214" font-family="IBM Plex Mono, monospace" font-size="12.5" fill="var(--ink)" text-anchor="middle" font-weight="500">3,400</text>
+              <text x="296" y="262" font-family="IBM Plex Mono, monospace" font-size="13" fill="var(--ink)" text-anchor="middle">Takhar</text>
+              <text x="296" y="280" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink-soft)" text-anchor="middle">×12</text>
+            </g>
+            <!-- Helmand: 681 -> 3.4; 3,500 -> 17.5 -->
+            <g>
+              <rect x="426" y="236.6" width="26" height="3.4" rx="2" fill="var(--ochre)"/>
+              <rect x="456" y="222.5" width="26" height="17.5" rx="4" fill="var(--lapis)"/>
+              <text x="469" y="214" font-family="IBM Plex Mono, monospace" font-size="12.5" fill="var(--ink)" text-anchor="middle" font-weight="500">3,500</text>
+              <text x="454" y="262" font-family="IBM Plex Mono, monospace" font-size="13" fill="var(--ink)" text-anchor="middle">Helmand</text>
+              <text x="454" y="280" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink-soft)" text-anchor="middle">×5</text>
+            </g>
+            <!-- Kandahar: ~500 -> 2.5; 1,560 -> 7.8 -->
+            <g>
+              <rect x="584" y="237.5" width="26" height="2.5" rx="2" fill="var(--ochre)"/>
+              <rect x="614" y="232.2" width="26" height="7.8" rx="4" fill="var(--lapis)"/>
+              <text x="627" y="224" font-family="IBM Plex Mono, monospace" font-size="12.5" fill="var(--ink)" text-anchor="middle" font-weight="500">1,560</text>
+              <text x="612" y="262" font-family="IBM Plex Mono, monospace" font-size="13" fill="var(--ink)" text-anchor="middle">Kandahar</text>
+              <text x="612" y="280" font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink-soft)" text-anchor="middle">×3</text>
+            </g>
+          </svg>
+          <ul class="legend">
+            <li><span class="swatch" style="background:var(--ochre)"></span>2025</li>
+            <li><span class="swatch" style="background:var(--lapis)"></span>2026</li>
+          </ul>
+        </div>
+        <figcaption><b>The crop moved north.</b> Badakhshan alone now accounts for roughly two-thirds of Afghanistan's poppy. Kandahar's 2025 figure is UNODC's reported base of about 500 hectares, from which the province "more than tripled".</figcaption>
+      </figure>
+    </article>
+
+    <article class="item">
+      <p class="kicker">Trade · 27 October</p>
+      <h3>The state counted its exports, and a sixth were missing</h3>
+      <p>Afghanistan sold $598.5 million of goods abroad in the first six months of its current year, which ran from late March to late September. In the same six months a year earlier it sold $724.2 million. The National Statistics and Information Authority published the comparison on Tuesday: a fall of $125.7 million, or 17.4%.</p>
+      <p>Imports went the other way, up $116.3 million to $6.66 billion. The gap between the two is about $6.06 billion in half a year — roughly eleven dollars of imports for every dollar exported.</p>
+      <p>The composition explains why the gap is so stubborn. Afghanistan's exports are farm produce. Fresh and dried fruit came to $223.5 million, more than a third of the total, and medicinal plants to $136.9 million. Minerals, despite the contracts, earned $32.1 million. The imports are what an economy cannot make for itself quickly: $1.4 billion of fuel, $765 million of machinery and vehicles, $691 million of metal, and $554 million of wheat and flour.</p>
+      <p>The immediate cause of the export fall sits on the Pakistani border, shut to goods since October last year. Pakistan's own trade authority, cited by Dawn, puts bilateral trade down 74% in the last fiscal year, from $1.3 billion to $358 million. Afghan transit through Pakistan came to 11,592 containers worth $367 million. Before 2021 it was roughly 89,000 containers worth some $5 billion.</p>
+      <p>The government's answer is to make more at home. On Thursday the deputy prime minister for economic affairs, Abdul Ghani Baradar, opened the first phase of the Shorandam cement plant outside Kandahar. It makes 1,500 tonnes a day and is meant to reach 5,000, on an investment the mines ministry put at $113 million in September. Baradar described a shift from a consuming country to a producing one. Cement is a good place to start, since it is heavy, cheap and absurd to import. It is also a small fraction of $6.66 billion.</p>
+      <p class="srcline">Sources: <a href="https://pajhwok.com/2026/10/27/afghanistan-exports-598-5m-in-1st-6-months-of-the-year/">Pajhwok on NSIA figures, 27 Oct</a> · <a href="https://kabulnow.com/2026/10/afghanistans-exports-fall-over-17-as-pakistan-border-closures-disrupt-trade/">KabulNow, 27 Oct</a> · <a href="https://kabulnow.com/2026/10/pakistan-afghanistan-trade-falls-74-amid-prolonged-border-closures/">KabulNow on TDAP data, 19 Oct</a> · <a href="https://amu.tv/255539/">Amu TV on Shorandam, 30 Oct</a> · <a href="https://pajhwok.com/2026/10/30/iea-seeks-to-transform-afghanistan-from-consumer-to-producer-nation-baradar/">Pajhwok, 30 Oct</a></p>
+
+      <figure>
+        <div class="figwrap">
+          <p class="chart-title">What Afghanistan sold, and what it bought</p>
+          <p class="chart-sub">First six months of 1405 (late March – late September 2026), $ million · NSIA</p>
+          <svg class="w700" viewBox="0 0 700 420" role="img" aria-label="Horizontal bar chart on one shared scale. Exports total 598.5 million dollars: fruit 223.5, medicinal plants 136.9, minerals 32.1, seeds 12.5, everything else 193.5. Imports total 6,656.6 million dollars: petroleum 1,399, machinery and vehicles 765, metals 691.3, wheat and flour 554, vegetable oil 240.8, everything else 3,006.5.">
+            <!-- scale: 0 at x=196, 3,100 = 490px  => px per $m = 0.158064 -->
+            <g font-family="IBM Plex Mono, monospace" font-size="12" fill="var(--ink-soft)">
+              <text x="196" y="18">0</text>
+              <text x="354" y="18" text-anchor="middle">1,000</text>
+              <text x="512" y="18" text-anchor="middle">2,000</text>
+              <text x="670" y="18" text-anchor="middle">3,000</text>
+            </g>
+            <g stroke="var(--rule)" stroke-width="1">
+              <line x1="354" y1="26" x2="354" y2="400"/>
+              <line x1="512" y1="26" x2="512" y2="400"/>
+              <line x1="670" y1="26" x2="670" y2="400"/>
+            </g>
+            <line x1="196" y1="26" x2="196" y2="400" stroke="var(--ink)" stroke-width="1.5"/>
+
+            <!-- EXPORTS header -->
+            <text x="0" y="48" font-family="Chakra Petch, sans-serif" font-size="13" font-weight="700" fill="var(--ochre)" letter-spacing="1.4">EXPORTS $598.5m</text>
+
+            <!-- rows: bar height 18, gap 10 -->
+            <g font-family="IBM Plex Mono, monospace" font-size="13" fill="var(--ink)">
+              <text x="188" y="72" text-anchor="end">Fruit, fresh &amp; dried</text>
+              <text x="188" y="100" text-anchor="end">Medicinal plants</text>
+              <text x="188" y="128" text-anchor="end">Everything else</text>
+              <text x="188" y="156" text-anchor="end">Minerals</text>
+              <text x="188" y="184" text-anchor="end">Seeds</text>
+            </g>
+            <g fill="var(--ochre)">
+              <rect x="196" y="58" width="35.3" height="18" rx="4"/>
+              <rect x="196" y="86" width="21.6" height="18" rx="4"/>
+              <rect x="196" y="114" width="30.6" height="18" rx="4"/>
+              <rect x="196" y="142" width="5.1" height="18" rx="2"/>
+              <rect x="196" y="170" width="2" height="18" rx="1"/>
+            </g>
+            <g font-family="IBM Plex Mono, monospace" font-size="12.5" fill="var(--ink)" font-weight="500">
+              <text x="239" y="72">223.5</text>
+              <text x="226" y="100">136.9</text>
+              <text x="235" y="128">193.5</text>
+              <text x="210" y="156">32.1</text>
+              <text x="206" y="184">12.5</text>
+            </g>
+
+            <!-- IMPORTS header -->
+            <text x="0" y="232" font-family="Chakra Petch, sans-serif" font-size="13" font-weight="700" fill="var(--lapis)" letter-spacing="1.4">IMPORTS $6,656.6m</text>
+
+            <g font-family="IBM Plex Mono, monospace" font-size="13" fill="var(--ink)">
+              <text x="188" y="256" text-anchor="end">Everything else</text>
+              <text x="188" y="284" text-anchor="end">Petroleum &amp; oils</text>
+              <text x="188" y="312" text-anchor="end">Machinery, vehicles</text>
+              <text x="188" y="340" text-anchor="end">Metals</text>
+              <text x="188" y="368" text-anchor="end">Wheat &amp; flour</text>
+              <text x="188" y="396" text-anchor="end">Vegetable oil</text>
+            </g>
+            <g fill="var(--lapis)">
+              <rect x="196" y="242" width="475.3" height="18" rx="4"/>
+              <rect x="196" y="270" width="221.1" height="18" rx="4"/>
+              <rect x="196" y="298" width="120.9" height="18" rx="4"/>
+              <rect x="196" y="326" width="109.3" height="18" rx="4"/>
+              <rect x="196" y="354" width="87.6" height="18" rx="4"/>
+              <rect x="196" y="382" width="38.1" height="18" rx="4"/>
+            </g>
+            <g font-family="IBM Plex Mono, monospace" font-size="12.5" font-weight="500">
+              <text x="663" y="256" fill="var(--paper)" text-anchor="end">3,006.5</text>
+              <text x="425" y="284" fill="var(--ink)">1,399</text>
+              <text x="325" y="312" fill="var(--ink)">765</text>
+              <text x="313" y="340" fill="var(--ink)">691.3</text>
+              <text x="292" y="368" fill="var(--ink)">554</text>
+              <text x="242" y="396" fill="var(--ink)">240.8</text>
+            </g>
+          </svg>
+          <ul class="legend">
+            <li><span class="swatch" style="background:var(--ochre)"></span>Exports</li>
+            <li><span class="swatch" style="background:var(--lapis)"></span>Imports</li>
+          </ul>
+        </div>
+        <figcaption><b>Both panels share one scale.</b> Afghanistan's single largest export line, fruit at $223.5m, is smaller than its sixth-largest import line. "Everything else" is the residual after the categories NSIA itemised.</figcaption>
+      </figure>
+    </article>
+
+    <article class="item">
+      <p class="kicker">Mining · 28–31 October</p>
+      <h3>A hundred thousand visitors, and 184 million afghanis</h3>
+      <p>Afghanistan held its first mining exhibition this week. A hundred and fifty stands went up at the international exhibition centre in Kabul, and companies came from China, India and Iran. The ministry's spokesman, Humayun Afghan, said more than 100,000 people walked through over four days.</p>
+      <p>The minister of mines and petroleum, Hedayatullah Badri, used the opening to set out the size of the sector he runs. About 350 mining contracts are active, 44 of them large-scale. Roughly 180,000 people work in mining. The ministry has issued 1,510 licences for precious stones. Of those, 1,287 are in Kunduz, Takhar and Badakhshan — the same north-eastern provinces now growing most of the poppy.</p>
+      <p>The concrete result of the week was a gemstone auction held on the sidelines. Emeralds from Panjshir, rubies from Kabul, tourmaline from Kunar and kunzite from Nuristan sold for 184 million afghanis, about $2.8 million. Four memoranda of understanding were signed, all between domestic companies. None was named and no values were given. Iran's acting chargé d'affaires in Kabul, Ali Reza Bikdeli, attended. One exhibitor told TOLOnews he expected to sign a large talc contract with Iranian buyers.</p>
+      <p>Hold that against the pipeline on display. In September the ministry signed a $200 million, 25-year contract with Delta International Energy of Saudi Arabia. It covers seven blocks of the Kushk–Tirpul basin, 22,000 square kilometres across Herat and Badghis. Last Saturday it signed a $38.74 million, fifteen-year talc contract for four square kilometres at Woch Bandar in Nangarhar, with about 400 jobs promised. Minerals, meanwhile, earned the country $32.1 million of exports in six months.</p>
+      <p>The gap between a portfolio and a payment is the subject of this edition's explainer. For now, note which transaction actually cleared this week: the one settled in cash, in a hall, over four days.</p>
+      <p class="srcline">Sources: <a href="https://amu.tv/255405/">Amu TV on Badri's remarks, 28 Oct</a> · <a href="https://thefrontierpost.com/184m-afghanis-in-gemstone-sales-four-mining-mous-signed/">TOLOnews via The Frontier Post, 31 Oct</a> · <a href="https://english.news.cn/asiapacific/20261025/cb92f5eb9fd048aeba159e56d88448bd/c.html">Xinhua on the talc contract, 25 Oct</a> · <a href="https://www.arabnews.com/business/afghanistan-saudi-group-sign-oil-gas-deal-for-kushk-tirpul-basin-exploration-3000931">Arab News on the Delta contract, 8 Sep</a></p>
+    </article>
+
+    <article class="item">
+      <p class="kicker flag">Follow-up · Pakistan border</p>
+      <h3>Karachi begins selling the cargo it would not let through</h3>
+      <p>Pakistani customs have started auctioning Afghan traders' containers at Karachi port. Pajhwok reported it on Sunday, and traders confirmed it to the agency. The reports say hundreds of containers; there is no official statement, no count and no published value.</p>
+      <p>The background, briefly. Pakistan closed its crossings to Afghan goods in October last year, after border clashes. We reported on <a href="https://markfaizi.dev/kabulledger/2026-10-18">18 October</a> that Central Asia had replaced the imports but not the exports.</p>
+      <p>What has changed is the status of the cargo stranded by that closure. A container left at a port accrues storage and demurrage charges every day it sits. Once the charges and unpaid duties exceed what the goods are worth, customs authorities in most countries may sell them to recover the debt. A year of closure has quietly turned Afghan traders' stock into a liability that the port can liquidate.</p>
+      <p>The Afghanistan–Pakistan Joint Chamber of Commerce says more than 60% of the stranded goods have already moved. They went back to their country of origin, or on to the Iranian ports of Chabahar and Bandar Abbas. The remainder are tangled in fee and paperwork disputes. Afghan chamber officials called the auctions contrary to regional and international trade law. Earlier estimates put as many as 15,000 Afghan containers and shipments at Pakistani ports. Neither customs service has ever confirmed that figure.</p>
+      <p>Treat the detail with care. The reporting is secondhand, carried on agency feeds, and neither Pakistani customs nor the port authority has published anything.</p>
+      <p class="srcline">Sources: <a href="https://www.freepressjournal.in/business/pakistan-reportedly-auctions-hundreds-of-afghan-traders-containers-at-karachi-port-amid-year-long-border-closure">Free Press Journal on Pajhwok reporting, 26 Oct</a> · <a href="https://ianslive.in/pakistan-auction-of-afghan-goods-stuck-at-karachi-port-an-attempt-at-profit-from-traders-woes--20261026141859">IANS, 26 Oct</a> · <a href="https://www.ariananews.af/pakistan-exporters-suffer-billions-in-losses-as-afghanistan-trade-halt-continues/">Ariana News on Pakistani export losses, 23 Oct</a></p>
+    </article>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="num">II</span><h2>How It Works — The Missing Correspondent</h2></div>
+
+    <div class="explainer-intro">
+      <p>A payment from one country to another is not a journey. Nothing physically travels. What happens is that two banks change their records, and a third bank — one they both trust and both hold an account with — makes the change stick. That third bank is called the correspondent. Afghanistan, for practical purposes, does not have one.</p>
+      <p class="pull">The country's problem is not that its trade is illegal. It is that almost no large bank will keep the account through which the money would move.</p>
+    </div>
+
+    <figure>
+      <div class="figwrap">
+        <p class="chart-title">How a payment reaches Kabul, and how it does not</p>
+        <p class="chart-sub">The standard route, and the three that remain open</p>
+        <svg class="w780" viewBox="0 0 780 430" role="img" aria-label="Diagram. The standard international payment route runs from a foreign buyer's bank through a correspondent bank in a financial centre to an Afghan bank, but the correspondent box is drawn empty and crossed out because no large bank will hold the account. Below, three alternative routes remain: physical cash flown or carried in; hawala, where a dealer abroad takes the money and a dealer in Kabul pays it out and the two net their claims later; and a trading company in a third country that buys the goods and resells them, taking a margin.">
+          <defs>
+            <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" fill="currentColor"/>
+            </marker>
+            <marker id="arL" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" fill="var(--lapis)"/>
+            </marker>
+          </defs>
+
+          <g color="var(--ink)" font-family="IBM Plex Mono, monospace">
+
+            <!-- TOP: the standard route -->
+            <text x="0" y="14" font-size="12.5" fill="var(--ochre)" letter-spacing="1.3">THE STANDARD ROUTE</text>
+
+            <rect x="0" y="30" width="176" height="62" rx="3" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <text x="88" y="56" font-size="13" fill="currentColor" text-anchor="middle">Buyer's bank</text>
+            <text x="88" y="76" font-size="12" fill="var(--ink-soft)" text-anchor="middle">Tehran, Delhi, Riyadh</text>
+
+            <line x1="176" y1="61" x2="296" y2="61" stroke="currentColor" stroke-width="1.5" marker-end="url(#ar)"/>
+            <text x="236" y="52" font-size="12" fill="var(--ink-soft)" text-anchor="middle">debits</text>
+
+            <rect x="302" y="30" width="176" height="62" rx="3" fill="none" stroke="var(--lapis)" stroke-width="1.5" stroke-dasharray="5 4"/>
+            <text x="390" y="56" font-size="13" fill="var(--lapis)" text-anchor="middle">Correspondent</text>
+            <text x="390" y="76" font-size="12" fill="var(--lapis)" text-anchor="middle">no bank will hold it</text>
+            <line x1="312" y1="40" x2="468" y2="82" stroke="var(--lapis)" stroke-width="1.5"/>
+            <line x1="468" y1="40" x2="312" y2="82" stroke="var(--lapis)" stroke-width="1.5"/>
+
+            <line x1="478" y1="61" x2="598" y2="61" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
+            <text x="538" y="52" font-size="12" fill="var(--ink-soft)" text-anchor="middle">credits</text>
+
+            <rect x="604" y="30" width="176" height="62" rx="3" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <text x="692" y="56" font-size="13" fill="currentColor" text-anchor="middle">Afghan bank</text>
+            <text x="692" y="76" font-size="12" fill="var(--ink-soft)" text-anchor="middle">Kabul, Jalalabad</text>
+
+            <line x1="0" y1="118" x2="780" y2="118" stroke="var(--rule)" stroke-width="1"/>
+
+            <!-- BOTTOM: the three that work -->
+            <text x="0" y="146" font-size="12.5" fill="var(--ochre)" letter-spacing="1.3">WHAT REMAINS OPEN</text>
+
+            <!-- 1. cash -->
+            <text x="0" y="178" font-size="12.5" fill="var(--lapis)" letter-spacing="0.8">1 · CASH</text>
+            <rect x="0" y="190" width="150" height="46" rx="3" fill="none" stroke="currentColor" stroke-width="1.2"/>
+            <text x="75" y="218" font-size="12.5" fill="currentColor" text-anchor="middle">Banknotes abroad</text>
+            <line x1="150" y1="213" x2="248" y2="213" stroke="var(--lapis)" stroke-width="1.8" marker-end="url(#arL)"/>
+            <text x="199" y="205" font-size="12" fill="var(--ink-soft)" text-anchor="middle">flown in</text>
+            <rect x="254" y="190" width="150" height="46" rx="3" fill="none" stroke="currentColor" stroke-width="1.2"/>
+            <text x="329" y="218" font-size="12.5" fill="currentColor" text-anchor="middle">Kabul vault</text>
+            <text x="420" y="210" font-size="12" fill="var(--ink-soft)">Carries small, repeated,</text>
+            <text x="420" y="226" font-size="12" fill="var(--ink-soft)">physical sums. Not payroll.</text>
+
+            <!-- 2. hawala -->
+            <text x="0" y="266" font-size="12.5" fill="var(--lapis)" letter-spacing="0.8">2 · HAWALA</text>
+            <rect x="0" y="278" width="150" height="46" rx="3" fill="none" stroke="currentColor" stroke-width="1.2"/>
+            <text x="75" y="306" font-size="12.5" fill="currentColor" text-anchor="middle">Dealer, Dubai</text>
+            <line x1="150" y1="301" x2="248" y2="301" stroke="var(--lapis)" stroke-width="1.8" marker-end="url(#arL)"/>
+            <text x="199" y="293" font-size="12" fill="var(--ink-soft)" text-anchor="middle">a code</text>
+            <rect x="254" y="278" width="150" height="46" rx="3" fill="none" stroke="currentColor" stroke-width="1.2"/>
+            <text x="329" y="306" font-size="12.5" fill="currentColor" text-anchor="middle">Dealer, Kabul</text>
+            <path d="M254,330 C254,344 150,344 150,330" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 4"/>
+            <text x="202" y="356" font-size="12" fill="var(--ink-soft)" text-anchor="middle">net the claims later</text>
+            <text x="420" y="298" font-size="12" fill="var(--ink-soft)">Fast, 1–3%. Limited to what</text>
+            <text x="420" y="314" font-size="12" fill="var(--ink-soft)">existing trade flows absorb.</text>
+
+            <!-- 3. intermediary -->
+            <text x="0" y="386" font-size="12.5" fill="var(--lapis)" letter-spacing="0.8">3 · THIRD-COUNTRY TRADER</text>
+            <rect x="0" y="398" width="404" height="30" rx="3" fill="none" stroke="currentColor" stroke-width="1.2"/>
+            <text x="202" y="418" font-size="12.5" fill="currentColor" text-anchor="middle">A company in the UAE or Türkiye buys, then resells</text>
+            <text x="420" y="412" font-size="12" fill="var(--ink-soft)">Takes the compliance risk,</text>
+            <text x="420" y="428" font-size="12" fill="var(--ink-soft)">and a margin for taking it.</text>
+          </g>
+        </svg>
+      </div>
+      <figcaption><b>One broken link, three substitutes.</b> Each substitute works for small, physical, repeated transactions. None of them finances a drilling programme.</figcaption>
+    </figure>
+
+    <div class="twocol">
+      <h4>What a correspondent bank does</h4>
+      <p>Suppose an Iranian trader agrees to buy talc from a company in Nangarhar. His bank in Tehran has no relationship with the seller's bank in Jalalabad, and no reason to trust it. So his bank uses an account it holds at a large bank in a financial centre — Frankfurt, Dubai, New York. The Afghan bank holds an account at the same large bank. The correspondent debits one account, credits the other, and the payment is done. SWIFT is only the messaging system that tells the banks to make those entries. People often mistake it for the money.</p>
+      <p>Everything about cross-border trade rests on this arrangement. Letters of credit let a seller ship before being paid. Trade finance lends against the cargo. Bank guarantees are what a government demands before awarding a mining contract. All three need a bank in the middle that both sides accept.</p>
+
+      <h4>Why Afghanistan lost it</h4>
+      <p>After August 2021 the large banks withdrew. They were not ordered to. Most Afghan trade is lawful, and the United States has issued broad general licences permitting trade and aid. But a correspondent bank chooses its customers, and the arithmetic is lopsided. The fee on a payment is a few dollars. The fine for processing one payment that turns out to touch a sanctioned person runs into the hundreds of millions. So banks exit. The industry calls it de-risking.</p>
+      <p>The cost is measurable. The International Crisis Group found that one European bank needed forty to fifty staff to clear the legal paperwork for a single Afghan transaction. Some payments took months. It also records an Afghan bank that spent years trying to pay a United States software supplier $3 million, failed, and in the end moved the money as smuggled cash. Large banks went further and refused regional banks that kept Afghan business. So a bank in Dubai or Almaty is often no easier a route than one in London.</p>
+
+      <h4>Why the central bank cannot fix it</h4>
+      <p>In a normal country the central bank vouches for its banks. It supervises them, publishes the rules, and submits to outside assessment so that foreign banks can see the standard. Da Afghanistan Bank cannot do any of that convincingly. Its governor, Noor Ahmad Agha, appears on a UN sanctions list. About $7 billion of the country's reserves were frozen in 2021. Half were moved into a Swiss trust in 2022, which has grown to roughly $4.2 billion. Nothing has ever been disbursed from it. Afghanistan's membership of the Asia/Pacific Group on Money Laundering went inactive in 2022. So there is no current external review of its anti-money-laundering regime for a foreign compliance officer to read. The Taliban say they will follow the rules and have asked for auditors to return. Donors tie that question to the restrictions on women, and so it sits.</p>
+
+      <h4>What a banking system this thin can do</h4>
+      <p>The result is a financial sector that holds the country's cash but barely lends it. Total banking assets came to $3.5 billion in December 2025, less than a mid-sized regional bank. Credit to the private sector was 35 billion afghanis in February 2026 — 2.5% of GDP, among the lowest ratios anywhere. The World Bank's 2025 enterprise survey found banks financing 0.28% of Afghan firms' investment, against 9.8% across the Middle East and North Africa. The World Bank's own summary is blunt: the banking sector intermediates only a small share of the payments in the economy.</p>
+      <p>So business is done the three ways the diagram shows. Cash arrives physically. The UN alone has bought and flown in more than $2.9 billion of banknotes since December 2021, which is why the afghani has stayed strong while the economy has not. Hawala settles claims between dealers and nets the difference later, cheaply and quickly, but only up to the volume that real trade flows can absorb. And a trading company in a third country buys the goods, resells them, and charges for carrying the risk a bank will not.</p>
+
+      <h4>What this explains</h4>
+      <p>All three substitutes share a shape. They suit transactions that are small, physical, repeated and settled close to the moment of exchange. That describes a lorry of pomegranates, a parcel of emeralds, a remittance from a building site in Tehran. It does not describe an eight-year exploration programme. That needs monthly payroll, imported drilling rigs, insurance and a performance bond. It needs a bank that will hold money in escrow and a lender that will advance against the asset. Those are exactly the services Afghanistan cannot buy.</p>
+      <p>Which is why the country's deal pipeline and its investment figures read like two different nations. It can sign a $200 million oil contract and auction $2.8 million of gemstones in the same autumn, and only the second will be completed on time. Until a correspondent relationship exists, the contracts will keep being signed and the money will keep arriving in suitcases.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="num">III</span><h2>By the Numbers</h2></div>
+    <div class="numbers">
+
+      <div class="numfig">
+        <div class="big">$598.5m<span>Six months of exports</span></div>
+        <div class="body">
+          <p>Everything Afghanistan sold abroad between late March and late September, according to its own statistics authority. Spread across a population the World Bank now puts above 51 million, that is about twelve dollars a head for half a year.</p>
+          <p>Imports over the same six months were eleven times larger. A country can run a gap like that only while something else pays for it — in Afghanistan's case remittances, aid and physically imported dollars.</p>
+        </div>
+      </div>
+
+      <div class="numfig">
+        <div class="big">$525m<span>What the opium was worth, inside Afghanistan</span></div>
+        <div class="body">
+          <p>UNODC's estimate of what this year's crop earned the Afghans who grew and traded it. That is about 2.7% of GDP, and 8.5% of everything the country's agriculture produces. It is not the street value of the heroin made from it abroad, which is many times larger. It is the money that stays.</p>
+          <p>Treat it as an estimate, and a soft one. At the $500 a kilogram UNODC quotes, 1,466 tonnes would gross about $730 million. The lower figure implies prices realised below the quoted average, or a narrower definition of who counts as inside the trade. Nobody audits this market.</p>
+        </div>
+      </div>
+
+      <div class="numfig">
+        <div class="big">$3.5bn<span>The whole banking system</span></div>
+        <div class="body">
+          <p>Total assets of every bank in Afghanistan as of December 2025, on the World Bank's reading — loans, cash, buildings, all of it. For a country of more than fifty million people, that is roughly seventy dollars of banking per person.</p>
+          <p>The lending figure is starker. Credit to private borrowers was 2.5% of GDP in February 2026. In most middle-income countries the equivalent is between a third and all of GDP. Afghan firms finance themselves from retained earnings, family, and the hawala dealer.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="num">IV</span><h2>What to Watch</h2></div>
+    <div class="watch">
+
+      <div class="watchitem">
+        <p class="when">Late November</p>
+        <h3>Whether either side shows its working on the poppy figures</h3>
+        <p>The interior ministry has asked UNODC for its satellite dates, coordinates, methodology and error margins. UNODC says it cannot verify the 22,000 to 26,000 hectares officials claim to have cleared. Both demands are reasonable and neither has been met. It matters now because next year's planting decisions are being made this month, and the only unambiguous signal reaching a farmer in Badakhshan is a price of $500 a kilogram.</p>
+      </div>
+
+      <div class="watchitem">
+        <p class="when">By February</p>
+        <h3>Whether anything in the mining portfolio produces a bank payment</h3>
+        <p>Two specific tests. Does Delta International Energy begin field work on its seven blocks in Herat and Badghis, eight weeks after the exhibition that advertised the sector? And is any foreign buyer ever reported paying an Afghan mining company through a bank rather than in cash or through an intermediary? The second would be the more significant event, and it has not happened yet.</p>
+      </div>
+
+      <div class="watchitem">
+        <p class="when">December</p>
+        <h3>Whether the state publishes half-year revenue to match the trade figures</h3>
+        <p>NSIA has now given six months of trade. The matching number is government income, and customs duty supplies about a fifth of it. Duties fell 24.7% in the year to June with the Pakistani crossings shut. The half-year revenue figure is the one that shows whether a year of closed borders has reached the budget, or whether tariff rises and Central Asian imports have held the line.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="colophon">
+    <h3>Colophon &amp; a note on the numbers</h3>
+    <p><b>The Kabul Ledger</b> is a weekly digest of Afghanistan's economy for readers outside it. Half news, half instruction. No. 8, published Sunday 1 November 2026. Permanent address: <a href="https://markfaizi.dev/kabulledger/2026-11-01">markfaizi.dev/kabulledger/2026-11-01</a>.</p>
+    <p><b>How much to trust any of this.</b> Afghanistan has not held a census since 1979. The population figure used above is a World Bank projection, and estimates in current use differ by several million. Household surveys are irregular and often cannot reach the places that matter most. Opium area is measured from satellite imagery and extrapolated through ground samples, with error margins the survey itself publishes and news reports usually drop. Trade data comes from customs posts with incomplete coverage and an informal economy running alongside. Banking figures, in the World Bank's own words, should be read with caution because the sources contradict one another.</p>
+    <p>Where sources disagree, we give both readings and say so. Where a number is an estimate, we call it one. Nothing here is a measurement unless it says it is.</p>
+  </div>
+
+</div>
+
+<script type="application/json" id="edition-memory">{"date": "2026-11-01", "title": "Kabul Ledger — 1 November", "lede": "Poppy pays in cash, at the farm gate, on the day. Very little else in Afghanistan settles that easily.", "lead_theme": "resources-energy", "sections": ["The Week", "How It Works — The Missing Correspondent", "By the Numbers", "What to Watch"], "items": [{"slug": "opium-economy", "theme": "prices-livelihoods", "kind": "new", "headline": "Four years after the ban, the poppy is back", "gist": "UNODC survey published Thu 29 Oct: poppy area 43,300 ha in 2026, up from about 10,200 in 2025 (+325-330%); production about 1,466 t from 296 t (+~400%); yield 33.8 kg/ha from 29. Poppy in 16 of 34 provinces, five more than 2025. North-east 76% of area (~33,000 ha, ~1,090 t): Badakhshan 6,600 to ~29,500 ha, Takhar 274 to ~3,400; Helmand 681 to ~3,500, Kandahar ~1,560 (from ~500). Dried opium $500/kg, down from $570, against under $100 pre-ban; more than 200,000 ha before the ban. UNODC estimate of income inside Afghanistan about $525m, 2.7% of GDP and 8.5% of agriculture (reported by Amu TV). Per-hectare gross about $16,900 for poppy against roughly $1,000 for wheat at 28 AFN/kg. Interior ministry rejected it: spokesman Mufti Abdul Mateen Qani said cultivation near zero and more than 26,000 ha cleared and asked UNODC for satellite dates, coordinates and error margins; other accounts of the ministry's position give ~24,000 ha cultivated and 22,000-23,000 ha eradicated. UNODC says it cannot verify the eradication claim."}, {"slug": "trade-balance", "theme": "trade-transit", "kind": "new", "headline": "The state counted its exports, and a sixth were missing", "gist": "NSIA figures announced Tue 27 Oct for the first six months of 1405 (late March to late September 2026): exports $598.5m, down $125.7m (17.4%) from $724.2m; imports $6,656.6m, up $116.3m from $6,540.3m; gap about $6.06bn, roughly 11:1. Exports: fresh and dried fruit $223.5m (37.3%), medicinal plants $136.9m (22.9%), minerals $32.1m, seeds $12.5m. Imports: petroleum and oils $1,399m (21%), machinery and vehicles $765m (11.5%), metals $691.3m, wheat and flour $554m, vegetable oil $240.8m. Pakistan's TDAP data via Dawn (reported 19 Oct): bilateral trade down 74% to $358m from $1.3bn; Afghan transit 11,592 containers worth $367m against about 89,000 worth ~$5bn pre-2021. Import substitution: Baradar opened phase one of the Shorandam cement plant, Kandahar, Thu 29 Oct, 1,500 t/day heading for 5,000, investment put at $113m by the mines ministry in September, three phases, about 500 on site."}, {"slug": "mining-pipeline", "theme": "resources-energy", "kind": "new", "headline": "A hundred thousand visitors, and 184 million afghanis", "gist": "Afghanistan's first mining exhibition, Kabul International Exhibition Centre, 28-31 Oct: 150 stands, companies from China, India and Iran, more than 100,000 visitors per ministry spokesman Humayun Afghan. Mines minister Hedayatullah Badri, 28 Oct: about 350 active mining contracts, 44 large-scale; about 180,000 people employed in mining; 1,510 precious-stone licences, 1,287 of them in Kunduz, Takhar and Badakhshan. Sideline auction of Panjshir emeralds, Kabul rubies, Kunar tourmaline and Nuristan kunzite raised 184m AFN (about $2.8m). Four MoUs signed, all domestic companies, none named, no values. Iran's acting charge d'affaires Ali Reza Bikdeli attended. Pipeline context: $200m 25-year contract with Delta International Energy (Saudi) signed 7 Sep for seven blocks of the 22,000 sq km Kushk-Tirpul basin in Herat and Badghis, 8-year exploration period; $38.74m 15-year talc contract signed 24 Oct for 3.93 sq km at Woch Bandar, Achin district, Nangarhar, about 400 jobs. Minerals earned only $32.1m of exports in six months. Afghan Witness counted at least 205 contracts to 150+ companies Aug 2021-Feb 2024, ministry a shareholder in at least nine; ACLED at least eight armed clashes over Badakhshan gold mines since 2021."}, {"slug": "pakistan-border-closure", "theme": "trade-transit", "kind": "followup", "headline": "Karachi begins selling the cargo it would not let through", "gist": "Pajhwok reported Sun 25 Oct that Pakistani customs had begun auctioning Afghan traders' containers at Karachi port; traders confirmed it to the agency. Reports say hundreds of containers; no official statement, no count, no value, no legal basis published. Afghanistan-Pakistan Joint Chamber says more than 60% of stranded goods have been returned to origin or rerouted to Chabahar and Bandar Abbas, the rest tangled in fee and paperwork disputes. Earlier chamber claims of up to 15,000 Afghan containers at Pakistani ports remain unconfirmed. Afghan chamber officials called the auctions contrary to regional and international trade law. Mechanism noted: demurrage and storage charges accrue daily, and once they plus unpaid duties exceed cargo value customs may sell to recover the debt. Sourcing is secondhand and agency-fed."}], "visuals": ["where the poppy went: Badakhshan, Takhar, Helmand, Kandahar hectares 2025 v 2026, grouped column chart", "what Afghanistan sold and what it bought: six-month export and import lines on one shared horizontal bar scale, $m", "how a payment reaches Kabul and how it does not: the buyer's-bank to correspondent to Afghan-bank chain with the correspondent crossed out, plus the three routes that remain (cash, hawala, third-country trader)"], "watch": [{"text": "Whether either side shows its working on the poppy figures: the interior ministry has asked UNODC for satellite dates, coordinates, methodology and error margins, and UNODC says it cannot verify the 22,000-26,000 hectares officials claim to have cleared. Next year's planting is being decided this month against a price of $500 a kilogram", "due": "2026-11-29"}, {"text": "Whether anything in the mining portfolio produces a bank payment: does Delta International Energy begin field work on its seven blocks in Herat and Badghis, and is any foreign buyer ever reported paying an Afghan mining company through a bank rather than in cash or via an intermediary", "due": "2027-02-15"}, {"text": "Whether the state publishes half-year revenue to match the six-month trade figures. Customs duty is about a fifth of government income and fell 24.7% in the year to June with the Pakistani crossings shut", "due": "2026-12-20"}], "threads_open": [{"slug": "opium-economy", "question": "Does UNODC publish its methodology and does the interior ministry publish its eradication data? Does the 2027 planting season, decided in November 2026, expand on 43,300 hectares, and does the $500/kg price hold as supply rises?", "next_check": "2026-11-29"}, {"slug": "trade-balance", "question": "Do exports keep falling below the $598.5m half-year figure, does the state publish matching customs revenue, and does any Afghan export line other than fruit and medicinal plants grow?", "next_check": "2026-12-20"}, {"slug": "mining-pipeline", "question": "Of about 350 active contracts and 44 large-scale projects, which ones actually pay? Watch for Delta International Energy field work in Herat and Badghis, named counterparties on the four exhibition MoUs, and whether minerals exceed the $32.1m of six-month exports", "next_check": "2027-02-15"}, {"slug": "banking-isolation", "question": "Does any Afghan bank regain a correspondent relationship, does the Asia/Pacific Group on Money Laundering restore Afghanistan's active status or send assessors, and does the $4.2bn Swiss trust move at all? Explainer baseline: banking assets $3.5bn Dec 2025, private credit 2.5% of GDP Feb 2026, banks financing 0.28% of firm investment", "next_check": "2027-01-31"}, {"slug": "pakistan-border-closure", "question": "Does any customs or port authority confirm the Karachi auctions, how many containers and what value were sold, and does the border reopen to goods? Mention only on a concrete development", "next_check": "2026-12-13"}, {"slug": "china-rail-freight", "question": "Does the Shandong train arrive at Hairatan around 10 November, does a regular service emerge, is a freight rate published, and do Afghan goods travel back east?", "next_check": "2026-11-15"}, {"slug": "iran-deportations", "question": "Monthly returnee and deportation counts from Iran and Pakistan, and whether the pace keeps easing. UNHCR's Kabul representative Arafat Jamal said on 28 October that about 6.3m have returned since 2023, roughly 60% under compulsion, equal to about 15% of the population", "next_check": "2026-11-08"}, {"slug": "iran-trade-mission", "question": "28 private-sector MoUs worth $451.8m signed 10 October and promises of easier customs, but still no banking mechanism. Does a correspondent relationship, joint bank or rial-afghani window appear, and do Islam Qala and Nimroz run around the clock?", "next_check": "2026-11-15"}, {"slug": "winter-harvest-weather", "question": "FEWS NET expects above-average precipitation and an above-average winter wheat area. Does the rain arrive, and does planting happen with urea up 23% at 2,003 AFN per 50kg?", "next_check": "2026-11-15"}, {"slug": "hunger-figures", "question": "Does the 19.2m / 5m winter projection hold, does lean-season funding move above 31% of the appeal, and does FEWS NET converge with the IPC?", "next_check": "2026-11-22"}, {"slug": "pakistan-detentions", "question": "Do arrests in Pakistan keep easing from the 86,644 recorded to 17 October, and does the share of returns that are formal deportations stay near one in ten?", "next_check": "2026-11-22"}, {"slug": "un-aid-funding", "question": "UN appeal funding level, 31.38% of $1.71bn on 24 October, plus whether the $12.8m winter shelter request is met before the lean season bites", "next_check": "2026-11-22"}, {"slug": "herat-exports-west", "question": "Is the Herat chamber's $124m H1 export figure confirmed by customs or the World Bank, and does the Khaf-Herat railway carry more Afghan exports after the 600 tonnes of cotton to Turkiye?", "next_check": "2026-12-06"}, {"slug": "capital-market", "question": "Does a securities law, a regulator or a listing framework appear, or does the capital market stay a committee? No second meeting has been reported since 22 October", "next_check": "2026-12-20"}, {"slug": "kabul-water", "question": "Does the Panjshir pipeline move past survey stage, does Shahtoot restart, and what does the winter recharge do to the water table?", "next_check": "2026-12-20"}, {"slug": "kunduz-gold", "question": "Work began at Qala-e-Zal on 25 October with the contractor still unnamed and no royalty rate published. Accounts of the local development fund differ: Ariana News says $200,000, earlier reports $500,000. Who holds the contract and what does the state take?", "next_check": "2027-01-23"}, {"slug": "casa-1000", "question": "Is a wheeling-fee payment mechanism with Pakistan ever published, is the 70% v 75% progress gap explained, and does the Afghan section hold its March 2028 date?", "next_check": "2027-01-31"}, {"slug": "remittances", "question": "Does the next World Bank reading show remittances falling further below 15.7% of GDP, and does any measured figure replace the derived ~$3bn?", "next_check": "2027-01-31"}], "threads_closed": ["climate-finance", "russia-trade", "kazakh-grain", "turkmen-power"], "explainer": {"area": "plumbing", "topic": "The missing correspondent: why a cross-border payment is two bookkeeping entries guaranteed by a third bank, what a correspondent and a nostro account are, why large banks de-risked out of Afghanistan rather than being forbidden to act (a European bank needing 40-50 staff for one transaction; an Afghan bank smuggling cash after failing for years to pay a US supplier $3m), why Da Afghanistan Bank cannot vouch for its banks (governor on a UN list, about $7bn frozen in 2021 with half in a Swiss trust now around $4.2bn and never disbursed, APG membership inactive since 2022), what a $3.5bn banking system with private credit at 2.5% of GDP and 0.28% of firm investment bank-financed can actually do, and the three routes that remain - physical cash including the UN's $2.9bn-plus of flown-in banknotes, hawala netting at 1-3%, and third-country trading intermediaries - all of which suit small, physical, repeated transactions and none of which finances an eight-year drilling programme"}, "publication": "kabulledger"}</script>
+
+</body></html>

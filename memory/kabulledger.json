@@ -641,15 +641,187 @@
     "topic": "Wages earned somewhere else: remittances as the country's largest dependable foreign-currency inflow (15.7% of GDP in FY2025, down from 17.8%, roughly $3bn on a $20.3bn economy, about six times what the 2026 appeal has raised), how they travel outside the banking system through a hawala dealer and a code for a 1–3% fee, who receives them (15% of rural households, about a fifth of their spending; the main income for 5% of the population), and why deporting a worker ends the income rather than relocating it — the wage stops, a consumer arrives, and he enters a market paying 300 afs for 2.0 days' work a week, about $37 a month against a 1,700 afs sack of flour"
    },
    "url": "https://markfaizi.dev/kabulledger/2026-10-25"
+  },
+  {
+   "date": "2026-11-01",
+   "title": "Kabul Ledger — 1 November",
+   "lede": "Poppy pays in cash, at the farm gate, on the day. Very little else in Afghanistan settles that easily.",
+   "lead_theme": "resources-energy",
+   "sections": [
+    "The Week",
+    "How It Works — The Missing Correspondent",
+    "By the Numbers",
+    "What to Watch"
+   ],
+   "items": [
+    {
+     "slug": "opium-economy",
+     "theme": "prices-livelihoods",
+     "kind": "new",
+     "headline": "Four years after the ban, the poppy is back",
+     "gist": "UNODC survey published Thu 29 Oct: poppy area 43,300 ha in 2026, up from about 10,200 in 2025 (+325-330%); production about 1,466 t from 296 t (+~400%); yield 33.8 kg/ha from 29. Poppy in 16 of 34 provinces, five more than 2025. North-east 76% of area (~33,000 ha, ~1,090 t): Badakhshan 6,600 to ~29,500 ha, Takhar 274 to ~3,400; Helmand 681 to ~3,500, Kandahar ~1,560 (from ~500). Dried opium $500/kg, down from $570, against under $100 pre-ban; more than 200,000 ha before the ban. UNODC estimate of income inside Afghanistan about $525m, 2.7% of GDP and 8.5% of agriculture (reported by Amu TV). Per-hectare gross about $16,900 for poppy against roughly $1,000 for wheat at 28 AFN/kg. Interior ministry rejected it: spokesman Mufti Abdul Mateen Qani said cultivation near zero and more than 26,000 ha cleared and asked UNODC for satellite dates, coordinates and error margins; other accounts of the ministry's position give ~24,000 ha cultivated and 22,000-23,000 ha eradicated. UNODC says it cannot verify the eradication claim."
+    },
+    {
+     "slug": "trade-balance",
+     "theme": "trade-transit",
+     "kind": "new",
+     "headline": "The state counted its exports, and a sixth were missing",
+     "gist": "NSIA figures announced Tue 27 Oct for the first six months of 1405 (late March to late September 2026): exports $598.5m, down $125.7m (17.4%) from $724.2m; imports $6,656.6m, up $116.3m from $6,540.3m; gap about $6.06bn, roughly 11:1. Exports: fresh and dried fruit $223.5m (37.3%), medicinal plants $136.9m (22.9%), minerals $32.1m, seeds $12.5m. Imports: petroleum and oils $1,399m (21%), machinery and vehicles $765m (11.5%), metals $691.3m, wheat and flour $554m, vegetable oil $240.8m. Pakistan's TDAP data via Dawn (reported 19 Oct): bilateral trade down 74% to $358m from $1.3bn; Afghan transit 11,592 containers worth $367m against about 89,000 worth ~$5bn pre-2021. Import substitution: Baradar opened phase one of the Shorandam cement plant, Kandahar, Thu 29 Oct, 1,500 t/day heading for 5,000, investment put at $113m by the mines ministry in September, three phases, about 500 on site."
+    },
+    {
+     "slug": "mining-pipeline",
+     "theme": "resources-energy",
+     "kind": "new",
+     "headline": "A hundred thousand visitors, and 184 million afghanis",
+     "gist": "Afghanistan's first mining exhibition, Kabul International Exhibition Centre, 28-31 Oct: 150 stands, companies from China, India and Iran, more than 100,000 visitors per ministry spokesman Humayun Afghan. Mines minister Hedayatullah Badri, 28 Oct: about 350 active mining contracts, 44 large-scale; about 180,000 people employed in mining; 1,510 precious-stone licences, 1,287 of them in Kunduz, Takhar and Badakhshan. Sideline auction of Panjshir emeralds, Kabul rubies, Kunar tourmaline and Nuristan kunzite raised 184m AFN (about $2.8m). Four MoUs signed, all domestic companies, none named, no values. Iran's acting charge d'affaires Ali Reza Bikdeli attended. Pipeline context: $200m 25-year contract with Delta International Energy (Saudi) signed 7 Sep for seven blocks of the 22,000 sq km Kushk-Tirpul basin in Herat and Badghis, 8-year exploration period; $38.74m 15-year talc contract signed 24 Oct for 3.93 sq km at Woch Bandar, Achin district, Nangarhar, about 400 jobs. Minerals earned only $32.1m of exports in six months. Afghan Witness counted at least 205 contracts to 150+ companies Aug 2021-Feb 2024, ministry a shareholder in at least nine; ACLED at least eight armed clashes over Badakhshan gold mines since 2021."
+    },
+    {
+     "slug": "pakistan-border-closure",
+     "theme": "trade-transit",
+     "kind": "followup",
+     "headline": "Karachi begins selling the cargo it would not let through",
+     "gist": "Pajhwok reported Sun 25 Oct that Pakistani customs had begun auctioning Afghan traders' containers at Karachi port; traders confirmed it to the agency. Reports say hundreds of containers; no official statement, no count, no value, no legal basis published. Afghanistan-Pakistan Joint Chamber says more than 60% of stranded goods have been returned to origin or rerouted to Chabahar and Bandar Abbas, the rest tangled in fee and paperwork disputes. Earlier chamber claims of up to 15,000 Afghan containers at Pakistani ports remain unconfirmed. Afghan chamber officials called the auctions contrary to regional and international trade law. Mechanism noted: demurrage and storage charges accrue daily, and once they plus unpaid duties exceed cargo value customs may sell to recover the debt. Sourcing is secondhand and agency-fed."
+    }
+   ],
+   "visuals": [
+    "where the poppy went: Badakhshan, Takhar, Helmand, Kandahar hectares 2025 v 2026, grouped column chart",
+    "what Afghanistan sold and what it bought: six-month export and import lines on one shared horizontal bar scale, $m",
+    "how a payment reaches Kabul and how it does not: the buyer's-bank to correspondent to Afghan-bank chain with the correspondent crossed out, plus the three routes that remain (cash, hawala, third-country trader)"
+   ],
+   "watch": [
+    {
+     "text": "Whether either side shows its working on the poppy figures: the interior ministry has asked UNODC for satellite dates, coordinates, methodology and error margins, and UNODC says it cannot verify the 22,000-26,000 hectares officials claim to have cleared. Next year's planting is being decided this month against a price of $500 a kilogram",
+     "due": "2026-11-29"
+    },
+    {
+     "text": "Whether anything in the mining portfolio produces a bank payment: does Delta International Energy begin field work on its seven blocks in Herat and Badghis, and is any foreign buyer ever reported paying an Afghan mining company through a bank rather than in cash or via an intermediary",
+     "due": "2027-02-15"
+    },
+    {
+     "text": "Whether the state publishes half-year revenue to match the six-month trade figures. Customs duty is about a fifth of government income and fell 24.7% in the year to June with the Pakistani crossings shut",
+     "due": "2026-12-20"
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "opium-economy",
+     "question": "Does UNODC publish its methodology and does the interior ministry publish its eradication data? Does the 2027 planting season, decided in November 2026, expand on 43,300 hectares, and does the $500/kg price hold as supply rises?",
+     "next_check": "2026-11-29"
+    },
+    {
+     "slug": "trade-balance",
+     "question": "Do exports keep falling below the $598.5m half-year figure, does the state publish matching customs revenue, and does any Afghan export line other than fruit and medicinal plants grow?",
+     "next_check": "2026-12-20"
+    },
+    {
+     "slug": "mining-pipeline",
+     "question": "Of about 350 active contracts and 44 large-scale projects, which ones actually pay? Watch for Delta International Energy field work in Herat and Badghis, named counterparties on the four exhibition MoUs, and whether minerals exceed the $32.1m of six-month exports",
+     "next_check": "2027-02-15"
+    },
+    {
+     "slug": "banking-isolation",
+     "question": "Does any Afghan bank regain a correspondent relationship, does the Asia/Pacific Group on Money Laundering restore Afghanistan's active status or send assessors, and does the $4.2bn Swiss trust move at all? Explainer baseline: banking assets $3.5bn Dec 2025, private credit 2.5% of GDP Feb 2026, banks financing 0.28% of firm investment",
+     "next_check": "2027-01-31"
+    },
+    {
+     "slug": "pakistan-border-closure",
+     "question": "Does any customs or port authority confirm the Karachi auctions, how many containers and what value were sold, and does the border reopen to goods? Mention only on a concrete development",
+     "next_check": "2026-12-13"
+    },
+    {
+     "slug": "china-rail-freight",
+     "question": "Does the Shandong train arrive at Hairatan around 10 November, does a regular service emerge, is a freight rate published, and do Afghan goods travel back east?",
+     "next_check": "2026-11-15"
+    },
+    {
+     "slug": "iran-deportations",
+     "question": "Monthly returnee and deportation counts from Iran and Pakistan, and whether the pace keeps easing. UNHCR's Kabul representative Arafat Jamal said on 28 October that about 6.3m have returned since 2023, roughly 60% under compulsion, equal to about 15% of the population",
+     "next_check": "2026-11-08"
+    },
+    {
+     "slug": "iran-trade-mission",
+     "question": "28 private-sector MoUs worth $451.8m signed 10 October and promises of easier customs, but still no banking mechanism. Does a correspondent relationship, joint bank or rial-afghani window appear, and do Islam Qala and Nimroz run around the clock?",
+     "next_check": "2026-11-15"
+    },
+    {
+     "slug": "winter-harvest-weather",
+     "question": "FEWS NET expects above-average precipitation and an above-average winter wheat area. Does the rain arrive, and does planting happen with urea up 23% at 2,003 AFN per 50kg?",
+     "next_check": "2026-11-15"
+    },
+    {
+     "slug": "hunger-figures",
+     "question": "Does the 19.2m / 5m winter projection hold, does lean-season funding move above 31% of the appeal, and does FEWS NET converge with the IPC?",
+     "next_check": "2026-11-22"
+    },
+    {
+     "slug": "pakistan-detentions",
+     "question": "Do arrests in Pakistan keep easing from the 86,644 recorded to 17 October, and does the share of returns that are formal deportations stay near one in ten?",
+     "next_check": "2026-11-22"
+    },
+    {
+     "slug": "un-aid-funding",
+     "question": "UN appeal funding level, 31.38% of $1.71bn on 24 October, plus whether the $12.8m winter shelter request is met before the lean season bites",
+     "next_check": "2026-11-22"
+    },
+    {
+     "slug": "herat-exports-west",
+     "question": "Is the Herat chamber's $124m H1 export figure confirmed by customs or the World Bank, and does the Khaf-Herat railway carry more Afghan exports after the 600 tonnes of cotton to Turkiye?",
+     "next_check": "2026-12-06"
+    },
+    {
+     "slug": "capital-market",
+     "question": "Does a securities law, a regulator or a listing framework appear, or does the capital market stay a committee? No second meeting has been reported since 22 October",
+     "next_check": "2026-12-20"
+    },
+    {
+     "slug": "kabul-water",
+     "question": "Does the Panjshir pipeline move past survey stage, does Shahtoot restart, and what does the winter recharge do to the water table?",
+     "next_check": "2026-12-20"
+    },
+    {
+     "slug": "kunduz-gold",
+     "question": "Work began at Qala-e-Zal on 25 October with the contractor still unnamed and no royalty rate published. Accounts of the local development fund differ: Ariana News says $200,000, earlier reports $500,000. Who holds the contract and what does the state take?",
+     "next_check": "2027-01-23"
+    },
+    {
+     "slug": "casa-1000",
+     "question": "Is a wheeling-fee payment mechanism with Pakistan ever published, is the 70% v 75% progress gap explained, and does the Afghan section hold its March 2028 date?",
+     "next_check": "2027-01-31"
+    },
+    {
+     "slug": "remittances",
+     "question": "Does the next World Bank reading show remittances falling further below 15.7% of GDP, and does any measured figure replace the derived ~$3bn?",
+     "next_check": "2027-01-31"
+    }
+   ],
+   "threads_closed": [
+    "climate-finance",
+    "russia-trade",
+    "kazakh-grain",
+    "turkmen-power"
+   ],
+   "explainer": {
+    "area": "plumbing",
+    "topic": "The missing correspondent: why a cross-border payment is two bookkeeping entries guaranteed by a third bank, what a correspondent and a nostro account are, why large banks de-risked out of Afghanistan rather than being forbidden to act (a European bank needing 40-50 staff for one transaction; an Afghan bank smuggling cash after failing for years to pay a US supplier $3m), why Da Afghanistan Bank cannot vouch for its banks (governor on a UN list, about $7bn frozen in 2021 with half in a Swiss trust now around $4.2bn and never disbursed, APG membership inactive since 2022), what a $3.5bn banking system with private credit at 2.5% of GDP and 0.28% of firm investment bank-financed can actually do, and the three routes that remain - physical cash including the UN's $2.9bn-plus of flown-in banknotes, hawala netting at 1-3%, and third-country trading intermediaries - all of which suit small, physical, repeated transactions and none of which finances an eight-year drilling programme"
+   },
+   "url": "https://markfaizi.dev/kabulledger/2026-11-01"
   }
  ],
  "threads": [
   {
+   "slug": "banking-isolation",
+   "question": "Does any Afghan bank regain a correspondent relationship, does the Asia/Pacific Group on Money Laundering restore Afghanistan's active status or send assessors, and does the $4.2bn Swiss trust move at all? Explainer baseline: banking assets $3.5bn Dec 2025, private credit 2.5% of GDP Feb 2026, banks financing 0.28% of firm investment",
+   "status": "open",
+   "opened": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "next_check": "2027-01-31"
+  },
+  {
    "slug": "capital-market",
-   "question": "Does a securities law, a regulator or a listing framework appear, or does the capital market stay a committee? Watch also for whether any bank-lending reform accompanies it, against 0.28% of firm investment bank-financed",
+   "question": "Does a securities law, a regulator or a listing framework appear, or does the capital market stay a committee? No second meeting has been reported since 22 October",
    "status": "open",
    "opened": "2026-10-25",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-11-01",
    "next_check": "2026-12-20"
   },
   {
@@ -657,24 +829,25 @@
    "question": "Is a wheeling-fee payment mechanism with Pakistan ever published, is the 70% v 75% progress gap explained, and does the Afghan section hold its March 2028 date?",
    "status": "open",
    "opened": "2026-10-18",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-11-01",
    "next_check": "2027-01-31"
   },
   {
    "slug": "china-rail-freight",
-   "question": "Does the Shandong train arrive on time, does a regular service emerge from Shandong, and do Afghan goods travel back east on these rails rather than only imports coming west?",
+   "question": "Does the Shandong train arrive at Hairatan around 10 November, does a regular service emerge, is a freight rate published, and do Afghan goods travel back east?",
    "status": "open",
    "opened": "2026-10-25",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-11-01",
    "next_check": "2026-11-15"
   },
   {
    "slug": "climate-finance",
    "question": "Do the FAO and UNDP GEF proposals (about $19m) clear the GEF council, and does any equipment or early-warning capacity reach the ministries rather than UN agencies?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-18",
    "last_seen": "2026-10-18",
-   "next_check": "2027-01-15"
+   "next_check": "2027-01-15",
+   "closed": "2026-11-01"
   },
   {
    "slug": "energy-imports-iran-tapi",
@@ -687,10 +860,10 @@
   },
   {
    "slug": "herat-exports-west",
-   "question": "Is the Herat chamber's $124m H1 export figure confirmed by customs or the World Bank, and does the Khaf–Herat railway carry more Afghan exports after the 600 tonnes of cotton to Türkiye?",
+   "question": "Is the Herat chamber's $124m H1 export figure confirmed by customs or the World Bank, and does the Khaf-Herat railway carry more Afghan exports after the 600 tonnes of cotton to Turkiye?",
    "status": "open",
    "opened": "2026-10-25",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-11-01",
    "next_check": "2026-12-06"
   },
   {
@@ -698,23 +871,23 @@
    "question": "Does the 19.2m / 5m winter projection hold, does lean-season funding move above 31% of the appeal, and does FEWS NET converge with the IPC?",
    "status": "open",
    "opened": "2026-10-04",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-11-01",
    "next_check": "2026-11-22"
   },
   {
    "slug": "iran-deportations",
-   "question": "Monthly returnee and deportation counts from Iran and Pakistan (UNHCR, IOM), and whether the pace keeps easing from 2025's level",
+   "question": "Monthly returnee and deportation counts from Iran and Pakistan, and whether the pace keeps easing. UNHCR's Kabul representative Arafat Jamal said on 28 October that about 6.3m have returned since 2023, roughly 60% under compulsion, equal to about 15% of the population",
    "status": "open",
    "opened": "2026-09-27",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-11-01",
    "next_check": "2026-11-08"
   },
   {
    "slug": "iran-trade-mission",
-   "question": "28 private-sector MoUs worth $451.8m signed 10 Oct and Pezeshkian promising easier customs, but still no banking mechanism. Does a correspondent relationship, joint bank or rial-afghani window appear, and do Islam Qala and Nimroz run around the clock?",
+   "question": "28 private-sector MoUs worth $451.8m signed 10 October and promises of easier customs, but still no banking mechanism. Does a correspondent relationship, joint bank or rial-afghani window appear, and do Islam Qala and Nimroz run around the clock?",
    "status": "open",
    "opened": "2026-10-11",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-11-01",
    "next_check": "2026-11-15"
   },
   {
@@ -722,39 +895,56 @@
    "question": "Does the Panjshir pipeline move past survey stage, does Shahtoot restart, and what does the winter recharge do to the water table?",
    "status": "open",
    "opened": "2026-10-11",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-11-01",
    "next_check": "2026-12-20"
   },
   {
    "slug": "kazakh-grain",
    "question": "Does anything move north? Still no Afghan export contract into Central Asia against the $8.2m Kazakhstan bought in seven months; the week's export news went west instead",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-18",
    "last_seen": "2026-10-25",
-   "next_check": "2026-12-31"
+   "next_check": "2026-12-31",
+   "closed": "2026-11-01"
   },
   {
    "slug": "kunduz-gold",
-   "question": "Who holds the five-year $22m Qala-e-Zal gold contract, what royalty does the state take, and is the $500,000 community fund spent on the roads promised?",
+   "question": "Work began at Qala-e-Zal on 25 October with the contractor still unnamed and no royalty rate published. Accounts of the local development fund differ: Ariana News says $200,000, earlier reports $500,000. Who holds the contract and what does the state take?",
    "status": "open",
    "opened": "2026-10-25",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-11-01",
    "next_check": "2027-01-23"
   },
   {
+   "slug": "mining-pipeline",
+   "question": "Of about 350 active contracts and 44 large-scale projects, which ones actually pay? Watch for Delta International Energy field work in Herat and Badghis, named counterparties on the four exhibition MoUs, and whether minerals exceed the $32.1m of six-month exports",
+   "status": "open",
+   "opened": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "next_check": "2027-02-15"
+  },
+  {
+   "slug": "opium-economy",
+   "question": "Does UNODC publish its methodology and does the interior ministry publish its eradication data? Does the 2027 planting season, decided in November 2026, expand on 43,300 hectares, and does the $500/kg price hold as supply rises?",
+   "status": "open",
+   "opened": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "next_check": "2026-11-29"
+  },
+  {
    "slug": "pakistan-border-closure",
-   "question": "Crossings shut to goods for a year. Mention only on a concrete development: a reopening, a new round of talks with an outcome, or fresh transit figures",
+   "question": "Does any customs or port authority confirm the Karachi auctions, how many containers and what value were sold, and does the border reopen to goods? Mention only on a concrete development",
    "status": "open",
    "opened": "2026-09-27",
-   "last_seen": "2026-10-18",
-   "next_check": null
+   "last_seen": "2026-11-01",
+   "next_check": "2026-12-13"
   },
   {
    "slug": "pakistan-detentions",
    "question": "Do arrests in Pakistan keep easing from the 86,644 recorded to 17 October, and does the share of returns that are formal deportations stay near one in ten?",
    "status": "open",
    "opened": "2026-10-25",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-11-01",
    "next_check": "2026-11-22"
   },
   {
@@ -771,39 +961,49 @@
    "question": "Does the next World Bank reading show remittances falling further below 15.7% of GDP, and does any measured figure replace the derived ~$3bn?",
    "status": "open",
    "opened": "2026-10-25",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-11-01",
    "next_check": "2027-01-31"
   },
   {
    "slug": "russia-trade",
    "question": "Moscow's envoy said on 17 October that trade doubled in the first half of 2026, against the +150% seven-month figure reported on 7 October. Do the Russian and Afghan figures converge, and does 2026 land near $815m?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-11",
    "last_seen": "2026-10-18",
-   "next_check": "2027-02-15"
+   "next_check": "2027-02-15",
+   "closed": "2026-11-01"
+  },
+  {
+   "slug": "trade-balance",
+   "question": "Do exports keep falling below the $598.5m half-year figure, does the state publish matching customs revenue, and does any Afghan export line other than fruit and medicinal plants grow?",
+   "status": "open",
+   "opened": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "next_check": "2026-12-20"
   },
   {
    "slug": "turkmen-power",
    "question": "Does the Kerki–Kabul 500kV line's Sheberghan–Dasht Alwan section finish as promised, and does the Dasht Alwan–Arghandi section hold its June 2027 date for up to 800MW?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-25",
    "last_seen": "2026-10-25",
-   "next_check": "2027-02-28"
+   "next_check": "2027-02-28",
+   "closed": "2026-11-01"
   },
   {
    "slug": "un-aid-funding",
    "question": "UN appeal funding level, 31.38% of $1.71bn on 24 October, plus whether the $12.8m winter shelter request is met before the lean season bites",
    "status": "open",
    "opened": "2026-09-27",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-11-01",
    "next_check": "2026-11-22"
   },
   {
    "slug": "winter-harvest-weather",
-   "question": "FEWS NET now expects above-average precipitation and an above-average winter wheat area. Does the rain arrive, and does planting happen despite urea up 24%?",
+   "question": "FEWS NET expects above-average precipitation and an above-average winter wheat area. Does the rain arrive, and does planting happen with urea up 23% at 2,003 AFN per 50kg?",
    "status": "open",
    "opened": "2026-09-27",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-11-01",
    "next_check": "2026-11-15"
   }
  ]

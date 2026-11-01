@@ -272,39 +272,195 @@
     "finding": "Year to 31 Dec 2024: turnover about £75.8m (+30%), cash £20.7m, net assets only £1.48m — fourteen times more cash than company, because the cash is customers' deposits. Soho Square Capital minority buyout Oct 2024 with a Blossom Topco/Midco/Bidco holding chain. 2025 accounts filed 14 July 2026, 26 pages, document not retrievable this edition."
    },
    "url": "https://markfaizi.dev/loadfactor/2026-10-15"
+  },
+  {
+   "date": "2026-11-01",
+   "title": "Load Factor — 1 November",
+   "lede": "On Budget day the Treasury asked British tour operators a question nobody had put to them in forty years. Should the tax rule built for them exist at all?",
+   "lead_theme": "regulation",
+   "sections": [
+    "The Fortnight",
+    "How It Works",
+    "By the Numbers",
+    "What to Watch",
+    "Colophon"
+   ],
+   "items": [
+    {
+     "slug": "toms-review",
+     "theme": "regulation",
+     "kind": "new",
+     "headline": "A forty-year-old VAT rule for tour operators is now up for abolition",
+     "gist": "HMRC call for evidence on the Tour Operators' Margin Scheme published 28 Oct 2026, closes 9.30am 31 Jan 2027. 31 questions. Options include full withdrawal, partial withdrawal, making TOMS optional. HMRC says Brexit removed the 'technical need' and withdrawal 'may have minimal impact' on net VAT. Margin standard-rated 20% if enjoyed in UK, zero-rated outside UK (incl. EU post-Brexit). Pinch points: in-house supplies apportioned by cost under VAT Notice 709/5, Information Sheet 1/94 transport concession ('contrived business structures'), and packaged supplies via overseas operators where HMRC 'will be legislating to correct this distortion'. Separate Budget measure: overseas suppliers must register for UK VAT on services to non-VAT-registered UK businesses from April 2027, expected to raise GBP 70-75m."
+    },
+    {
+     "slug": "riviera-sale",
+     "theme": "results-ownership",
+     "kind": "new",
+     "headline": "Riviera's owner calls the bankers back",
+     "gist": "The Times, 18 Oct 2026: Silverfleet Capital has appointed Harris Williams to review options for Riviera Travel, including a sale. Early stage, nothing agreed. Revenue above GBP 255m, about a dozen river ships, stated plan of 26 within five years. Silverfleet has held a majority since 2017, bought from Phoenix Equity Partners; it hired Baird in 2024 for the same exercise and chose expansion instead. A nine-year hold."
+    },
+    {
+     "slug": "budget-2026-costs",
+     "theme": "supply-operations",
+     "kind": "new",
+     "headline": "Next April's pay rise lands on holidays already sold",
+     "gist": "Autumn Budget delivered 28 Oct 2026 by Chancellor John Healey. From 1 Apr 2027 National Living Wage (21+) rises 3.9% to GBP 13.21 from GBP 12.71; 18-20 rate GBP 11.27; under-18 and apprentice GBP 8.31; c.GBP 910 more gross a year per full-time worker on the floor; Low Pay Commission accepted in full. Small business rates relief threshold for retail, hospitality and leisure in England raised from GBP 12,000 to GBP 18,000 rateable value, c.70,000 businesses out of rates plus a two-year real-terms freeze. Overnight visitor levy available to English mayors/authorities from 2028. APD economy: Band A GBP 15.00 to GBP 15.49 (Apr 2027) to GBP 15.97 (Apr 2028); Band B GBP 102 to GBP 105.33 to GBP 108.60. Lo Bue-Said (UKOTG): 'missed a clear opportunity to back travel'; Tanzer (ABTA) disappointed on APD; Croft (UKinbound) called the levy timetable a 'significant red flag'."
+    },
+    {
+     "slug": "gtouring-accounts",
+     "theme": "risk-guarantees",
+     "kind": "new",
+     "headline": "£21m in the bank and £27m of net liabilities, both true at once",
+     "gist": "G Touring Limited (04956006), owner of Travelsphere and Just You, owned by G Adventures founder Bruce Poon Tip, filing from Market Harborough. Group accounts to 31 July 2024, filed 15 Apr 2025: turnover GBP 40.56m (+GBP 8.55m, +27%); cash at bank GBP 21.13m (+GBP 2.61m); net liabilities GBP 27.41m; total assets GBP 26.33m; 81 employees (+9). Share allotment 11 Mar 2025 took capital to GBP 15,030,000. Two charges registered Jan 2024, three older ones discharged. Redundancies confirmed May 2026 citing Middle East disruption. Accounts to 31 July 2025 filed 9 Mar 2026 but the document could not be retrieved this edition."
+    }
+   ],
+   "visuals": [
+    "where the VAT sits in one GBP 1,295 European coach tour price, illustrative three-column cost table ending in margin VAT of GBP 0 abroad versus GBP 62.50 in Britain",
+    "what AI search has done to operators' bookings, single segmented horizontal bar 14/78/8 with direct labels",
+    "before-and-after inline SVG flow diagram: three acquisition routes to the operator today versus an AI assistant standing at the point of choice, with a reshop loop"
+   ],
+   "watch": [
+    {
+     "text": "Whose evidence on the Tour Operators' Margin Scheme becomes public before the 31 January deadline, and whether the next Finance Bill carries the packaged-supplies measure HMRC says it will legislate for regardless of the review.",
+     "due": "2027-01-31"
+    },
+    {
+     "text": "Whether 2027 prices hold through Black Friday and the January peak now the April 2027 wage floor is known, or whether operators run fewer and fuller departures; and the first read on how Trafalgar's three tiers sell.",
+     "due": "2026-12-01"
+    },
+    {
+     "text": "Whether Silverfleet's review of Riviera Travel becomes a formal sale, and how the 2026 low-water summer is presented to a buyer.",
+     "due": "2027-02-15"
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "toms-review",
+     "question": "Does HMRC publish a summary of responses after 31 January 2027, and does it signal withdrawal, modification or no change? Watch for ABTA, UKinbound and ETOA responses and for the packaged-supplies legislation in the Finance Bill.",
+     "next_check": "2027-02-01"
+    },
+    {
+     "slug": "riviera-sale",
+     "question": "Does the Harris Williams review turn into a formal sale process, and who bids? Reported revenue above GBP 255m.",
+     "next_check": "2026-12-15"
+    },
+    {
+     "slug": "gtouring-accounts",
+     "question": "Read the group accounts to 31 July 2025, filed 9 March 2026: turnover, whether the GBP 15.03m share allotment lifts net assets, and how many jobs went in the May 2026 redundancies.",
+     "next_check": "2026-12-01"
+    },
+    {
+     "slug": "budget-2026-costs",
+     "question": "Do operators reprice 2027 departures or trim them once the April 2027 wage floor bites, and does any operator quantify the cost per departure?",
+     "next_check": "2027-01-15"
+    },
+    {
+     "slug": "atol-reform",
+     "question": "Still no consultation date from the DfT or CAA. With the TOMS review now running, is ATOL reform parked behind it?",
+     "next_check": "2027-01-15"
+    },
+    {
+     "slug": "newmarket-accounts",
+     "question": "Read the 2025 accounts filed 14 July 2026: turnover, net assets, and whether the Soho Square holding structure carries debt above the trading company.",
+     "next_check": "2026-11-15"
+    },
+    {
+     "slug": "ttc-brand-consolidation",
+     "question": "How the Trafalgar tiers sell for 2027 departures, especially around Black Friday",
+     "next_check": "2026-12-01"
+    },
+    {
+     "slug": "uk-accounts-season",
+     "question": "Which operators file new accounts in late 2026, and what do they show?",
+     "next_check": "2026-12-31"
+    },
+    {
+     "slug": "travelopia-education-sale",
+     "question": "Does the Rockaway deal complete, and does KKR sell YMT Vacations, Sawadee or any of the brands it called core?",
+     "next_check": "2027-01-15"
+    },
+    {
+     "slug": "ptr-amendment-2027",
+     "question": "How operators prepare for 6 April 2027: are supplier contracts being rewritten to use the new 14-day refund right, and does anyone reprice risk because of it?",
+     "next_check": "2027-02-01"
+    },
+    {
+     "slug": "atol-renewal-round",
+     "question": "Do any of the 49 licences missing from the CAA's September notice turn out to have been failures, and does the CAA explain the gap?",
+     "next_check": "2027-04-15"
+    },
+    {
+     "slug": "river-cruise-low-water",
+     "question": "Do river cruise operators reprice or reroute 2027 after the low-water summer? Now also a diligence question in the Riviera sale review.",
+     "next_check": "2026-12-15"
+    },
+    {
+     "slug": "grj-year-end",
+     "question": "Why did Great Rail Journeys' owner extend the year end to April 2026: refinancing, alignment or a sale?",
+     "next_check": null
+    }
+   ],
+   "threads_closed": [],
+   "explainer": {
+    "area": "ai-integration",
+    "topic": "Whether AI trip planners threaten the touring distribution model: cost of customer acquisition by route, what the booking data actually shows (14% of operators see more AI bookings, 8% fewer, 78% no change; LLMs well under 1% of Booking Holdings' room nights), who stands at the point of choice when an assistant answers first, the reshopping problem for dated perishable departures, what operators have genuinely deployed (Intrepid's 24/7 chat, Club Med's 47%-automated WhatsApp), how to read vendor claims, and the 34%-versus-52% AI-readiness gap"
+   },
+   "method": "brochure-terms",
+   "companies_house": {
+    "company": "G Touring Limited (04956006), owner of Travelsphere and Just You",
+    "finding": "Group accounts to 31 July 2024: turnover GBP 40.56m, up 27%; cash GBP 21.13m; net liabilities GBP 27.41m; 81 employees. A GBP 15.03m share allotment in March 2025 and a January 2024 refinancing show the owner supporting the balance sheet; redundancies followed in May 2026. Used to teach why large cash and negative net assets coexist in a deposit-funded operator."
+   },
+   "url": "https://markfaizi.dev/loadfactor/2026-11-01"
   }
  ],
  "threads": [
   {
    "slug": "atol-reform",
-   "question": "Still no consultation date from the DfT or CAA; ABTA's Madeira convention produced none. Is the reform now effectively parked in favour of licence conditions?",
+   "question": "Still no consultation date from the DfT or CAA. With the TOMS review now running, is ATOL reform parked behind it?",
    "status": "open",
    "opened": "2026-09-16",
-   "last_seen": "2026-10-15",
-   "next_check": "2026-11-15"
+   "last_seen": "2026-11-01",
+   "next_check": "2027-01-15"
   },
   {
    "slug": "atol-renewal-round",
    "question": "Do any of the 49 licences missing from the CAA's September notice turn out to have been failures, and does the CAA explain the gap?",
    "status": "open",
    "opened": "2026-10-15",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-11-01",
    "next_check": "2027-04-15"
+  },
+  {
+   "slug": "budget-2026-costs",
+   "question": "Do operators reprice 2027 departures or trim them once the April 2027 wage floor bites, and does any operator quantify the cost per departure?",
+   "status": "open",
+   "opened": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "next_check": "2027-01-15"
   },
   {
    "slug": "grj-year-end",
    "question": "Why did Great Rail Journeys' owner extend the year end to April 2026: refinancing, alignment or a sale?",
    "status": "open",
    "opened": "2026-10-03",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-11-01",
    "next_check": null
+  },
+  {
+   "slug": "gtouring-accounts",
+   "question": "Read the group accounts to 31 July 2025, filed 9 March 2026: turnover, whether the GBP 15.03m share allotment lifts net assets, and how many jobs went in the May 2026 redundancies.",
+   "status": "open",
+   "opened": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "next_check": "2026-12-01"
   },
   {
    "slug": "newmarket-accounts",
    "question": "Read the 2025 accounts filed 14 July 2026: turnover, net assets, and whether the Soho Square holding structure carries debt above the trading company.",
    "status": "open",
    "opened": "2026-10-15",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-11-01",
    "next_check": "2026-11-15"
   },
   {
@@ -312,23 +468,39 @@
    "question": "How operators prepare for 6 April 2027: are supplier contracts being rewritten to use the new 14-day refund right, and does anyone reprice risk because of it?",
    "status": "open",
    "opened": "2026-10-15",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-11-01",
    "next_check": "2027-02-01"
   },
   {
    "slug": "river-cruise-low-water",
-   "question": "Do river cruise operators reprice or reroute 2027 after the low-water summer? Watch Saga and others' booked loads.",
+   "question": "Do river cruise operators reprice or reroute 2027 after the low-water summer? Now also a diligence question in the Riviera sale review.",
    "status": "open",
    "opened": "2026-10-03",
-   "last_seen": "2026-10-03",
-   "next_check": null
+   "last_seen": "2026-11-01",
+   "next_check": "2026-12-15"
+  },
+  {
+   "slug": "riviera-sale",
+   "question": "Does the Harris Williams review turn into a formal sale process, and who bids? Reported revenue above GBP 255m.",
+   "status": "open",
+   "opened": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "next_check": "2026-12-15"
+  },
+  {
+   "slug": "toms-review",
+   "question": "Does HMRC publish a summary of responses after 31 January 2027, and does it signal withdrawal, modification or no change? Watch for ABTA, UKinbound and ETOA responses and for the packaged-supplies legislation in the Finance Bill.",
+   "status": "open",
+   "opened": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "next_check": "2027-02-01"
   },
   {
    "slug": "travelopia-education-sale",
-   "question": "Does the Rockaway deal complete in Q4 2026, and does KKR sell YMT Vacations, Sawadee or any of the brands it called core?",
+   "question": "Does the Rockaway deal complete, and does KKR sell YMT Vacations, Sawadee or any of the brands it called core?",
    "status": "open",
    "opened": "2026-10-15",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-11-01",
    "next_check": "2027-01-15"
   },
   {
@@ -336,7 +508,7 @@
    "question": "How the Trafalgar tiers sell for 2027 departures, especially around Black Friday",
    "status": "open",
    "opened": "2026-10-03",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-11-01",
    "next_check": "2026-12-01"
   },
   {
@@ -353,7 +525,7 @@
    "question": "Which operators file new accounts in late 2026, and what do they show?",
    "status": "open",
    "opened": "2026-09-16",
-   "last_seen": "2026-09-16",
+   "last_seen": "2026-11-01",
    "next_check": "2026-12-31"
   }
  ]
