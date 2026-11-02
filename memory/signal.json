@@ -2758,6 +2758,185 @@
     "moderna-melanoma-vaccine"
    ],
    "url": "https://markfaizi.dev/signal/2026-10-29"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "Signal — 2 November",
+   "lede": "Six point three billion dollars left Binance on Thursday afternoon. The exchange locked the door four hours later.",
+   "lead_theme": "crypto",
+   "sections": [
+    "Out the door",
+    "On the share register",
+    "The order book",
+    "Weights and limits",
+    "The diary"
+   ],
+   "items": [
+    {
+     "slug": "binance-hack",
+     "theme": "crypto",
+     "kind": "new",
+     "headline": "The biggest theft on record took twenty minutes",
+     "gist": "About $6.3bn (TRM: $6.36bn moved, $6.23bn at prices) left Binance hot wallets across ten blockchains from 20:05 GMT on 29 Oct, most of it in ~20 minutes; ~$3.8bn ether, ~$1.5bn bitcoin (18,270 BTC), one transfer over $2.5bn. TRM Labs attributes with high confidence to TraderTraitor (North Korea, Lazarus); FBI named the same group for the $1.5bn Bybit theft in Feb 2025, so this is ~4x larger; Elliptic's chief scientist called it almost certainly the largest known theft of any kind. Method: on Ethereum an EIP-7702 delegation turned a Binance hot wallet into an attacker-controlled sweeper, with 50 pre-signed authorisations, one matching the nonce; the other nine chains used ordinary signed transfers, suggesting compromised signing infrastructure. Preparation began at least 36 hours earlier with small Tornado Cash withdrawals. Binance first blamed an engineer's compromised laptop and has published no root cause. Freezes: Tether began 21:01 GMT, blocked Binance's hot wallet 22:06, Circle followed 22:09 and blocked at 23:53; ~$2.7bn frozen per TRM as at 00:30 GMT 30 Oct ($1.77bn USDT, $825m USDC, $40.5m RLUSD, $27.8m USD1, 8,426 ETH plus $74.6m ARB), later reported near $3bn; ~$1.5bn could not be frozen; ~$2.4bn still with the attacker including over 420,000 ETH and 18,270 BTC. Binance revoked the attacker's hot-wallet permissions only at 00:10 GMT, four hours five minutes after the first transfer. Binance set aside $6bn, said it will absorb the loss not pass it to users, replenished 90% by 31 Oct, resumed withdrawals 1 Nov, promised proof of reserves 2 Nov. Bitcoin fell about 5% below $80,000; Coinbase and Robinhood fell. Attacker sold ~325m USDT to market makers at a discount above 10% for ~122,300 ETH. US Secret Service tracking; FBI published wallet addresses."
+    },
+    {
+     "slug": "intel-fab28",
+     "theme": "deals-corporate",
+     "kind": "new",
+     "headline": "Intel's worst day in fifty-two years",
+     "gist": "Intel shares fell about 29% on Fri 30 Oct, worst day since 1974 (some outlets -27.3% to -28.6% depending on measure). Q3 2026 beat: revenue $16.5bn, non-GAAP EPS $0.52, gross margin 44.1%; Data Center and AI $7.3bn with $3bn operating profit, fastest sector growth in 15 years. Q4 guidance: revenue $15-16bn, non-GAAP EPS $0.25, gross margin 38%. Causes: client computing to fall more than 20% q/q on the PC correction driven by memory prices; and an early-October explosion at Fab 28, Kiryat Gat, Israel, which shut the plant about two weeks. CFO David Zinsner: about $300m of Q4 revenue and ~200bp of gross margin, with a similar hit in Q1 (roughly $600m across both); nearly all of it 10nm server products; Intel 3 yields a separate headwind named by CEO Lip-Bu Tan. Bernstein's Stacy Rasgon said margin would have been 40% without Israel; Zinsner did not dispute it. Two workers died and one was injured; neither release nor call mentioned them. Zinsner: 'demand for DCAI products continues to meaningfully exceed available supply', constrained through 2027 into 2028; addressable server CPU market possibly $40bn to over $200bn in five years. Knock-on: AMD -12%, Nvidia -5%, VanEck Semiconductor ETF -8%; nearly 70% of US issues fell; Vix +32% intraday, highest since June."
+    },
+    {
+     "slug": "reddit-ai-referrals",
+     "theme": "consumer-tech",
+     "kind": "new",
+     "headline": "Reddit's visitors stopped arriving",
+     "gist": "Reddit Q3 2026 reported 29 Oct: revenue $895m, +53% y/y; diluted EPS $1.40. US average daily active uniques 50.7m, -5% q/q and -2% y/y, the first annual fall since the 2024 IPO; global DAU about 130.3m, roughly flat q/q. Search referrals fell through the quarter and by more than 1 million a week on average in October, accelerating late in Q3; logged-out web traffic hit hardest. CEO Steve Huffman named Google's AI Overviews and AI Mode as the 'leading hypothesis' but said Reddit cannot see Google's ranking changes; he also suggested machine-translated Reddit content may rank lower outside the US. Q4 guidance $1.00-1.03bn revenue, with a warning that total daily uniques could fall a low double-digit percentage from a 130m base if referrals keep declining. Reddit will test a mostly logged-in experience in selected non-US markets in Q4, which also reduces AI scraping; over 80% of monetisation already comes from logged-in and app users. Shares -29.22% on 30 Oct to $91.73."
+    },
+    {
+     "slug": "alphabet-cash-flow",
+     "theme": "ai-infrastructure",
+     "kind": "followup",
+     "headline": "Amazon spent $42bn more cash than it took in",
+     "gist": "Follow-up to 29 Oct. Amazon Q3 2026 (reported 29 Oct): net sales $201.9bn +12%; operating income $28.1bn (13.9% margin); net income $20.7bn, diluted EPS $1.89 against $1.95, the fall explained by $9.5bn of prior-year pre-tax Anthropic gains; AWS $46.0bn +39%, $184bn annualised run rate. Trailing-twelve-month operating cash flow $168.3bn +29%; TTM free cash flow MINUS $42.4bn; nine-month purchases of property and equipment $175.7bn ($172.2bn net of proceeds and incentives); implied TTM capex net of proceeds about $210.7bn. 2026 cash capex guidance about $220bn, unchanged. Q4 guidance: net sales $240-247bn (+12-16%), operating income $28.5-33.5bn. Alphabet had reported FCF of minus $9.1bn on 28 Oct. Over the week Alphabet fell 12.6% and SpaceX 8.7%. Thread closed: Amazon's answer is in."
+    },
+    {
+     "slug": "cohere-canada",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Ottawa bought a piece of its biggest AI company",
+     "gist": "Announced 29 Oct on day one of the Canada-EU summit in Montreal: Canada will invest up to C$1.6bn for an equity stake in Cohere via the Canada Development Investment Corporation. Round about C$7bn (reported as ~US$5bn), valuing Cohere near C$35.7-36bn, Canada's most valuable private tech company. Germany's Schwarz Group (owner of Lidl) leads; Nvidia and Bell Canada also committed, amounts undisclosed. Conditions: Cohere keeps its Canadian headquarters and incorporation, creates 1,000 high-paying jobs, spends at least C$1.7bn on Canadian computing infrastructure by 2030, and reports progress to Ottawa; Carney said government data stays in Canada. Carney: 'And now, Canada has a stake in it'; 'Canadians decide how it works and who it answers to.' CEO Aidan Gomez said the company will always be based in Canada. Ottawa had pledged up to C$240m to a Cohere data-centre project in 2024. No percentage of the company disclosed. Separately, Telegraph reported 1 Nov that the UK Sovereign AI Fund is investing hundreds of millions of pounds in London inference-chip startup Fractile at a $6.5bn valuation; round size conflicts between accounts ($700m per Telegraph, $600m in earlier reports), with Anthropic reported to have agreed to buy about $250m of Fractile's chips. Not announced as at 2 Nov."
+    },
+    {
+     "slug": "korea-ai-budget",
+     "theme": "ai-money",
+     "kind": "new",
+     "headline": "Seoul will tax the chip boom to pay for the next one",
+     "gist": "President Lee Jae Myung's fourth budget address, National Assembly, Mon 2 Nov: a record 2027 budget of 820.9 trillion won, 12.8% larger than 2026. 21.3tn won (about US$16bn) for AI and three 'megaprojects' - semiconductors, physical AI, AI data centres - nearly double this year's 10.8tn won. A 162tn won (about US$120.5bn) future-oriented fund backed by windfall tax revenue from the semiconductor boom; Lee called it 'a mechanism to keep public finances stable as tax revenue fluctuates more widely' and 'a platform for strategic investment to boost the economy's growth potential'. 13.8tn won for ten next-generation strategic technology fields. Welfare: automatic enrolment for major benefits, income benchmark for about 60 programmes up 6.7%, maximum monthly livelihood benefit for a four-person household 2.21m won. Ruling Democratic Party calls it 'a budget to prepare Korea's future'; opposition People Power Party called it 'a declaration of war on the people' and protested in the Assembly lobby, citing national debt. Legal passage deadline 2 December. CNBC reported Korea also targets a sovereign AI model of 'world's highest performance'; that element not confirmed in the Korea Times account."
+    },
+    {
+     "slug": "quad-chip-chokepoints",
+     "theme": "ai-regulation",
+     "kind": "new",
+     "headline": "The Quad went looking for chokepoints",
+     "gist": "Quad foreign ministers met 31 Oct in Atlanta alongside the G20 foreign ministers' meeting: India's S Jaishankar, US Secretary of State Marco Rubio, Japan's Toshimitsu Motegi, Australia's Penny Wong. Joint Press Release on Economic Prosperity and Security pledges more than $85m of technical and financial assistance to expand access to trusted AI across the Indo-Pacific, partly through the Quad AI Accelerator; no per-country split, allocation or timeline. The four will launch an effort to identify semiconductor and AI hardware supply-chain chokepoints 'before they cause disruptions'; no lead agency, method or timeline. 'Grave concerns' recorded about economic coercion including arbitrary export restrictions and non-market overcapacity, naming no country. Also: trusted 5G/6G/Open RAN cooperation, digital identity standards, condemnation of scam compounds, US $10m for critical-mineral recovery from e-waste in India and ASEAN, first Quad Business Leaders' Forum, and a Quad export credit agencies meeting in Tokyo on 18 November. Rubio: the four are 'delivering results for our people and the nations in the region.'"
+    },
+    {
+     "slug": "korea-exports-record",
+     "theme": "global-economy",
+     "kind": "new",
+     "headline": "Korea sold $115bn of things in a single month",
+     "gist": "Ministry of Trade, Industry and Resources via Yonhap, 1 Nov: October 2026 exports a record $115.3bn, up 93.7% y/y, unadjusted (implying about $59bn a year earlier). Semiconductors $56.4bn, +259%, about 49% of total exports. Imports $72.78bn +36%; trade surplus $42.5bn. Other categories: petroleum products $6.92bn +80%, automobiles $6.55bn +18.1% on hybrid demand, petrochemicals $4bn +27.5%, cosmetics $1.44bn +57.5%. Destinations: China $26.98bn +133.6% (above $20bn for five straight months), US $24.9bn +185.8%, south-east Asia $21.33bn +128%, EU $8.1bn +56.4%. January-October cumulative exports passed $900bn for the first time; the ministry says annual exports could reach $1 trillion as early as November. Industry Minister Kim Jung-kwan: 'The global trade environment remains uncertain', citing protectionism, supply chain shifts and Middle East tensions."
+    },
+    {
+     "slug": "china-pmi-october",
+     "theme": "global-economy",
+     "kind": "new",
+     "headline": "China's factories went back below fifty",
+     "gist": "National Bureau of Statistics, published 31 Oct: October official manufacturing PMI 49.3, down from 50.1 in September and below the 50.0 consensus; non-manufacturing PMI (services and construction) 49.7, also below the expansion line, which is unusual for that series. NBS directed attention to sub-indices it groups as 'new momentum' industries, which it says maintained rapid growth. Set against Korea's record October exports the same week: the chip-driven build-out is lifting component makers rather than the wider regional economy."
+    },
+    {
+     "slug": "france-lagarde",
+     "theme": "global-economy",
+     "kind": "new",
+     "headline": "France has not grown all year, and Lagarde is leaving",
+     "gist": "Insee, Fri 30 Oct: French Q3 GDP -0.1% q/q, after 0.0% in Q2 and -0.2% in Q1, so no growth in 2026. Household consumption +0.4%; transport equipment output -3.5% (aerospace -4.5%, automotive -1.5%), agri-food -1.5% on poor summer harvests. French inflation 3.4% y/y in October, from 3.1%, highest since January 2024; Italy's October headline reported at 5.4%. Eurostat flash the same day: euro area Q3 GDP +0.4% q/q, EU +0.5%. Economy minister Roland Lescure said the economy is 'at a standstill' and France 'will hit the wall' without a 2027 budget; the government has no majority, with article 49.3 or ordinances (never used for a budget since 1958) as fallbacks. French 10-year OAT about 4.9% on 30 Oct, spread to Bunds about 155bp, down from the 174.6bp peak of 22 Oct against a one-year average near 80bp. BCA Research's Jeremie Peloso says a technical recession over coming quarters is 'highly likely'. ECB held the deposit rate at 2.5% on 29 Oct, citing rising energy prices as an upside inflation risk, with markets pricing a December rise and up to three more by end-2027 to 3.25%; euro-area private-sector growth in October was the weakest in four months. Christine Lagarde announced on 29 Oct that she leaves on 7 February 2027, nine months early. Quotes: 'We have an obligation of neutrality'; 'I don't think that I can be comfortable in that neutrality'; she wants 'the freedom to engage on matters that are not monetary policy matters'; in a video, 'I leave this institution with a sense of good work done and an ECB that is fit for the future.' A source said she wants to weigh in on French and global politics; WEF chairmanship remains speculation. Antonio Costa said the successor search starts immediately; Klaas Knot and Pablo Hernandez de Cos are the front-runners. Isabel Schnabel leaves the Executive Board in January for the IMF; chief economist Philip Lane's term ends in May. France elects a president in spring 2027, with Marine Le Pen leading polls. Markets barely moved."
+    },
+    {
+     "slug": "mistral-large-4",
+     "theme": "ai-products-research",
+     "kind": "followup",
+     "headline": "A trillion-parameter model, free to download",
+     "gist": "Follow-up. Mistral released Mistral Large 4 open weights on Thu 29 Oct, two days before its self-imposed 31 October deadline. About one trillion parameters, multimodal, nicknamed 'Le Chonk'; weights on Hugging Face and the model on Mistral's API. Company claims: comparable to GLM-5.3 while using 47% fewer tokens per task, and top of Artificial Analysis's Coding Agent Index among open models; no published scores in the coverage reached. Positioned for defensive cybersecurity and on-premise deployment across code and IT infrastructure. CEO Arthur Mensch: AI should 'be a tool for empowerment, not dominance.' VP of Science Pierre Stock: access 'that can't be cut off by definition because the model is open-weighted'; he also said the company does not want to 'fearmonger people' about AI security risk. Company line: 'state-of-the-art performance' at 'a fraction of the compute and capital committed by closed labs.' Licence described by several secondary accounts as a modified MIT; the modification could not be confirmed from a primary source and was printed as reported. Thread closed."
+    },
+    {
+     "slug": "gdpx-benchmark",
+     "theme": "ai-products-research",
+     "kind": "new",
+     "headline": "The best model anyone can buy scores twelve per cent",
+     "gist": "SemiAnalysis published GDPx on 2 Nov, by Max Kan, Andrew Megalaa and Dylan Patel: an agentic benchmark across 11 high-value domains - chip design, cybersecurity, biology, finance, legal, quant trading, recursive self-improvement, hardware design, materials science, alignment, software engineering - deliberately excluding government, real estate and insurance. Tasks built with specialised RL-environment partners in realistic environments (a finance task uses a ~2,000-file deal room); default 8-hour limit; models run in native harnesses or OpenCode; headline score is pass@1 across three attempts, domains and partners equally weighted. Scores: Claude Opus 5.5 12.0% (best overall, leads quant trading, hardware design, chip design), Gemini 4 Carbon 10.9% (best biology, edges software engineering), GPT-6 Astra 9.6% (leads RSI and materials science); Muse Wonder Full best on cyber by a meaningful margin. Safety classifiers depress Opus 5.5 and GPT-6 Astra overall. Finance and legal: essentially every model scores exactly 0 under binary grading, so partial credit is reported for those two; the authors say strong models misjudge authoritative sources and miss second-order implications. They argue GDPval and similar general benchmarks lack realistic environments and often have flawed graders."
+    },
+    {
+     "slug": "apple-qwen-china",
+     "theme": "consumer-tech",
+     "kind": "new",
+     "headline": "Apple will ship Chinese AI on a Chinese model",
+     "gist": "Alibaba announced on social media on 1 Nov, agreement struck 31 Oct, that Qwen will power Apple Intelligence in China - Apple's first partnership with a local model developer since Apple Intelligence was cleared for the Chinese market. Chinese users can call Qwen within Siri, writing tools and visual intelligence, drawing on text and image comprehension and content generation. Testable in the latest iOS developer beta from 4 Nov; public launch with iOS 27.3 in December. Qwen is opt-in; Alibaba says user queries and generated responses will not be used to train its models. Eligibility: an Apple Intelligence-capable iPhone bought in China, or device location and Apple Account country both set to China. The Cyberspace Administration of China added Apple Intelligence to its approved list in July 2026. Alibaba CEO Wu Yongming: Qwen 'will be deeply woven into a range of experiences across the Apple ecosystem.' Wang Xiaojie of Beijing University of Posts and Telecommunications told Xinhua it is the first time a leading consumer hardware maker has built its Chinese-market AI on a domestically developed large model. No Apple statement; the Korean-language source was machine-translated, so quote wording may differ."
+    }
+   ],
+   "visuals": [
+    "lede illustration, inline SVG: an ajar circular vault door with a stream of blocks leaving it, five blocks stacked in teal against a vertical barrier labelled 'frozen $2.7bn' and the rest continuing right in oxblood outline, fading, labelled 'still moving $2.4bn'",
+    "event timeline strip on a single horizontal time axis, 20:00 to 00:00 GMT on 29 October, with an oxblood band above the axis for the twenty minutes of the theft and teal stems below for the Tether and Circle freezes, Binance's 00:10 permission revocation marked in ink past midnight",
+    "waterfall, three bars: Amazon trailing-twelve-month cash from operations +$168.3bn in teal, capital spending −$210.7bn floating down in oxblood, free cash flow −$42.4bn below the zero rule",
+    "slope chart, four paired dots joined across two vertical rules, Korea's October exports by category 2025 against 2026 in $bn, semiconductors in oxblood rising 15.7 to 56.4 and three other categories near flat in grey"
+   ],
+   "watch": [
+    {
+     "text": "Binance has promised proof of reserves today, and Apple reports after the American close",
+     "due": "2026-11-02"
+    },
+    {
+     "text": "American midterm elections, after which Washington has been reported to have told officials any strike on Iran would come; the Reserve Bank of Australia decides",
+     "due": "2026-11-03"
+    },
+    {
+     "text": "Eurostat's flash estimate of October euro-area inflation, after September's 3.8 per cent, and Apple's Chinese AI opens to developers",
+     "due": "2026-11-04"
+    },
+    {
+     "text": "The Bank of England decides, with a rise to 4 per cent priced at about 94 per cent, and Canada delivers its federal budget a week after buying into Cohere",
+     "due": "2026-11-05"
+    },
+    {
+     "text": "American October payrolls, the number that sets the odds on a Federal Reserve rise on 9 December",
+     "due": "2026-11-06"
+    },
+    {
+     "text": "The Quad's export credit agencies meet in Tokyo, and comments close on China's draft AI export catalogue on 15 November",
+     "due": "2026-11-18"
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "binance-hack",
+     "question": "Does Binance publish a root cause and proof of reserves, how much of the $2.4bn still held by the attacker is recovered or laundered, and does any regulator act on the fact that stablecoin issuers rather than the chain stopped the theft?",
+     "next_check": "2026-11-09"
+    },
+    {
+     "slug": "intel-fab28",
+     "question": "Does Fab 28 in Kiryat Gat restart on schedule, does the first-quarter hit stay near $300m, what does the investigation find about the two deaths, and does the PC correction deepen beyond the guided 20 per cent fall?",
+     "next_check": "2026-11-20"
+    },
+    {
+     "slug": "cohere-canada",
+     "question": "Does Canada's C$1.6bn stake close and at what percentage of Cohere, is the UK Sovereign AI Fund's investment in Fractile actually announced and at what size, and do other governments follow with equity rather than grants?",
+     "next_check": "2026-11-12"
+    },
+    {
+     "slug": "france-lagarde",
+     "question": "Who is named to succeed Lagarde before she leaves on 7 February, does she enter French politics or take the World Economic Forum chair, does France pass a 2027 budget or fall into technical recession, and does the spread to Bunds pass 174.6 basis points again?",
+     "next_check": "2026-11-16"
+    },
+    {
+     "slug": "korea-exports-record",
+     "question": "Do Korea's exports pass $1 trillion for the year in November as the ministry suggests, and does the semiconductor share stay near half of the total if memory prices turn?",
+     "next_check": "2026-12-01"
+    },
+    {
+     "slug": "reddit-ai-referrals",
+     "question": "Does Reddit's logged-in test roll out, do global daily uniques fall by the low double-digit percentage it warned of, and does Google say anything about AI Mode and publisher traffic?",
+     "next_check": "2026-12-10"
+    }
+   ],
+   "threads_closed": [
+    "mistral-large-4",
+    "alphabet-cash-flow",
+    "france-oat-spread",
+    "anthropic-safety-bill",
+    "meta-new-mexico-judgment",
+    "taiwan-china-chip-criminal"
+   ],
+   "url": "https://markfaizi.dev/signal/2026-11-02"
   }
  ],
  "threads": [
@@ -2782,10 +2961,11 @@
   {
    "slug": "alphabet-cash-flow",
    "question": "Do Amazon and Meta also report negative free cash flow this quarter, does Alphabet name a 2027 capital spending number, and does its free cash flow turn positive?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "next_check": "2026-11-02"
+   "last_seen": "2026-11-02",
+   "next_check": "2026-11-02",
+   "closed": "2026-11-02"
   },
   {
    "slug": "anthropic-finances",
@@ -2799,10 +2979,11 @@
   {
    "slug": "anthropic-safety-bill",
    "question": "Does any member of Congress introduce Anthropic's draft bill, does the 50-death and $1bn threshold survive, and do OpenAI, Google DeepMind or Meta back or oppose it?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-22",
    "last_seen": "2026-10-22",
-   "next_check": "2026-12-15"
+   "next_check": "2026-12-15",
+   "closed": "2026-11-02"
   },
   {
    "slug": "anthropic-unintended-actions",
@@ -2848,6 +3029,14 @@
    "last_seen": "2026-10-19",
    "next_check": "2026-11-09",
    "closed": "2026-10-22"
+  },
+  {
+   "slug": "binance-hack",
+   "question": "Does Binance publish a root cause and proof of reserves, how much of the $2.4bn still held by the attacker is recovered or laundered, and does any regulator act on the fact that stablecoin issuers rather than the chain stopped the theft?",
+   "status": "open",
+   "opened": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "next_check": "2026-11-09"
   },
   {
    "slug": "boc-rate-hike",
@@ -2900,6 +3089,14 @@
    "last_seen": "2026-10-12",
    "next_check": null,
    "closed": "2026-10-19"
+  },
+  {
+   "slug": "cohere-canada",
+   "question": "Does Canada's C$1.6bn stake close and at what percentage of Cohere, is the UK Sovereign AI Fund's investment in Fractile actually announced and at what size, and do other governments follow with equity rather than grants?",
+   "status": "open",
+   "opened": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "next_check": "2026-11-12"
   },
   {
    "slug": "cxmt-dram-kospi",
@@ -2990,12 +3187,21 @@
    "closed": "2026-10-19"
   },
   {
+   "slug": "france-lagarde",
+   "question": "Who is named to succeed Lagarde before she leaves on 7 February, does she enter French politics or take the World Economic Forum chair, does France pass a 2027 budget or fall into technical recession, and does the spread to Bunds pass 174.6 basis points again?",
+   "status": "open",
+   "opened": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "next_check": "2026-11-16"
+  },
+  {
    "slug": "france-oat-spread",
    "question": "Does the French spread over Germany widen past 174.6 basis points, does the ECB touch its Transmission Protection Instrument, and does Lagarde leave for the World Economic Forum?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-29",
    "last_seen": "2026-10-29",
-   "next_check": "2026-11-13"
+   "next_check": "2026-11-13",
+   "closed": "2026-11-02"
   },
   {
    "slug": "gmo-ransomware",
@@ -3051,6 +3257,14 @@
    "closed": "2026-10-26"
   },
   {
+   "slug": "intel-fab28",
+   "question": "Does Fab 28 in Kiryat Gat restart on schedule, does the first-quarter hit stay near $300m, what does the investigation find about the two deaths, and does the PC correction deepen beyond the guided 20 per cent fall?",
+   "status": "open",
+   "opened": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "next_check": "2026-11-20"
+  },
+  {
    "slug": "japan-globalfoundries-ny",
    "question": "On what terms does Japan get its $21bn back, what stake does Washington take in GlobalFoundries, and which Japanese entity provides the money?",
    "status": "closed",
@@ -3096,6 +3310,14 @@
    "closed": "2026-10-29"
   },
   {
+   "slug": "korea-exports-record",
+   "question": "Do Korea's exports pass $1 trillion for the year in November as the ministry suggests, and does the semiconductor share stay near half of the total if memory prices turn?",
+   "status": "open",
+   "opened": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "next_check": "2026-12-01"
+  },
+  {
    "slug": "korea-publishers-ai",
    "question": "Does any AI company agree to pay Korean rights holders, and does the Korean government or National Assembly legislate on training data?",
    "status": "closed",
@@ -3107,10 +3329,11 @@
   {
    "slug": "meta-new-mexico-judgment",
    "question": "Does Meta appeal the $25bn judgment, does any part of it survive, and do other state attorneys general file on the same 43-million-violations theory?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-22",
    "last_seen": "2026-10-22",
-   "next_check": "2026-11-23"
+   "next_check": "2026-11-23",
+   "closed": "2026-11-02"
   },
   {
    "slug": "microsoft-patch-record",
@@ -3124,10 +3347,11 @@
   {
    "slug": "mistral-large-4",
    "question": "Do Mistral Large 4's open weights ship by 31 October as promised, and under what licence?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-08",
-   "last_seen": "2026-10-29",
-   "next_check": "2026-11-02"
+   "last_seen": "2026-11-02",
+   "next_check": "2026-11-02",
+   "closed": "2026-11-02"
   },
   {
    "slug": "moderna-melanoma-vaccine",
@@ -3217,6 +3441,14 @@
    "closed": "2026-10-19"
   },
   {
+   "slug": "reddit-ai-referrals",
+   "question": "Does Reddit's logged-in test roll out, do global daily uniques fall by the low double-digit percentage it warned of, and does Google say anything about AI Mode and publisher traffic?",
+   "status": "open",
+   "opened": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "next_check": "2026-12-10"
+  },
+  {
    "slug": "serbia-election",
    "question": "Does the Student List form a government and who becomes prime minister, does the official count match Vucic's sample, and does the EU open accession chapters in response?",
    "status": "closed",
@@ -3262,10 +3494,11 @@
   {
    "slug": "taiwan-china-chip-criminal",
    "question": "Does Taiwan's legislature pass the whole-of-China restriction on AI servers and leading-edge chips, with what penalties and what product list?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-19",
    "last_seen": "2026-10-22",
-   "next_check": "2026-12-14"
+   "next_check": "2026-12-14",
+   "closed": "2026-11-02"
   },
   {
    "slug": "tsmc-kaohsiung-deaths",
