@@ -2937,6 +2937,221 @@
     "taiwan-china-chip-criminal"
    ],
    "url": "https://markfaizi.dev/signal/2026-11-02"
+  },
+  {
+   "date": "2026-11-05",
+   "title": "Signal — 5 November",
+   "lede": "A barrel of Brent crude cost $117.64 on Friday. By Wednesday night it cost $93.52.",
+   "lead_theme": "oil-energy-war",
+   "sections": [
+    "The premium comes out",
+    "Set for a price that moved",
+    "Billed to the buyer",
+    "Doors left open",
+    "On the calendar"
+   ],
+   "items": [
+    {
+     "slug": "oil-hormuz",
+     "theme": "oil-energy-war",
+     "kind": "followup",
+     "headline": "Twenty-four dollars came off a barrel in three days",
+     "gist": "Follow-up to 29 Oct. Brent settled $117.64 Fri 30 Oct, $103.60 Tue 3 Nov, then $93.52 Wed 4 Nov, -$10.08 and -9.73% in the session and about -20% over three sessions; WTI -8.88% to $87.56 on 4 Nov. Early Thu 5 Nov Brent about $93.63, WTI about $87.13. Gasoline futures 17% below Friday's peak; FinanceFeeds put Wednesday's gasoline futures fall at 7.27%. Sources conflict on Friday's base ($117.64 settle per Substack, about $118 peak per Gulf News, about $113 per FinanceFeeds) and on Wednesday's percentage (-9.73% Jan-2027 contract, -9.36% front-month via Oilprice, 'nearly 8%' per Gulf News). Cause disputed: Gulf News credits the Democratic sweep, Vance, Qatari mediation and Trump saying no immediate strike; FinanceFeeds calls the midterms a second-order factor and quotes Phillip Nova's Priyanka Sachdeva on profit-taking and reduced speculative longs. Statements: Vance 2 Nov 'certainly made some progress'; Trump to the FT on election night, no immediate plans to attack; Trump 4 Nov on the war costing votes 'because it drove the gasoline up a little bit short term' and 'if I had it to do again, I'd have to do it again'; US officials told Axios on 5 Nov the military is finishing preparations for possible major combat, not an order. Iran unmoved: a senior security council secretary said 3 Nov the US answer to its seven conditions was 'not satisfactory'; conditions are end of the naval blockade, sanctions relief and release of frozen funds, with one official saying the strait could reopen within two days of that. Qatari draft could restart direct talks within days on a three-day sequence of confidence-building steps. IRGC claims (via Reuters, unverified): four tankers on a forbidden southern route struck mines and exploded on 4 Nov; on 5 Nov another tanker hit a mine, a supertanker caught fire and so did an assisting tug. South Korea sending maritime patrol aircraft and an EOD team. Forecasts: Goldman raised December Brent to $105; Rystad says flows unlikely to return to pre-war levels; JPMorgan put October global surplus at 1.4 mb/d from 1.1. US petrol averaged a record $4.24/gal in Q3, diesel $5.56 and $6.28 in election week. Pre-war Brent implied near $72."
+    },
+    {
+     "slug": "us-midterms-2026",
+     "theme": "us-macro",
+     "kind": "new",
+     "headline": "Congress changed hands, and Wall Street had its best day in eighteen months",
+     "gist": "Democrats won control of both the House and the Senate on 3 Nov 2026 (CBS, NBC projections through 4 Nov); dozens of House races still uncalled at that point. Hakeem Jeffries, who declared for speaker, said Democrats would finish with at least 255 seats, his own forecast not a count; Democrats held 214 going in. Mike Johnson will not stand for minority leader; Scalise and Jordan are running for it. CBS exit polls: Trump approval 38%, 89% of voters called cost of living a major or crucial factor. Market 4 Nov closes: Dow 53,356.12 +1,569.40 (+3.03%), S&P 500 7,688.62 +119.70 (+1.58%), Nasdaq 25,736.51 +364.50 (+1.44%), Russell 2000 2,856.96 (+1.58%); gold +3.38% to $4,073.70; 10-yr yield about 4.89% on the wire, H.15 shows 4.95% for 3 Nov, 4.91% for 2 Nov, effective funds 3.88%. CNN and Motley Fool called it the best post-midterm session in 44 years without naming the comparison year; a TheStreet desk headline called it the best day since April 2025. Energy was the only falling sector. Quotes: Justin Buell (Continuity Group) 'The midterm elections come at the perfect time to rescue the stock market from its bout of AI-driven volatility'; Daniela Hathorn (Capital.com) on a relief rally and that 'a change in congressional control does not necessarily translate into an immediate change in economic policy'. Kpler's Michelle Brouhard noted the new Congress is not seated until 3 January, and cannot lift the blockade or sanctions in any case. Musk spent a record $474m on the midterms; Tesla -4.91% to $378.93 and SpaceX -5.23% to $133.92 premarket. Trump Media fell sharply; accounts range from -11% to -24.54% so no figure printed."
+    },
+    {
+     "slug": "rba-rates",
+     "theme": "rates-bonds",
+     "kind": "new",
+     "headline": "Australia raised rates the day before oil broke",
+     "gist": "RBA raised the cash rate target 25bp to 4.85% on 3 Nov 2026, effective 4 Nov, highest since 2008 and an 18-year high. Vote 6-3: six to raise, three to hold at 4.60%. Fifth rise of 2026; cycle began in February. Statement: 'Inflation remains elevated and recent data indicate that it is broadly based'; 'The inflation outlook has also been revised materially higher'; inflation not expected to reach the top of the 2-3% band until late 2027 and to stay above 3% for the coming year; 'The economy is slowing, housing prices have fallen significantly and the unemployment rate has risen'; unemployment projected to rise by more than the August forecasts; business investment including data centres forecast stronger near term. The explicit tightening bias was dropped, which UBS called 'clearly dovish'; UBS expects a hold. Headline CPI 4.3% y/y for September (next CPI 25 Nov); end-2026 forecast revised to 4.5% from 3.6%; wages 3.4% against prices 3.7% this financial year. Bullock quotes: 'Inflation is too high, and our forecasts suggest it will stay higher for longer'; 'I want to be very clear that we are not tightening monetary policy because of the direct impact of oil prices on inflation'; 'We are not looking to tip the economy into recession if we can avoid it'; 'I don't know what the next move will be'. ASX 200 closed +0.3%; AUD eased to about 69.76 US cents, USD 0.6972 at 4pm 4 Nov. Betashares' David Bassanese expects a February 2027 rise; NAB sees this as the last; Capital Economics expects cuts late next year. Next meeting 8 December."
+    },
+    {
+     "slug": "euro-area-inflation",
+     "theme": "global-economy",
+     "kind": "new",
+     "headline": "Europe is back to four per cent, and one line explains it",
+     "gist": "Eurostat flash estimate published 4 Nov 2026: euro-area annual inflation 4.0% in October, up from 3.8% in September, highest since September 2023 and a three-year high. Components (annual rates): energy 20.8% (from 18.9%), services 3.3% (from 3.2%), food 1.6% (from 1.3%), other goods 1.2%. Core and non-energy industrial goods not in the accounts reached. Country: Belgium 5.2% per Eurostat against Statbel's own 5.26% the week before, a methodology difference. Contributions are not published with the flash; September's final figures had energy adding 1.71pp of a 3.8% headline with energy about a tenth of the basket. Jack Allen-Reynolds (Capital Economics) says the indirect effect of energy on food prices has remained very limited but could become more visible if energy holds near current levels. ECB held the deposit rate at 2.5% on 29 Oct, markets price a December rise and up to three more by end-2027 to 3.25%. The edition's point: the ECB is setting rates for a year in which its biggest inflation driver has just fallen about a fifth in three sessions."
+    },
+    {
+     "slug": "china-market-rescue",
+     "theme": "global-economy",
+     "kind": "new",
+     "headline": "Beijing has made its emergency loans permanent",
+     "gist": "PBOC statement Mon 2 Nov 2026 after meeting the NFRA and CSRC: more use of the Securities, Funds and Insurance companies Swap Facility (SFISF, created Oct 2024) and of the relending facility for share buybacks and shareholding increases. The relending facility becomes a permanent arrangement rather than temporary, with its rate cut from 1.25% to 1%. PBOC also plans more frequent operations, more participating institutions, lower swap fees and optimised collateral. Third SFISF operation Tue 3 Nov, one-year term extendable; 31 securities and fund firms applied for more than 100bn yuan (about US$14.89bn), against 105bn yuan total across the first two operations (Oct 2024 and Jan 2025); no allotment disclosed. Buyback relending: about 440bn yuan of signed agreements, more than 280bn disbursed. CSRC: in the first 10 months of 2026, 645 listed companies disclosed 700 buyback plans totalling 237.7bn yuan, both records; it is also reviewing price-support buyback rules. Unnamed CSRC official: 'Stock repurchase is an important tool for listed companies to manage their market value, and a key means to stabilize stock prices and convey development prospects and confidence.' Trigger: CSI 300 -8.5% in October and down about 15% over a 12-week losing streak, described as its longest on record; STAR 50 down about 40% from its late-June peak, roughly $480bn of value; CSI Semiconductor Index -56% over 84 trading days from a 1 July high to a 3 Nov low. Shanghai Composite +1.1% on 2 Nov, then CSI 300 and Shanghai each about -1% in early trade on 3 Nov. Rebound Wed 4 Nov: STAR Composite +9.90%, ChiNext +6.40%, Shanghai Composite +2.16%, SW Electronics +10.91%, turnover CNY2.05tn (up more than CNY330bn); ChinaAMC STAR Semiconductor ETF limit-up at 20%, Harvest STAR Chip +13.53%, ChinaAMC STAR 50 ETF +10.29%. Fund houses cautious: Guolian An calls it the first volume-backed rebound from a bottoming zone with right-side signals not fully confirmed; China Europe Fund says a reversal needs new capital and better earnings expectations and that a day above 9% may have front-loaded short-term upside; Caitong says policy bottom to market bottom still needs confirmation. Nomura (4 Nov) frames AI capex and negative free cash flow as a timing gap rather than a profitability problem. Caixin, not the regulator, characterised the declines as weighing on the broader economic recovery."
+    },
+    {
+     "slug": "apple-ternus-memory",
+     "theme": "consumer-tech",
+     "kind": "new",
+     "headline": "Apple's new chief executive has a memory problem",
+     "gist": "Apple fiscal Q4 2026 (quarter ended 26 Sep 2026), reported 2 Nov, first results call hosted by CEO John Ternus, who replaced Tim Cook on 1 September 2026. Revenue $114.5bn +12%, a September-quarter record; diluted EPS $2.10 +14%, including about $0.05 from tariff refunds; gross margin 47.9%, including about 1pp from tariff refunds; operating cash flow $28bn and $28bn returned to shareholders; FY2026 revenue a record $479bn. Segments: iPhone $57.6bn +17% (September-quarter record); Mac $10.8bn from $8.7bn; iPad $6.2bn from $7.0bn (supply constraints and a hard A16 comparison); Wearables, Home and Accessories $8.3bn -8%; Services $31.6bn from $28.8bn, an all-time record (FY $123.3bn). Greater China revenue +21%, a quarterly record. More than 2.5bn active devices. Dividend $0.27, payable 16 Nov to holders of record 12 Nov. December-quarter guidance: revenue growth 7-10% (expected best December ever), Services growth 8-9%, gross margin 45-46%, pressured by higher memory costs and the Siri AI ramp; Mac and iPad constrained mainly by memory. Ternus called the memory situation 'unprecedented' and expects higher memory costs in the December quarter and beyond; June and September price rises offset some of it. COO Sabih Khan said iPhone, iPad and Mac were supply-constrained, partly by advanced-node SoC availability, easing as the line moves to 2nm. CFO Kevan Parekh: 'very early days' on the on-device versus Private Cloud Compute mix and inference costs. Ternus reiterated plans for usage limits on server-side AI features with paid expanded access, no pricing given, and acknowledged display issues on iPhone Duo with a 'very small percentage' returned. Context printed: SK hynix 80% and Samsung 55% operating margins on memory last quarter."
+    },
+    {
+     "slug": "memory-price-squeeze",
+     "theme": "consumer-tech",
+     "kind": "new",
+     "headline": "The memory bill reaches the phone makers",
+     "gist": "Qualcomm fiscal Q4 2026 (quarter ended 27 Sep 2026), reported 4 Nov: GAAP revenue $10,322m -8% (non-GAAP $10,442m, GAAP excludes a $120m customer payment from a legal settlement); non-GAAP EBT $2,666m -30%; GAAP diluted EPS $1.17, non-GAAP $2.17 -28%. QCT revenue $9,015m -8%, EBT $2,142m -26% on a 24% margin; handsets $5,137m -26%, automotive $1,990m +89%, IoT $1,888m +4%. QTL revenue $1,304m -7%, EBT $918m -10% on a 70% margin. FY2026: GAAP revenue $43,120m -3%, GAAP EPS $12.70 (including a $5.7bn tax benefit worth $5.32), non-GAAP EPS $10.54 -12%; handsets $24,072m -13%, automotive $6,004m +52%, IoT $7,132m +8%. Fiscal Q1 2027 guidance: revenue $10.4-11.2bn, QCT $9.0-9.6bn inclusive of Data Center, QTL $1.3-1.5bn, GAAP EPS $1.03-1.23, non-GAAP $2.15-2.35; input-cost pricing actions fully in QCT gross margins in H2 FY2027. FY26 capital returns $11,671m ($7,817m buybacks, $3,854m dividends). CEO Cristiano Amon: 'Fiscal 2027 marks the start of our non-handset revenue inflection, including the ramp of our Data Center business'; non-handset revenue projected to grow more than 60% y/y; FY2027 Data Center revenue target reiterated at $5bn; multi-generational product collaboration with Amazon announced; QTL licences renewed with Apple, Huawei and Transsion. Shares fell more than 9% in extended trade. Arm fiscal Q2 2027 (quarter ended 30 Sep 2026), same afternoon: revenue a record $1.443bn +27%, above a $1.38bn guidance midpoint; licensing $773m +50%, about $100m above expectations per CFO Jason Child; royalties $670m +8%, below expectations; ACV $1.79bn +12%; GAAP net income $130m -45% and GAAP EPS $0.12 against $0.22, dragged by a $46.6m fair-value loss on equities, a $4.9m Arm China credit loss and a prior-year $131m Artisan sale gain; non-GAAP net income $566m +36% and EPS $0.52 +33%; GAAP operating margin 13.9%; operating cash flow $207m -63%. Q3 guidance revenue $1.54bn +/-$50m, non-GAAP EPS $0.56 +/-$0.04, licensing growth slightly above 50%, royalties up low single digits y/y. Arm AGI CPU, its first in-house data-centre processor co-designed with Meta and launched March 2026, demand raised from about $1bn to more than $2bn across FY2027-28, first commercial deliveries expected in fiscal Q4 2027; data-centre royalties doubled y/y. Child named memory price rises as hurting low- and mid-range smartphone shipments. Arm shares fell about 4-5% after hours. Asian chipmakers on Thu 5 Nov: SK hynix -7.4%, Samsung Electronics -5.7%, Advantest more than -11%, Lasertec -12.5%, Kioxia -9.2% on its own guidance; Chinese semiconductor shares mostly higher on Beijing's support measures."
+    },
+    {
+     "slug": "marvell-lumentum",
+     "theme": "deals-corporate",
+     "kind": "new",
+     "headline": "Marvell bought a laser company for $115bn, and both shares fell",
+     "gist": "Merger agreement signed Sun 1 Nov 2026, announced 2 Nov, unanimously approved by both boards: Marvell Technology acquires Lumentum all-stock at a fixed 4.5 Marvell shares per Lumentum share, with cash for fractions. Enterprise value put at $115bn by the companies, equivalent to $1,132 per Lumentum share at 28 October closes, a 23.9% premium to Lumentum's $913.95 close that day. Ownership: Marvell holders about 67%, Lumentum holders about 33%. Matt Murphy stays chairman and CEO; three Lumentum directors including CEO Michael Hurlston join a seven-member board. Expected close first half of 2028; outside date 1 Nov 2027 extendable in three-month steps to 1 Aug 2028 if only regulatory approvals remain. Approvals: both shareholder votes, Hart-Scott-Rodino, Form S-4 effectiveness, Nasdaq listing. Break fees: Marvell pays $3.2bn on a regulatory failure and $5.8bn in other cases; Lumentum pays $2.9bn. Rationale: Murphy, 'AI infrastructure is undergoing a fundamental architectural shift toward optical connectivity'; the release argues copper is reaching its physical limits. Lumentum makes high-power and pump lasers, optical circuit switches and optical transceivers, with its own indium phosphide compound-semiconductor fabs; mostly 800G cloud transceivers with 1.6T ramping, and external laser sources for near- and co-packaged optics. Combined addressable market put at $550bn by 2030; synergies more than $1bn a year; accretive to Marvell's adjusted EPS in year one. Share reaction 2 Nov 09:44 ET: Marvell $186.38 -5.1% from $196.40, Lumentum $765.52 -8.9% from $840.70; Marvell had already fallen about 22% from $251.65 on 28 Oct to $196.40 on 30 Oct before signing. Lumentum fiscal Q1 2027 (quarter to 26 Sep 2026): revenue $1.26bn +136.5%, net income $360.3m, non-GAAP EPS $4.57 against a $4.05-4.35 forecast; fiscal Q2 guidance revenue $1.575-1.625bn and EPS $5.90-6.20; Hurlston cited purchase commitments exceeding $5bn. No source established a formal semiconductor M&A record, so none was claimed."
+    },
+    {
+     "slug": "binance-hack",
+     "theme": "security-breaches",
+     "kind": "followup",
+     "headline": "A tampered installer in June, a fake job offer in September",
+     "gist": "Follow-up to 2 November. Binance posted an initial incident report on X on Tue 3 Nov 2026 giving a root cause for the 29 Oct theft of about $6.34bn. Chain: in June a Wallet DevOps engineer was compromised through a tampered Homebrew installation; in September a second employee was targeted via a fraudulent recruitment process and a malicious coding assignment; on 20 Oct the attackers used that employee's computer and an internal AI tool to reach two other engineers' devices and found a container deployment permission; on 29 Oct, nine days later, they deployed a container and ran a malicious script that launched the wallet attack. Binance says it has closed the entry points, rebuilt or replaced affected systems and commissioned an independent cybersecurity review, which has not reported. Recovery claims, all Binance's own and unverified independently: 90% replenished by 31 Oct, about 95% by 2 Nov, 98% of impacted assets by 3 Nov, with about $2.85bn frozen or intercepted. Wikipedia's unsourced tally has about $3bn frozen by issuers, $1.5bn unfreezable and about $1.8bn still with the attackers. Withdrawals reopened in phases from 04:00 UTC on 3 Nov across BSC, Ethereum, Solana, XRP, Sui, Arbitrum, Optimism, TRON and Base, after a first reopening on 1 Nov; no source says the full asset list is restored. A zero-knowledge proof-of-reserves snapshot covering BTC, ETH, USDT, BNB, SOL, USDC, XRP, USD1, RLUSD and ZEC was completed 2 Nov; co-CEO Yi He said the full proof needs about 40-50 hours of computation after the snapshot, and another snapshot was planned for 4 Nov with no reported result. Co-CEO Richard Teng: 'There's still work to do.' FBI Cyber alert 31 Oct linked the theft to North Korea and published ETH, BTC and SOL addresses; the US Secret Service is tracking funds; TRM Labs and onchain investigators attribute it to TraderTraitor. On 2 Nov Kim Jong-un's sister called the FBI claims a 'grave political provocation'. SomaXBT claimed on 1 Nov that about $242m was laundered on Tron, unverified. Bitcoin +3.5% to about $80,500 on 4 Nov; ether +6% to $2,433. No sanctions, charges or formal regulatory action reported."
+    },
+    {
+     "slug": "wordpress-upgrade-cve",
+     "theme": "security-breaches",
+     "kind": "new",
+     "headline": "WordPress leaves a door open while it updates itself",
+     "gist": "CVE-2026-119977, a time-of-check/time-of-use race condition in WordPress core's full-upgrade process, CVSS 8.1. During a full core upgrade WordPress extracts the package into a staging directory under wp-content/upgrade; on affected setups those files are web-reachable while the update runs and briefly expose a standalone copy of the WordPress installer, which an attacker can point at a database they control, giving a path to server code execution. No account and no user interaction needed, but precise timing during an upgrade is required. Affected: WordPress 4.7 through 7.1.3; fixed in 7.1.4, released 28 October 2026; backports for eligible older branches reported but not confirmed. Reported by Umut Bayram. CISA added it to the Known Exploited Vulnerabilities catalogue on 3 November 2026 with a federal remediation deadline of 6 November, reported via Security Affairs and Elets and not checked against CISA's own alert. CISA confirms exploitation but names no attacker and no victim count. Wordfence recorded its first firewall-rule hit nine minutes after the rule went live and more than 18,500 requests aimed at staged installer paths in 21 hours; other tallies are 12,632 blocked attacks in a day (Elets) and 60,471 blocked attempts in 24 hours; a Previdian honeypot logged three attempts on 30 Oct from a UK address. All are attempts, not confirmed compromises, and no figure for compromised sites has been published. Automatic updates do not protect by themselves and are what create the window; advice is to confirm in Dashboard > Updates that 7.1.4 installed and to block public access to wp-content/upgrade until then. No share-of-the-web figure given in the sources used."
+    }
+   ],
+   "visuals": [
+    "lede illustration, inline SVG: a vessel of oil drawn to the price scale, draining, with three oxblood level lines for the 30 October, 3 November and 4 November Brent settles, a teal dashed mark for the implied pre-war level and a left-hand bracket labelled minus $24",
+    "range chart, four rows, each a thin rule between two dots: policy rate in teal against latest headline inflation in oxblood for Australia, the euro area, Britain and the United States, both values direct-labelled above and below",
+    "diverging column chart around a zero rule, four columns: Qualcomm fiscal Q4 revenue growth by business, handsets -26% and licensing -7% below the rule in oxblood, IoT +4% and automotive +89% above it in teal, each with its revenue in dollars beneath"
+   ],
+   "watch": [
+    {
+     "text": "The Bank of England decides at noon GMT, with a rise to 4 per cent widely expected, Britain's first in three years; Canada delivers its federal budget; Norges Bank and Mexico also decide",
+     "due": "2026-11-05"
+    },
+    {
+     "text": "American October payrolls, the number that sets the odds on a Federal Reserve rise on 9 December, priced at about 85 per cent before the oil price fell; also the federal deadline to patch the WordPress flaw",
+     "due": "2026-11-06"
+    },
+    {
+     "text": "American October consumer prices, the first reading in which energy may pull the headline rate down rather than up",
+     "due": "2026-11-13"
+    },
+    {
+     "text": "Comments close on China's draft catalogue of restricted AI technology exports, including the reported compute and parameter thresholds",
+     "due": "2026-11-15"
+    },
+    {
+     "text": "British October inflation, the figure today's Bank of England decision will be judged against; the Quad's export credit agencies meet in Tokyo",
+     "due": "2026-11-18"
+    }
+   ],
+   "threads_open": [
+    {
+     "slug": "oil-hormuz",
+     "question": "Do the Qatari-brokered direct talks actually start, does Washington lift the naval blockade, do tanker transits rise above four a day, and does Brent hold below $100 or does Goldman's $105 December forecast prove right?",
+     "next_check": "2026-11-12"
+    },
+    {
+     "slug": "us-midterms-2026",
+     "question": "Does the incoming Democratic Congress change anything on energy, AI or trade before it is seated on 3 January, is Jeffries elected speaker, and does the post-election equity rally survive the October payrolls and CPI?",
+     "next_check": "2026-11-16"
+    },
+    {
+     "slug": "memory-price-squeeze",
+     "question": "Do memory prices keep rising into 2027, do low- and mid-range phone shipments fall far enough to show in Arm's royalties again, and does Qualcomm hit its $5bn data-centre revenue target?",
+     "next_check": "2026-11-23"
+    },
+    {
+     "slug": "apple-ternus-memory",
+     "question": "Does Apple land December-quarter gross margin inside 45-46 per cent, does it raise prices again, and what does it charge for expanded server-side AI access?",
+     "next_check": "2027-01-28"
+    },
+    {
+     "slug": "marvell-lumentum",
+     "question": "Do both sets of shareholders approve the all-stock deal, does Marvell's share price hold up the fixed 4.5-share exchange ratio, and do antitrust reviewers in the US, China and Europe let it through by the first half of 2028?",
+     "next_check": "2026-12-14"
+    },
+    {
+     "slug": "china-market-rescue",
+     "question": "Does the permanent 1 per cent buyback relending facility stop the CSI 300's losing streak, how large is the third SFISF allotment, and does Beijing add a bigger tool if the chip indices roll over again?",
+     "next_check": "2026-11-30"
+    },
+    {
+     "slug": "wordpress-upgrade-cve",
+     "question": "After the 6 November federal deadline, does anyone publish a count of WordPress sites actually compromised through the upgrade window, and does WordPress change how it stages core updates?",
+     "next_check": "2026-11-26"
+    },
+    {
+     "slug": "binance-hack",
+     "question": "Does the commissioned independent review publish, does Binance explain how an internal AI tool helped the intruders move between machines, and is any of the roughly $1.8bn still held by the attackers recovered?",
+     "next_check": "2026-11-23"
+    },
+    {
+     "slug": "fed-rates",
+     "question": "Does the Fed raise on 9 December now that oil has fallen about a fifth, do Cook and Hammack dissent again, and does the 10-year yield stay below 5 per cent?",
+     "next_check": "2026-12-09"
+    },
+    {
+     "slug": "us-inflation",
+     "question": "Does the October CPI show energy still driving the headline, and does core hold near 2.6 per cent?",
+     "next_check": "2026-11-13"
+    },
+    {
+     "slug": "uk-inflation",
+     "question": "Does the Bank of England raise to 4 per cent today, and does the October CPI on 18 November still show fuel driving the headline rate?",
+     "next_check": "2026-11-18"
+    },
+    {
+     "slug": "intel-fab28",
+     "question": "Does Fab 28 in Kiryat Gat restart on schedule, does the first-quarter hit stay near $300m, what does the investigation find about the two deaths, and does the PC correction deepen beyond the guided 20 per cent fall?",
+     "next_check": "2026-11-20"
+    },
+    {
+     "slug": "cohere-canada",
+     "question": "Does Canada's C$1.6bn stake close and at what percentage of Cohere, is the UK Sovereign AI Fund's investment in Fractile actually announced and at what size, and do other governments follow with equity rather than grants?",
+     "next_check": "2026-11-12"
+    },
+    {
+     "slug": "france-lagarde",
+     "question": "Who is named to succeed Lagarde before she leaves on 7 February, does she enter French politics or take the World Economic Forum chair, does France pass a 2027 budget or fall into technical recession, and does the spread to Bunds pass 174.6 basis points again?",
+     "next_check": "2026-11-16"
+    },
+    {
+     "slug": "china-ai-export-controls",
+     "question": "After comments close on 15 November, what does the final catalogue prohibit, do the reported compute and parameter thresholds survive, and does the open-source carve-out hold?",
+     "next_check": "2026-11-16"
+    },
+    {
+     "slug": "oracle-funding-cap",
+     "question": "Does Oracle stick to its $20bn funding cap, and do its five-year credit default swaps narrow from the record 288 basis points?",
+     "next_check": "2026-11-16"
+    },
+    {
+     "slug": "spacex-q3-capex",
+     "question": "Do the SpaceX and Tesla special committees recommend a merger and on what terms, is it put to Tesla's annual meeting by 6 December, and can SpaceX keep funding capex running at nearly four times operating cash flow?",
+     "next_check": "2026-11-19"
+    },
+    {
+     "slug": "reddit-ai-referrals",
+     "question": "Does Reddit's logged-in test roll out, do global daily uniques fall by the low double-digit percentage it warned of, and does Google say anything about AI Mode and publisher traffic?",
+     "next_check": "2026-12-10"
+    }
+   ],
+   "threads_closed": [
+    "gmo-ransomware",
+    "us-government-funding",
+    "sk-hyper-350bn",
+    "cxmt-hbm-yields",
+    "oracle-stargate-jupiter",
+    "korea-exports-record",
+    "boc-rate-hike",
+    "uk-budget-2026"
+   ],
+   "url": "https://markfaizi.dev/signal/2026-11-05"
   }
  ],
  "threads": [
@@ -3004,6 +3219,14 @@
    "closed": "2026-10-22"
   },
   {
+   "slug": "apple-ternus-memory",
+   "question": "Does Apple land December-quarter gross margin inside 45-46 per cent, does it raise prices again, and what does it charge for expanded server-side AI access?",
+   "status": "open",
+   "opened": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "next_check": "2027-01-28"
+  },
+  {
    "slug": "asml-q3-capacity",
    "question": "Does ASML commit to raising 2028 capacity beyond the 30 per cent increase already promised, and does it start booking 2029 and 2030 orders?",
    "status": "closed",
@@ -3032,19 +3255,20 @@
   },
   {
    "slug": "binance-hack",
-   "question": "Does Binance publish a root cause and proof of reserves, how much of the $2.4bn still held by the attacker is recovered or laundered, and does any regulator act on the fact that stablecoin issuers rather than the chain stopped the theft?",
+   "question": "Does the commissioned independent review publish, does Binance explain how an internal AI tool helped the intruders move between machines, and is any of the roughly $1.8bn still held by the attackers recovered?",
    "status": "open",
    "opened": "2026-11-02",
-   "last_seen": "2026-11-02",
-   "next_check": "2026-11-09"
+   "last_seen": "2026-11-05",
+   "next_check": "2026-11-23"
   },
   {
    "slug": "boc-rate-hike",
    "question": "Does the Bank of Canada raise again in December, and does Canadian inflation peak near 3.5 per cent as forecast?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-29",
    "last_seen": "2026-10-29",
-   "next_check": "2026-12-10"
+   "next_check": "2026-12-10",
+   "closed": "2026-11-05"
   },
   {
    "slug": "bofa-aml-fine",
@@ -3069,7 +3293,7 @@
    "question": "After comments close on 15 November, what does the final catalogue prohibit, do the reported compute and parameter thresholds survive, and does the open-source carve-out hold?",
    "status": "open",
    "opened": "2026-10-19",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-11-05",
    "next_check": "2026-11-16"
   },
   {
@@ -3080,6 +3304,14 @@
    "last_seen": "2026-10-19",
    "next_check": "2026-11-16",
    "closed": "2026-10-22"
+  },
+  {
+   "slug": "china-market-rescue",
+   "question": "Does the permanent 1 per cent buyback relending facility stop the CSI 300's losing streak, how large is the third SFISF allotment, and does Beijing add a bigger tool if the chip indices roll over again?",
+   "status": "open",
+   "opened": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "next_check": "2026-11-30"
   },
   {
    "slug": "citrix-netscaler-zero-days",
@@ -3095,7 +3327,7 @@
    "question": "Does Canada's C$1.6bn stake close and at what percentage of Cohere, is the UK Sovereign AI Fund's investment in Fractile actually announced and at what size, and do other governments follow with equity rather than grants?",
    "status": "open",
    "opened": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-05",
    "next_check": "2026-11-12"
   },
   {
@@ -3110,10 +3342,11 @@
   {
    "slug": "cxmt-hbm-yields",
    "question": "Does CXMT begin HBM3E production within two months, at what yield, and do any Chinese AI chip designers commit to buying it?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-29",
    "last_seen": "2026-10-29",
-   "next_check": "2026-12-28"
+   "next_check": "2026-12-28",
+   "closed": "2026-11-05"
   },
   {
    "slug": "datacentre-grid-costs-senate",
@@ -3162,10 +3395,10 @@
   },
   {
    "slug": "fed-rates",
-   "question": "Does the Fed raise on 9 December as futures price at about 85 per cent, do Cook and Hammack dissent again, and does the 10-year hold above 5 per cent?",
+   "question": "Does the Fed raise on 9 December now that oil has fallen about a fifth, do Cook and Hammack dissent again, and does the 10-year yield stay below 5 per cent?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-11-05",
    "next_check": "2026-12-09"
   },
   {
@@ -3191,7 +3424,7 @@
    "question": "Who is named to succeed Lagarde before she leaves on 7 February, does she enter French politics or take the World Economic Forum chair, does France pass a 2027 budget or fall into technical recession, and does the spread to Bunds pass 174.6 basis points again?",
    "status": "open",
    "opened": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-05",
    "next_check": "2026-11-16"
   },
   {
@@ -3206,10 +3439,11 @@
   {
    "slug": "gmo-ransomware",
    "question": "Was the data published on 27 October genuine, did the threatened ransomware ever fire on customer machines, and how many of the 26,739 servers were compromised?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-29",
    "last_seen": "2026-10-29",
-   "next_check": "2026-11-05"
+   "next_check": "2026-11-05",
+   "closed": "2026-11-05"
   },
   {
    "slug": "google-cloud-london-outage",
@@ -3261,7 +3495,7 @@
    "question": "Does Fab 28 in Kiryat Gat restart on schedule, does the first-quarter hit stay near $300m, what does the investigation find about the two deaths, and does the PC correction deepen beyond the guided 20 per cent fall?",
    "status": "open",
    "opened": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-05",
    "next_check": "2026-11-20"
   },
   {
@@ -3312,10 +3546,11 @@
   {
    "slug": "korea-exports-record",
    "question": "Do Korea's exports pass $1 trillion for the year in November as the ministry suggests, and does the semiconductor share stay near half of the total if memory prices turn?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-11-02",
    "last_seen": "2026-11-02",
-   "next_check": "2026-12-01"
+   "next_check": "2026-12-01",
+   "closed": "2026-11-05"
   },
   {
    "slug": "korea-publishers-ai",
@@ -3325,6 +3560,22 @@
    "last_seen": "2026-10-22",
    "next_check": "2026-11-30",
    "closed": "2026-10-26"
+  },
+  {
+   "slug": "marvell-lumentum",
+   "question": "Do both sets of shareholders approve the all-stock deal, does Marvell's share price hold up the fixed 4.5-share exchange ratio, and do antitrust reviewers in the US, China and Europe let it through by the first half of 2028?",
+   "status": "open",
+   "opened": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "next_check": "2026-12-14"
+  },
+  {
+   "slug": "memory-price-squeeze",
+   "question": "Do memory prices keep rising into 2027, do low- and mid-range phone shipments fall far enough to show in Arm's royalties again, and does Qualcomm hit its $5bn data-centre revenue target?",
+   "status": "open",
+   "opened": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "next_check": "2026-11-23"
   },
   {
    "slug": "meta-new-mexico-judgment",
@@ -3373,11 +3624,11 @@
   },
   {
    "slug": "oil-hormuz",
-   "question": "Does Iran's four-to-five-day reopening offer survive the 3 November midterms, does Washington lift the naval blockade, and do tanker transits rise above four a day?",
+   "question": "Do the Qatari-brokered direct talks actually start, does Washington lift the naval blockade, do tanker transits rise above four a day, and does Brent hold below $100 or does Goldman's $105 December forecast prove right?",
    "status": "open",
    "opened": "2026-10-01",
-   "last_seen": "2026-10-29",
-   "next_check": "2026-11-05"
+   "last_seen": "2026-11-05",
+   "next_check": "2026-11-12"
   },
   {
    "slug": "openai-bugging-arrest",
@@ -3420,16 +3671,17 @@
    "question": "Does Oracle stick to its $20bn funding cap, and do its five-year credit default swaps narrow from the record 288 basis points?",
    "status": "open",
    "opened": "2026-10-29",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-11-05",
    "next_check": "2026-11-16"
   },
   {
    "slug": "oracle-stargate-jupiter",
    "question": "Does the New Mexico air-quality permit for the Bloom fuel cells clear by the 23 November state deadline, and does the gas pipeline slip again?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-01",
    "last_seen": "2026-10-22",
-   "next_check": "2026-11-23"
+   "next_check": "2026-11-23",
+   "closed": "2026-11-05"
   },
   {
    "slug": "pc-shipments-memory",
@@ -3445,7 +3697,7 @@
    "question": "Does Reddit's logged-in test roll out, do global daily uniques fall by the low double-digit percentage it warned of, and does Google say anything about AI Mode and publisher traffic?",
    "status": "open",
    "opened": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-05",
    "next_check": "2026-12-10"
   },
   {
@@ -3460,10 +3712,11 @@
   {
    "slug": "sk-hyper-350bn",
    "question": "Does SK Hyper land its first outside investor by early 2027, which hyperscaler commits to Korean inference capacity, and does the 5GW phase-one cost estimate hold?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-26",
    "last_seen": "2026-10-26",
-   "next_check": "2026-12-15"
+   "next_check": "2026-12-15",
+   "closed": "2026-11-05"
   },
   {
    "slug": "spacex-chip-financing",
@@ -3479,7 +3732,7 @@
    "question": "Do the SpaceX and Tesla special committees recommend a merger and on what terms, is it put to Tesla's annual meeting by 6 December, and can SpaceX keep funding capex running at nearly four times operating cash flow?",
    "status": "open",
    "opened": "2026-10-22",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-11-05",
    "next_check": "2026-11-19"
   },
   {
@@ -3521,10 +3774,11 @@
   {
    "slug": "uk-budget-2026",
    "question": "Does the 15-month bank surcharge survive scrutiny, does the GBP15bn of headroom hold through the spring, and do the GBP100 energy payments reach 20 million households this winter?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-29",
    "last_seen": "2026-10-29",
-   "next_check": "2026-11-20"
+   "next_check": "2026-11-20",
+   "closed": "2026-11-05"
   },
   {
    "slug": "uk-eu-cloud-act",
@@ -3537,11 +3791,11 @@
   },
   {
    "slug": "uk-inflation",
-   "question": "Does the Bank of England raise on 5 November after the OBR put next year's CPI at 3.5 per cent, and does the October CPI on 18 November still show fuel driving the headline?",
+   "question": "Does the Bank of England raise to 4 per cent today, and does the October CPI on 18 November still show fuel driving the headline rate?",
    "status": "open",
    "opened": "2026-10-22",
-   "last_seen": "2026-10-29",
-   "next_check": "2026-11-06"
+   "last_seen": "2026-11-05",
+   "next_check": "2026-11-18"
   },
   {
    "slug": "uk-product-liability-software",
@@ -3555,18 +3809,35 @@
   {
    "slug": "us-government-funding",
    "question": "Government funding runs to 11 December. Shutdown risk?",
-   "status": "open",
+   "status": "closed",
    "opened": "2026-10-01",
    "last_seen": "2026-10-22",
-   "next_check": "2026-12-01"
+   "next_check": "2026-12-01",
+   "closed": "2026-11-05"
   },
   {
    "slug": "us-inflation",
    "question": "Does the October CPI show energy still driving the headline, and does core hold near 2.6 per cent?",
    "status": "open",
    "opened": "2026-10-15",
-   "last_seen": "2026-10-22",
-   "next_check": "2026-11-12"
+   "last_seen": "2026-11-05",
+   "next_check": "2026-11-13"
+  },
+  {
+   "slug": "us-midterms-2026",
+   "question": "Does the incoming Democratic Congress change anything on energy, AI or trade before it is seated on 3 January, is Jeffries elected speaker, and does the post-election equity rally survive the October payrolls and CPI?",
+   "status": "open",
+   "opened": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "next_check": "2026-11-16"
+  },
+  {
+   "slug": "wordpress-upgrade-cve",
+   "question": "After the 6 November federal deadline, does anyone publish a count of WordPress sites actually compromised through the upgrade window, and does WordPress change how it stages core updates?",
+   "status": "open",
+   "opened": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "next_check": "2026-11-26"
   }
  ]
 }
